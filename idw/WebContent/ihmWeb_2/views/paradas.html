@@ -1,0 +1,44 @@
+<div id="div_ihm_paradas">
+
+		<div class="container-fluid">
+			<h1 id="h1_ihm_paradas" class="page-header"></h1>
+			<div id="panel_ultima_parada" class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title" id="link_ultima_parada">
+					</h4>
+				</div>
+					<div class="panel-body">
+					<div class="input-group pesquisa-filtro" ng-hide="getNumeroUltimasParadas() < 2">
+				<span class="input-group-addon glyphicon glyphicon-search"></span>
+				<input type="text" class="form-control pesquisa-filtro" ng-model="filtro" />
+				</div>
+						<div class="table-responsive">
+							<table class="table table-striped table-hover"
+								id="tabela_ultima_parada">
+								<thead id="tabela_ultima_parada_cabecalho">
+								</thead>
+								<tbody id="tabela_ultima_parada_corpo">
+								<tr ng-repeat="pts in sessao | filter:filtro" ng-if="pts.pt.parada.ultp != '' && pts.pt.parada.ultp != -1 && pts.pt.parada.inip != 'null'">
+								<td>{{pts.pt.dsup}}</td>
+								<td>{{pts.pt.parada.cdparada +"--" +pts.pt.parada.ultp}}</td>
+<!--								<td>{{dataCertaParada(pts.pt.parada.inip.substring(0 , 10)) + " " + pts.pt.parada.inip.substring(10,pts.pt.parada.inip.lenght )}}</td>-->
+								<td>{{pts.pt.parada.inip}}</td>
+								<td ng-if="pts.pt.isParada == 'false'">--:--:--</td>
+								<td ng-if="pts.pt.isParada == 'true'">{{tempoParada(pts.pt.parada.inip)}}</td>
+								<td ng-show="pts.pt.isParada == 'true'">
+									<button class="btn btn-md btn-primary" ui-sref="ihmWeb.finalizaparada({pt: pts.pt})">{{btnFinPar}}</button>
+								</td>
+								<td ng-show="pts.pt.parada.isPermiteCorrecao">
+									<button class="btn btn-md btn-primary" ui-sref="ihmWeb.corrigeultimaparada({pt: pts.pt})">{{btnCorUltPar}}</button>
+								</td>
+								</tr>
+								</tbody>
+								<tfoot></tfoot>
+							</table>
+
+							<!-- Ailton 2019-09-20 Funcionalidade descontinuada-->
+<!--							<button class="btn btn-lg btn-primary" id="btn_nova_parada" ui-sref="ihmWeb.novaparada"></button>-->
+							<button class="btn btn-lg btn-primary" id="btn_correcao_de_paradas" ui-sref="ihmWeb.correcaoparadas" ng-show="IsIDWAtivo == 'true'"></button>
+						</div>
+					</div>
+			</div>

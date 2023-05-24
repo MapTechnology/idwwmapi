@@ -1,0 +1,96 @@
+
+.test-approved {
+    background: #7cf056;
+    color: black;        
+}
+
+.test-disapproved {
+    background: #f07979;
+    color: black;
+}
+
+.test-none {
+    background: white;
+    color: black;   
+}
+
+.center {
+  display: table;
+  margin: 0 auto;
+}
+
+.read-result-result {
+    font-size: 4em;    
+}
+
+.read-result-result-detail {
+    font-size: 4em;    
+}
+
+.read-result-barcode {
+    font-size: 3em;    
+}
+
+.read-result-workcenter {
+	font-size: 3em;
+}
+
+.read-result-date {
+    font-size: 2em;    
+}
+
+.read-results {
+    padding-bottom: 2%;     
+}
+
+.all-read-results {
+	margin-top: 25px;
+}
+
+.all-read-results-item {
+	font-size: 1em;
+}
+
+.loading{
+	width: 3em;
+	height: 3em;	
+}
+
+.main {    
+    left:0;
+    height: 100%;
+    margin:0;
+    padding:0;
+    position:fixed;     
+    top:0;
+    width: 100%;
+}
+
+input {
+    font-size: 3em;
+    margin-top: 10px !important;    
+    width: 100%;    
+}
+
+button {
+    font-size: 2em;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    
+}
+
+.message {
+    font-size: 2em;
+    color: red; 
+}
+
+.div-inputs {
+    width: 70%;
+    height: 15%;
+    padding-bottom: 2%;
+    padding-top: 2%;       
+}
+
+.title {
+    font-size: 2em
+}

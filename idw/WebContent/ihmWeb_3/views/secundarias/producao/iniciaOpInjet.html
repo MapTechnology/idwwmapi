@@ -1,0 +1,73 @@
+<link href="css/style.css" rel="stylesheet">
+<div id="div_ihm_inicia_op" style="margin-left: 250px !important;"  style="margin-top: 50px !important">
+	<div class="opcoes-consulta">
+		<form class="">
+			<div id="div_pesquisa_inicia_op">
+				<h3 id="html_h3_inicia_op"></h3>
+				<select type="select" ng-model="dsup_sel" id="select_inicia_op" class="form-control"
+						ng-options="pts.pt.dsup for pts in sessao | filtroMaquinaIniciaOp"  
+						ng-change="montaStringTpSessao(dsup_sel.pt.tpSessao);" ng-disabled="true">
+				</select>
+
+				<h3 id="html_h3_tp_sessao"></h3>
+				<input type="text" id="tp_sessao_object" placeholder="" class="form-control" ng-model="tpSessaoObject">
+
+				<h3 id="html_h3_tp_sessao_inf01"></h3>
+				<input type="text" id="tp_sessao_object_inf01" placeholder="" class="form-control"  ng-model="tpSessaoObjectInf01">
+
+				<h3 id="html_h3_tp_sessao_inf02" ></h3>
+				<input type="text" id="tp_sessao_object_inf02" placeholder="" class="form-control"  ng-model="tpSessaoObjectInf02">
+
+				<br>
+				<br>
+
+				<div style="text-align: center">
+					<button class="btn btn-primary btn-lg" id="btn_pesquisa_inicia_op" ng-click="iniciaOp()" ng-disabled="(dsup_sel == tpSessaoObject || tpSessaoObject == null)"></button>
+					<button type="button" class="btn btn-primary btn-lg" id="btn_voltar_inicia_op" ng-click="voltar()"></button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<!-- <div class="container-fluid">
+		<div id="panel_inicia_op" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_inicia_op">
+				</h4>
+			</div>
+			<div id="collapse_inicia_op" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<form class="">
+					<div id="div_pesquisa_inicia_op">
+						<h3 id="html_h3_inicia_op"></h3>
+						<select ng-model="dsup_sel" id="select_inicia_op" class="form-control"
+							 ng-options="pts.pt.dsup for pts in sessao | filtroMaquinaIniciaOp" type="select" ng-change="montaStringTpSessao(dsup_sel.pt.tpSessao);">
+							 </select>
+						<h3 id="html_h3_tp_sessao"></h3>
+						<input type="text" id="tp_sessao_object" placeholder=""
+								class="form-control" ng-model="tpSessaoObject"">
+
+						<h3 id="html_h3_tp_sessao_inf01"></h3>
+						<input type="text" id="tp_sessao_object_inf01" placeholder=""
+								class="form-control"  ng-model="tpSessaoObjectInf01"">
+
+						<h3 id="html_h3_tp_sessao_inf02" ></h3>
+						<input type="text" id="tp_sessao_object_inf02" placeholder=""
+								class="form-control"  ng-model="tpSessaoObjectInf02"">
+
+								<br>
+
+						<button class="btn btn-primary btn-lg" id="btn_pesquisa_inicia_op" ng-click="iniciaOp()" ng-disabled="(dsup_sel == tpSessaoObject || tpSessaoObject == null)"></button>
+						<button type="button" class="btn btn-primary btn-lg"
+						id="btn_voltar_inicia_op" ng-click="voltar()"></button>
+					</div>
+				</form>
+				<div>
+					<span id="span_inicia_op" style="font-size: xx-large"></span>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+</div>

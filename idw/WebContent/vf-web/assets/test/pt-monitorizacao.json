@@ -1,0 +1,400 @@
+{
+    "cdPt": "BAL002",
+    "dsPt": "BAL002",
+    "dsView": "BAL002",
+    "data": "24/10/2017",
+    "turno": "SEGUNDO TURNO",
+    "cdProduto": null,
+    "dsProduto": null,
+    "ferramenta": "SEM FILTRO",
+    "filtroCdCp": null,
+    "filtroQuantidadeRefugada": "19.00",
+    "opSelecionada": "1910201701",
+    "icone": null,
+    "metaIndicadores": [
+        {
+            "cdIndicador": "ER",
+            "dsIndicador": "Eficiência de realização",
+            "valorLegendaSuperior": "100.00",
+            "valorLegendaMeta": "90.00",
+            "valorLegendaInferior": "50.00",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        },
+        {
+            "cdIndicador": "EC",
+            "dsIndicador": "Eficiência de ciclo",
+            "valorLegendaSuperior": "100.00",
+            "valorLegendaMeta": "90.00",
+            "valorLegendaInferior": "50.00",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        },
+        {
+            "cdIndicador": "IR",
+            "dsIndicador": "Índice de refugo",
+            "valorLegendaSuperior": "6.00",
+            "valorLegendaMeta": "3.00",
+            "valorLegendaInferior": "2.00",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": false
+        },
+        {
+            "cdIndicador": "IP",
+            "dsIndicador": "Índice de parada",
+            "valorLegendaSuperior": "100.00",
+            "valorLegendaMeta": "90.00",
+            "valorLegendaInferior": "50.00",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": false
+        },
+        {
+            "cdIndicador": "IDP",
+            "dsIndicador": "Índice de Perda",
+            "valorLegendaSuperior": "8.00",
+            "valorLegendaMeta": "4.00",
+            "valorLegendaInferior": "2.00",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": false
+        },
+        {
+            "cdIndicador": "CI",
+            "dsIndicador": "Índice cavidades ativas",
+            "valorLegendaSuperior": "8.00",
+            "valorLegendaMeta": "4.00",
+            "valorLegendaInferior": "2.00",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        },
+        {
+            "cdIndicador": "OEE",
+            "dsIndicador": "Produtividade (OEE)",
+            "valorLegendaSuperior": "100.00",
+            "valorLegendaMeta": "85.00",
+            "valorLegendaInferior": "50.00",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        }
+    ],
+    "turnoIndicadores": [
+        {
+            "dsTurno": "SEGUNDO TURNO",
+            "indicadores": {
+                "eficiencia": "",
+                "utilizacao": "",
+                "eficienciaRealizacao": "2611.79",
+                "eficienciaCiclo": "2892.00",
+                "eficienciaCiclosPond": "",
+                "indiceRefugo": "0.14",
+                "indiceParada": "9.48",
+                "indicePerdaOuNR": "-2515.71",
+                "eficienciaInstantanea": null,
+                "indiceProducao": null,
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "90.39",
+                "indiceProdutividadeOEECapital": "",
+                "eficienciaRealizacaoCor": "#33ff33",
+                "eficienciaCicloCor": "#33ff33",
+                "indiceRefugoCor": "#33ff33",
+                "indiceParadaCor": "#33ff33",
+                "indicePerdaCor": "#33ff33",
+                "indiceCavidadesAtivasCor": "#33ff33",
+                "indiceProdutividadeOEECor": "#33ff33"
+            }
+        }
+    ],
+    "graficoIndicadores": [
+        {
+            "data": "24/10/2017",
+            "indicadores": {
+                "eficiencia": null,
+                "utilizacao": null,
+                "eficienciaRealizacao": "2611.79",
+                "eficienciaCiclo": "2892.00",
+                "eficienciaCiclosPond": "",
+                "indiceRefugo": "0.14",
+                "indiceParada": "9.48",
+                "indicePerdaOuNR": "-2515.71",
+                "eficienciaInstantanea": null,
+                "indiceProducao": null,
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "90.39",
+                "indiceProdutividadeOEECapital": "",
+                "eficienciaRealizacaoCor": "#33ff33",
+                "eficienciaCicloCor": "#33ff33",
+                "indiceRefugoCor": "#33ff33",
+                "indiceParadaCor": "#33ff33",
+                "indicePerdaCor": "#33ff33",
+                "indiceCavidadesAtivasCor": "#33ff33",
+                "indiceProdutividadeOEECor": "#33ff33"
+            }
+        }
+    ],
+    "indicadores": {
+        "eficiencia": "99.86",
+        "utilizacao": "90.52",
+        "eficienciaRealizacao": "2611.79",
+        "eficienciaCiclo": "2892.00",
+        "eficienciaCiclosPond": "2892.00",
+        "indiceRefugo": "0.14",
+        "indiceParada": "9.48",
+        "indicePerdaOuNR": "-2511.79",
+        "eficienciaInstantanea": null,
+        "indiceProducao": null,
+        "indiceCavidadesAtivas": "100.00",
+        "indiceProdutividadeOEE": "90.39",
+        "indiceProdutividadeOEECapital": "90.39",
+        "eficienciaRealizacaoCor": "#33ff33",
+        "eficienciaCicloCor": "#33ff33",
+        "indiceRefugoCor": "#33ff33",
+        "indiceParadaCor": "#33ff33",
+        "indicePerdaCor": "#33ff33",
+        "indiceCavidadesAtivasCor": "#33ff33",
+        "indiceProdutividadeOEECor": "#33ff33"
+    },
+    "tempos": {
+        "tempoCalendario": "07:00:00",
+        "tempoColeta": "07:00:00",
+        "tempoSemColeta": "00:00:00",
+        "tempoDisponivel": "07:00:00",
+        "tempoTrabalhado": "06:20:10",
+        "ciclosProdutivos": "06:20:10",
+        "tempoProduzidoLiquido": "06:19:38.65",
+        "tempoProdutivo": "06:19:38.65",
+        "tempoDuplicadoColeta": "00:00:00",
+        "tempoParadas": "00:39:50",
+        "tempoNaoDisponivel": "00:00:00",
+        "ciclosImprodutivo": "00:00:00",
+        "tempoProducaoRefugada": "00:00:31",
+        "ritmo": "00:39:50",
+        "blankInativo": "00:00:00",
+        "ritmoSegundos": "0.000",
+        "blankInativoSegundos": "0.000",
+        "tempoProducaoRefugadaSegundos": "31.000",
+        "ciclosImprodutivoSegundos": "0.000",
+        "tempoParadasSegundos": "2390.000",
+        "tempoNaoDisponivelSegundos": "0.000",
+        "tempoProdutivoSegundos": "22778.066",
+        "tempoColetaCor": "#3300ff",
+        "tempoDisponivelCor": "#009999",
+        "tempoTrabalhadoCor": "#009999",
+        "ciclosProdutivosCor": "#009999",
+        "tempoProduzidoLiquidoCor": "#009999",
+        "tempoProdutivoCor": "#009999",
+        "ritmoCor": "#ffccff",
+        "blankInativoCor": "#ffffff",
+        "tempoProducaoRefugadaCor": "#ffff66",
+        "ciclosImprodutivoCor": "#3333ff",
+        "tempoParadasCor": "#ff3333",
+        "tempoNaoDisponivelCor": "#999999",
+        "tempoProdutivoGraficoCor": "#ff9966"
+    },
+    "producao": {
+        "producaoPrevista": "522,82",
+        "producaoBruta": "13674",
+        "producaoLiquida": "13655",
+        "producaoRefugada": "19",
+        "producaoNRParada": "50",
+        "producaoNRBI": "0",
+        "producaoNRCiclo": "-13201",
+        "totalProducaoNR": "-13132"
+    },
+    "paradaResumo": {
+        "indiceParada": "9.48",
+        "tempoParada": "00:39:50",
+        "ultimaParada": "999999 - PARADA NÃO INFORMADA",
+        "tempoUltimaParada": "00:38:33",
+        "dataInicio": "24/10/2017",
+        "horaInicio": "15:21:27",
+        "AreaResponsavel": "999999 - ÁREA DESCONHECIDA",
+        "mtbf": "0.00",
+        "mttr": "0.00"
+    },
+    "ciclo": {
+        "eficienciaDeCiclo": "2892.00",
+        "cicloPadrao": "289.200",
+        "cicloMedio": "10.000",
+        "ultimoCiclo": "10.000",
+        "eficienciaUltimoCiclo": "2892.00",
+        "quantidadeCiclosExecutar": "1303",
+        "projecaoPCI": "0",
+        "indiceCicloAtualCompleto": "0"
+    },
+    "materiaPrimaResumo": {
+        "consumoProducaoBruta": "524124",
+        "consumoProducaoLiquida": "524124",
+        "consumoProducaoRefugada": "0",
+        "custoTotalInsercao": "0.00",
+        "custoTotalPerda": "0.00",
+        "custoTotalInsercaoLiquida": "0.00",
+        "quantidadeTotalInsercoes": "524124"
+    },
+    "operadores": [
+        {
+            "cdUsr": "1",
+            "login": null,
+            "dsApelido": "brizzio",
+            "dsNome": null,
+            "dtHrLogin": "26/10/2017 10:41:15",
+            "dtHrLogout": ""
+        },
+        {
+            "cdUsr": "2",
+            "login": null,
+            "dsApelido": "conan",
+            "dsNome": null,
+            "dtHrLogin": "27/10/2017 10:41:15",
+            "dtHrLogout": ""
+        },
+        {
+            "cdUsr": "3",
+            "login": null,
+            "dsApelido": "milu",
+            "dsNome": null,
+            "dtHrLogin": "26/10/2017 10:41:15",
+            "dtHrLogout": ""
+        },
+        {
+            "cdUsr": "4",
+            "login": null,
+            "dsApelido": "luigi",
+            "dsNome": null,
+            "dtHrLogin": "26/10/2017 10:41:15",
+            "dtHrLogout": ""
+        }
+    ],
+    "alertas": [
+        {
+            "cdAlerta": 1,
+            "dsAlerta": "ALERTA1",
+            "dtHrFim": "24/10/2017 16:00:00",
+            "dtHrInicio": "24/10/2017 09:00:00"
+        },
+        {
+            "cdAlerta": 2,
+            "dsAlerta": "ALERTA2",
+            "dtHrFim": "25/10/2017 16:00:00",
+            "dtHrInicio": "25/10/2017 09:00:00"
+        },
+        {
+            "cdAlerta": 3,
+            "dsAlerta": "ALERTA3",
+            "dtHrFim": "26/10/2017 16:00:00",
+            "dtHrInicio": "26/10/2017 09:00:00"
+        },
+        {
+            "cdAlerta": 4,
+            "dsAlerta": "ALERTA4",
+            "dtHrFim": "27/10/2017 16:00:00",
+            "dtHrInicio": "27/10/2017 09:00:00"
+        }
+    ],
+    "perdasProducao": [
+        {
+            "viewProduto": "SP3050-ROLO TECIDO NAO TECIDO BR 300X0,30M 40G",
+            "eficienciaCiclo": "2889.46",
+            "perdasIneficienciaCiclo": "-13200.76",
+            "indiceParada": "9.48",
+            "perdasPorParada": "49.59",
+            "indiceRefugo": "0.14",
+            "perdasPorRefugo": "19.00",
+            "indiceCavidadesAtivas": "100.00",
+            "perdasPorCavidadesInativas": "0.00",
+            "totalPerdas": "-13132.18"
+        }
+    ],
+    "graficoPerdas": [
+        {
+            "codigo": "Ciclo",
+            "valor": "-13200.76",
+            "indice": "100.52",
+            "cor": "#33ff33"
+        },
+        {
+            "codigo": "Refugo",
+            "valor": "19.00",
+            "indice": "-0.15",
+            "cor": "#ff9999"
+        },
+        {
+            "codigo": "Parada",
+            "valor": "49.59",
+            "indice": "-0.38",
+            "cor": "#ff3333"
+        },
+        {
+            "codigo": "Cav. Inativas",
+            "valor": "0.00",
+            "indice": "0.00",
+            "cor": "#6699ff"
+        }
+    ],
+    "ops": [
+        {
+            "cdCp": "19102017012",
+            "nrDoc": "1910201701",
+            "opView": "1910201701",
+            "opDataHoraView": "1910201701 - 19/10/2017 09:02:50"
+        }
+    ],
+    "graficoInsercoesMp": [
+        {
+            "posto": "BAL002",
+            "materiaPrimaBruta": "524124"
+        }
+    ],
+    "produtos": [
+        {
+            "dtReferencia": "24/10/2017",
+            "folha": "000350-0001",
+            "turno": null,
+            "posto": "BAL002",
+            "cp": "1910201701",
+            "dtInicioProducao": "19/10/2017 09:02:50",
+            "produto": "SP3050/ROLO TECIDO NAO TECIDO BR 300X0,30M 40G",
+            "tempoDisponivel": "07:00:00",
+            "producaoPrevista": "522.82",
+            "producaoBruta": "13674",
+            "producaoLiquida": "13655",
+            "saldoAProduzir": "-13170.18",
+            "producaoRefugada": "19",
+            "eficienciaRealizacao": "2611.79",
+            "cicloPadrao": "289.20",
+            "cicloMedio": "10.00",
+            "ultimoCiclo": "10.00",
+            "dtRevisaoFolha": "12/04/2017 11:57:12",
+            "producaoOuCiclo": "6",
+            "calendario": "000001/21",
+            "periodoProdutivo": "NORMAL"
+        }
+    ],
+    "energiaConsumidaProducao": [
+        {
+            "ordemProducao": "04",
+            "producaoBrutaKwh": "0",
+            "producaoLiquidaKwh": "0",
+            "producaoRefugadaKwh": "0",
+            "custoKwhProducaoBruta": "0",
+            "custoKwhProducaoLiquida": "0",
+            "custoKwhProducaoRefugada": "0",
+            "energiaConsumidaKwh": "74591.000",
+            "producaoBruta": "890",
+            "producaoLiquida": "890",
+            "producaoRefugada": "0"
+        }
+    ]
+}

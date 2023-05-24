@@ -1,0 +1,3364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+     
+	<changeSet author="Usuario (generated)" id="1358340087836-1">
+        <createTable tableName="DW_CAL">
+            <column name="ID_CAL" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012941" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_CAL" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DS_CAL" type="VARCHAR2(40 BYTE)"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="DTHR_IVALIDADE" type="DATE"/>
+            <column name="DTHR_FVALIDADE" type="DATE"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-2">
+        <createTable tableName="DW_CALAVU">
+            <column name="ID_CALAVU" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012945" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CAL" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DT_AVULSO" type="DATE"/>
+            <column name="HRINICIAL" type="NUMBER(20,10)"/>
+            <column name="HRFINAL" type="NUMBER(20,10)"/>
+            <column name="HRINICIALGUI" type="VARCHAR2(40 BYTE)"/>
+            <column name="HRFINALGUI" type="VARCHAR2(40 BYTE)"/>
+            <column name="SEG_TEMPOCALENDARIO" type="NUMBER(20,10)"/>
+            <column name="SEG_TEMPOCALSEMPESO" type="NUMBER(20,10)"/>
+            <column name="SEG_TOLERANCIAPRE" type="NUMBER(20,10)"/>
+            <column name="SEG_TOLERANCIAPOS" type="NUMBER(20,10)"/>
+            <column name="ID_CALSEM" type="NUMBER"/>
+            <column name="TP_DTREFERENCIA" type="INTEGER"/>
+            <column name="IS_CALSEMDESATIVADO" type="INTEGER"/>
+            <column name="IS_INICIOTURNO" type="INTEGER"/>
+            <column name="IS_FIMTURNO" type="INTEGER"/>
+            <column name="ID_TURNO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_CALAVU" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-3">
+        <createTable tableName="DW_CALPT">
+            <column name="ID_CALPT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012949" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_CAL" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHRIVALIDADE" type="DATE"/>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-4">
+        <createTable tableName="DW_CALSEM">
+            <column name="ID_CALSEM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012953" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CAL" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DIASEMANA" type="NUMBER(20,10)"/>
+            <column name="HRINICIAL" type="NUMBER(20,10)"/>
+            <column name="HRFINAL" type="NUMBER(20,10)"/>
+            <column name="HRINICIALGUI" type="VARCHAR2(40 BYTE)"/>
+            <column name="HRFINALGUI" type="VARCHAR2(40 BYTE)"/>
+            <column name="SEG_TEMPOCALENDARIO" type="NUMBER(20,10)"/>
+            <column name="SEG_TOLERANCIAPRE" type="NUMBER(20,10)"/>
+            <column name="SEG_TEMPOCALSEMPESO" type="NUMBER(20,10)"/>
+            <column name="SEG_TOLERANCIAPOS" type="NUMBER(20,10)"/>
+            <column name="TP_DTREFERENCIA" type="INTEGER"/>
+            <column name="IS_INICIOTURNO" type="INTEGER"/>
+            <column name="IS_FIMTURNO" type="INTEGER"/>
+            <column name="ID_TURNO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ORDEM" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-5">
+        <createTable tableName="DW_CONSOL">
+            <column name="SEG_AUTO_TEMPOCALENDARIO" type="NUMBER(20,10)"/>
+            <column name="PCS_AUTO_PRODUCAOPREVISTA" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PERDACAVIDADES" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PERDACICLO" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PERDAPARADA_SP" type="FLOAT(63)"/>
+            <column name="SEG_AUTO_CICLOMEDIO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_PERDACICLO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_RITMO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOREFUGADAS" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOTRABALHADO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_CICLOIMPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_CICLOPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOATIVO" type="NUMBER(20,10)"/>
+            <column name="ID_CONSOL" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012956" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="SEG_MANU_TEMPOATIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_CICLOPADRAO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_PERDACAV" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_CICLOPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_BOAS" type="NUMBER(20,10)"/>
+            <column name="ID_CONSOLID" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_MANU_CICLOIMPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOTRABALHADO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOREFUGADAS" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_RITMO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_PERDACICLO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_CICLOMEDIO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_CICLOPADRAO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_PERDACAV" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_BOAS" type="NUMBER(20,10)"/>
+            <column name="PCS_MANU_PERDAPARADA_SP" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PERDACICLO" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PERDACAVIDADES" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOPREVISTA" type="FLOAT(63)"/>
+            <column name="SEG_MANU_TEMPOCALENDARIO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOCALSEMPESO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOCALSEMPESO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAMTBF" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAMTTR" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAPAO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAPA" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAPTP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADASCP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAMDO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_AB" type="NUMBER(20,10)"/>
+            <column name="PCS_AUTO_PERDAPARADA_CP" type="FLOAT(63)"/>
+            <column name="QT_AUTO_CICLOIMPRODUTIVO" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_CICLOPRODUTIVO" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_CICLOREGULAGEM" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAFDS" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAIMPREV" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAMDO" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAMTBF" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAMTTR" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAPA" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAPAO" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAPP" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAPREV" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAPTP" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADAREGULAGEM" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADASCP" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADA_CP" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADA_SP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_CICLOIMPRODUTIVO" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_CICLOPRODUTIVO" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_CICLOREGULAGEM" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAFDS" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAIMPREV" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAMDO" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAMTBF" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAMTTR" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAPA" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAPAO" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAPP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAPREV" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAPTP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADAREGULAGEM" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADASCP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADA_CP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADA_SP" type="NUMBER(10,4)"/>
+            <column name="SEG_AUTO_TEMPOPARADAFDS" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAIMPREV" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAPP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAPREV" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADAREGULAGEM" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_CICLOREGULAGEM" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAFDS" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAIMPREV" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAMDO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAMTBF" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAMTTR" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAPA" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAPAO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAPP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAPREV" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAPTP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADAREGULAGEM" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADASCP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="G_AUTO_PESO_BRUTO" type="NUMBER(7,3)"/>
+            <column name="G_AUTO_PESO_LIQUIDO" type="NUMBER(7,3)"/>
+            <column name="G_MANU_PESO_BRUTO" type="NUMBER(7,3)"/>
+            <column name="G_MANU_PESO_LIQUIDO" type="NUMBER(7,3)"/>
+            <column name="PCS_AUTO_CAV_ATIVAS" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_CAV_TOTAL" type="FLOAT(63)"/>
+            <column name="PCS_MANU_CAV_ATIVAS" type="FLOAT(63)"/>
+            <column name="PCS_MANU_CAV_TOTAL" type="CHAR(18)"/>
+            <column name="SEG_AUTO_TEMPOPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPRODUTIVO" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-6">
+        <createTable tableName="DW_CONSOLAL">
+            <column name="ID_CONSOLAL" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012960" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOL" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_AUTO_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="ID_TALERTA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-7">
+        <createTable tableName="DW_CONSOLALLOG">
+            <column name="ID_CONSOLALLOG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012962" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_IALERTA" type="DATE"/>
+            <column name="DTHR_FALERTA" type="DATE"/>
+            <column name="MS_DTHRIALERTA" type="INTEGER"/>
+            <column name="MS_DTHRFALERTA" type="INTEGER"/>
+            <column name="SEG_AUTO_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="ID_TALERTA" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-8">
+        <createTable tableName="DW_CONSOLALMO">
+            <column name="ID_CONSOLALMO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012966" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="SEG_AUTO_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="ID_CONSOLAL" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CONSOLMO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-9">
+        <createTable tableName="DW_CONSOLALOCO">
+            <column name="ID_CONSOLALOCO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012969" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_IALERTA" type="DATE"/>
+            <column name="MS_DTHRIALERTA" type="INTEGER"/>
+            <column name="DTHR_FALERTA" type="DATE"/>
+            <column name="MS_DTHRFALERTA" type="INTEGER"/>
+            <column name="IS_CONTINUAPROXIMOPERIODO" type="INTEGER"/>
+            <column name="ID_CONSOLAL" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CONSOLALLOG" type="NUMBER"/>
+            <column name="SEG_AUTO_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOALERTA" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-10">
+        <createTable tableName="DW_CONSOLATLOG">
+            <column name="ID_CONSOLATLOG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012971" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_ANTERIOR" type="DATE"/>
+            <column name="MS_DTHRANTERIOR" type="INTEGER"/>
+            <column name="DTHR_NOVA" type="DATE"/>
+            <column name="MS_DTHRNOVA" type="INTEGER"/>
+            <column name="ID_PT" type="FLOAT(63)"/>
+            <column name="URL_CONEXAO" type="VARCHAR2(255 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-11">
+        <createTable tableName="DW_CONSOLID">
+            <column name="ID_CONSOLID" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012977" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="TP_ID" type="INTEGER"/>
+            <column name="DT_REFERENCIA" type="DATE"/>
+            <column name="ANO" type="NUMBER(20,10)"/>
+            <column name="MES" type="NUMBER(20,10)"/>
+            <column name="DTHR_IHORA" type="DATE"/>
+            <column name="DTHR_ITURNO" type="DATE"/>
+            <column name="DTHR_FTURNO" type="DATE"/>
+            <column name="DTHR_FHORA" type="DATE"/>
+            <column name="DTHR_CADASTRO" type="DATE"/>
+            <column name="ID_PEPRO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CAL" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TURNO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PT" type="FLOAT(63)"/>
+            <column name="ID_FOLHA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_RT" type="FLOAT(63)"/>
+            <column name="ID_CP" type="NUMBER"/>
+            <column name="DS_ESPECIALIZAAPON" type="VARCHAR2(100 BYTE)"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="IS_ALERTASENVIADOS" type="INTEGER"/>
+            <column name="DTHR_HEARTBEAT" type="DATE"/>
+            <column name="ID_GT" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-12">
+        <createTable tableName="DW_CONSOLLOG">
+            <column name="ID_CONSOLLOG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012981" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOL" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_LOG" type="DATE"/>
+            <column name="SEG_CORR_TEMPOATIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TEMPOPARADA" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="DS_LOG" type="VARCHAR2(40 BYTE)"/>
+            <column name="SEG_CORR_CICLOPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_CICLOIMPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TEMPOTRABALHADO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TEMPOREFUGADAS" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_RITMO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TEMPOPRODUTIVAS" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TEMPODISPONIVEL" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_PERDACICLO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_CICLOMEDIO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_CICLOPADRAO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TMPCICNORMAL" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_PERDACAV" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_BOAS" type="NUMBER(20,10)"/>
+            <column name="PCS_CORR_PERDAPARADA" type="FLOAT(63)"/>
+            <column name="PCS_CORR_PERDAPARADA_SP" type="FLOAT(63)"/>
+            <column name="PCS_CORR_PERDACICLO" type="FLOAT(63)"/>
+            <column name="PCS_CORR_PERDACAVIDADES" type="FLOAT(63)"/>
+            <column name="PCS_CORR_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_CORR_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_CORR_PRODUCAOPREVISTA" type="FLOAT(63)"/>
+            <column name="PCS_CORR_QTINJNORMAL" type="FLOAT(63)"/>
+            <column name="SEG_CORR_TEMPOCALENDARIO" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TEMPOALERTA" type="NUMBER(20,10)"/>
+            <column name="SEG_CORR_TEMPOCALSEMPESO" type="NUMBER(20,10)"/>
+            <column name="ID_USR" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-13">
+        <createTable tableName="DW_CONSOLMO">
+            <column name="ID_CONSOLMO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012985" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOL" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_AUTO_TEMPOLOGIN" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOLOGIN" type="NUMBER(20,10)"/>
+            <column name="PCS_AUTO_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PERDA" type="FLOAT(63)"/>
+            <column name="SEG_AUTO_TEMPOTRABALHADO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_CICLOPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_CICLOIMPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="PCS_AUTO_PRODUCAOPREVISTA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOPREVISTA" type="FLOAT(63)"/>
+            <column name="SEG_MANU_CICLOPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_CICLOIMPRODUTIVO" type="NUMBER(20,10)"/>
+            <column name="ID_USR" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_AUTO_CICLOIMPRODUTIVO" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_CICLOPRODUTIVO" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_CICLOREGULAGEM" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_CICLOIMPRODUTIVO" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_CICLOPRODUTIVO" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_CICLOREGULAGEM" type="NUMBER(10,4)"/>
+            <column name="SEG_MANU_CICLOREGULAGEM" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_CICLOREGULAGEM" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-14">
+        <createTable tableName="DW_CONSOLMOLOG">
+            <column name="ID_CONSOLMOLOG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012988" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_ILOGIN" type="DATE"/>
+            <column name="MS_DTHRILOGIN" type="INTEGER"/>
+            <column name="DTHR_FLOGIN" type="DATE"/>
+            <column name="MS_DTHRFLOGIN" type="INTEGER"/>
+            <column name="ID_USR" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_GT" type="FLOAT(63)"/>
+            <column name="ID_PT" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-15">
+        <createTable tableName="DW_CONSOLMOOCO">
+            <column name="ID_CONSOLMOOCO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012992" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_ILOGIN" type="DATE"/>
+            <column name="MS_DTHRILOGIN" type="INTEGER"/>
+            <column name="DTHR_FLOGIN" type="DATE"/>
+            <column name="MS_DTHRFLOGIN" type="INTEGER"/>
+            <column name="IS_CONTINUAPROXIMOPERIODO" type="INTEGER"/>
+            <column name="ID_CONSOLMO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CONSOLMOLOG" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-16">
+        <createTable tableName="DW_CONSOLPA">
+            <column name="ID_CONSOLPA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0012996" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOL" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_AUTO_TEMPOPARADA_AB" type="NUMBER(20,10)"/>
+            <column name="ID_TPARADA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_AUTO_OCOPARADA_CP" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_OCOPARADA_SP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADA_CP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_OCOPARADA_SP" type="NUMBER(10,4)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-17">
+        <createTable tableName="DW_CONSOLPALOG">
+            <column name="ID_CONSOLPALOG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013000" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_IPARADA" type="DATE"/>
+            <column name="MS_DTHRIPARADA" type="INTEGER"/>
+            <column name="DTHR_FPARADA" type="DATE"/>
+            <column name="MS_DTHRFPARADA" type="INTEGER"/>
+            <column name="DTHR_FPARADA_AB" type="DATE"/>
+            <column name="MS_DTHRFPARADA_AB" type="INTEGER"/>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TPARADA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_AUTO_TEMPOPARADA_AB" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="ID_TACAO" type="NUMBER"/>
+            <column name="ID_TJUST" type="NUMBER"/>
+            <column name="ID_TCAUSA" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-18">
+        <createTable tableName="DW_CONSOLPALOGTEC">
+            <column name="ID_CONSOLPALOGTEC" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013002" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOLPALOG" type="NUMBER"/>
+            <column name="ID_USR" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-19">
+        <createTable tableName="DW_CONSOLPAMO">
+            <column name="ID_CONSOLPAMO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013006" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOLPA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CONSOLMO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_AUTO_TEMPOPARADA_CP" type="NUMBER(10,4)"/>
+            <column name="QT_AUTO_TEMPOPARADA_SP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_TEMPOPARADA_CP" type="NUMBER(10,4)"/>
+            <column name="QT_MANU_TEMPOPARADA_SP" type="NUMBER(10,4)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_CP" type="NUMBER(20,10)"/>
+            <column name="SEG_MANU_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-20">
+        <createTable tableName="DW_CONSOLPAOCO">
+            <column name="ID_CONSOLPAOCO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013010" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOLPA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_IPARADA" type="DATE"/>
+            <column name="MS_DTHRIPARADA" type="INTEGER"/>
+            <column name="DTHR_FPARADA" type="DATE"/>
+            <column name="MS_DTHRFPARADA" type="INTEGER"/>
+            <column name="IS_CONTINUAPROXIMOPERIODO" type="INTEGER"/>
+            <column name="ID_CONSOLPALOG" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_FPARADA_AB" type="DATE"/>
+            <column name="MS_DTHRFPARADA_AB" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-21">
+        <createTable tableName="DW_CONSOLPR">
+            <column name="ID_CONSOLPR" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013014" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOL" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PCS_AUTO_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="ID_PRODUTO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_AUTO_TEMPOPARADA" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTO_TEMPOPARADA_SP" type="NUMBER(20,10)"/>
+            <column name="G_AUTO_PESO_BRUTO" type="NUMBER(7,3)"/>
+            <column name="G_AUTO_PESO_LIQUIDO" type="NUMBER(7,3)"/>
+            <column name="G_MANU_PESO_BRUTO" type="NUMBER(7,3)"/>
+            <column name="G_MANU_PESO_LIQUIDO" type="NUMBER(7,3)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-22">
+        <createTable tableName="DW_CONSOLPRMO">
+            <column name="ID_CONSOLPRMO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013018" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOLPR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CONSOLMO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PCS_AUTO_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_AUTO_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-23">
+        <createTable tableName="DW_CONSOLRE">
+            <column name="ID_CONSOLRE" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013022" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOL" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PCS_AUTO_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="ID_TREFUGO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-24">
+        <createTable tableName="DW_CONSOLRELOG">
+            <column name="ID_CONSOLRELOG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013024" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_REFUGO" type="DATE"/>
+            <column name="MS_DTHRREFUGO" type="INTEGER"/>
+            <column name="PCS_AUTO_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="IS_CANCELADO" type="INTEGER"/>
+            <column name="DTHR_CANCELADO" type="DATE"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="ID_TREFUGO" type="NUMBER"/>
+            <column name="ID_PRODUTO" type="NUMBER"/>
+            <column name="ID_TCAUSA" type="NUMBER"/>
+            <column name="ID_TACAO" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-25">
+        <createTable tableName="DW_CONSOLREMO">
+            <column name="ID_CONSOLREMO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013028" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOLMO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CONSOLRE" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PCS_AUTO_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+            <column name="PCS_MANU_PRODUCAOREFUGADA" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-26">
+        <createTable tableName="DW_CONSOLREOCO">
+            <column name="ID_CONSOLREOCO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013030" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CONSOLRELOG" type="NUMBER"/>
+            <column name="ID_CONSOLRE" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-27">
+        <createTable tableName="DW_EST">
+            <column name="ID_EST" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013034" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_EST" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_EST" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DEPARA" type="VARCHAR2(60 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-28">
+        <createTable tableName="DW_ESTMOV">
+            <column name="ID_ESTMOV" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013038" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_MOV" type="DATE"/>
+            <column name="TP_MOV" type="INTEGER"/>
+            <column name="ID_ESTPRO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_ORIGEM" type="INTEGER"/>
+            <column name="IS_EFETIVADO" type="INTEGER"/>
+            <column name="QT_AJUSTE" type="NUMBER(10,4)"/>
+            <column name="QT_ENTRADA_ANT" type="NUMBER(10,4)"/>
+            <column name="QT_SAIDA_ANT" type="NUMBER(10,4)"/>
+            <column name="QT_RESERVADA_ANT" type="NUMBER(10,4)"/>
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_CADASTRO" type="DATE"/>
+            <column name="QT_AJUSTE_ANT" type="NUMBER(10,4)"/>
+            <column name="ID_TURNO" type="NUMBER"/>
+            <column name="ID_GT" type="NUMBER"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="LANCAMENTO" type="VARCHAR2(40 BYTE)"/>
+            <column name="ANO" type="NUMBER(20,10)"/>
+            <column name="MES" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-29">
+        <createTable tableName="DW_ESTPRO">
+            <column name="ID_ESTPRO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013042" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="QT_ENTRADA" type="NUMBER(10,4)"/>
+            <column name="QT_SAIDA" type="NUMBER(10,4)"/>
+            <column name="ID_EST" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_RESERVADA" type="NUMBER(10,4)"/>
+            <column name="ID_CLIENTE" type="NUMBER"/>
+            <column name="QT_AJUSTE" type="NUMBER(10,4)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-30">
+        <createTable tableName="DW_ESTSALMA">
+            <column name="ID_ESTSALMA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013045" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="QT_SALDOFINALMES" type="NUMBER(10,4)"/>
+            <column name="DT_REFERENCIA" type="DATE"/>
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-31">
+        <createTable tableName="DW_EXPCVS">
+            <column name="ID_EXPCVS" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013047" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_EXPCVS" type="VARCHAR2(60 BYTE)"/>
+            <column name="DS_EXPCVS" type="VARCHAR2(100 BYTE)"/>
+            <column name="DTHR_IENTRADA" type="DATE"/>
+            <column name="DTHR_FENTRADA" type="DATE"/>
+            <column name="SKU" type="VARCHAR2(256 BYTE)"/>
+            <column name="COMPLEMENTO" type="VARCHAR2(100 BYTE)"/>
+            <column name="NSERIEINCIAL" type="VARCHAR2(40 BYTE)"/>
+            <column name="NSERIEFINAL" type="VARCHAR2(40 BYTE)"/>
+            <column name="ID_USRSUPERVISOR" type="FLOAT(63)"/>
+            <column name="ID_USROPERADOR" type="FLOAT(63)"/>
+            <column name="ID_PT" type="FLOAT(63)"/>
+            <column name="ID_PRODUTO" type="FLOAT(63)"/>
+            <column name="ID_FT_ETAPA" type="FLOAT(63)"/>
+            <column name="ID_TDEFEITOREPROCESSO" type="FLOAT(63)"/>
+            <column name="ID_TDEFEITO" type="FLOAT(63)"/>
+            <column name="IS_APENASCOMFALHA" type="INTEGER"/>
+            <column name="IS_APENASCOMFALHAREPROCESSO" type="INTEGER"/>
+            <column name="IS_APENASSUCESSOREPROCESSO" type="INTEGER"/>
+            <column name="DTHR_IREPROCESSO" type="DATE"/>
+            <column name="DTHR_FREPROCESSO" type="DATE"/>
+            <column name="ID_TACAO" type="FLOAT(63)"/>
+            <column name="CORRENTEMINIMA" type="NUMBER(10,3)"/>
+            <column name="CORRENTEMAXIMA" type="NUMBER(10,3)"/>
+            <column name="TENSAOMINIMA" type="NUMBER(10,3)"/>
+            <column name="TENSAOMAXIMA" type="NUMBER(10,3)"/>
+            <column name="ST_FLUXOENTRADA" type="INTEGER"/>
+            <column name="ST_FLUXOSAIDA" type="INTEGER"/>
+            <column name="QT_TOTALLINHAS" type="NUMBER(10,4)"/>
+            <column name="QT_LINHASPORARQUIVO" type="NUMBER(10,4)"/>
+            <column name="TP_EXPORTACAO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-32">
+        <createTable tableName="DW_EXPCVSPF">
+            <column name="ID_EXPCFVPF" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013049" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_EXPCVS" type="FLOAT(63)"/>
+            <column name="ID_PROGRP" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-33">
+        <createTable tableName="DW_FOLHA">
+            <column name="ID_FOLHA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013055" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_FOLHA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="DS_FOLHA" type="VARCHAR2(40 BYTE)"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_CICLOPADRAO" type="NUMBER(20,10)"/>
+            <column name="SEG_CICLOTIMEOUT" type="NUMBER(20,10)"/>
+            <column name="SEG_CICLOMINIMO" type="NUMBER(20,10)"/>
+            <column name="IS_MODELO" type="INTEGER"/>
+            <column name="TP_FOLHA" type="INTEGER"/>
+            <column name="IS_LOGONOBRIGATORIO" type="INTEGER"/>
+            <column name="SEG_LOGOUTAUTO" type="NUMBER(20,10)"/>
+            <column name="ID_TPPT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_GT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_SETUP" type="NUMBER(20,10)"/>
+            <column name="ID_PT" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-34">
+        <createTable tableName="DW_FOLHACIC">
+            <column name="ID_FOLHACIC" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013057" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="SEG_CICLOPADRAO" type="NUMBER(20,10)"/>
+            <column name="ID_FOLHA" type="NUMBER"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="ID_GT" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-35">
+        <createTable tableName="DW_FOLHAIAC">
+            <column name="ID_FOLHAIAC" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013060" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHA" type="NUMBER"/>
+            <column name="ID_PRG" type="NUMBER"/>
+            <column name="QT_ATIVA" type="NUMBER(10,4)"/>
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTODOIS" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-36">
+        <createTable tableName="DW_FOLHAMEDTEMHOR">
+            <column name="ID_FOLHAMEDTEMPHORARIO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013068" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHAMEDTEMP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="HRINI" type="NUMBER(20,10)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="HRINIGUI" type="VARCHAR2(40 BYTE)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DIASEMINI" type="INTEGER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DIASEMFIM" type="INTEGER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="HRFIM" type="NUMBER(20,10)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="HRFIMGUI" type="VARCHAR2(40 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-37">
+        <createTable tableName="DW_FOLHAMEDTEMP">
+            <column name="ID_FOLHAMEDTEMP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013074" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHA" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_ARMAZENAMENTO" type="INTEGER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_ARMAZENAMENTO" type="NUMBER(10,4)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_INTERVALO_LEITURA" type="NUMBER(20,10)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-38">
+        <createTable tableName="DW_FOLHAMEDTEMPHORCFG">
+            <column name="ID_FOLHAMEDTEMPHORCFG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013079" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHAMEDTEMPHORARIO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_CFG" type="VARCHAR2(40 BYTE)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LIM_INF_TEMP" type="NUMBER(20,10)"/>
+            <column name="LIM_SUP_TEMP" type="NUMBER(20,10)"/>
+            <column name="COR_INTERVALO" type="VARCHAR2(11 BYTE)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-39">
+        <createTable tableName="DW_FOLHAMON">
+            <column name="ID_FOLHAMON" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013082" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHA" type="FLOAT(63)"/>
+            <column name="ID_PRODUTO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-40">
+        <createTable tableName="DW_FOLHAMONCOMP">
+            <column name="ID_FOLHAMONCOMP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013085" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_MON" type="VARCHAR2(40 BYTE)"/>
+            <column name="ID_PRODUTOFILHO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ORDEM" type="INTEGER"/>
+            <column name="IS_ACEITARALTER" type="INTEGER"/>
+            <column name="ID_FOLHAMON" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-41">
+        <createTable tableName="DW_FOLHARAP">
+            <column name="ID_FOLHARAP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013089" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHA" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_RAP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_USADA" type="NUMBER(10,4)"/>
+            <column name="SEG_TEMPOPREPARACAO" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-42">
+        <createTable tableName="DW_FOLHARAPCOM">
+            <column name="ID_FOLHARAPCOM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013092" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHARAP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_TOTAL" type="NUMBER(10,4)"/>
+            <column name="QT_ATIVA" type="NUMBER(10,4)"/>
+            <column name="ID_PRODUTO" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-43">
+        <createTable tableName="DW_FOLHASETUP">
+            <column name="ID_FOLHASETUP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013096" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="SEG_SETUP" type="NUMBER(20,10)"/>
+            <column name="ID_FOLHASAINDO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_FOLHAENTRANDO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-44">
+        <createTable tableName="DW_FOLHATESTE">
+            <column name="ID_FOLHATESTE" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013101" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_GT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FREQUENCIAHZ" type="INTEGER"/>
+            <column name="TENSAO_MIN" type="NUMBER(10,3)"/>
+            <column name="TENSAO_NOM" type="NUMBER(10,3)"/>
+            <column name="TENSAO_MAX" type="NUMBER(10,3)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-45">
+        <createTable tableName="DW_FOLHATV">
+            <column name="ID_FOLHATV" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013104" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHA" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-46">
+        <createTable tableName="DW_FT_ETAPA">
+            <column name="ID_FT_ETAPA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013108" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_ETAPA" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_MENSAGEMOK" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_MENSAGEMNOK" type="VARCHAR2(100 BYTE)"/>
+            <column name="CD_ETAPA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-47">
+        <createTable tableName="DW_FT_PARAM">
+            <column name="ID_FT_PARAM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013110" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_PARAMETRO" type="VARCHAR2(40 BYTE)"/>
+            <column name="IS_MINIMO" type="INTEGER"/>
+            <column name="IS_META" type="INTEGER"/>
+            <column name="IS_MAXIMO" type="INTEGER"/>
+            <column name="IS_COMBO" type="INTEGER"/>
+            <column name="ST_VALOR1" type="INTEGER"/>
+            <column name="DS_VALOR1" type="VARCHAR2(40 BYTE)"/>
+            <column name="ST_VALOR2" type="INTEGER"/>
+            <column name="DS_VALOR2" type="VARCHAR2(40 BYTE)"/>
+            <column name="ST_VALOR3" type="INTEGER"/>
+            <column name="DS_VALOR3" type="VARCHAR2(40 BYTE)"/>
+            <column name="ST_VALOR4" type="INTEGER"/>
+            <column name="DS_VALOR4" type="VARCHAR2(40 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-48">
+        <createTable tableName="DW_FT_SUB">
+            <column name="ID_FT_SUB" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013113" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_SUB" type="VARCHAR2(100 BYTE)"/>
+            <column name="ID_FT_ETAPA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_FT_SUB" type="INTEGER"/>
+            <column name="TP_STATUS" type="INTEGER"/>
+            <column name="MS" type="INTEGER"/>
+            <column name="X41" type="INTEGER"/>
+            <column name="X42" type="INTEGER"/>
+            <column name="Y81" type="NUMBER(10,3)"/>
+            <column name="Y82" type="NUMBER(10,3)"/>
+            <column name="Y83" type="NUMBER(10,3)"/>
+            <column name="Y84" type="NUMBER(10,3)"/>
+            <column name="ID_FT_PARAM" type="FLOAT(63)"/>
+            <column name="TP_FT_PARAM" type="INTEGER"/>
+            <column name="VL_FT_PARAM" type="NUMBER(10,3)"/>
+            <column name="ST_FT_PARAM" type="INTEGER"/>
+            <column name="ID_PRODUTO" type="FLOAT(63)"/>
+            <column name="X45" type="INTEGER"/>
+            <column name="X46" type="INTEGER"/>
+            <column name="X47" type="INTEGER"/>
+            <column name="X48" type="INTEGER"/>
+            <column name="X49" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-49">
+        <createTable tableName="DW_FT_SUBPARAM">
+            <column name="ID_SUBPARAM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013117" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FT_SUB" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_FT_PARAM" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-50">
+        <createTable tableName="DW_NSERIE">
+            <column name="ID_NSERIE" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013119" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CB" type="VARCHAR2(40 BYTE)"/>
+            <column name="NS" type="VARCHAR2(40 BYTE)"/>
+            <column name="ID_PRODUTO" type="FLOAT(63)"/>
+            <column name="ID_EST" type="FLOAT(63)"/>
+            <column name="ID_PASSAGEM" type="FLOAT(63)"/>
+            <column name="ID_PASSAGEMTF" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-51">
+        <createTable tableName="DW_PASSAGEM">
+            <column name="ID_PASSAGEM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013125" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR" type="DATE"/>
+            <column name="MS_DTHR" type="INTEGER"/>
+            <column name="ID_NSERIE" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CONSOLID" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USROPERADOR" type="FLOAT(63)"/>
+            <column name="ID_USRSUPERVISOR" type="FLOAT(63)"/>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ST_NSERIE" type="INTEGER"/>
+            <column name="SEG_CICLO" type="NUMBER(20,10)"/>
+            <column name="DTHR_INICIO" type="DATE"/>
+            <column name="MS_DTHRINICIO" type="INTEGER"/>
+            <column name="ID_EST" type="FLOAT(63)"/>
+            <column name="ID_PASSCAU" type="FLOAT(63)"/>
+            <column name="IS_TF_FINALIZADO" type="INTEGER"/>
+            <column name="DS_DIARIOBORDO" type="VARCHAR2(256 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-52">
+        <createTable tableName="DW_PASSCAU">
+            <column name="ID_PASSCAU" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013130" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PASSAGEM" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TACAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TDEFEITO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-53">
+        <createTable tableName="DW_PASSDEF">
+            <column name="ID_PASSDEF" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013134" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PASSAGEM" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TDEFEITO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PASSCAU" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-54">
+        <createTable tableName="DW_PASSMON">
+            <column name="ID_PASSMON" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013138" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PASSAGEM" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_ALTERNATIVO" type="INTEGER"/>
+            <column name="DS_MON" type="VARCHAR2(40 BYTE)"/>
+            <column name="CB" type="VARCHAR2(40 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-55">
+        <createTable tableName="DW_PASSTF">
+            <column name="ID_PASSTF" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013142" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PASSAGEM" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ST_ETAPA" type="INTEGER"/>
+            <column name="DTHR_IETAPA" type="DATE"/>
+            <column name="MS_DTHRIETAPA" type="INTEGER"/>
+            <column name="DTHR_FETAPA" type="DATE"/>
+            <column name="MS_DTHRFETAPA" type="INTEGER"/>
+            <column name="ID_FT_ETAPA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PASSCAU" type="FLOAT(63)"/>
+            <column name="ORDEMETAPA" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-56">
+        <createTable tableName="DW_PASSTFSE">
+            <column name="ID_PASSTFSE" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013146" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PASSTF" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ST_SUBETAPA" type="INTEGER"/>
+            <column name="DTHR_ISUBETAPA" type="DATE"/>
+            <column name="MS_DTHRISUBETAPA" type="INTEGER"/>
+            <column name="DTHR_FSUBETAPA" type="DATE"/>
+            <column name="MS_DTHRFSUBETAPA" type="INTEGER"/>
+            <column name="DTHR_IPOSFALHA" type="DATE"/>
+            <column name="MS_DTHRIPOSFALHA" type="INTEGER"/>
+            <column name="DTHR_FPOSFALHA" type="DATE"/>
+            <column name="MS_DTHRFPOSFALHA" type="INTEGER"/>
+            <column name="ID_FT_SUB" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ORDEMSUBETAPA" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-57">
+        <createTable tableName="DW_PASSTFSEPM">
+            <column name="ID_PASSTFSEPM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013150" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="VL_MEDIDO" type="NUMBER(10,3)"/>
+            <column name="ST_MEDIDO" type="INTEGER"/>
+            <column name="DTHR_MEDICAO" type="DATE"/>
+            <column name="ID_PASSTFSE" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ST_FASE" type="INTEGER"/>
+            <column name="MS_DTHRMEDICAO" type="INTEGER"/>
+            <column name="ID_FT_PARAM" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-58">
+        <createTable tableName="DW_PEPRO">
+            <column name="ID_PEPRO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013152" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_PEPRO" type="VARCHAR2(40 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-59">
+        <createTable tableName="DW_RAP">
+            <column name="ID_RAP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013156" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_RAPTIPO" type="NUMBER"/>
+            <column name="CD_RAP" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DS_RAP" type="VARCHAR2(100 BYTE)"/>
+            <column name="QT_TOTAL" type="NUMBER(10,4)"/>
+            <column name="QT_ALOCADA" type="NUMBER(10,4)"/>
+            <column name="DEPARA" type="VARCHAR2(100 BYTE)"/>
+            <column name="SEG_TEMPOLIBERACAO" type="NUMBER(20,10)"/>
+            <column name="ID_USRREVISAO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_RAP" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-60">
+        <createTable tableName="DW_ROTA">
+            <column name="ID_ROTA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013162" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_ROTA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="DS_ROTA" type="VARCHAR2(40 BYTE)"/>
+            <column name="ID_GT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_MODELO" type="INTEGER"/>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="GRIDX" type="NUMBER(8,4)"/>
+            <column name="GRIDY" type="NUMBER(8,4)"/>
+            <column name="LARGURA" type="NUMBER(8,4)"/>
+            <column name="ALTURA" type="NUMBER(8,4)"/>
+            <column name="IS_PASSAADIANTE" type="INTEGER"/>
+            <column name="SEG_SETUP" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-61">
+        <createTable tableName="DW_ROTAPASSO">
+            <column name="ID_ROTAPASSO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013165" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_ROTAPASSOSUCESSONC" type="FLOAT(63)"/>
+            <column name="ID_ROTAPASSOSUCESSORAC" type="FLOAT(63)"/>
+            <column name="ID_ROTA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_FOLHA" type="FLOAT(63)"/>
+            <column name="IS_LIBERACAO" type="INTEGER"/>
+            <column name="OBS" type="VARCHAR2(40 BYTE)"/>
+            <column name="ID_PT" type="FLOAT(63)"/>
+            <column name="ID_EST" type="FLOAT(63)"/>
+            <column name="ID_ESTCONSUMIR" type="FLOAT(63)"/>
+            <column name="QT_MOVIMENTACAO" type="NUMBER(10,4)"/>
+            <column name="TP_MOVIMENTACAO" type="INTEGER"/>
+            <column name="PASSO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-62">
+        <createTable tableName="DW_ROTAPASSO_PT">
+            <column name="ID_ROTAPASSO_PT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013169" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_ROTAPASSO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PT" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ORDEM" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-63">
+        <createTable tableName="DW_RP_PREDECESSORA">
+            <column name="ID_RP_PREDECESSORA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013172" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_ROTAPASSOPAI" type="FLOAT(63)"/>
+            <column name="ID_ROTAPASSOFILHO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_ACEITASENC" type="INTEGER"/>
+            <column name="IS_ACEITASEC" type="INTEGER"/>
+            <column name="IS_ESPELHO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-64">
+        <createTable tableName="DW_RT">
+            <column name="ID_RT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013176" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="IS_SEMPLANEJAMENTO" type="INTEGER"/>
+            <column name="IS_OPERADOR" type="INTEGER"/>
+            <column name="ST_FUNCIONAMENTO" type="INTEGER"/>
+            <column name="IS_MANUTENCAOPRE" type="INTEGER"/>
+            <column name="IS_VIDAUTILMOLDE" type="INTEGER"/>
+            <column name="ST_QUALIDADE" type="INTEGER"/>
+            <column name="IS_PARADAPESO" type="INTEGER"/>
+            <column name="IS_OFFLINE" type="INTEGER"/>
+            <column name="DTHR_ICICLO" type="DATE"/>
+            <column name="MS_DTHRICICLO" type="INTEGER"/>
+            <column name="SEG_PARADAPARCIAL" type="NUMBER(20,10)"/>
+            <column name="ORDEM_CICLOS" type="INTEGER"/>
+            <column name="IS_REGULAGEM" type="INTEGER"/>
+            <column name="IS_PARADAFECHACICLO" type="INTEGER"/>
+            <column name="SEG_CICLOPADRAOMINIMO" type="NUMBER(20,10)"/>
+            <column name="SEG_ULTIMOCICLO" type="NUMBER(20,10)"/>
+            <column name="PCS_PRODUCAOPLANEJADA_OP" type="FLOAT(63)"/>
+            <column name="PCS_PRODUCAOLIQUIDA_OP" type="FLOAT(63)"/>
+            <column name="ID_CONSOLPALOG" type="FLOAT(63)"/>
+            <column name="DT_REFERENCIA" type="DATE"/>
+            <column name="ID_TURNO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_HEARTBEAT" type="DATE"/>
+            <column name="IS_CONFORME" type="INTEGER"/>
+            <column name="IS_ALERTA" type="INTEGER"/>
+            <column name="IS_CIP" type="INTEGER"/>
+            <column name="ID_CP" type="NUMBER"/>
+            <column name="ULTTEMPERATURALIDA" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-65">
+        <createTable tableName="DW_RTCIC">
+            <column name="ID_RTCIC" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013179" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_ICICLO" type="DATE"/>
+            <column name="MS_DTHRICICLO" type="INTEGER"/>
+            <column name="DTHR_FCICLO" type="DATE"/>
+            <column name="MS_DTHRFCICLO" type="INTEGER"/>
+            <column name="ID_RT" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_DURACAO" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-66">
+        <createTable tableName="DW_T_ACAO">
+            <column name="ID_TACAO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013184" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TACAO" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TACAO" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_TPPT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-67">
+        <createTable tableName="DW_T_ALERTA">
+            <column name="ID_TALERTA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013189" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TALERTA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TALERTA" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_TPPT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_AUTOMATICO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-68">
+        <createTable tableName="DW_T_AREA">
+            <column name="ID_AREA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013191" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_AREA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_AREA" type="VARCHAR2(100 BYTE)"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="DTHR_REVISAO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="NUMBER"/>
+            <column name="ID_USRSTATIVO" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-69">
+        <createTable tableName="DW_T_CAUSA">
+            <column name="ID_TCAUSA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013194" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TCAUSA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TCAUSA" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="NUMBER"/>
+            <column name="ID_USRSTATIVO" type="NUMBER"/>
+            <column name="ID_TPPT" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-70">
+        <createTable tableName="DW_T_DEFEITO">
+            <column name="ID_TDEFEITO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013199" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TDEFEITO" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TDEFEITO" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TPPT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_REQUERACAO" type="INTEGER"/>
+            <column name="ID_PRODUTO" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-71">
+        <createTable tableName="DW_T_JUST">
+            <column name="ID_TJUST" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013201" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TJUST" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TJUST" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="NUMBER"/>
+            <column name="ID_USRSTATIVO" type="NUMBER"/>
+            <column name="ID_TPPT" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-72">
+        <createTable tableName="DW_T_PARADA">
+            <column name="ID_TPARADA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013206" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TPARADA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TPARADA" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_TPPT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_FDS" type="INTEGER"/>
+            <column name="IS_MDO" type="INTEGER"/>
+            <column name="IS_MTBF" type="INTEGER"/>
+            <column name="IS_MTTR" type="INTEGER"/>
+            <column name="IS_PA" type="INTEGER"/>
+            <column name="IS_PAO" type="INTEGER"/>
+            <column name="IS_PP" type="INTEGER"/>
+            <column name="IS_PREV" type="INTEGER"/>
+            <column name="IS_PTP" type="INTEGER"/>
+            <column name="IS_SCP" type="INTEGER"/>
+            <column name="IS_PESA" type="INTEGER"/>
+            <column name="IS_REGULAGEM" type="INTEGER"/>
+            <column name="IS_REQUER_ACAO" type="INTEGER"/>
+            <column name="IS_REQUER_CAUSA" type="INTEGER"/>
+            <column name="IS_REQUER_JUST" type="INTEGER"/>
+            <column name="QT_TEC" type="NUMBER(10,4)"/>
+            <column name="ID_AREA" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-73">
+        <createTable tableName="DW_T_REFUGO">
+            <column name="ID_TREFUGO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013211" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TREFUGO" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TREFUGO" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_TPPT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_REQUER_ACAO" type="INTEGER"/>
+            <column name="IS_REQUER_CAUSA" type="INTEGER"/>
+            <column name="ID_AREA" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-74">
+        <createTable tableName="DW_TESTESUB">
+            <column name="ID_TESTESUB" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013215" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_FOLHATESTE" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_FT_SUB" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ORDEM" type="INTEGER"/>
+            <column name="QT_MED_SEG" type="NUMBER(10,4)"/>
+            <column name="QT_MED_SEG_POS_FALHA" type="NUMBER(10,4)"/>
+            <column name="MS_CAP_MED_POS_FALHA" type="INTEGER"/>
+            <column name="IS_SALVAR" type="INTEGER"/>
+            <column name="ORDEMETAPA" type="INTEGER"/>
+            <column name="ACENDERLAMPADA" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-75">
+        <createTable tableName="DW_TESTESUBETAPA">
+            <column name="ID_TESTESUBETAPA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013218" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="META" type="NUMBER(10,3)"/>
+            <column name="ST" type="INTEGER"/>
+            <column name="ID_SUBPARAM" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="MINIMO" type="NUMBER(10,3)"/>
+            <column name="MAXIMO" type="NUMBER(10,3)"/>
+            <column name="ID_TESTESUB" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-76">
+        <createTable tableName="DW_TURNO">
+            <column name="ID_TURNO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013222" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TURNO" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TURNO" type="VARCHAR2(100 BYTE)"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="COR" type="VARCHAR2(11 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-77">
+        <createTable tableName="MS_CFG">
+            <column name="ID_CFG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013225" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="TP_CALCULOANDON" type="INTEGER"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="DTHR_REVISAO" type="DATE"/>
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-78">
+        <createTable tableName="MS_DETECTOR">
+            <column name="ID_DETECTOR" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013229" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_DETECTOR" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_DETECTOR" type="VARCHAR2(100 BYTE)"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DTHR_REVISAO" type="DATE"/>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="NUMBER"/>
+            <column name="ID_USRGRP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_EMAIL" type="INTEGER"/>
+            <column name="IS_SMS" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-79">
+        <createTable tableName="MS_DETECTORUSR">
+            <column name="ID_DETECTORUSR" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013233" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_DETECTOR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-80">
+        <createTable tableName="MS_EVT">
+            <column name="ID_EVT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013237" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_EVTINICIO" type="NUMBER"/>
+            <column name="DTHR_EVENTO" type="DATE"/>
+            <column name="ID_MSICUP" type="NUMBER"/>
+            <column name="ST_EVT" type="INTEGER"/>
+            <column name="DTHR_EVENTOANTERIOR" type="DATE"/>
+            <column name="DTHR_CADASTROBANCO" type="DATE"/>
+            <column name="DTHR_CADASTROSERVER" type="DATE"/>
+            <column name="MILI_DURACAOEVENTO" type="NUMBER"/>
+            <column name="DTHR_ENVIOPRCOLETOREVENTOS" type="DATE"/>
+            <column name="ID_PRCOLETOREVENTOS" type="NUMBER"/>
+            <column name="ID_TPEVT" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_UPIHM" type="NUMBER"/>
+            <column name="LOGIN" type="VARCHAR2(40 BYTE)"/>
+            <column name="QTDE_CICLOS" type="NUMBER(10,4)"/>
+            <column name="CD_PARADA" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_REFUGO" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_TEC1" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_TEC2" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_TECRESP" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_PRODUTOREDZ" type="VARCHAR2(60 BYTE)"/>
+            <column name="CD_ALERTA" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_CONSULTA" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_ACAO" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_CAUSA" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_JUSTIFICATIVA" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_PRODUTO" type="VARCHAR2(40 BYTE)"/>
+            <column name="NROP" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_MOLDE" type="VARCHAR2(40 BYTE)"/>
+            <column name="CD_ESTRUTURA" type="VARCHAR2(4 BYTE)"/>
+            <column name="QTDE" type="NUMBER(10,4)"/>
+            <column name="SEQUENCIAL" type="INTEGER"/>
+            <column name="ORIGEM" type="VARCHAR2(512 BYTE)"/>
+            <column name="TEMPERATURA" type="NUMBER(20,10)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-81">
+        <createTable tableName="MS_IC">
+            <column name="ID_IC" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013242" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_IC" type="VARCHAR2(60 BYTE)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_IC" type="VARCHAR2(100 BYTE)"/>
+            <column name="REVISAO" type="INTEGER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="DTHR_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="URL_CONEXAO" type="VARCHAR2(100 BYTE)"/>
+            <column name="TP_IC" type="INTEGER"/>
+            <column name="DTHR_HEARTBEAT" type="DATE"/>
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_ICREGISTRAPERDACONEXAO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-82">
+        <createTable tableName="MS_IHM">
+            <column name="ID_IHM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013246" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_HEARTBEAT" type="DATE"/>
+            <column name="DTHR_CADASTRO" type="DATE"/>
+            <column name="URL_CONEXAO" type="VARCHAR2(100 BYTE)"/>
+            <column name="IS_EVTPND" type="CHAR(1)"/>
+            <column name="IS_EVTCICLOFECHADO" type="CHAR(1)"/>
+            <column name="IS_EVTTRABALHANDO" type="CHAR(1)"/>
+            <column name="IS_EVTPARADA" type="CHAR(1)"/>
+            <column name="IS_EVTREFUGO" type="CHAR(1)"/>
+            <column name="IS_EVTALERTA" type="CHAR(1)"/>
+            <column name="IS_EVTLOGIN" type="CHAR(1)"/>
+            <column name="IS_UPREG" type="CHAR(1)"/>
+            <column name="IS_EVTTODOS" type="CHAR(1)"/>
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="URL_IP" type="VARCHAR2(100 BYTE)"/>
+            <column name="CD_IHM" type="VARCHAR2(60 BYTE)"/>
+            <column name="URL_CONEXAOALT" type="VARCHAR2(100 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-83">
+        <createTable tableName="MS_IND">
+            <column name="ID_IND" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013248" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_IND" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_CALCULO" type="VARCHAR2(256 BYTE)"/>
+            <column name="DS_UNIDADE" type="VARCHAR2(60 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-84">
+        <createTable tableName="MS_MONITOR">
+            <column name="ID_MONITOR" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013250" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_ITEM_MONITORADO" type="VARCHAR2(100 BYTE)"/>
+            <column name="DTHR_INICIO" type="DATE"/>
+            <column name="DTHR_FIM" type="DATE"/>
+            <column name="MEMI_FREE_EMBYTE" type="NUMBER"/>
+            <column name="MEMF_FREE_EMBYTE" type="NUMBER"/>
+            <column name="MILI_DURACAO" type="NUMBER"/>
+            <column name="MEM_CONSUMIDA" type="NUMBER"/>
+            <column name="ID_EVT" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-85">
+        <createTable tableName="MS_MS">
+            <column name="ID_MS" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013253" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_MS" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_MS" type="VARCHAR2(100 BYTE)"/>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="DTHR_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="URL_CONEXAO" type="VARCHAR2(100 BYTE)"/>
+            <column name="DTHR_HEARTBEAT" type="DATE"/>
+            <column name="SEG_HEARTBEAT" type="NUMBER"/>
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_CALCULOANDON" type="INTEGER"/>
+            <column name="IS_IMPORTOUTM" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-86">
+        <createTable tableName="MS_MSICUP">
+            <column name="ID_MSICUP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013255" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_IC" type="NUMBER"/>
+            <column name="ID_MS" type="NUMBER"/>
+            <column name="ID_UP" type="NUMBER"/>
+            <column name="URL_CONEXAO" type="VARCHAR2(100 BYTE)"/>
+            <column name="TP_CONEXAO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-87">
+        <createTable tableName="MS_MSIHM">
+            <column name="ID_MSIHM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013259" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_MS" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_IHM" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_REGISTRO" type="DATE"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-88">
+        <createTable tableName="MS_TPEVT">
+            <column name="ID_TPEVT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013261" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_TPEVT" type="VARCHAR2(100 BYTE)"/>
+            <column name="DEPARA_PDBA" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-89">
+        <createTable tableName="MS_TRIGGER">
+            <column name="ID_TRIGGER" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013265" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_DETECTOR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TPEVT" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ORDEM" type="INTEGER"/>
+            <column name="ID_TPPT" type="NUMBER"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="ID_IND" type="NUMBER"/>
+            <column name="OPERADORLOGICO" type="INTEGER"/>
+            <column name="VL_IND" type="NUMBER(6,3)"/>
+            <column name="QT_CICLOS" type="INTEGER"/>
+            <column name="ID_FOLHA" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-90">
+        <createTable tableName="MS_UP">
+            <column name="ID_UP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013267" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_UP" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_UP" type="VARCHAR2(100 BYTE)"/>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="DTHR_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="IS_LICENCIADA" type="CHAR(1)"/>
+            <column name="ID_USR" type="NUMBER"/>
+            <column name="ID_EVTINICIOCICLO" type="NUMBER"/>
+            <column name="ID_EVTINICIOPARADA" type="NUMBER"/>
+            <column name="IDUPPDBA" type="VARCHAR2(60 BYTE)"/>
+            <column name="CD_BC" type="VARCHAR2(8 BYTE)"/>
+            <column name="NROP" type="VARCHAR2(40 BYTE)"/>
+            <column name="SEQUENCIAL" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-91">
+        <createTable tableName="MS_UPIHM">
+            <column name="ID_UPIHM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013271" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_CADASTRO" type="DATE"/>
+            <column name="ID_UP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_IHM" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="URL_CONEXAO" type="VARCHAR2(100 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-92">
+        <createTable tableName="MS_USR">
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013273" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_USR" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="NM_USR" type="VARCHAR2(100 BYTE)"/>
+            <column name="DTHR_REVISAO" type="DATE"/>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="LOGIN" type="VARCHAR2(60 BYTE)"/>
+            <column name="SENHA" type="VARCHAR2(40 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-93">
+        <createTable tableName="OM_ALGOCOR">
+            <column name="ID_ALGOCOR" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013275" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_ALGOCOR" type="VARCHAR2(40 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-94">
+        <createTable tableName="OM_ALIM">
+            <column name="ID_ALIM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013278" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_ALIM" type="VARCHAR2(60 BYTE)"/>
+            <column name="DS_ALIM" type="VARCHAR2(256 BYTE)"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)"/>
+            <column name="TP_ALIM" type="INTEGER"/>
+            <column name="ST_ALIM" type="INTEGER"/>
+            <column name="ID_MAPA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-95">
+        <createTable tableName="OM_ALIMREA">
+            <column name="ID_ALIM" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_ALIMREA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013283" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_LEITURA" type="DATE"/>
+            <column name="ST_LEITURA" type="INTEGER"/>
+            <column name="CD_LIDO" type="VARCHAR2(60 BYTE)"/>
+            <column name="ID_MAPAPA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_LEITURA" type="INTEGER"/>
+            <column name="ID_USR" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_ALIMENTADA" type="NUMBER(10,4)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-96">
+        <createTable tableName="OM_CARGO">
+            <column name="ID_CARGO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013287" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_CARGO" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_CARGO" type="VARCHAR2(100 BYTE)"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-97">
+        <createTable tableName="OM_CC">
+            <column name="ID_CC" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013291" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_CC" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_CC" type="VARCHAR2(100 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-98">
+        <createTable tableName="OM_CFG">
+            <column name="ID_CFG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013300" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="IS_NIVELFEEDER" type="INTEGER"/>
+            <column name="ID_RESGUIALIMENTA" type="FLOAT(63)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_TPPTINSERSORA" type="FLOAT(63)"/>
+            <column name="ID_USRIMPPROG" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CCDEFAULT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="FLOAT(63)"/>
+            <column name="ID_TPGTFABRICA" type="FLOAT(63)"/>
+            <column name="ID_FT_PARAMCORRENTE" type="FLOAT(63)"/>
+            <column name="ID_FT_PARAMFLUXOE" type="FLOAT(63)"/>
+            <column name="ID_FT_PARAMFLUSOS" type="FLOAT(63)"/>
+            <column name="SEG_FEEDBACKLOGIN" type="NUMBER(20,10)"/>
+            <column name="SEG_AUTOLOGOUT" type="NUMBER(20,10)"/>
+            <column name="QT_MAXPTCOLETAFULL" type="NUMBER(10,4)"/>
+            <column name="QT_MAXETAPATESTE" type="NUMBER(10,4)"/>
+            <column name="ID_TPGTLOGSUPER" type="FLOAT(63)"/>
+            <column name="SEG_HEARTBEAT" type="NUMBER(20,10)"/>
+            <column name="ID_TPPTPM" type="FLOAT(63)"/>
+            <column name="ID_TPPTPTF" type="FLOAT(63)"/>
+            <column name="ID_TPPTPTS" type="FLOAT(63)"/>
+            <column name="ID_TPPTPTSCD" type="FLOAT(63)"/>
+            <column name="ID_TPPTPREPRO" type="FLOAT(63)"/>
+            <column name="ID_TPPTPPASS" type="FLOAT(63)"/>
+            <column name="ID_CAL" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PEPRONORMAL" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PEPROCTREPROC" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRGRPSUPERVISOR" type="FLOAT(63)"/>
+            <column name="ID_USRGRPOPERADOR" type="FLOAT(63)"/>
+            <column name="MASCARACDPRODUTOPAI" type="VARCHAR2(256 BYTE)"/>
+            <column name="MASCARACDPRODUTOFILHO" type="VARCHAR2(256 BYTE)"/>
+            <column name="IS_LOGONOBRIGATORIO" type="INTEGER"/>
+            <column name="ID_ESTLIBERADO" type="FLOAT(63)"/>
+            <column name="ID_ESTEXPEDICAO" type="FLOAT(63)"/>
+            <column name="ID_ALGOCOR" type="FLOAT(63)"/>
+            <column name="ID_ESTREFUGO" type="FLOAT(63)"/>
+            <column name="DS_MENSAGEMSOBRETENSAO" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_MENSAGEMSUBTENSAO" type="VARCHAR2(100 BYTE)"/>
+            <column name="ID_FT_PARAMTENSAO" type="FLOAT(63)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_MAXSUBETAPAS" type="NUMBER(10,4)"/>
+            <column name="ID_ESTPRODUCAO" type="FLOAT(63)"/>
+            <column name="MASCARACB" type="VARCHAR2(256 BYTE)"/>
+            <column name="ID_ESTMP" type="NUMBER"/>
+            <column name="ID_RAPMAGAZINE" type="NUMBER"/>
+            <column name="URL_SMSHUMANMOBILE" type="VARCHAR2(255 BYTE)"/>
+            <column name="ID_GTIMPCIC" type="NUMBER"/>
+            <column name="ID_TPARADA" type="NUMBER"/>
+            <column name="ID_PEPROREGULAGEM" type="NUMBER"/>
+            <column name="IS_COMPENSAAPONT" type="INTEGER"/>
+            <column name="TP_LAYOUTPLANO" type="INTEGER"/>
+            <column name="MASCARACDPROGRAMAIAC" type="VARCHAR2(256 BYTE)"/>
+            <column name="IS_PROCESSAIACINSERT" type="INTEGER"/>
+            <column name="IS_PROCESSAIACIDW" type="INTEGER"/>
+            <column name="MASCARACDCOMPONENTEIAC" type="VARCHAR2(256 BYTE)"/>
+            <column name="MASCARACDPRODUTOIAC" type="VARCHAR2(256 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-99">
+        <createTable tableName="OM_CFGIND">
+            <column name="ID_CFGIND" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013302" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CFG" type="NUMBER"/>
+            <column name="IND_INFERIOR" type="NUMBER(6,3)"/>
+            <column name="IND_SUPERIOR" type="NUMBER(6,3)"/>
+            <column name="IND_META" type="NUMBER(6,3)"/>
+            <column name="ID_IND" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-100">
+        <createTable tableName="OM_CFGPTDETCOLETA">
+            <column name="ID_CFGPTDETCOLETA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013306" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CFG" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-101">
+        <createTable tableName="OM_CFGSCRPIMP">
+            <column name="ID_CFGSCRPIMP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013309" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_SCRP" type="VARCHAR2(60 BYTE)"/>
+            <column name="DS_SCRP" type="VARCHAR2(100 BYTE)"/>
+            <column name="SCRIPTIMPRESSAO" type="LONG"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="STATIVO" type="INTEGER"/>
+            <column name="ID_CFG" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-102">
+        <createTable tableName="OM_CLIDIARIO">
+            <column name="ID_CLIDIARIO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013312" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_INICIO" type="DATE"/>
+            <column name="DTHR_FIM" type="DATE"/>
+            <column name="DS_DIARIO" type="VARCHAR2(256 BYTE)"/>
+            <column name="ID_CLIENTE" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-103">
+        <createTable tableName="OM_CLP">
+            <column name="ID_CLP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013316" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_CLP" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_CADASTRO" type="DATE"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_CLP" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_CURTA" type="VARCHAR2(10 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-104">
+        <createTable tableName="OM_CONTATO">
+            <column name="ID_CONTATO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013319" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="NM_CONTATO" type="VARCHAR2(100 BYTE)"/>
+            <column name="OBS" type="VARCHAR2(256 BYTE)"/>
+            <column name="TELEFONE1" type="VARCHAR2(20 BYTE)"/>
+            <column name="TELEFONE2" type="VARCHAR2(20 BYTE)"/>
+            <column name="TELEFONE3" type="VARCHAR2(20 BYTE)"/>
+            <column name="EMAIL1" type="VARCHAR2(256 BYTE)"/>
+            <column name="EMAIL2" type="VARCHAR2(256 BYTE)"/>
+            <column name="EMAIL3" type="VARCHAR2(256 BYTE)"/>
+            <column name="ID_CLIENTE" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-105">
+        <createTable tableName="OM_FOR">
+            <column name="ID_FOR" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013323" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_FOR" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="NM_FORNECEDOR" type="VARCHAR2(256 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-106">
+        <createTable tableName="OM_GARANTIA">
+            <column name="ID_GARANTIA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013325" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_GARANTIA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DTHR_REVISAO" type="DATE"/>
+            <column name="DTHR_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DS_GARANTIA" type="VARCHAR2(256 BYTE)"/>
+            <column name="ID_CONTATO" type="NUMBER"/>
+            <column name="DOC_CLIENTE" type="VARCHAR2(10 BYTE)"/>
+            <column name="DTHR_INICIOVALIDADE" type="DATE"/>
+            <column name="DTHR_FIMVALIDADE" type="DATE"/>
+            <column name="VL_LICENCAS" type="VARCHAR2(20 BYTE)"/>
+            <column name="VL_CONTRATOMANU" type="VARCHAR2(20 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-107">
+        <createTable tableName="OM_GARPRO">
+            <column name="ID_GARPRO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013329" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_GARANTIA" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_INICIOVALIDADE" type="DATE"/>
+            <column name="DTHR_FIMVALIDADE" type="DATE"/>
+            <column name="NS" type="VARCHAR2(60 BYTE)"/>
+            <column name="TP_LICENCA" type="INTEGER"/>
+            <column name="QT_LICENCASVENDIDAS" type="NUMBER(10,4)"/>
+            <column name="QT_LICENCASCONTRATOMANU" type="NUMBER(10,4)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-108">
+        <createTable tableName="OM_GRNTS">
+            <column name="ID_GRNTS" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013333" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_USRGRP" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_RESGUI" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_ACESSO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-109">
+        <createTable tableName="OM_GT">
+            <column name="ID_GT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013339" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_GT" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_GT" type="VARCHAR2(100 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_IMG" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_CURTA" type="VARCHAR2(10 BYTE)"/>
+            <column name="ID_CC" type="FLOAT(63)"/>
+            <column name="LARGURA" type="NUMBER(8,4)"/>
+            <column name="ALTURA" type="NUMBER(8,4)"/>
+            <column name="GRIDX" type="NUMBER(8,4)"/>
+            <column name="GRIDY" type="NUMBER(8,4)"/>
+            <column name="ID_TPGT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SEG_X" type="NUMBER(20,10)"/>
+            <column name="SEG_Y" type="NUMBER(20,10)"/>
+            <column name="SEG_Z" type="NUMBER(20,10)"/>
+            <column name="TENSAO_MIN" type="NUMBER(10,3)"/>
+            <column name="TENSAO_NOM" type="NUMBER(10,3)"/>
+            <column name="TENSAO_MAX" type="NUMBER(10,3)"/>
+            <column name="DEPARA" type="VARCHAR2(40 BYTE)"/>
+            <column name="IND_OEE" type="NUMBER(6,3)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-110">
+        <createTable tableName="OM_HOMOGT">
+            <column name="ID_HOMOGT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013344" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DT_HOMOGT" type="DATE"/>
+            <column name="TP_HOMOGT" type="INTEGER"/>
+            <column name="ID_USRHOMOLOGADO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USR" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_GT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-111">
+        <createTable tableName="OM_HOMOPT">
+            <column name="ID_HOMO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013350" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_USRHOMOLOGADO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USR" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_HOMOPT" type="DATE"/>
+            <column name="TP_HOMOPT" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-112">
+        <createTable tableName="OM_IM">
+            <column name="ID_IM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013355" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_IM" type="DATE"/>
+            <column name="MSG" type="VARCHAR2(256 BYTE)"/>
+            <column name="ID_USRSRC" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRTRG" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-113">
+        <createTable tableName="OM_IMG">
+            <column name="ID_IMG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013359" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_IMG" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_IMG" type="VARCHAR2(100 BYTE)"/>
+            <column name="URL_IMG" type="VARCHAR2(255 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-114">
+        <createTable tableName="OM_IND">
+            <column name="ID_IND" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013361" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_IND" type="VARCHAR2(60 BYTE)"/>
+            <column name="DS_IND" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_CURTA" type="VARCHAR2(10 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-115">
+        <createTable tableName="OM_INDGT">
+            <column name="ID_INDGT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013365" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="NUM_INF" type="NUMBER(6,3)"/>
+            <column name="NUM_SUPERIOR" type="NUMBER(6,3)"/>
+            <column name="NUM_META" type="NUMBER(6,3)"/>
+            <column name="ID_IND" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_GT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-116">
+        <createTable tableName="OM_INDPT">
+            <column name="ID_INDPT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013369" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_IND" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IND_INFERIOR" type="NUMBER(6,3)"/>
+            <column name="IND_META" type="NUMBER(6,3)"/>
+            <column name="IND_SUPERIOR" type="NUMBER(6,3)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-117">
+        <createTable tableName="OM_INDTPPT">
+            <column name="ID_INDTPPT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013373" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_TPPT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_IND" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IND_INFERIOR" type="NUMBER(6,3)"/>
+            <column name="IND_META" type="NUMBER(6,3)"/>
+            <column name="IND_SUPERIOR" type="NUMBER(6,3)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-118">
+        <createTable tableName="OM_MAPA">
+            <column name="ID_MAPA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013379" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_MAPA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_MAPA" type="VARCHAR2(256 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_PRODUTO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRG" type="FLOAT(63)"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-119">
+        <createTable tableName="OM_MAPAPA">
+            <column name="ID_MAPAPA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013384" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_MAPA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-120">
+        <createTable tableName="OM_OBJ">
+            <column name="ID_OBJ" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013387" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="X" type="NUMBER(8,4)"/>
+            <column name="Y" type="NUMBER(8,4)"/>
+            <column name="X2" type="NUMBER(8,4)"/>
+            <column name="Y2" type="NUMBER(8,4)"/>
+            <column name="TP_OBJ" type="INTEGER"/>
+            <column name="CORFRENTE" type="VARCHAR2(11 BYTE)"/>
+            <column name="CORFUNDO" type="VARCHAR2(11 BYTE)"/>
+            <column name="ID_TEXTO" type="FLOAT(63)"/>
+            <column name="ID_WEBCAM" type="NUMBER"/>
+            <column name="ID_IMG" type="NUMBER"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="ID_GTFILHO" type="NUMBER"/>
+            <column name="ID_GT" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_ROTA" type="FLOAT(63)"/>
+            <column name="ID_ROTAPASSO" type="FLOAT(63)"/>
+            <column name="ID_FOLHA" type="FLOAT(63)"/>
+            <column name="ID_EST" type="FLOAT(63)"/>
+            <column name="MONITORACAO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-121">
+        <createTable tableName="OM_PA">
+            <column name="ID_PA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013392" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_PA" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_PA" type="VARCHAR2(256 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ORDEM" type="INTEGER"/>
+            <column name="DESVIO" type="VARCHAR2(60 BYTE)"/>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DEPARA" type="VARCHAR2(10 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-122">
+        <createTable tableName="OM_PRG">
+            <column name="ID_PRG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013395" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_PRG" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_PRG" type="VARCHAR2(256 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_PT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="NUMBER"/>
+            <column name="IS_CONFORMEESTRUTURAPRODUTO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-123">
+        <createTable tableName="OM_PRGPOS">
+            <column name="ID_PRGPOS" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013400" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PA" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SCANTRACK" type="VARCHAR2(100 BYTE)"/>
+            <column name="FEEDERTRACK" type="VARCHAR2(100 BYTE)"/>
+            <column name="POCKET" type="VARCHAR2(100 BYTE)"/>
+            <column name="NAME" type="VARCHAR2(100 BYTE)"/>
+            <column name="FEEDERTABLE" type="VARCHAR2(100 BYTE)"/>
+            <column name="ID_PRG" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="POSICAO" type="NUMBER(8,4)"/>
+            <column name="ORDEM" type="INTEGER"/>
+            <column name="ID_RAPTIPOMESA" type="NUMBER"/>
+            <column name="ID_RAPTIPOFEEDER" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-124">
+        <createTable tableName="OM_PROALTGLO">
+            <column name="ID_PROALT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013404" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PRODUTOMAE" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTOFILHO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-125">
+        <createTable tableName="OM_PROCOMEST">
+            <column name="ID_PROCOMEST" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013407" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="QT_USADA" type="NUMBER(10,4)"/>
+            <column name="TP_PROCOMEST" type="INTEGER"/>
+            <column name="ID_PRODUTOMP" type="NUMBER"/>
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CONJUNTO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-126">
+        <createTable tableName="OM_PRODUTO">
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013411" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PRODUTOAGRU" type="FLOAT(63)"/>
+            <column name="CD_PRODUTO" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_PRODUTO" type="VARCHAR2(256 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CC" type="FLOAT(63)"/>
+            <column name="MIN_VALPOSALIM" type="NUMBER(8,4)"/>
+            <column name="ID_FOR" type="FLOAT(63)"/>
+            <column name="ID_PROGRP" type="FLOAT(63)"/>
+            <column name="DS_COMPLEMENTO" type="VARCHAR2(100 BYTE)"/>
+            <column name="DEPARA" type="VARCHAR2(256 BYTE)"/>
+            <column name="TP_PRODUTO" type="INTEGER"/>
+            <column name="HR_LEADTIMEENTRADA" type="INTEGER"/>
+            <column name="HR_LEADTIMESAIDA" type="INTEGER"/>
+            <column name="TP_PRODUCAO" type="INTEGER"/>
+            <column name="IND_PERDAPRODUCAO" type="NUMBER(6,3)"/>
+            <column name="ID_EST" type="NUMBER"/>
+            <column name="ID_CLIENTE" type="NUMBER"/>
+            <column name="DS_CURTA" type="VARCHAR2(10 BYTE)"/>
+            <column name="G_PESO_BRUTO" type="NUMBER(7,3)"/>
+            <column name="G_PESO_LIQUIDO" type="NUMBER(7,3)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-127">
+        <createTable tableName="OM_PROGRP">
+            <column name="ID_PROGRP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013415" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_PROGRP" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_PROGRP" type="VARCHAR2(40 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-128">
+        <createTable tableName="OM_PROPAIHOMO">
+            <column name="ID_PROPAIHOMO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013417" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PRODUTOPAI" type="NUMBER"/>
+            <column name="ID_PRODUTO" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-129">
+        <createTable tableName="OM_PROTURNO">
+            <column name="ID_OMPROTURNO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013421" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TURNO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TP_RELACAO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-130">
+        <createTable tableName="OM_PT">
+            <column name="ID_PT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013427" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_PT" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CLP" type="FLOAT(63)"/>
+            <column name="URL_CONEXAO" type="VARCHAR2(255 BYTE)"/>
+            <column name="DS_PT" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_CURTA" type="VARCHAR2(10 BYTE)"/>
+            <column name="ID_CC" type="FLOAT(63)"/>
+            <column name="ID_TPPT" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_ALIMPRE" type="FLOAT(63)"/>
+            <column name="ID_ALIMCORRENTE" type="FLOAT(63)"/>
+            <column name="ID_ALIM" type="FLOAT(63)"/>
+            <column name="ID_GT" type="FLOAT(63)"/>
+            <column name="DEPARA" type="VARCHAR2(60 BYTE)"/>
+            <column name="TP_IMPPROG" type="INTEGER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_FOLHA" type="FLOAT(63)"/>
+            <column name="IS_PLANGT" type="INTEGER"/>
+            <column name="ESTAGIO" type="INTEGER"/>
+            <column name="IS_APONGT" type="INTEGER"/>
+            <column name="IS_ALIMCOREXC" type="INTEGER"/>
+            <column name="IND_OEE" type="NUMBER(6,3)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-131">
+        <createTable tableName="OM_RESGUI">
+            <column name="ID_RESGUI" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013429" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_RESGUIPAI" type="FLOAT(63)"/>
+            <column name="CD_RESGUI" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DS_RESGUI" type="VARCHAR2(100 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-132">
+        <createTable tableName="OM_TEXTO">
+            <column name="ID_TEXTO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013431" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_TEXTO" type="VARCHAR2(100 BYTE)"/>
+            <column name="FONTE" type="VARCHAR2(100 BYTE)"/>
+            <column name="TAMANHOFONTE" type="INTEGER"/>
+            <column name="CD_TEXTO" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-133">
+        <createTable tableName="OM_TPGT">
+            <column name="ID_TPGT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013435" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TPGT" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TPGT" type="VARCHAR2(100 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-134">
+        <createTable tableName="OM_TPPT">
+            <column name="ID_TPPT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013440" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_TPPT" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_TPPT" type="VARCHAR2(100 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_ALGOCOR" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-135">
+        <createTable tableName="OM_USR">
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013443" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_USRREVISAO" type="FLOAT(63)"/>
+            <column name="ID_USRSTATIVO" type="FLOAT(63)"/>
+            <column name="CD_USR" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="LOGIN" type="VARCHAR2(60 BYTE)"/>
+            <column name="SENHA" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_NOME" type="VARCHAR2(100 BYTE)"/>
+            <column name="ID_USRGRP" type="FLOAT(63)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_APELIDO" type="VARCHAR2(10 BYTE)"/>
+            <column name="ID_CC" type="FLOAT(63)"/>
+            <column name="ID_CARGO" type="NUMBER"/>
+            <column name="URL_SMS" type="VARCHAR2(255 BYTE)"/>
+            <column name="URL_EMAIL" type="VARCHAR2(255 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-136">
+        <createTable tableName="OM_USRGRP">
+            <column name="ID_USRGRP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013445" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_USRGRP" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_USR_GRP" type="VARCHAR2(100 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-137">
+        <createTable tableName="OM_WEBCAM">
+            <column name="ID_WEBCAM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013448" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="URL" type="VARCHAR2(255 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CD_WEBCAM" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_WEBCAM" type="VARCHAR2(100 BYTE)"/>
+            <column name="DS_CURTA" type="VARCHAR2(10 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-138">
+        <createTable tableName="PP_CLIENTE">
+            <column name="ID_CLIENTE" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013450" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_CLIENTE" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="NM_CLIENTE" type="VARCHAR2(256 BYTE)"/>
+            <column name="TP_CLIENTE" type="INTEGER"/>
+            <column name="CNPJ_CPF" type="VARCHAR2(60 BYTE)"/>
+            <column name="ENDERECO" type="VARCHAR2(256 BYTE)"/>
+            <column name="CIDADE" type="VARCHAR2(10 BYTE)"/>
+            <column name="ESTADO" type="VARCHAR2(4 BYTE)"/>
+            <column name="PAIS" type="VARCHAR2(10 BYTE)"/>
+            <column name="TELEFONEUM" type="VARCHAR2(20 BYTE)"/>
+            <column name="TELEFONEDOIS" type="VARCHAR2(20 BYTE)"/>
+            <column name="TELEFONETRES" type="VARCHAR2(20 BYTE)"/>
+            <column name="CONTATO" type="VARCHAR2(100 BYTE)"/>
+            <column name="HR_LEADTIME" type="INTEGER"/>
+            <column name="ID_USRREVISAO" type="NUMBER"/>
+            <column name="ID_USRSTATIVO" type="NUMBER"/>
+            <column name="URL_SITE" type="VARCHAR2(255 BYTE)"/>
+            <column name="DEPARA" type="VARCHAR2(60 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-139">
+        <createTable tableName="PP_CM">
+            <column name="ID_CM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013454" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_CM" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="ID_USRREVISAO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_CM" type="VARCHAR2(40 BYTE)"/>
+            <column name="DTHR_VIGOR" type="DATE"/>
+            <column name="IS_CONSUMIRMP" type="INTEGER"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-140">
+        <createTable tableName="PP_CMCOM">
+            <column name="ID_CMCOM" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013459" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CM" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTOFINAL" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTOENTRA" type="NUMBER"/>
+            <column name="ID_PRODUTOSAI" type="NUMBER"/>
+            <column name="DTHR_VIGOR" type="DATE"/>
+            <column name="IS_CONSUMIRMP" type="INTEGER"/>
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-141">
+        <createTable tableName="PP_CP">
+            <column name="ID_CP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013461" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_CP" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_PLANO" type="NUMBER"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="ID_CLIENTE" type="NUMBER"/>
+            <column name="ID_USRREVISAO" type="NUMBER"/>
+            <column name="ID_USRSTATIVO" type="NUMBER"/>
+            <column name="ID_FOLHA" type="NUMBER"/>
+            <column name="ID_EST" type="NUMBER"/>
+            <column name="PRIORIDADE" type="INTEGER"/>
+            <column name="IS_ANTECIPACAO" type="INTEGER"/>
+            <column name="ST_CP" type="INTEGER"/>
+            <column name="DTHR_INICIO" type="DATE"/>
+            <column name="DTHR_FINAL" type="DATE"/>
+            <column name="TP_CP" type="INTEGER"/>
+            <column name="ID_CAL" type="NUMBER"/>
+            <column name="ID_GT" type="NUMBER"/>
+            <column name="IS_FINALSERIE" type="INTEGER"/>
+            <column name="IS_MASSA" type="INTEGER"/>
+            <column name="IS_TRYOUT" type="INTEGER"/>
+            <column name="IS_CM" type="INTEGER"/>
+            <column name="IS_BARRASETE" type="INTEGER"/>
+            <column name="DT_COBERTURA" type="DATE"/>
+            <column name="ID_ROTA" type="NUMBER"/>
+            <column name="PASSO" type="INTEGER"/>
+            <column name="IS_FALTAMP" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-142">
+        <createTable tableName="PP_CP_DATA">
+            <column name="ID_CP_DATA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013464" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DT_PLANEJADA" type="DATE"/>
+            <column name="PCS_PRODUCAOPREVISTA" type="FLOAT(63)"/>
+            <column name="ID_CPPRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-143">
+        <createTable tableName="PP_CP_HORA">
+            <column name="ID_CPHORA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013467" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="PCS_PRODUCAOPREVISTA" type="FLOAT(63)"/>
+            <column name="ID_CP_TURNO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CALSEM" type="NUMBER"/>
+            <column name="ID_CALAVU" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-144">
+        <createTable tableName="PP_CP_PRE">
+            <column name="ID_CPPRE" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013471" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CPPREDECESSORA" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_CP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-145">
+        <createTable tableName="PP_CP_TURNO">
+            <column name="ID_CP_TURNO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013474" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="PCS_PRODUCAOPREVISTA" type="FLOAT(63)"/>
+            <column name="ID_CP_DATA" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_TURNO" type="NUMBER"/>
+            <column name="ID_CALAVU" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-146">
+        <createTable tableName="PP_CPNECCRON">
+            <column name="ID_CPNECCRON" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013477" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_CP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PLANECCRON" type="NUMBER"/>
+            <column name="QT_ATENDIDA" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-147">
+        <createTable tableName="PP_CPPRODUTO">
+            <column name="ID_CPPRODUTO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013480" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PRODUTO" type="NUMBER"/>
+            <column name="ID_CP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="NR_DOC" type="VARCHAR2(40 BYTE)"/>
+            <column name="PCS_PRODUCAOPLANEJADA" type="FLOAT(63)"/>
+            <column name="PCS_PRODUCAOBRUTA" type="FLOAT(63)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-148">
+        <createTable tableName="PP_INDISP">
+            <column name="ID_INDISP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013484" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_INDISP" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DS_INDISP" type="VARCHAR2(256 BYTE)"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ID_USRREVISAO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ST_INDISP" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-149">
+        <createTable tableName="PP_INDISP_RAPPT">
+            <column name="ID_INDISP_RAPPT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013487" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_INICIO" type="DATE"/>
+            <column name="DTHR_FINAL" type="DATE"/>
+            <column name="TP_RECURSO" type="INTEGER"/>
+            <column name="ID_RAP" type="NUMBER"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="ID_INDISP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_INDISP_RAPPT" type="VARCHAR2(100 BYTE)"/>
+            <column name="QT_INDISP" type="NUMBER(10,4)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-150">
+        <createTable tableName="PP_NEC">
+            <column name="ID_NEC" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013489" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_NEC" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="URL_ORIGEM" type="VARCHAR2(255 BYTE)"/>
+            <column name="ID_CLIENTE" type="NUMBER"/>
+            <column name="ID_PRODUTO" type="NUMBER"/>
+            <column name="HR_LEADTIME" type="INTEGER"/>
+            <column name="ID_USRREVISAO" type="NUMBER"/>
+            <column name="ID_USRSTATIVO" type="NUMBER"/>
+            <column name="TP_NEC" type="INTEGER"/>
+            <column name="NR_DOC" type="VARCHAR2(40 BYTE)"/>
+            <column name="ID_NECIMPURLLOG" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-151">
+        <createTable tableName="PP_NECCRON">
+            <column name="ID_NECCRON" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013492" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DT_DESEJADA" type="DATE"/>
+            <column name="QT_DESEJADA" type="FLOAT(63)"/>
+            <column name="ID_NEC" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DT_ESTIMADA" type="DATE"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-152">
+        <createTable tableName="PP_NECIMP">
+            <column name="ID_NECIMP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013496" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_NECIMP" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="ID_USRREVISAO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRSTATIVO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DS_NECIMP" type="VARCHAR2(256 BYTE)"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="TP_NECIMP" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-153">
+        <createTable tableName="PP_NECIMPLOG">
+            <column name="ID_NECIMPLOG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013500" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_IIMPORTACAO" type="DATE"/>
+            <column name="ID_USR" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DTHR_FIMPORTACAO" type="DATE"/>
+            <column name="ID_NECIMP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="MES_REFERENCIA" type="INTEGER"/>
+            <column name="ANO_REFERENCIA" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-154">
+        <createTable tableName="PP_NECIMPURL">
+            <column name="ID_NECIMPURL" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013503" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="URL_FONTE" type="VARCHAR2(255 BYTE)"/>
+            <column name="ID_NECIMP" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="MASCARA" type="VARCHAR2(255 BYTE)"/>
+            <column name="ABA" type="VARCHAR2(60 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-155">
+        <createTable tableName="PP_NECIMPURLLOG">
+            <column name="ID_NECIMPURLLOG" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013507" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_IIMPORTACAO" type="DATE"/>
+            <column name="DTHR_FIMPORTACAO" type="DATE"/>
+            <column name="ID_NECIMPLOG" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_NECIMPURL" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ST_IMP" type="INTEGER"/>
+            <column name="DS_ERRO" type="VARCHAR2(256 BYTE)"/>
+            <column name="URL_ARQUIVO" type="VARCHAR2(255 BYTE)"/>
+            <column name="ABA" type="VARCHAR2(40 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-156">
+        <createTable tableName="PP_PLANCOL">
+            <column name="ID_PLANCOL" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013510" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PLANO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IS_ROTEIRO" type="INTEGER"/>
+            <column name="IS_PRODUTO" type="INTEGER"/>
+            <column name="IS_QTDMAGAZ" type="INTEGER"/>
+            <column name="IS_NCJT" type="INTEGER"/>
+            <column name="IS_QTPLAN" type="INTEGER"/>
+            <column name="IS_QTCJT" type="INTEGER"/>
+            <column name="IS_ST" type="INTEGER"/>
+            <column name="IS_PRODHORA" type="INTEGER"/>
+            <column name="IS_TMPESTIM" type="INTEGER"/>
+            <column name="IS_ACUML" type="INTEGER"/>
+            <column name="IS_INICIO" type="INTEGER"/>
+            <column name="IS_FIM" type="INTEGER"/>
+            <column name="IS_TURNO" type="INTEGER"/>
+            <column name="IS_DTCOBERTURA" type="INTEGER"/>
+            <column name="IS_IDCP" type="INTEGER"/>
+            <column name="IS_PRODUCAO" type="INTEGER"/>
+            <column name="IS_SALDOPRODUZIR" type="INTEGER"/>
+            <column name="IS_INICIOSALDO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-157">
+        <createTable tableName="PP_PLANEC">
+            <column name="ID_PLANEC" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013514" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PLANO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_NEC" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PRIORIDADE" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-158">
+        <createTable tableName="PP_PLANECCRON">
+            <column name="ID_PLANECCRON" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013519" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DTHR_NECESSARIA" type="DATE"/>
+            <column name="QT_NECESSARIA" type="FLOAT(63)"/>
+            <column name="ID_PRODUTO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PLANO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_NECCRON" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="QT_ESTOQUE" type="FLOAT(63)"/>
+            <column name="ORDEM" type="INTEGER"/>
+            <column name="QT_ACUMPRIR" type="FLOAT(63)"/>
+            <column name="IS_ANTECIPACAO" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-159">
+        <createTable tableName="PP_PLANO">
+            <column name="ID_PLANO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013522" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CD_PLANO" type="VARCHAR2(60 BYTE)"/>
+            <column name="REVISAO" type="INTEGER"/>
+            <column name="IS_MODELO" type="INTEGER"/>
+            <column name="DT_REVISAO" type="DATE"/>
+            <column name="DT_STATIVO" type="DATE"/>
+            <column name="ST_ATIVO" type="INTEGER"/>
+            <column name="ST_PLANO" type="INTEGER"/>
+            <column name="ID_TPPLANO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_USRREVISAO" type="NUMBER"/>
+            <column name="ID_USRSTATIVO" type="NUMBER"/>
+            <column name="DS_PLANO" type="VARCHAR2(100 BYTE)"/>
+            <column name="DTHR_PREVISAOINICIO" type="DATE"/>
+            <column name="IND_OEE" type="NUMBER(6,3)"/>
+            <column name="IS_CONSIDERARRAP" type="INTEGER"/>
+            <column name="IS_CONSIDERARMP" type="INTEGER"/>
+            <column name="IS_CONSIDERAREST" type="INTEGER"/>
+            <column name="IS_CONSIDERARCAL" type="INTEGER"/>
+            <column name="IS_CONSIDERARINDISP" type="INTEGER"/>
+            <column name="IS_CONSIDERARMO" type="INTEGER"/>
+            <column name="IS_DETERMINADOCAL" type="INTEGER"/>
+            <column name="ID_CAL" type="NUMBER"/>
+            <column name="IS_CONSIDERAROEEFINALSERIE" type="INTEGER"/>
+            <column name="IS_CONSIDERARPRODUTOTURNO" type="INTEGER"/>
+            <column name="IS_CONSIDERARCM" type="INTEGER"/>
+            <column name="IS_SIMULAR" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-160">
+        <createTable tableName="PP_PLANPRO">
+            <column name="ID_PLANPRO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013525" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="PCS_PRODUCAOESTOQUE" type="FLOAT(63)"/>
+            <column name="PCS_PRODUCAOBRUTA" type="FLOAT(63)"/>
+            <column name="PCS_PRODUCAOLIQUIDA" type="FLOAT(63)"/>
+            <column name="ID_PLANO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_PRODUTO" type="NUMBER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-161">
+        <createTable tableName="PP_PLANPTGT">
+            <column name="ID_PLANPTGT" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013528" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="ID_PLANO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ID_GT" type="NUMBER"/>
+            <column name="ID_PT" type="NUMBER"/>
+            <column name="LINHA" type="NUMBER(8,4)"/>
+            <column name="COLUNA" type="NUMBER(8,4)"/>
+            <column name="IS_COORDENADARELATIVA" type="INTEGER"/>
+            <column name="ABA" type="VARCHAR2(40 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-162">
+        <createTable tableName="PP_TPPLANO">
+            <column name="ID_TPPLANO" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013530" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DS_TPPLANO" type="VARCHAR2(100 BYTE)"/>
+            <column name="TP_ALGORITMO" type="INTEGER"/>
+            <column name="IND_OEE" type="NUMBER(6,3)"/>
+            <column name="IS_CONSIDERARRAP" type="INTEGER"/>
+            <column name="IS_CONSIDERARMP" type="INTEGER"/>
+            <column name="IS_CONSIDERAREST" type="INTEGER"/>
+            <column name="IS_CONSIDERARCAL" type="INTEGER"/>
+            <column name="IS_CONSIDERARINDISP" type="INTEGER"/>
+            <column name="IS_CONSIDERARMO" type="INTEGER"/>
+            <column name="IS_DETERMINADOCAL" type="INTEGER"/>
+            <column name="IS_CONSIDERAROEEFINALSERIE" type="INTEGER"/>
+            <column name="IS_CONSIDERARPRODUTOTURNO" type="INTEGER"/>
+            <column name="IS_CONSIDERARCM" type="INTEGER"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-163">
+        <createTable tableName="TT_SAP_CON">
+            <column name="ID_SAPCON" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013532" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DEPOSITO" type="VARCHAR2(60 BYTE)"/>
+            <column name="CONHECIMENTO" type="VARCHAR2(60 BYTE)"/>
+            <column name="DT_CONHECIMENTO" type="DATE"/>
+            <column name="CENTRO" type="VARCHAR2(60 BYTE)"/>
+            <column name="DTHR_REFERENCIA" type="DATE"/>
+            <column name="IS_IMPORTADO" type="INTEGER"/>
+            <column name="DS_ERRO" type="VARCHAR2(256 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-164">
+        <createTable tableName="TT_SAP_ESTMPPA">
+            <column name="ID_SAPESTMPPA" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013534" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DEPOSITO" type="VARCHAR2(60 BYTE)"/>
+            <column name="GLOBALCODE" type="VARCHAR2(60 BYTE)"/>
+            <column name="QT_ESTOQUE" type="NUMBER(10,4)"/>
+            <column name="DTHR_REFERENCIA" type="DATE"/>
+            <column name="CENTRO" type="VARCHAR2(60 BYTE)"/>
+            <column name="IS_IMPORTADO" type="INTEGER"/>
+            <column name="DS_ERRO" type="VARCHAR2(256 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-165">
+        <createTable tableName="TT_SAP_SAIEXP">
+            <column name="TT_SAP_SAIEXP" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013536" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="DEPOSITO" type="VARCHAR2(60 BYTE)"/>
+            <column name="CENTRO" type="VARCHAR2(60 BYTE)"/>
+            <column name="GLOBALCODE" type="VARCHAR2(60 BYTE)"/>
+            <column name="QT_SAIDA" type="NUMBER(10,4)"/>
+            <column name="DT_SAIDA" type="DATE"/>
+            <column name="DTHR_REFERENCIA" type="DATE"/>
+            <column name="IS_IMPORTADO" type="INTEGER"/>
+            <column name="DS_ERRO" type="VARCHAR2(256 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-166">
+        <createTable tableName="TT_TMG_CON">
+            <column name="ID_TMGCON" type="NUMBER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C0013538" primaryKeyTablespace="USERS"/>
+            </column>
+            <column name="CONHECIMENTO" type="VARCHAR2(60 BYTE)"/>
+            <column name="GLOBALCODE" type="VARCHAR2(60 BYTE)"/>
+            <column name="QT_MATERIAL" type="NUMBER(10,4)"/>
+            <column name="DT_PREVISTA_ENTRADA" type="DATE"/>
+            <column name="IS_TRANSITO" type="INTEGER"/>
+            <column name="DTHR_REFERENCIA" type="DATE"/>
+            <column name="IS_IMPORTADO" type="INTEGER"/>
+            <column name="DS_ERRO" type="VARCHAR2(256 BYTE)"/>
+            <column name="CENTRO" type="VARCHAR2(60 BYTE)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-167">
+        <addUniqueConstraint columnNames="CB" constraintName="SYS_C0013120" deferrable="false" disabled="false" initiallyDeferred="false" tableName="DW_NSERIE" tablespace="USERS"/>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-168">
+        <addUniqueConstraint columnNames="CD_AREA, REVISAO" constraintName="SYS_C0013192" deferrable="false" disabled="false" initiallyDeferred="false" tableName="DW_T_AREA" tablespace="USERS"/>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-169">
+        <addUniqueConstraint columnNames="ID_DETECTOR, ID_USR" constraintName="SYS_C0013234" deferrable="false" disabled="false" initiallyDeferred="false" tableName="MS_DETECTORUSR" tablespace="USERS"/>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-170">
+        <addUniqueConstraint columnNames="CD_IC, REVISAO" constraintName="SYS_C0013243" deferrable="false" disabled="false" initiallyDeferred="false" tableName="MS_IC" tablespace="USERS"/>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-171">
+        <addUniqueConstraint columnNames="ID_USRHOMOLOGADO, ID_GT" constraintName="SYS_C0013345" deferrable="false" disabled="false" initiallyDeferred="false" tableName="OM_HOMOGT" tablespace="USERS"/>
+    </changeSet>
+    <changeSet author="Usuario (generated)" id="1358340087836-172">
+        <addUniqueConstraint columnNames="ID_USRHOMOLOGADO, ID_PT" constraintName="SYS_C0013351" deferrable="false" disabled="false" initiallyDeferred="false" tableName="OM_HOMOPT" tablespace="USERS"/>
+    </changeSet>
+    
+</databaseChangeLog>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+<!-- 
+# ###################################  
+# ### Dados de conexao com o banco###  
+# ################################### 
+
+COLOQUE NA ÁREA ABAIXO OS DADOS DA SUA CONEXÃO COM O BANCO!
+ 		DE ACORDO COM O CABEÇALHO.  
+-->
+
+
+		<!-- 
+			4096 = snapshot do sql server 2005
+			1 = read uncommited = dirty read
+		-->
+
+		<property name="current_session_context_class">thread</property>
+		<property name="c3p0.min_size">10</property>
+		<property name="c3p0.max_size">100</property>
+		<property name="c3p0.timeout">1800</property>
+		<property name="show_sql">true</property>
+		<property name="format_sql">false</property>
+
+
+		<property name="cache.provider_class">
+			org.hibernate.cache.NoCacheProvider
+		</property>
+		<property name="cache.use_query_cache">false</property>
+		<property name="cache.use_minimal_puts">false</property>
+		<property name="max_fetch_depth">3</property>
+
+<mapping class="cfws.model.pojos.insert.EventosCopia" />
+<mapping class="cfws.model.pojos.insert.EventosCopiaId" />
+<mapping class="cfws.model.pojos.insert.IsCaptionLinguas" />
+<mapping class="cfws.model.pojos.insert.IsCaptionLinguasId" />
+<mapping class="cfws.model.pojos.insert.IsClassificCont" />
+<mapping class="cfws.model.pojos.insert.IsClassificContId" />
+<mapping class="cfws.model.pojos.insert.IsClassificInf" />
+<mapping class="cfws.model.pojos.insert.IsClassificInfId" />
+<mapping class="cfws.model.pojos.insert.IsConfGeral" />
+<mapping class="cfws.model.pojos.insert.IsConfGeralId" />
+<mapping class="cfws.model.pojos.insert.IsContEnvio" />
+<mapping class="cfws.model.pojos.insert.IsDetGraficos" />
+<mapping class="cfws.model.pojos.insert.IsDetGraficosId" />
+<mapping class="cfws.model.pojos.insert.IsDetMapa" />
+<mapping class="cfws.model.pojos.insert.IsDetMapaId" />
+<mapping class="cfws.model.pojos.insert.IsDetOp" />
+<mapping class="cfws.model.pojos.insert.IsDetOpId" />
+<mapping class="cfws.model.pojos.insert.IsDetRotProducao" />
+<mapping class="cfws.model.pojos.insert.IsDetRotProducaoId" />
+<mapping class="cfws.model.pojos.insert.IsDirAce" />
+<mapping class="cfws.model.pojos.insert.IsDirAceId" />
+<mapping class="cfws.model.pojos.insert.IsDirEmp" />
+<mapping class="cfws.model.pojos.insert.IsDirEmpId" />
+<mapping class="cfws.model.pojos.insert.IsEntSaiProgMaq" />
+<mapping class="cfws.model.pojos.insert.IsEntSaiProgMaqId" />
+<mapping class="cfws.model.pojos.insert.IsEventosPda" />
+<mapping class="cfws.model.pojos.insert.IsEventosPdaId" />
+<mapping class="cfws.model.pojos.insert.IsFiltroCont" />
+<mapping class="cfws.model.pojos.insert.IsFiltroContId" />
+<mapping class="cfws.model.pojos.insert.IsFiltroItensMen" />
+<mapping class="cfws.model.pojos.insert.IsFornecProd" />
+<mapping class="cfws.model.pojos.insert.IsGalpaoCelulas" />
+<mapping class="cfws.model.pojos.insert.IsGalpaoCelulasId" />
+<mapping class="cfws.model.pojos.insert.IsGalpaoMaquinas" />
+<mapping class="cfws.model.pojos.insert.IsGalpaoMaquinasId" />
+<mapping class="cfws.model.pojos.insert.IsGraficos" />
+<mapping class="cfws.model.pojos.insert.IsGraficosId" />
+<mapping class="cfws.model.pojos.insert.IsGrpColetor" />
+<mapping class="cfws.model.pojos.insert.IsGrpEmail" />
+<mapping class="cfws.model.pojos.insert.IsGrpFiltro" />
+<mapping class="cfws.model.pojos.insert.IsGrpFiltroId" />
+<mapping class="cfws.model.pojos.insert.IsGrpMaquinas" />
+<mapping class="cfws.model.pojos.insert.IsGrpMaquinasId" />
+<mapping class="cfws.model.pojos.insert.IsGrpUsuEmail" />
+<mapping class="cfws.model.pojos.insert.IsGrpUsuEmailId" />
+<mapping class="cfws.model.pojos.insert.IsGrupoMaq" />
+<mapping class="cfws.model.pojos.insert.IsGruUsu" />
+<mapping class="cfws.model.pojos.insert.IsGruUsuId" />
+<mapping class="cfws.model.pojos.insert.IsHstManutFeeder" />
+<mapping class="cfws.model.pojos.insert.IsHstManutFeederId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdFhor" />
+<mapping class="cfws.model.pojos.insert.IsHstProdFhorCel" />
+<mapping class="cfws.model.pojos.insert.IsHstProdFhorCelId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdFhorId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTur" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurCel" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurCelId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurCelIna" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurCelInaId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurInat" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurInatId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurPar" />
+<mapping class="cfws.model.pojos.insert.IsHstProdTurParId" />
+<mapping class="cfws.model.pojos.insert.IsHstprodTurPer" />
+<mapping class="cfws.model.pojos.insert.IsHstprodTurPerId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUt" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtcel" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtcelId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtcelIna" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtcelInaId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtinat" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtinatId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtpar" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtparId" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtper" />
+<mapping class="cfws.model.pojos.insert.IsHstProdUtperId" />
+<mapping class="cfws.model.pojos.insert.IsIntInf" />
+<mapping class="cfws.model.pojos.insert.IsIntInfId" />
+<mapping class="cfws.model.pojos.insert.IsItensFiltro" />
+<mapping class="cfws.model.pojos.insert.IsItensFiltroId" />
+<mapping class="cfws.model.pojos.insert.IsLinguas" />
+<mapping class="cfws.model.pojos.insert.IsLinhasxMaq" />
+<mapping class="cfws.model.pojos.insert.IsLinhasxMaqId" />
+<mapping class="cfws.model.pojos.insert.IsLogCorrMapa" />
+<mapping class="cfws.model.pojos.insert.IsLogCorrMapaId" />
+<mapping class="cfws.model.pojos.insert.IsLogCorrPar" />
+<mapping class="cfws.model.pojos.insert.IsLogCorrParDet" />
+<mapping class="cfws.model.pojos.insert.IsLogCorrParDetId" />
+<mapping class="cfws.model.pojos.insert.IsLogCorrParId" />
+<mapping class="cfws.model.pojos.insert.IsLoginLogout" />
+<mapping class="cfws.model.pojos.insert.IsLoginLogoutId" />
+<mapping class="cfws.model.pojos.insert.IsLogOcorrDesc" />
+<mapping class="cfws.model.pojos.insert.IsLogOcorrDescId" />
+<mapping class="cfws.model.pojos.insert.IsLogOcorrExc" />
+<mapping class="cfws.model.pojos.insert.IsLogOcorrExcId" />
+<mapping class="cfws.model.pojos.insert.IsLogSenha" />
+<mapping class="cfws.model.pojos.insert.IsLogSenhaId" />
+<mapping class="cfws.model.pojos.insert.IsLogSenhaTm" />
+<mapping class="cfws.model.pojos.insert.IsLogSenhaTmId" />
+<mapping class="cfws.model.pojos.insert.IsManutFeeders" />
+<mapping class="cfws.model.pojos.insert.IsManutFeedersId" />
+<mapping class="cfws.model.pojos.insert.IsMapaAlimentacao" />
+<mapping class="cfws.model.pojos.insert.IsMapaAlimentacaoId" />
+<mapping class="cfws.model.pojos.insert.IsMaqGrpColetor" />
+<mapping class="cfws.model.pojos.insert.IsMaqGrpColetorId" />
+<mapping class="cfws.model.pojos.insert.IsOcorrMaq" />
+<mapping class="cfws.model.pojos.insert.IsOcorrParada" />
+<mapping class="cfws.model.pojos.insert.IsOcorrParadaId" />
+<mapping class="cfws.model.pojos.insert.IsOcorrPerda" />
+<mapping class="cfws.model.pojos.insert.IsOcorrPerdaId" />
+<mapping class="cfws.model.pojos.insert.IsOp" />
+<mapping class="cfws.model.pojos.insert.Isoplogicos" />
+<mapping class="cfws.model.pojos.insert.IsoplogicosId" />
+<mapping class="cfws.model.pojos.insert.IsParamInf" />
+<mapping class="cfws.model.pojos.insert.IsParamInfId" />
+<mapping class="cfws.model.pojos.insert.IsParamItensArq" />
+<mapping class="cfws.model.pojos.insert.IsParamItensArqId" />
+<mapping class="cfws.model.pojos.insert.IsProdRotProducao" />
+<mapping class="cfws.model.pojos.insert.IsProdRotProducaoId" />
+<mapping class="cfws.model.pojos.insert.IsRealCiclo" />
+<mapping class="cfws.model.pojos.insert.IsRealCicloId" />
+<mapping class="cfws.model.pojos.insert.IsReqMapaAlim" />
+<mapping class="cfws.model.pojos.insert.IsReqMapaAlimId" />
+<mapping class="cfws.model.pojos.insert.IsRoteiroProducao" />
+<mapping class="cfws.model.pojos.insert.IsRoteiroProducaoId" />
+<mapping class="cfws.model.pojos.insert.IsSelecao" />
+<mapping class="cfws.model.pojos.insert.IsSelItensArq" />
+<mapping class="cfws.model.pojos.insert.IsSelItensArqId" />
+<mapping class="cfws.model.pojos.insert.IsSelItensMen" />
+<mapping class="cfws.model.pojos.insert.IsSelItensMenId" />
+<mapping class="cfws.model.pojos.insert.IsTabelasTmp" />
+<mapping class="cfws.model.pojos.insert.IsTabelasTmpId" />
+<mapping class="cfws.model.pojos.insert.IsTbAgenda" />
+<mapping class="cfws.model.pojos.insert.IsTbAreasResp" />
+<mapping class="cfws.model.pojos.insert.IsTbClassProblema" />
+<mapping class="cfws.model.pojos.insert.IsTbClientes" />
+<mapping class="cfws.model.pojos.insert.IsTbConfigUsu" />
+<mapping class="cfws.model.pojos.insert.IsTbCont" />
+<mapping class="cfws.model.pojos.insert.IsTbContTempo" />
+<mapping class="cfws.model.pojos.insert.IsTbDistAgenda" />
+<mapping class="cfws.model.pojos.insert.IsTbDistAgendaId" />
+<mapping class="cfws.model.pojos.insert.IsTbDistHorInativo" />
+<mapping class="cfws.model.pojos.insert.IsTbDistHorInativoId" />
+<mapping class="cfws.model.pojos.insert.IsTbDistHorTurno" />
+<mapping class="cfws.model.pojos.insert.IsTbDistHorTurnoId" />
+<mapping class="cfws.model.pojos.insert.IsTbEmp" />
+<mapping class="cfws.model.pojos.insert.IsTbEstruturaProd" />
+<mapping class="cfws.model.pojos.insert.IsTbEstruturaProdId" />
+<mapping class="cfws.model.pojos.insert.IsTbFabrMaquina" />
+<mapping class="cfws.model.pojos.insert.IsTbFabrProd" />
+<mapping class="cfws.model.pojos.insert.IsTbFeeders" />
+<mapping class="cfws.model.pojos.insert.IsTbGalpao" />
+<mapping class="cfws.model.pojos.insert.IsTbGru" />
+<mapping class="cfws.model.pojos.insert.IsTbHorarioInativo" />
+<mapping class="cfws.model.pojos.insert.IsTbInf" />
+<mapping class="cfws.model.pojos.insert.IsTbIntEmail" />
+<mapping class="cfws.model.pojos.insert.IsTbLinhas" />
+<mapping class="cfws.model.pojos.insert.IsTbMaquinas" />
+<mapping class="cfws.model.pojos.insert.IsTbMensagens" />
+<mapping class="cfws.model.pojos.insert.IsTbMensagensId" />
+<mapping class="cfws.model.pojos.insert.IsTbModMaquina" />
+<mapping class="cfws.model.pojos.insert.IsTbModulos" />
+<mapping class="cfws.model.pojos.insert.IsTbOpcMenu" />
+<mapping class="cfws.model.pojos.insert.IsTbParadas" />
+<mapping class="cfws.model.pojos.insert.IsTbParadasId" />
+<mapping class="cfws.model.pojos.insert.IsTbParam" />
+<mapping class="cfws.model.pojos.insert.IsTbPerdas" />
+<mapping class="cfws.model.pojos.insert.IsTbPerdasId" />
+<mapping class="cfws.model.pojos.insert.IsTbProdutos" />
+<mapping class="cfws.model.pojos.insert.IsTbProgramas" />
+<mapping class="cfws.model.pojos.insert.IsTbSemana" />
+<mapping class="cfws.model.pojos.insert.IsTbTecSup" />
+<mapping class="cfws.model.pojos.insert.IsTbTipoFiltro" />
+<mapping class="cfws.model.pojos.insert.IsTbTipoGer" />
+<mapping class="cfws.model.pojos.insert.IsTbTipoInf" />
+<mapping class="cfws.model.pojos.insert.IsTbTmpLog" />
+<mapping class="cfws.model.pojos.insert.IsTbTmpLogId" />
+<mapping class="cfws.model.pojos.insert.IsTbTurno" />
+<mapping class="cfws.model.pojos.insert.IsTbUsu" />
+<mapping class="cfws.model.pojos.insert.IsTbUsuMail" />
+<mapping class="cfws.model.pojos.insert.IsTrmaquina" />
+<mapping class="cfws.model.pojos.insert.IsVersaoApp" />
+<mapping class="cfws.model.pojos.insert.IsVersaoAppId" />
+
+	</session-factory>
+</hibernate-configuration>

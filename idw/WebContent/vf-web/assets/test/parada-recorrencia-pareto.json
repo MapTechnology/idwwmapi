@@ -1,0 +1,576 @@
+{
+    "dtHrInicio": "15/02/2018 10:00:00",
+    "dtHrFim": "16/02/2018 10:00:00",
+    "posto": null,
+    "ferramenta": null,
+    "produto": null,
+    "total": null,
+    "indice": "100.00",
+    "tempoTotal": "09:00:00",
+    "perdaTotal": "29700.00",
+    "indicador": {
+        "cdIndicador": "IP",
+        "dsIndicador": "Índice de parada",
+        "valorLegendaSuperior": "50",
+        "valorLegendaMeta": "10",
+        "valorLegendaInferior": "10",
+        "corLegendaSuperior": "#33ff33",
+        "corLegendaMeta": "#ffff33",
+        "corLegendaInferior": "#ff3333",
+        "isMelhorAcimaMeta": false
+    },
+    "itens": [
+        {
+            "dtHrInicio": "15/02/2018 10:00:00",
+            "dtHrFim": "15/02/2018 11:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 10:00:00",
+                    "dtHrFim": "15/02/2018 11:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "2 - SEGUNDO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 11:00:00",
+            "dtHrFim": "15/02/2018 12:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 11:00:00",
+                    "dtHrFim": "15/02/2018 12:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "2 - SEGUNDO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 12:00:00",
+            "dtHrFim": "15/02/2018 13:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 12:00:00",
+                    "dtHrFim": "15/02/2018 13:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "2 - SEGUNDO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 13:00:00",
+            "dtHrFim": "15/02/2018 14:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 13:00:00",
+                    "dtHrFim": "15/02/2018 14:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "2 - SEGUNDO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 14:00:00",
+            "dtHrFim": "15/02/2018 15:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 14:00:00",
+                    "dtHrFim": "15/02/2018 15:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "2 - SEGUNDO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 15:00:00",
+            "dtHrFim": "15/02/2018 16:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 15:00:00",
+                    "dtHrFim": "15/02/2018 16:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "2 - SEGUNDO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 16:00:00",
+            "dtHrFim": "15/02/2018 17:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 16:00:00",
+                    "dtHrFim": "15/02/2018 17:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "3 - TERCEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 17:00:00",
+            "dtHrFim": "15/02/2018 18:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 17:00:00",
+                    "dtHrFim": "15/02/2018 18:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "3 - TERCEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 18:00:00",
+            "dtHrFim": "15/02/2018 19:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 18:00:00",
+                    "dtHrFim": "15/02/2018 19:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "3 - TERCEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 19:00:00",
+            "dtHrFim": "15/02/2018 20:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 19:00:00",
+                    "dtHrFim": "15/02/2018 20:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "3 - TERCEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 20:00:00",
+            "dtHrFim": "15/02/2018 21:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 20:00:00",
+                    "dtHrFim": "15/02/2018 21:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "3 - TERCEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 21:00:00",
+            "dtHrFim": "15/02/2018 22:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 21:00:00",
+                    "dtHrFim": "15/02/2018 22:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "4 - QUARTO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 22:00:00",
+            "dtHrFim": "15/02/2018 23:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 22:00:00",
+                    "dtHrFim": "15/02/2018 23:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "4 - QUARTO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "15/02/2018 23:00:00",
+            "dtHrFim": "16/02/2018 00:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "15/02/2018 23:00:00",
+                    "dtHrFim": "16/02/2018 00:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "4 - QUARTO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 00:00:00",
+            "dtHrFim": "16/02/2018 01:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 00:00:00",
+                    "dtHrFim": "16/02/2018 01:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 01:00:00",
+            "dtHrFim": "16/02/2018 02:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 01:00:00",
+                    "dtHrFim": "16/02/2018 02:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 02:00:00",
+            "dtHrFim": "16/02/2018 03:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 02:00:00",
+                    "dtHrFim": "16/02/2018 03:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 03:00:00",
+            "dtHrFim": "16/02/2018 04:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 03:00:00",
+                    "dtHrFim": "16/02/2018 04:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 04:00:00",
+            "dtHrFim": "16/02/2018 05:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 04:00:00",
+                    "dtHrFim": "16/02/2018 05:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 05:00:00",
+            "dtHrFim": "16/02/2018 06:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 05:00:00",
+                    "dtHrFim": "16/02/2018 06:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 06:00:00",
+            "dtHrFim": "16/02/2018 07:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 06:00:00",
+                    "dtHrFim": "16/02/2018 07:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 07:00:00",
+            "dtHrFim": "16/02/2018 08:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 07:00:00",
+                    "dtHrFim": "16/02/2018 08:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 08:00:00",
+            "dtHrFim": "16/02/2018 09:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 08:00:00",
+                    "dtHrFim": "16/02/2018 09:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "1 - PRIMEIRO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "16/02/2018 09:00:00",
+            "dtHrFim": "16/02/2018 10:00:00",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "tempoParadas": "01:00:00",
+            "indice": "100.00",
+            "indiceCor": "#ff3333",
+            "pecas": "3300.00",
+            "pecasKg": "3300.0000",
+            "pecasTon": "3.3000",
+            "refugos": null,
+            "paradas": [
+                {
+                    "dtHrInicio": "16/02/2018 09:00:00",
+                    "dtHrFim": "16/02/2018 10:00:00",
+                    "duracao": "01:00:00",
+                    "turno": "2 - SEGUNDO TURNO",
+                    "posto": "CAT002",
+                    "folha": "90",
+                    "produto": "2003478"
+                }
+            ]
+        }
+    ]
+}

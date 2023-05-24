@@ -1,0 +1,270 @@
+.
+Versão App: 0.245 -
+	1) Consertado bug no TCP ao enviar Consulta.
+	2) Consertado validacao de algumas tabelas como parada, alerta, refugo, ritmo para funcionarem apenas o tppt indicado.
+
+Versão App: 0.244 -
+	1) Limpando Variacao de Ritmo quando fechando uma OP.
+	2) Consertado aguardandoResposta que nao estava funcionando corretamente devido a alteracoes.
+
+Versão App: 0.243 -
+	1) Correção do Icone de Variação de Ritmo que continuava sendo exibido mesmo após a OP ser fechada.
+
+Versão App: 0.242 -
+	1) Adicionado duracao do ciclo que abriu a variacao de ritmo para exibi-la na tela quando reiniciado o coletor.
+	2) Corrigido ciclo exibido na tela de variacao de ritmo.
+
+Versão App: 0.241 -
+	1) Adicionado monitorização de erros críticos.
+
+Versão App: 0.240 -
+	1) Corrigido ciclo da tela de VarRitmo.
+	2) Corrigida logica de sincronia e validacao de hora de eventos.
+
+Versão App: 0.239 -
+	1) Adicionada tratativa para casos em que as threads da aplicação param de funcionar.
+	2) Criado log no SD de casos de reinicio.
+	3) Criada limitacao de eventos para nao extrapolar memoria.
+	5) Quando nao houver motivo de variacao de ritmo default, ira assumir 999999 - Sem Motivo.
+	6) Agora coletor recebe variacao de ritmo em andamento do IDW ao iniciar.
+
+Versão App: 0.237, 0.238 -
+	1) Adicionado evento de Andon para Variacao de Ritmo.
+	2) Adicionado filtro para evitar dthr de eventos errados.
+	3) Consertado evento de varritmo que mandava motivo em campo errado.
+
+Versão App: 0.236 -
+	1) Adicionada tela de Finalizar Parada de Regulagem Imediatamente.
+
+Versão App: 0.235 -
+	1) Alterações internas no código.
+
+Versão App: 0.234 -
+	1) Corrigido inline quando em pedir quantidade durante parada de regulagem.
+
+Versão App: 0.233 -
+	1) Corrigido contagem de ciclo durante parada de regulagem. Estava contando produção, quando não deveria.
+	2) Melhorado processo de inicialização da aplicação.
+
+Versão App: 0.232 -
+	1) Quando houver falha na sessão do coletor, o ciclo padrão será considerado 0 e variação de ritmo e parada automática serão desativadas.
+
+Versão App: 0.231 -
+	1) Corrigido bug que impedir alerta de cip timeout ser aberto.
+
+Versão App: 0.229 e 0.230 -
+	1) Corrigidas as consultas 021 e 019.
+
+Versão App: 0.228 -
+	1) Corrigido bug que permitia abrir CIP quando não deveria.
+
+Versão App: 0.227 -
+	1) Corrigido CIP que permitia ser aberto entre folhas iguais.
+	2) Implementação das consultas de CIP.
+	3) Adicionado tolerancia de ciclos para sair da variação de ritmo.
+	4) Adicionado icone de Variação de Ritmo no cabeçalho.
+
+Versão App: 0.226 -
+	1) Corrigido bug que permitia abertura de parada durante a finalização de um OP, tornando a maquina sem OP e parada.
+
+Versão App: 0.224, v0.225 -
+	1) Velocidade de validação de informações otimizada.
+	2) Versão da Variação de Ritmo pronta para teste.
+
+Versão App: 0.220, 0.221, 0.222, 0.223 -
+	1) Modulo CIP completo para teste.
+	2) Criada tela de variacao de ritmo.
+
+Versão App: 0.219 -
+	1) Correções nos parametros de leitura do CCK.
+
+Versão App: 0.218 -
+	1) Adicionado trechos de codigo para tratar a funcionalidade CIP.
+	
+Versão App: 0.217 -
+	1) Trocadas funcoes relativas a data e hora para suas semelhantes mais seguras, para evitar possiveis distorções nos horários.
+	
+Versão App: 0.216 -
+	1) Corrigido bug do tempo de tolerancia do Andon.
+	
+Versão App: 0.215 -
+	1) Corrigido exagero de Debounce padrão que causava mal funcionamento nas entradas.
+	
+Versão App: 0.214 -
+	1) Corrigido bug do Andon com motivo de parada nao informado.
+	
+Versão App: 0.213 -
+	1) Adicionado tela de configuracao de Debounce de sinais(991).
+	
+Versão App: 0.211 -
+	1) Resolvido problema que reiniciava o Coletor quando havia cadastro de cicloMinimo.
+	2) Resolvido problema de precisao de sinais de ciclo.
+	
+Versão App: 0.209 - 
+	1) Consultas 111111, 993 implementada.
+	2) Abertura de Alerta mediante tempo de parada.
+	3) Abertura de Nova Parada mediante tempo de parada.
+	4) Cadastro de Ciclo Minimo agora é levado em conta.
+	5) Corrigido refugos em OPs com mais de um produto que permitia refugar ate ficar com quantidade negativa.
+	6) Refugos de producoes de hora e turno anteriores nao sao mais permitidos.
+	7) Coletor agora utiliza como motivo de parada padrão(quando não informado) a Parada Default cadastrada na Configuracao Geral.
+	8) Alertas Automatico e Timeout não podem ser abertos ou fechados pelo operador.
+	9) Na inicialização coletor agora recebe nova sessão atualizada.
+	10) Coletor agora so inicia quando sincronizado a data e hora.
+	11) Coletor reinicia quando uma data e hora forem maiores ou menores que 20minutos para casos de Horario de Verao.
+	12) Reorganizadas consultas offline(990-999).
+	
+Versão App: 0.194, 0.195, 0.196, 0.197, 0.198 -
+	1) Corrigido refugo em OPs com mais de 1 produto que permitia refugar um produto mais que o produzido.
+	2) Adicionada novas consultas do estilo Injet.
+
+Versão App: 0.191, 0.192, 0.193 -
+	1) Adicionado funcionalidade que abre alerta após certo tempo de parada.
+	2) Adicionado funcionalidade que abre nova parada após certo tempo de parada.
+	3) Resolvido bug que invalidava motivo de refugo, quando não era o caso.
+	
+Versão App: 0.190 -
+	1) Alterada mensagem de Produto para IdReduzido no build INJET
+	2) Resolvido sequencia de solicitacao do refugo que solicitava produto quando nao era necessario.
+	
+Versão App: 0.189 -
+	1) Adicionado tratativa para evitar perda de eventos, que ocorreu uma vez.
+	2) Alertas cadastradis como timeout agora nao podem ser abertos pelo usuario.
+	3) Refugo com idReduzido agora está funcional.
+
+Versão App: 0.186, 0.187, 0.188 -
+	1) Melhoria do cursor do input de teclado ao selecionar um caracter alfabetico.
+	2) Corrigido bug que permitia operador abrir o mesmo usuário 2 vezes.
+	3) Corrigido bug que consulta de oepradores logados não funcionava corretamente.
+	4) Corrigido a ordem de tecnicos nas requisicoes de parada.
+
+Versão App: 0.185 -
+	1) Agora solicita tecnicos na parada.
+	2) Deixa de pedir quantidade quando a quantidade de Produtos da OP é igual a 1.
+
+Versão App: 0.180, 0.181, 0.182, 0.183 -
+	1) Agora Inova aceita valores de ciclo padrão quebrados(em ms).
+	2) Corrigido bug que Parada Automático não funcionava corretamente como cadastrado o CicloTimeout.
+	3) CicloTimeout cadastrado como 0 agora não abre parada automática.
+	4) Consertado bug que fazia IDW contar uma produção a mais no Inline.
+	5) Corrigido bug que não permitia o Leitor Serial ser utilizado em todas as UPs corretamente.
+	6) Adicionado consulta de UltimoCiclo e CicloPadrao (993)
+	
+Versão App: 0.179 -
+	1) Melhorias internas
+
+Versão App: 0.178 -
+	1) Agora o Logout não fecha OP caso seja ReqLogin, simplesmente as ações são bloqueadas.
+
+Versão App: 0.177 -
+	1) Consertado bug que não centralizava textos corretamente.
+	2) Parada automatica agora segue o cadastro de cicloTimeout do IDW.
+	3) Adicionado filtro de dataHora do evento, para pegar nova dataHora em caso de erro.
+	4) Adaptação de fonte para alguns textos do display.
+	
+Versão App: 0.175, 0.176 -
+	1) Agora os textos estão realmente centralizados, independentes da fonte.
+	2) Parada agora tem solicitação de Causa, Acao e Justificativa quando requeridos.
+	3) Adicionada funcionalidade do INJET para entrada de OP via FOLHA.
+	4) Resolvido bug do Andon que reiniciava contagem de tolerancia ao receber nova sessao.
+	5) Agora contagem de producao por ciclo incrementa como cadastrado no IDW.
+
+Versão App: 0.173, 0.174 -
+	IDW BASICO(INJET)
+		1) Adicionado primeira versão de maquinas ciclicas semelhantes ao INJET.
+		2) Sinais de ciclo agora são rejeitados quando o botão de parada da maquina estiver pressionado
+		3) Atualizacao de tela em maquinas ciclicas agora é temporizada com a ociosidade do operador.
+	IDW
+		1) Adicionado filtro para decidir que maquina esta offline em caso de falha de envio de eventos para o servidor.
+		2) Criada mensagem de erro especifica para falha de roteiro na passagem
+Versão App: 0.172 -
+	1) Adicionada mensagem de falha de roteiro ao ler codigo de barra em um posto final sem ter lido no posto inicial.
+
+Versão App: 0.171 -
+	1) Corrigido refugo que permitia ficar com producao liquida negativa.
+
+Versão App: 0.170 -
+	1) Quando deletada as UPs do coletor, este irá reiniciar a aplicação e ficar com a tela sem sessão.
+
+Versão App: 0.169 -
+	1) Consertado problema que deixava parada em aberto ao fechar OP
+
+Versão App: 0.167 e v0.168 -
+	1) Melhorado chaveamento de tela automatico para apenas em casos de inatividade
+	2) Adicionado projeto da PST de producao e refugo ciclicos.
+
+Versão App: 0.166 -
+	1) Otimizado chaveamento das threads do coletor
+
+Versão App: 0.165 -
+	1) Corrigido bug na troca de UP com o coletor ligado.
+
+Versão App: 0.163, 0.164 -
+	1) Pronto para receber Status do servidor ao reiniciar.
+
+Versão App: 0.160, 0.161 e 0.162 -
+	1) Adicionado mensagem de erro "Num de Serie Ja Lido".
+	2) Adicionado mensagem de erro "Refugo Ja Efetuado".
+	3) Ajustado valor de ciclo no coletor.
+	4) Corrigido forma de pegar IP na consulta de configuração do coletor.
+
+Versão App: 0.157, 0.158 e 0.159 -
+	1) Resolvido problema de lentidão temporária em versões com o CCK.
+
+Versão App: 0.156 -
+	1) Adicionado mensagem de erro "OP Requer Login".
+
+Versão App: 0.155 -
+	1) Adicionado mensagens descritivas de erro.
+	2) Reduzido tempo de resposta para o usuario(tempo entre interação com teclado e reflexo da ação no display).
+
+Versão App: 0.154 -
+	1) Corrigido bug que abria parada automatica ao finalizar uma parada.
+
+Versão App: 0.153 -
+	1) Corrigida formula de calculo da Corrente do CCK.
+
+Versão App: 0.152 -
+	1) Valor 0 de leitura de consumo ativo positivo do CCK não é mais passado como NULL e sim como 0.
+
+Versão App: 0.151 -
+	1) Adicionado unidade correta dos parametros de corrente das leituras do CCK
+	
+Versão App: 0.150 -
+	1) Agora o Coletor não guarda mais o seu status internamente. Ao reiniciar ele volta zerado sem sessão.
+	
+Versão App: 0.149 -
+	1) Otimização da sincronização com a media externa(SD ou USB).
+
+Versão App: 0.148 -
+	1) Retirada possivel leitura zerada do CCK.
+
+Versão App: 0.147 -
+	1) Adicionado caso onde mensagem de erro na leitura de etiqueta de produto não era exibida.
+	
+Versão App: 0.146 -
+	1) Leitura CCK agora a cada 30s fixo.
+
+Versão App: 0.145 -
+	1) Trocada formatação de evento do CCK.
+
+Versão App: 0.144 -
+	1) Consertado bug de envio no TCP
+
+Versão App: 0.143 -
+	1) Adicionadas mensagens de erro que não eram exibidas
+
+Versão App: 0.142 -
+	1) Consertado bug de refugo que continuava mesmo apos fechar OP.
+	2) Adicionado cancelar refugo em modo de passagem(leitura de NS em tela de produção).
+
+Versão App: 0.141 - Tradução para espanhol das mensagens de resposta(ERRO/SUCESSO).
+
+Versão App: 0.140 - Alterada quantidade de eventos de passagem invalidos para 0.
+
+Versão App: 0.140 - Traduzido mensagens de resposta de ações para espanhol.
+
+Versão App: 0.139 - Adicionado solicitação de quantidade para refugo e ciclo após a leitura do NS quando o PT Solicita Quantidade, opção deve estar ativa para as linhas de pintura.
+
+Versão App: 0.001
+ - Alterado tratamento de Código de Barras.

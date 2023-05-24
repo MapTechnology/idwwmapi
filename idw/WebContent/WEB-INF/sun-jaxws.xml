@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime' version='2.0'>
+    <endpoint
+        name='idwws'
+        implementation='idw.webservices.IDWWS'
+        url-pattern='/idwws'/>
+
+    <endpoint
+        name='CfWS'
+        implementation='idw.webservices.CfWS'
+        url-pattern='/services/CfWS'/>
+
+     <endpoint
+        name='ClWS'
+        implementation='idw.webservices.ClWS'
+        url-pattern='/services/ClWS'/>
+
+     <endpoint
+        name='loginws'
+        implementation='idw.webservices.Loginws'
+        url-pattern='/services/Loginws'/>
+
+<!--  Descomentar quando for para gerar para o IDW. Alem disso o IDWAtivo no web.xml deve ser true
+-->
+    <endpoint
+        name='msws'
+        implementation='idw.webservices.MswsComEvt'
+        url-pattern='/msws'/>
+
+<!--  Descomentar quando for para gerar para o Injet. Alem disso o web.xml deve mudar IDWAtivo para false
+    <endpoint
+        name='msws'
+		implementation='ms.webservice.Msws'
+        url-pattern='/msws'/>
+-->
+     <endpoint
+        name='IntIpackChemWS'
+        implementation='idw.webservices.IntIpackChemWS'
+        url-pattern='/services/IntIpackChemWS'/>
+
+</endpoints>
+ 
+ 

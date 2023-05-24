@@ -1,0 +1,550 @@
+{
+    "filtro": {
+        "dtReferencia": "01/11/2017",
+        "idTurno": 2,
+        "filtroOp": 0,
+        "cdGt": "001",
+        "turnoAtual": false,
+        "gargalosAgrupados": true
+    },
+    "filtroAnaliseGargalo": {
+        "dtReferencia": "02/05/2018",
+        "idTurno": 3,
+        "filtroOp": 0,
+        "cdGt": "001",
+        "gargalosAgrupados": true,
+        "listaFiltroPostos": [
+            {
+                "idConsolid": 0,
+                "filtroOp": 0,
+                "cdCp": "",
+                "dtReferencia": "02/05/2018",
+                "idTurno": 3,
+                "cdPosto": "PT_VIRTUAL",
+                "tpId": 1,
+                "tipoPosto": 5
+            }
+        ],
+        "listaFiltroPtCp": [
+            {
+                "idPt": 3102,
+                "idCp": 0
+            }
+        ]
+    },
+    "gt": {
+        "idGt": "100",
+        "cdGt": "001",
+        "dsGt": "VIQUA",
+        "dsView": "VIQUA",
+        "gargalosAgrupados": true
+    },
+    "gts": [
+        {
+            "cdGt": "003",
+            "dsGt": "TMAP",
+            "dsGtView": "TMAP",
+            "caminhoIcone": "om/img/monitorizacao/gt/SMT_128x128.png",
+            "corFundo": "#ff0000",
+            "indiceOEE": "47.01",
+            "indiceOEEMeta": "85.00",
+            "quantidadePostos": 12,
+            "gargalosAgrupados": true,
+            "filtroDetalhe": {
+                "dtReferencia": "02/05/2018",
+                "idTurno": 3,
+                "filtroOp": 0,
+                "cdGt": "003",
+                "turnoAtual": false,
+                "gargalosAgrupados": true
+            }
+        },
+        {
+            "cdGt": "003",
+            "dsGt": "TMAP",
+            "dsGtView": "TMAP",
+            "caminhoIcone": "om/img/monitorizacao/gt/SMT_128x128.png",
+            "corFundo": "#ff0000",
+            "indiceOEE": "47.01",
+            "indiceOEEMeta": "85.00",
+            "quantidadePostos": 12,
+            "gargalosAgrupados": true,
+            "filtroDetalhe": {
+                "dtReferencia": "02/05/2018",
+                "idTurno": 3,
+                "filtroOp": 0,
+                "cdGt": "003",
+                "turnoAtual": false,
+                "gargalosAgrupados": true
+            }
+        },
+        {
+            "cdGt": "003",
+            "dsGt": "TMAP",
+            "dsGtView": "TMAP",
+            "caminhoIcone": "om/img/monitorizacao/gt/SMT_128x128.png",
+            "corFundo": "#ff0000",
+            "indiceOEE": "47.01",
+            "indiceOEEMeta": "85.00",
+            "quantidadePostos": 12,
+            "gargalosAgrupados": true,
+            "filtroDetalhe": {
+                "dtReferencia": "02/05/2018",
+                "idTurno": 3,
+                "filtroOp": 0,
+                "cdGt": "003",
+                "turnoAtual": false,
+                "gargalosAgrupados": true
+            }
+        },
+        {
+            "cdGt": "003",
+            "dsGt": "TMAP",
+            "dsGtView": "TMAP",
+            "caminhoIcone": "om/img/monitorizacao/gt/SMT_128x128.png",
+            "corFundo": "#ff0000",
+            "indiceOEE": "47.01",
+            "indiceOEEMeta": "85.00",
+            "quantidadePostos": 12,
+            "gargalosAgrupados": true,
+            "filtroDetalhe": {
+                "dtReferencia": "02/05/2018",
+                "idTurno": 3,
+                "filtroOp": 0,
+                "cdGt": "003",
+                "turnoAtual": false,
+                "gargalosAgrupados": true
+            }
+        }
+    ],
+    "pts": [
+        {
+            "cdPt": "BAL001",
+            "dsPt": "BAL001teste",
+            "dsView": "BAL001",
+            "tipoPosto": "PTD",
+            "data": "01/11/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "2000829",
+            "dsProduto": "SUPORTE BASTAO PEIXE",
+            "filtroCdCp": "30102017031",
+            "opSelecionada": "3010201703",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/prensa/PRENSA_48x48_NaMeta.gif",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#00ffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "136.08",
+                "eficienciaCiclo": "136.50",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "136.50",
+                "indiceProducao": "149.08",
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "BAL002",
+            "dsPt": "TECNICO CAMERA",
+            "dsView": "BAL002",
+            "tipoPosto": "AOIS",
+            "data": "01/11/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "2000829",
+            "dsProduto": "SUPORTE BASTAO PEIXE",
+            "filtroCdCp": "30102017032",
+            "opSelecionada": "3010201703",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/teste/pt_128x128_NaMeta.png",
+                "listaIconesAdicionais": [
+                    "om/img/monitorizacao/adicionais/Operador_48x48.gif"
+                ],
+                "corTriangulo": "#00ffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "136.50",
+                "eficienciaCiclo": "136.50",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "136.50",
+                "indiceProducao": "149.53",
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": [
+                {
+                    "cdUsr": "1",
+                    "login": "1",
+                    "dsApelido": "brizzio",
+                    "dsNome": "brizzio"
+                }
+            ]
+        },
+        {
+            "cdPt": "MAC002",
+            "dsPt": "MAC002",
+            "dsView": "MAC002",
+            "tipoPosto": "5G",
+            "data": "01/11/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "",
+            "dsProduto": "",
+            "filtroCdCp": "",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/cm/cm_32x32.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#0000ff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "MAC001",
+            "dsPt": "MAC001",
+            "dsView": "MAC001",
+            "tipoPosto": "AOIV",
+            "data": "01/11/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "123456789112345678921234",
+            "dsProduto": "Prod 24 posições",
+            "filtroCdCp": "011120171",
+            "opSelecionada": "01112017",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/embaladora/embaladora_48x48_Parada.gif",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#000000",
+                "corBorda": "#000000"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "50.00",
+                "indiceProducao": "1.04",
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "CEP",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "FHX",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "FH9",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "PRD",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "PRD",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "FHX",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "gargalosAgrupados": true,
+            "opSelecionada": "SOLD_L09A",
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "FHX",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "CEP",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "CEP",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        },
+        {
+            "cdPt": "SOLD_L09A",
+            "dsPt": "SOLD_L09A",
+            "dsView": "SOLD_L09",
+            "ordem": 2,
+            "tipoPosto": "FH9",
+            "data": "10/10/2017",
+            "turno": "PRIMEIRO TURNO",
+            "cdProduto": "SOLD_L09A",
+            "filtroCdCp": "SOLD_L09A1",
+            "opSelecionada": "SOLD_L09A",
+            "gargalosAgrupados": true,
+            "icone": {
+                "caminhoIcone": "om/img/monitorizacao/temperatura/TermometroB_128x128_ZonaIdeal.png",
+                "listaIconesAdicionais": [],
+                "corTriangulo": "#ffffff",
+                "corBorda": "#ffffff"
+            },
+            "indicadores": {
+                "eficienciaRealizacao": "0.00",
+                "eficienciaCiclo": "0.00",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "eficienciaInstantanea": "0.00",
+                "indiceProducao": "0.00",
+                "indiceCavidadesAtivas": "0.00",
+                "indiceProdutividadeOEE": "0.00"
+            },
+            "operadores": []
+        }
+    ]
+}

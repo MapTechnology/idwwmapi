@@ -1,0 +1,48 @@
+<div id="div_ihm_refugos">
+		<div class="container-fluid">
+			<h1 id="h1_ihm_refugos" class="page-header"></h1>
+			<div id="panel_corrigir_refugos" class="panel panel-default">
+				<div class="panel-heading" style="cursor: pointer;"
+					onclick="document.getElementById('link_refugos').click();">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" id="link_refugos"
+							href="#collapse_refugos"></a>
+					</h4>
+				</div>
+				<div id="collapse_refugos" class="panel-collapse collapse in">
+					<div class="panel-body">
+					<div class="input-group pesquisa-filtro" ng-hide="refugos.length < 2">
+				<span class="input-group-addon glyphicon glyphicon-search"></span>
+				<input type="text" class="form-control pesquisa-filtro" ng-model="filtro" />
+				</div>
+						<div class="table-responsive">
+
+							<table class="table table-striped table-hover"
+								id="tabela_ult_refugos">
+
+								<thead id="cabecalho_ult_tabela_refugos">
+								</thead>
+
+								<tbody id="tabela_ult_refugos_corpo">
+								<tr ng-repeat="refugo in refugos  | filter:filtro">
+								<td>{{refugo.dsup}}</td>
+								<td>{{refugo.cdrefugo}}</td>
+<!--								<td>{{refugo.idrdzproduto}}</td>-->
+								<td>{{refugo.ultref}}</td>
+								<td>{{refugo.dtref}}</td>
+								<td><button type= "button" class="btn btn-md btn-primary"
+										ui-sref="ihmWeb.apagarefugo({refugo: refugo })">{{btnApagaRef}}</button></td>
+							</tr>
+								</tbody>
+
+							</table>
+
+						</div>
+						<button class="btn btn-lg btn-primary" id="btn_novo_refugo"
+								ui-sref="ihmWeb.novorefugo"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	

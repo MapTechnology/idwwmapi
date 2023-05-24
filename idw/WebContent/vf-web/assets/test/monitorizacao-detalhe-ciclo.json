@@ -1,0 +1,5514 @@
+{
+    "numeroCiclos": "500",
+    "media": "10.040",
+    "desvioPadrao": "0.632",
+    "cp": "2.004",
+    "cpi": "3.353",
+    "cps": "0.655",
+    "cpk": "0.655",
+    "intervaloHistograma": 15,
+    "cicloDetalhes": [
+        {
+            "descricao": "21:59:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:57",
+            "dataHoraFim": "16/04/2018 22:00:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:47",
+            "dataHoraFim": "16/04/2018 21:59:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:37",
+            "dataHoraFim": "16/04/2018 21:59:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:27",
+            "dataHoraFim": "16/04/2018 21:59:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:17",
+            "dataHoraFim": "16/04/2018 21:59:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:07",
+            "dataHoraFim": "16/04/2018 21:59:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:57",
+            "dataHoraFim": "16/04/2018 21:59:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:47",
+            "dataHoraFim": "16/04/2018 21:58:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:37",
+            "dataHoraFim": "16/04/2018 21:58:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:27",
+            "dataHoraFim": "16/04/2018 21:58:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:17",
+            "dataHoraFim": "16/04/2018 21:58:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:07",
+            "dataHoraFim": "16/04/2018 21:58:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:57",
+            "dataHoraFim": "16/04/2018 21:58:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:47",
+            "dataHoraFim": "16/04/2018 21:57:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:37",
+            "dataHoraFim": "16/04/2018 21:57:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:27",
+            "dataHoraFim": "16/04/2018 21:57:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:17",
+            "dataHoraFim": "16/04/2018 21:57:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:07",
+            "dataHoraFim": "16/04/2018 21:57:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:57",
+            "dataHoraFim": "16/04/2018 21:57:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:47",
+            "dataHoraFim": "16/04/2018 21:56:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:37",
+            "dataHoraFim": "16/04/2018 21:56:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:27",
+            "dataHoraFim": "16/04/2018 21:56:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:17",
+            "dataHoraFim": "16/04/2018 21:56:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:07",
+            "dataHoraFim": "16/04/2018 21:56:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:57",
+            "dataHoraFim": "16/04/2018 21:56:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:47",
+            "dataHoraFim": "16/04/2018 21:55:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:37",
+            "dataHoraFim": "16/04/2018 21:55:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:27",
+            "dataHoraFim": "16/04/2018 21:55:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:17",
+            "dataHoraFim": "16/04/2018 21:55:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:07",
+            "dataHoraFim": "16/04/2018 21:55:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:57",
+            "dataHoraFim": "16/04/2018 21:55:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:47",
+            "dataHoraFim": "16/04/2018 21:54:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:37",
+            "dataHoraFim": "16/04/2018 21:54:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:27",
+            "dataHoraFim": "16/04/2018 21:54:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:17",
+            "dataHoraFim": "16/04/2018 21:54:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:07",
+            "dataHoraFim": "16/04/2018 21:54:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:57",
+            "dataHoraFim": "16/04/2018 21:54:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:47",
+            "dataHoraFim": "16/04/2018 21:53:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:37",
+            "dataHoraFim": "16/04/2018 21:53:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:27",
+            "dataHoraFim": "16/04/2018 21:53:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:17",
+            "dataHoraFim": "16/04/2018 21:53:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:07",
+            "dataHoraFim": "16/04/2018 21:53:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:57",
+            "dataHoraFim": "16/04/2018 21:53:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:47",
+            "dataHoraFim": "16/04/2018 21:52:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:37",
+            "dataHoraFim": "16/04/2018 21:52:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:27",
+            "dataHoraFim": "16/04/2018 21:52:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:17",
+            "dataHoraFim": "16/04/2018 21:52:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:07",
+            "dataHoraFim": "16/04/2018 21:52:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:51:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:51:57",
+            "dataHoraFim": "16/04/2018 21:52:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:51:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:51:47",
+            "dataHoraFim": "16/04/2018 21:51:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:51:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:51:37",
+            "dataHoraFim": "16/04/2018 21:51:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:51:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:51:27",
+            "dataHoraFim": "16/04/2018 21:51:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:51:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:51:17",
+            "dataHoraFim": "16/04/2018 21:51:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:51:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:51:07",
+            "dataHoraFim": "16/04/2018 21:51:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:50:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:50:57",
+            "dataHoraFim": "16/04/2018 21:51:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:50:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:50:47",
+            "dataHoraFim": "16/04/2018 21:50:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:50:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:50:37",
+            "dataHoraFim": "16/04/2018 21:50:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:50:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:50:27",
+            "dataHoraFim": "16/04/2018 21:50:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:50:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:50:17",
+            "dataHoraFim": "16/04/2018 21:50:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:50:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:50:07",
+            "dataHoraFim": "16/04/2018 21:50:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:49:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:49:57",
+            "dataHoraFim": "16/04/2018 21:50:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:49:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:49:47",
+            "dataHoraFim": "16/04/2018 21:49:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:49:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:49:37",
+            "dataHoraFim": "16/04/2018 21:49:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:49:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:49:27",
+            "dataHoraFim": "16/04/2018 21:49:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:49:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:49:17",
+            "dataHoraFim": "16/04/2018 21:49:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:49:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:49:07",
+            "dataHoraFim": "16/04/2018 21:49:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:48:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:48:57",
+            "dataHoraFim": "16/04/2018 21:49:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:48:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:48:47",
+            "dataHoraFim": "16/04/2018 21:48:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:48:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:48:37",
+            "dataHoraFim": "16/04/2018 21:48:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:48:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:48:27",
+            "dataHoraFim": "16/04/2018 21:48:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:48:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:48:17",
+            "dataHoraFim": "16/04/2018 21:48:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:48:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:48:07",
+            "dataHoraFim": "16/04/2018 21:48:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:47:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:47:57",
+            "dataHoraFim": "16/04/2018 21:48:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:47:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:47:47",
+            "dataHoraFim": "16/04/2018 21:47:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:47:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:47:37",
+            "dataHoraFim": "16/04/2018 21:47:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:47:17",
+            "isMostrarMarcador": false,
+            "duracao": "20.0",
+            "eficiencia": "60.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:47:17",
+            "dataHoraFim": "16/04/2018 21:47:37",
+            "eficienciaCor": "#ffff33"
+        },
+        {
+            "descricao": "21:47:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:47:07",
+            "dataHoraFim": "16/04/2018 21:47:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:46:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:46:57",
+            "dataHoraFim": "16/04/2018 21:47:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:46:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:46:47",
+            "dataHoraFim": "16/04/2018 21:46:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:46:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:46:37",
+            "dataHoraFim": "16/04/2018 21:46:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:46:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:46:27",
+            "dataHoraFim": "16/04/2018 21:46:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:46:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:46:17",
+            "dataHoraFim": "16/04/2018 21:46:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:46:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:46:07",
+            "dataHoraFim": "16/04/2018 21:46:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:45:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:45:57",
+            "dataHoraFim": "16/04/2018 21:46:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:45:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:45:47",
+            "dataHoraFim": "16/04/2018 21:45:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:45:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:45:37",
+            "dataHoraFim": "16/04/2018 21:45:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:45:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:45:27",
+            "dataHoraFim": "16/04/2018 21:45:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:45:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:45:17",
+            "dataHoraFim": "16/04/2018 21:45:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:45:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:45:07",
+            "dataHoraFim": "16/04/2018 21:45:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:44:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:44:57",
+            "dataHoraFim": "16/04/2018 21:45:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:44:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:44:47",
+            "dataHoraFim": "16/04/2018 21:44:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:44:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:44:37",
+            "dataHoraFim": "16/04/2018 21:44:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:44:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:44:27",
+            "dataHoraFim": "16/04/2018 21:44:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:44:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:44:17",
+            "dataHoraFim": "16/04/2018 21:44:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:44:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:44:07",
+            "dataHoraFim": "16/04/2018 21:44:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:43:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:43:57",
+            "dataHoraFim": "16/04/2018 21:44:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:43:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:43:47",
+            "dataHoraFim": "16/04/2018 21:43:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:43:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:43:37",
+            "dataHoraFim": "16/04/2018 21:43:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:43:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:43:27",
+            "dataHoraFim": "16/04/2018 21:43:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:43:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:43:17",
+            "dataHoraFim": "16/04/2018 21:43:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:43:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:43:07",
+            "dataHoraFim": "16/04/2018 21:43:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:42:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:42:57",
+            "dataHoraFim": "16/04/2018 21:43:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:42:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:42:47",
+            "dataHoraFim": "16/04/2018 21:42:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:42:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:42:37",
+            "dataHoraFim": "16/04/2018 21:42:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:42:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:42:27",
+            "dataHoraFim": "16/04/2018 21:42:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:42:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:42:17",
+            "dataHoraFim": "16/04/2018 21:42:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:42:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:42:07",
+            "dataHoraFim": "16/04/2018 21:42:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:41:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:41:57",
+            "dataHoraFim": "16/04/2018 21:42:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:41:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:41:47",
+            "dataHoraFim": "16/04/2018 21:41:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:41:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:41:37",
+            "dataHoraFim": "16/04/2018 21:41:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:41:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:41:27",
+            "dataHoraFim": "16/04/2018 21:41:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:41:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:41:17",
+            "dataHoraFim": "16/04/2018 21:41:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:41:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:41:07",
+            "dataHoraFim": "16/04/2018 21:41:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:40:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:40:57",
+            "dataHoraFim": "16/04/2018 21:41:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:40:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:40:47",
+            "dataHoraFim": "16/04/2018 21:40:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:40:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:40:37",
+            "dataHoraFim": "16/04/2018 21:40:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:40:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:40:27",
+            "dataHoraFim": "16/04/2018 21:40:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:40:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:40:17",
+            "dataHoraFim": "16/04/2018 21:40:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:40:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:40:07",
+            "dataHoraFim": "16/04/2018 21:40:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:39:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:39:57",
+            "dataHoraFim": "16/04/2018 21:40:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:39:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:39:47",
+            "dataHoraFim": "16/04/2018 21:39:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:39:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:39:37",
+            "dataHoraFim": "16/04/2018 21:39:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:39:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:39:27",
+            "dataHoraFim": "16/04/2018 21:39:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:39:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:39:17",
+            "dataHoraFim": "16/04/2018 21:39:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:39:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:39:07",
+            "dataHoraFim": "16/04/2018 21:39:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:38:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:38:57",
+            "dataHoraFim": "16/04/2018 21:39:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:38:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:38:47",
+            "dataHoraFim": "16/04/2018 21:38:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:38:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:38:37",
+            "dataHoraFim": "16/04/2018 21:38:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:38:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:38:27",
+            "dataHoraFim": "16/04/2018 21:38:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:38:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:38:17",
+            "dataHoraFim": "16/04/2018 21:38:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:38:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:38:07",
+            "dataHoraFim": "16/04/2018 21:38:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:37:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:37:57",
+            "dataHoraFim": "16/04/2018 21:38:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:37:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:37:47",
+            "dataHoraFim": "16/04/2018 21:37:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:37:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:37:37",
+            "dataHoraFim": "16/04/2018 21:37:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:37:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:37:27",
+            "dataHoraFim": "16/04/2018 21:37:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:37:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:37:17",
+            "dataHoraFim": "16/04/2018 21:37:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:37:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:37:07",
+            "dataHoraFim": "16/04/2018 21:37:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:36:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:36:57",
+            "dataHoraFim": "16/04/2018 21:37:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:36:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:36:47",
+            "dataHoraFim": "16/04/2018 21:36:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:36:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:36:37",
+            "dataHoraFim": "16/04/2018 21:36:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:36:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:36:27",
+            "dataHoraFim": "16/04/2018 21:36:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:36:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:36:17",
+            "dataHoraFim": "16/04/2018 21:36:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:36:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:36:07",
+            "dataHoraFim": "16/04/2018 21:36:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:35:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:35:57",
+            "dataHoraFim": "16/04/2018 21:36:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:35:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:35:47",
+            "dataHoraFim": "16/04/2018 21:35:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:35:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:35:37",
+            "dataHoraFim": "16/04/2018 21:35:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:35:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:35:27",
+            "dataHoraFim": "16/04/2018 21:35:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:35:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:35:17",
+            "dataHoraFim": "16/04/2018 21:35:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:35:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:35:07",
+            "dataHoraFim": "16/04/2018 21:35:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:34:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:34:57",
+            "dataHoraFim": "16/04/2018 21:35:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:34:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:34:47",
+            "dataHoraFim": "16/04/2018 21:34:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:34:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:34:37",
+            "dataHoraFim": "16/04/2018 21:34:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:34:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:34:27",
+            "dataHoraFim": "16/04/2018 21:34:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:34:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:34:17",
+            "dataHoraFim": "16/04/2018 21:34:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:34:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:34:07",
+            "dataHoraFim": "16/04/2018 21:34:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:33:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:33:57",
+            "dataHoraFim": "16/04/2018 21:34:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:33:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:33:47",
+            "dataHoraFim": "16/04/2018 21:33:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:33:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:33:37",
+            "dataHoraFim": "16/04/2018 21:33:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:33:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:33:27",
+            "dataHoraFim": "16/04/2018 21:33:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:33:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:33:17",
+            "dataHoraFim": "16/04/2018 21:33:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:33:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:33:07",
+            "dataHoraFim": "16/04/2018 21:33:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:32:47",
+            "isMostrarMarcador": false,
+            "duracao": "20.0",
+            "eficiencia": "60.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:32:47",
+            "dataHoraFim": "16/04/2018 21:33:07",
+            "eficienciaCor": "#ffff33"
+        },
+        {
+            "descricao": "21:32:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:32:37",
+            "dataHoraFim": "16/04/2018 21:32:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:32:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:32:27",
+            "dataHoraFim": "16/04/2018 21:32:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:32:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:32:17",
+            "dataHoraFim": "16/04/2018 21:32:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:32:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:32:07",
+            "dataHoraFim": "16/04/2018 21:32:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:31:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:31:57",
+            "dataHoraFim": "16/04/2018 21:32:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:31:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:31:47",
+            "dataHoraFim": "16/04/2018 21:31:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:31:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:31:37",
+            "dataHoraFim": "16/04/2018 21:31:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:31:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:31:27",
+            "dataHoraFim": "16/04/2018 21:31:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:31:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:31:17",
+            "dataHoraFim": "16/04/2018 21:31:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:31:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:31:07",
+            "dataHoraFim": "16/04/2018 21:31:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:30:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:30:57",
+            "dataHoraFim": "16/04/2018 21:31:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:30:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:30:47",
+            "dataHoraFim": "16/04/2018 21:30:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:30:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:30:37",
+            "dataHoraFim": "16/04/2018 21:30:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:30:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:30:27",
+            "dataHoraFim": "16/04/2018 21:30:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:30:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:30:17",
+            "dataHoraFim": "16/04/2018 21:30:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:30:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:30:07",
+            "dataHoraFim": "16/04/2018 21:30:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:29:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:29:57",
+            "dataHoraFim": "16/04/2018 21:30:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:29:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:29:47",
+            "dataHoraFim": "16/04/2018 21:29:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:29:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:29:37",
+            "dataHoraFim": "16/04/2018 21:29:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:29:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:29:27",
+            "dataHoraFim": "16/04/2018 21:29:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:29:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:29:17",
+            "dataHoraFim": "16/04/2018 21:29:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:29:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:29:07",
+            "dataHoraFim": "16/04/2018 21:29:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:28:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:28:57",
+            "dataHoraFim": "16/04/2018 21:29:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:28:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:28:47",
+            "dataHoraFim": "16/04/2018 21:28:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:28:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:28:37",
+            "dataHoraFim": "16/04/2018 21:28:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:28:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:28:27",
+            "dataHoraFim": "16/04/2018 21:28:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:28:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:28:17",
+            "dataHoraFim": "16/04/2018 21:28:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:28:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:28:07",
+            "dataHoraFim": "16/04/2018 21:28:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:27:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:27:57",
+            "dataHoraFim": "16/04/2018 21:28:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:27:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:27:47",
+            "dataHoraFim": "16/04/2018 21:27:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:27:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:27:37",
+            "dataHoraFim": "16/04/2018 21:27:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:27:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:27:27",
+            "dataHoraFim": "16/04/2018 21:27:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:27:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:27:17",
+            "dataHoraFim": "16/04/2018 21:27:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:27:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:27:07",
+            "dataHoraFim": "16/04/2018 21:27:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:26:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:26:57",
+            "dataHoraFim": "16/04/2018 21:27:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:26:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:26:47",
+            "dataHoraFim": "16/04/2018 21:26:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:26:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:26:37",
+            "dataHoraFim": "16/04/2018 21:26:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:26:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:26:27",
+            "dataHoraFim": "16/04/2018 21:26:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:26:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:26:17",
+            "dataHoraFim": "16/04/2018 21:26:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:26:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:26:07",
+            "dataHoraFim": "16/04/2018 21:26:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:25:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:25:57",
+            "dataHoraFim": "16/04/2018 21:26:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:25:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:25:47",
+            "dataHoraFim": "16/04/2018 21:25:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:25:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:25:37",
+            "dataHoraFim": "16/04/2018 21:25:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:25:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:25:27",
+            "dataHoraFim": "16/04/2018 21:25:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:25:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:25:17",
+            "dataHoraFim": "16/04/2018 21:25:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:25:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:25:07",
+            "dataHoraFim": "16/04/2018 21:25:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:24:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:24:57",
+            "dataHoraFim": "16/04/2018 21:25:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:24:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:24:47",
+            "dataHoraFim": "16/04/2018 21:24:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:24:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:24:37",
+            "dataHoraFim": "16/04/2018 21:24:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:24:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:24:27",
+            "dataHoraFim": "16/04/2018 21:24:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:24:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:24:17",
+            "dataHoraFim": "16/04/2018 21:24:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:24:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:24:07",
+            "dataHoraFim": "16/04/2018 21:24:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:23:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:23:57",
+            "dataHoraFim": "16/04/2018 21:24:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:23:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:23:47",
+            "dataHoraFim": "16/04/2018 21:23:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:23:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:23:37",
+            "dataHoraFim": "16/04/2018 21:23:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:23:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:23:27",
+            "dataHoraFim": "16/04/2018 21:23:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:23:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:23:17",
+            "dataHoraFim": "16/04/2018 21:23:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:23:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:23:07",
+            "dataHoraFim": "16/04/2018 21:23:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:22:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:22:57",
+            "dataHoraFim": "16/04/2018 21:23:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:22:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:22:47",
+            "dataHoraFim": "16/04/2018 21:22:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:22:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:22:37",
+            "dataHoraFim": "16/04/2018 21:22:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:22:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:22:27",
+            "dataHoraFim": "16/04/2018 21:22:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:22:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:22:17",
+            "dataHoraFim": "16/04/2018 21:22:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:22:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:22:07",
+            "dataHoraFim": "16/04/2018 21:22:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:21:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:21:57",
+            "dataHoraFim": "16/04/2018 21:22:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:21:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:21:47",
+            "dataHoraFim": "16/04/2018 21:21:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:21:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:21:37",
+            "dataHoraFim": "16/04/2018 21:21:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:21:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:21:27",
+            "dataHoraFim": "16/04/2018 21:21:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:21:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:21:17",
+            "dataHoraFim": "16/04/2018 21:21:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:21:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:21:07",
+            "dataHoraFim": "16/04/2018 21:21:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:20:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:20:57",
+            "dataHoraFim": "16/04/2018 21:21:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:20:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:20:47",
+            "dataHoraFim": "16/04/2018 21:20:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:20:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:20:37",
+            "dataHoraFim": "16/04/2018 21:20:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:20:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:20:27",
+            "dataHoraFim": "16/04/2018 21:20:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:20:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:20:17",
+            "dataHoraFim": "16/04/2018 21:20:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:20:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:20:07",
+            "dataHoraFim": "16/04/2018 21:20:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:19:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:19:57",
+            "dataHoraFim": "16/04/2018 21:20:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:19:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:19:47",
+            "dataHoraFim": "16/04/2018 21:19:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:19:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:19:37",
+            "dataHoraFim": "16/04/2018 21:19:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:19:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:19:27",
+            "dataHoraFim": "16/04/2018 21:19:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:19:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:19:17",
+            "dataHoraFim": "16/04/2018 21:19:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:19:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:19:07",
+            "dataHoraFim": "16/04/2018 21:19:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:18:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:18:57",
+            "dataHoraFim": "16/04/2018 21:19:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:18:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:18:47",
+            "dataHoraFim": "16/04/2018 21:18:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:18:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:18:37",
+            "dataHoraFim": "16/04/2018 21:18:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:18:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:18:27",
+            "dataHoraFim": "16/04/2018 21:18:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:18:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:18:17",
+            "dataHoraFim": "16/04/2018 21:18:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:18:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:18:07",
+            "dataHoraFim": "16/04/2018 21:18:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:17:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:17:57",
+            "dataHoraFim": "16/04/2018 21:18:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:17:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:17:47",
+            "dataHoraFim": "16/04/2018 21:17:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:17:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:17:37",
+            "dataHoraFim": "16/04/2018 21:17:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:17:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:17:27",
+            "dataHoraFim": "16/04/2018 21:17:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:17:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:17:17",
+            "dataHoraFim": "16/04/2018 21:17:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:17:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:17:07",
+            "dataHoraFim": "16/04/2018 21:17:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:16:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:16:57",
+            "dataHoraFim": "16/04/2018 21:17:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:16:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:16:47",
+            "dataHoraFim": "16/04/2018 21:16:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:16:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:16:37",
+            "dataHoraFim": "16/04/2018 21:16:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:16:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:16:27",
+            "dataHoraFim": "16/04/2018 21:16:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:16:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:16:17",
+            "dataHoraFim": "16/04/2018 21:16:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:16:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:16:07",
+            "dataHoraFim": "16/04/2018 21:16:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:15:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:15:57",
+            "dataHoraFim": "16/04/2018 21:16:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:15:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:15:47",
+            "dataHoraFim": "16/04/2018 21:15:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:15:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:15:37",
+            "dataHoraFim": "16/04/2018 21:15:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:15:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:15:27",
+            "dataHoraFim": "16/04/2018 21:15:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:15:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:15:17",
+            "dataHoraFim": "16/04/2018 21:15:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:15:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:15:07",
+            "dataHoraFim": "16/04/2018 21:15:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:14:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:14:57",
+            "dataHoraFim": "16/04/2018 21:15:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:14:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:14:47",
+            "dataHoraFim": "16/04/2018 21:14:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:14:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:14:37",
+            "dataHoraFim": "16/04/2018 21:14:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:14:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:14:27",
+            "dataHoraFim": "16/04/2018 21:14:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:14:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:14:17",
+            "dataHoraFim": "16/04/2018 21:14:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:14:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:14:07",
+            "dataHoraFim": "16/04/2018 21:14:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:13:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:13:57",
+            "dataHoraFim": "16/04/2018 21:14:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:13:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:13:47",
+            "dataHoraFim": "16/04/2018 21:13:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:13:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:13:37",
+            "dataHoraFim": "16/04/2018 21:13:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:13:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:13:27",
+            "dataHoraFim": "16/04/2018 21:13:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:13:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:13:17",
+            "dataHoraFim": "16/04/2018 21:13:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:13:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:13:07",
+            "dataHoraFim": "16/04/2018 21:13:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:12:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:12:57",
+            "dataHoraFim": "16/04/2018 21:13:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:12:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:12:47",
+            "dataHoraFim": "16/04/2018 21:12:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:12:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:12:37",
+            "dataHoraFim": "16/04/2018 21:12:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:12:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:12:27",
+            "dataHoraFim": "16/04/2018 21:12:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:12:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:12:17",
+            "dataHoraFim": "16/04/2018 21:12:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:12:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:12:07",
+            "dataHoraFim": "16/04/2018 21:12:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:11:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:11:57",
+            "dataHoraFim": "16/04/2018 21:12:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:11:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:11:47",
+            "dataHoraFim": "16/04/2018 21:11:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:11:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:11:37",
+            "dataHoraFim": "16/04/2018 21:11:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:11:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:11:27",
+            "dataHoraFim": "16/04/2018 21:11:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:11:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:11:17",
+            "dataHoraFim": "16/04/2018 21:11:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:11:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:11:07",
+            "dataHoraFim": "16/04/2018 21:11:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:10:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:10:57",
+            "dataHoraFim": "16/04/2018 21:11:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:10:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:10:47",
+            "dataHoraFim": "16/04/2018 21:10:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:10:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:10:37",
+            "dataHoraFim": "16/04/2018 21:10:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:10:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:10:27",
+            "dataHoraFim": "16/04/2018 21:10:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:10:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:10:17",
+            "dataHoraFim": "16/04/2018 21:10:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:10:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:10:07",
+            "dataHoraFim": "16/04/2018 21:10:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:09:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:09:57",
+            "dataHoraFim": "16/04/2018 21:10:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:09:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:09:47",
+            "dataHoraFim": "16/04/2018 21:09:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:09:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:09:37",
+            "dataHoraFim": "16/04/2018 21:09:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:09:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:09:27",
+            "dataHoraFim": "16/04/2018 21:09:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:09:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:09:17",
+            "dataHoraFim": "16/04/2018 21:09:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:09:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:09:07",
+            "dataHoraFim": "16/04/2018 21:09:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:08:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:08:57",
+            "dataHoraFim": "16/04/2018 21:09:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:08:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:08:47",
+            "dataHoraFim": "16/04/2018 21:08:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:08:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:08:37",
+            "dataHoraFim": "16/04/2018 21:08:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:08:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:08:27",
+            "dataHoraFim": "16/04/2018 21:08:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:08:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:08:17",
+            "dataHoraFim": "16/04/2018 21:08:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:08:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:08:07",
+            "dataHoraFim": "16/04/2018 21:08:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:07:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:07:57",
+            "dataHoraFim": "16/04/2018 21:08:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:07:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:07:47",
+            "dataHoraFim": "16/04/2018 21:07:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:07:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:07:37",
+            "dataHoraFim": "16/04/2018 21:07:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:07:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:07:27",
+            "dataHoraFim": "16/04/2018 21:07:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:07:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:07:17",
+            "dataHoraFim": "16/04/2018 21:07:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:07:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:07:07",
+            "dataHoraFim": "16/04/2018 21:07:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:06:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:06:57",
+            "dataHoraFim": "16/04/2018 21:07:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:06:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:06:47",
+            "dataHoraFim": "16/04/2018 21:06:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:06:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:06:37",
+            "dataHoraFim": "16/04/2018 21:06:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:06:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:06:27",
+            "dataHoraFim": "16/04/2018 21:06:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:06:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:06:17",
+            "dataHoraFim": "16/04/2018 21:06:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:06:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:06:07",
+            "dataHoraFim": "16/04/2018 21:06:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:05:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:05:57",
+            "dataHoraFim": "16/04/2018 21:06:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:05:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:05:47",
+            "dataHoraFim": "16/04/2018 21:05:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:05:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:05:37",
+            "dataHoraFim": "16/04/2018 21:05:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:05:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:05:27",
+            "dataHoraFim": "16/04/2018 21:05:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:05:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:05:17",
+            "dataHoraFim": "16/04/2018 21:05:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:05:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:05:07",
+            "dataHoraFim": "16/04/2018 21:05:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:04:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:04:57",
+            "dataHoraFim": "16/04/2018 21:05:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:04:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:04:47",
+            "dataHoraFim": "16/04/2018 21:04:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:04:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:04:37",
+            "dataHoraFim": "16/04/2018 21:04:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:04:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:04:27",
+            "dataHoraFim": "16/04/2018 21:04:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:04:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:04:17",
+            "dataHoraFim": "16/04/2018 21:04:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:04:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:04:07",
+            "dataHoraFim": "16/04/2018 21:04:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:03:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:03:57",
+            "dataHoraFim": "16/04/2018 21:04:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:03:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:03:47",
+            "dataHoraFim": "16/04/2018 21:03:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:03:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:03:37",
+            "dataHoraFim": "16/04/2018 21:03:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:03:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:03:27",
+            "dataHoraFim": "16/04/2018 21:03:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:03:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:03:17",
+            "dataHoraFim": "16/04/2018 21:03:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:03:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:03:07",
+            "dataHoraFim": "16/04/2018 21:03:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:02:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:02:57",
+            "dataHoraFim": "16/04/2018 21:03:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:02:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:02:47",
+            "dataHoraFim": "16/04/2018 21:02:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:02:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:02:37",
+            "dataHoraFim": "16/04/2018 21:02:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:02:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:02:27",
+            "dataHoraFim": "16/04/2018 21:02:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:02:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:02:17",
+            "dataHoraFim": "16/04/2018 21:02:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:02:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:02:07",
+            "dataHoraFim": "16/04/2018 21:02:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:01:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:01:57",
+            "dataHoraFim": "16/04/2018 21:02:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:01:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:01:47",
+            "dataHoraFim": "16/04/2018 21:01:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:01:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:01:37",
+            "dataHoraFim": "16/04/2018 21:01:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:01:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:01:27",
+            "dataHoraFim": "16/04/2018 21:01:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:01:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:01:17",
+            "dataHoraFim": "16/04/2018 21:01:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:01:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:01:07",
+            "dataHoraFim": "16/04/2018 21:01:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:00:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:00:57",
+            "dataHoraFim": "16/04/2018 21:01:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:00:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:00:47",
+            "dataHoraFim": "16/04/2018 21:00:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:00:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:00:37",
+            "dataHoraFim": "16/04/2018 21:00:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:00:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:00:27",
+            "dataHoraFim": "16/04/2018 21:00:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:00:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:00:17",
+            "dataHoraFim": "16/04/2018 21:00:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:00:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:00:07",
+            "dataHoraFim": "16/04/2018 21:00:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:59:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:59:57",
+            "dataHoraFim": "16/04/2018 21:00:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:59:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:59:47",
+            "dataHoraFim": "16/04/2018 20:59:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:59:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:59:37",
+            "dataHoraFim": "16/04/2018 20:59:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:59:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:59:27",
+            "dataHoraFim": "16/04/2018 20:59:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:59:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:59:17",
+            "dataHoraFim": "16/04/2018 20:59:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:59:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:59:07",
+            "dataHoraFim": "16/04/2018 20:59:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:58:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:58:57",
+            "dataHoraFim": "16/04/2018 20:59:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:58:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:58:47",
+            "dataHoraFim": "16/04/2018 20:58:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:58:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:58:37",
+            "dataHoraFim": "16/04/2018 20:58:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:58:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:58:27",
+            "dataHoraFim": "16/04/2018 20:58:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:58:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:58:17",
+            "dataHoraFim": "16/04/2018 20:58:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:58:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:58:07",
+            "dataHoraFim": "16/04/2018 20:58:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:57:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:57:57",
+            "dataHoraFim": "16/04/2018 20:58:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:57:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:57:47",
+            "dataHoraFim": "16/04/2018 20:57:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:57:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:57:37",
+            "dataHoraFim": "16/04/2018 20:57:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:57:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:57:27",
+            "dataHoraFim": "16/04/2018 20:57:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:57:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:57:17",
+            "dataHoraFim": "16/04/2018 20:57:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:57:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:57:07",
+            "dataHoraFim": "16/04/2018 20:57:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:56:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:56:57",
+            "dataHoraFim": "16/04/2018 20:57:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:56:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:56:47",
+            "dataHoraFim": "16/04/2018 20:56:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:56:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:56:37",
+            "dataHoraFim": "16/04/2018 20:56:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:56:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:56:27",
+            "dataHoraFim": "16/04/2018 20:56:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:56:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:56:17",
+            "dataHoraFim": "16/04/2018 20:56:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:56:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:56:07",
+            "dataHoraFim": "16/04/2018 20:56:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:55:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:55:57",
+            "dataHoraFim": "16/04/2018 20:56:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:55:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:55:47",
+            "dataHoraFim": "16/04/2018 20:55:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:55:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:55:37",
+            "dataHoraFim": "16/04/2018 20:55:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:55:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:55:27",
+            "dataHoraFim": "16/04/2018 20:55:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:55:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:55:17",
+            "dataHoraFim": "16/04/2018 20:55:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:55:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:55:07",
+            "dataHoraFim": "16/04/2018 20:55:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:54:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:54:57",
+            "dataHoraFim": "16/04/2018 20:55:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:54:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:54:47",
+            "dataHoraFim": "16/04/2018 20:54:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:54:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:54:37",
+            "dataHoraFim": "16/04/2018 20:54:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:54:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:54:27",
+            "dataHoraFim": "16/04/2018 20:54:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:54:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:54:17",
+            "dataHoraFim": "16/04/2018 20:54:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:54:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:54:07",
+            "dataHoraFim": "16/04/2018 20:54:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:53:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:53:57",
+            "dataHoraFim": "16/04/2018 20:54:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:53:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:53:47",
+            "dataHoraFim": "16/04/2018 20:53:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:53:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:53:37",
+            "dataHoraFim": "16/04/2018 20:53:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:53:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:53:27",
+            "dataHoraFim": "16/04/2018 20:53:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:53:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:53:17",
+            "dataHoraFim": "16/04/2018 20:53:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:53:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:53:07",
+            "dataHoraFim": "16/04/2018 20:53:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:52:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:52:57",
+            "dataHoraFim": "16/04/2018 20:53:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:52:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:52:47",
+            "dataHoraFim": "16/04/2018 20:52:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:52:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:52:37",
+            "dataHoraFim": "16/04/2018 20:52:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:52:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:52:27",
+            "dataHoraFim": "16/04/2018 20:52:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:52:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:52:17",
+            "dataHoraFim": "16/04/2018 20:52:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:52:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:52:07",
+            "dataHoraFim": "16/04/2018 20:52:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:51:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:51:57",
+            "dataHoraFim": "16/04/2018 20:52:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:51:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:51:47",
+            "dataHoraFim": "16/04/2018 20:51:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:51:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:51:37",
+            "dataHoraFim": "16/04/2018 20:51:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:51:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:51:27",
+            "dataHoraFim": "16/04/2018 20:51:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:51:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:51:17",
+            "dataHoraFim": "16/04/2018 20:51:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:51:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:51:07",
+            "dataHoraFim": "16/04/2018 20:51:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:50:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:50:57",
+            "dataHoraFim": "16/04/2018 20:51:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:50:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:50:47",
+            "dataHoraFim": "16/04/2018 20:50:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:50:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:50:37",
+            "dataHoraFim": "16/04/2018 20:50:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:50:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:50:27",
+            "dataHoraFim": "16/04/2018 20:50:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:50:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:50:17",
+            "dataHoraFim": "16/04/2018 20:50:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:50:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:50:07",
+            "dataHoraFim": "16/04/2018 20:50:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:49:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:49:57",
+            "dataHoraFim": "16/04/2018 20:50:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:49:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:49:47",
+            "dataHoraFim": "16/04/2018 20:49:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:49:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:49:37",
+            "dataHoraFim": "16/04/2018 20:49:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:49:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:49:27",
+            "dataHoraFim": "16/04/2018 20:49:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:49:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:49:17",
+            "dataHoraFim": "16/04/2018 20:49:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:49:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:49:07",
+            "dataHoraFim": "16/04/2018 20:49:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:48:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:48:57",
+            "dataHoraFim": "16/04/2018 20:49:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:48:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:48:47",
+            "dataHoraFim": "16/04/2018 20:48:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:48:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:48:37",
+            "dataHoraFim": "16/04/2018 20:48:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:48:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:48:27",
+            "dataHoraFim": "16/04/2018 20:48:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:48:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:48:17",
+            "dataHoraFim": "16/04/2018 20:48:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:48:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:48:07",
+            "dataHoraFim": "16/04/2018 20:48:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:47:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:47:57",
+            "dataHoraFim": "16/04/2018 20:48:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:47:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:47:47",
+            "dataHoraFim": "16/04/2018 20:47:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:47:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:47:37",
+            "dataHoraFim": "16/04/2018 20:47:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:47:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:47:27",
+            "dataHoraFim": "16/04/2018 20:47:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:47:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:47:17",
+            "dataHoraFim": "16/04/2018 20:47:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:47:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:47:07",
+            "dataHoraFim": "16/04/2018 20:47:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:46:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:46:57",
+            "dataHoraFim": "16/04/2018 20:47:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:46:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:46:47",
+            "dataHoraFim": "16/04/2018 20:46:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:46:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:46:37",
+            "dataHoraFim": "16/04/2018 20:46:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:46:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:46:27",
+            "dataHoraFim": "16/04/2018 20:46:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:46:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:46:17",
+            "dataHoraFim": "16/04/2018 20:46:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:46:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:46:07",
+            "dataHoraFim": "16/04/2018 20:46:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:45:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:45:57",
+            "dataHoraFim": "16/04/2018 20:46:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:45:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:45:47",
+            "dataHoraFim": "16/04/2018 20:45:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:45:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:45:37",
+            "dataHoraFim": "16/04/2018 20:45:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:45:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:45:27",
+            "dataHoraFim": "16/04/2018 20:45:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:45:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:45:17",
+            "dataHoraFim": "16/04/2018 20:45:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:45:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:45:07",
+            "dataHoraFim": "16/04/2018 20:45:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:44:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:44:57",
+            "dataHoraFim": "16/04/2018 20:45:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:44:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:44:47",
+            "dataHoraFim": "16/04/2018 20:44:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:44:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:44:37",
+            "dataHoraFim": "16/04/2018 20:44:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:44:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:44:27",
+            "dataHoraFim": "16/04/2018 20:44:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:44:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:44:17",
+            "dataHoraFim": "16/04/2018 20:44:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:44:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:44:07",
+            "dataHoraFim": "16/04/2018 20:44:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:43:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:43:57",
+            "dataHoraFim": "16/04/2018 20:44:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:43:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:43:47",
+            "dataHoraFim": "16/04/2018 20:43:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:43:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:43:37",
+            "dataHoraFim": "16/04/2018 20:43:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:43:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:43:27",
+            "dataHoraFim": "16/04/2018 20:43:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:43:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:43:17",
+            "dataHoraFim": "16/04/2018 20:43:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:43:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:43:07",
+            "dataHoraFim": "16/04/2018 20:43:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:42:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:42:57",
+            "dataHoraFim": "16/04/2018 20:43:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:42:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:42:47",
+            "dataHoraFim": "16/04/2018 20:42:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:42:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:42:37",
+            "dataHoraFim": "16/04/2018 20:42:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:42:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:42:27",
+            "dataHoraFim": "16/04/2018 20:42:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:42:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:42:17",
+            "dataHoraFim": "16/04/2018 20:42:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:42:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:42:07",
+            "dataHoraFim": "16/04/2018 20:42:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:41:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:41:57",
+            "dataHoraFim": "16/04/2018 20:42:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:41:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:41:47",
+            "dataHoraFim": "16/04/2018 20:41:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:41:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:41:37",
+            "dataHoraFim": "16/04/2018 20:41:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:41:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:41:27",
+            "dataHoraFim": "16/04/2018 20:41:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:41:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:41:17",
+            "dataHoraFim": "16/04/2018 20:41:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:41:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:41:07",
+            "dataHoraFim": "16/04/2018 20:41:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:40:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:40:57",
+            "dataHoraFim": "16/04/2018 20:41:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:40:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:40:47",
+            "dataHoraFim": "16/04/2018 20:40:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:40:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:40:37",
+            "dataHoraFim": "16/04/2018 20:40:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:40:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:40:27",
+            "dataHoraFim": "16/04/2018 20:40:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:40:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:40:17",
+            "dataHoraFim": "16/04/2018 20:40:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:40:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:40:07",
+            "dataHoraFim": "16/04/2018 20:40:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:39:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:39:57",
+            "dataHoraFim": "16/04/2018 20:40:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:39:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:39:47",
+            "dataHoraFim": "16/04/2018 20:39:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:39:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:39:37",
+            "dataHoraFim": "16/04/2018 20:39:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:39:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:39:27",
+            "dataHoraFim": "16/04/2018 20:39:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:39:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:39:17",
+            "dataHoraFim": "16/04/2018 20:39:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:39:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:39:07",
+            "dataHoraFim": "16/04/2018 20:39:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:38:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:38:57",
+            "dataHoraFim": "16/04/2018 20:39:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:38:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:38:47",
+            "dataHoraFim": "16/04/2018 20:38:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:38:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:38:37",
+            "dataHoraFim": "16/04/2018 20:38:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:38:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:38:27",
+            "dataHoraFim": "16/04/2018 20:38:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:38:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:38:17",
+            "dataHoraFim": "16/04/2018 20:38:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:38:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:38:07",
+            "dataHoraFim": "16/04/2018 20:38:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:37:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:37:57",
+            "dataHoraFim": "16/04/2018 20:38:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:37:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:37:47",
+            "dataHoraFim": "16/04/2018 20:37:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:37:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:37:37",
+            "dataHoraFim": "16/04/2018 20:37:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:37:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:37:27",
+            "dataHoraFim": "16/04/2018 20:37:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:37:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:37:17",
+            "dataHoraFim": "16/04/2018 20:37:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:37:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:37:07",
+            "dataHoraFim": "16/04/2018 20:37:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:36:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:36:57",
+            "dataHoraFim": "16/04/2018 20:37:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:36:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:36:47",
+            "dataHoraFim": "16/04/2018 20:36:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:36:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:36:37",
+            "dataHoraFim": "16/04/2018 20:36:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "20:36:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 20:36:27",
+            "dataHoraFim": "16/04/2018 20:36:37",
+            "eficienciaCor": "#33ff33"
+        }
+    ],
+    "cicloDetalhesView": [
+        {
+            "descricao": "21:51:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:51:47",
+            "dataHoraFim": "16/04/2018 21:51:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:51:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:51:57",
+            "dataHoraFim": "16/04/2018 21:52:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:07",
+            "dataHoraFim": "16/04/2018 21:52:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:17",
+            "dataHoraFim": "16/04/2018 21:52:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:27",
+            "dataHoraFim": "16/04/2018 21:52:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:37",
+            "dataHoraFim": "16/04/2018 21:52:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:47",
+            "dataHoraFim": "16/04/2018 21:52:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:52:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:52:57",
+            "dataHoraFim": "16/04/2018 21:53:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:07",
+            "dataHoraFim": "16/04/2018 21:53:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:17",
+            "dataHoraFim": "16/04/2018 21:53:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:27",
+            "dataHoraFim": "16/04/2018 21:53:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:37",
+            "dataHoraFim": "16/04/2018 21:53:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:47",
+            "dataHoraFim": "16/04/2018 21:53:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:53:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:53:57",
+            "dataHoraFim": "16/04/2018 21:54:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:07",
+            "dataHoraFim": "16/04/2018 21:54:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:17",
+            "dataHoraFim": "16/04/2018 21:54:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:27",
+            "dataHoraFim": "16/04/2018 21:54:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:37",
+            "dataHoraFim": "16/04/2018 21:54:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:47",
+            "dataHoraFim": "16/04/2018 21:54:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:54:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:54:57",
+            "dataHoraFim": "16/04/2018 21:55:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:07",
+            "dataHoraFim": "16/04/2018 21:55:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:17",
+            "dataHoraFim": "16/04/2018 21:55:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:27",
+            "dataHoraFim": "16/04/2018 21:55:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:37",
+            "dataHoraFim": "16/04/2018 21:55:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:47",
+            "dataHoraFim": "16/04/2018 21:55:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:55:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:55:57",
+            "dataHoraFim": "16/04/2018 21:56:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:07",
+            "dataHoraFim": "16/04/2018 21:56:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:17",
+            "dataHoraFim": "16/04/2018 21:56:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:27",
+            "dataHoraFim": "16/04/2018 21:56:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:37",
+            "dataHoraFim": "16/04/2018 21:56:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:47",
+            "dataHoraFim": "16/04/2018 21:56:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:56:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:56:57",
+            "dataHoraFim": "16/04/2018 21:57:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:07",
+            "dataHoraFim": "16/04/2018 21:57:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:17",
+            "dataHoraFim": "16/04/2018 21:57:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:27",
+            "dataHoraFim": "16/04/2018 21:57:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:37",
+            "dataHoraFim": "16/04/2018 21:57:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:47",
+            "dataHoraFim": "16/04/2018 21:57:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:57:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:57:57",
+            "dataHoraFim": "16/04/2018 21:58:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:07",
+            "dataHoraFim": "16/04/2018 21:58:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:17",
+            "dataHoraFim": "16/04/2018 21:58:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:27",
+            "dataHoraFim": "16/04/2018 21:58:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:37",
+            "dataHoraFim": "16/04/2018 21:58:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:47",
+            "dataHoraFim": "16/04/2018 21:58:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:58:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:58:57",
+            "dataHoraFim": "16/04/2018 21:59:07",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:07",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:07",
+            "dataHoraFim": "16/04/2018 21:59:17",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:17",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:17",
+            "dataHoraFim": "16/04/2018 21:59:27",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:27",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:27",
+            "dataHoraFim": "16/04/2018 21:59:37",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:37",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:37",
+            "dataHoraFim": "16/04/2018 21:59:47",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:47",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:47",
+            "dataHoraFim": "16/04/2018 21:59:57",
+            "eficienciaCor": "#33ff33"
+        },
+        {
+            "descricao": "21:59:57",
+            "isMostrarMarcador": false,
+            "duracao": "10.0",
+            "eficiencia": "120.0",
+            "cicloPadrao": "12.0",
+            "dataHoraInicio": "16/04/2018 21:59:57",
+            "dataHoraFim": "16/04/2018 22:00:07",
+            "eficienciaCor": "#33ff33"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<div id="div_ihm_nova_parada" style="margin-left: 250px;">
+	<div class="container-fluid">
+		<h1 id="h1_nova_parada" class="page-header"></h1>
+		<div id="panel_nova_parada" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" id="link_nova_parada"></a>
+				</h4>
+			</div>
+			<div class="panel-body">
+				<span id="span_nova_parada" style="font-size: xx-large"> 
+				</span>
+				</br>
+				<select
+					ng-model="dsup_sel" id="select_nova_parada" class="form-control"
+					ng-options="pts.pt.dsup for pts in sessao | filtroMaquina" type="select"></select>
+
+					<button type="button" class="btn btn-primary btn-lg"
+						id="btn_nova_parada_2" ng-click="novaParada()" ng-disabled="dsup_sel == null"></button>
+
+					<button type="button" class="btn btn-primary btn-lg"
+						id="btn_voltar_nova_parada" ng-click="voltar()"></button>
+			</div>
+
+		</div>
+	</div>
+
+</div>

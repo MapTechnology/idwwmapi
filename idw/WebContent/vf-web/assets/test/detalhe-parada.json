@@ -1,0 +1,41 @@
+{
+    "tempoTotalParadaView": "09:00:00",
+    "paradas": [
+        {
+            "posto": "CAT002",
+            "folha": "90",
+            "ferramenta": "",
+            "parada": "999999-PARADA NÃO INFORMADA",
+            "inicio": "15/02/2018 00:00:00",
+            "fim": "15/02/2018 09:00:00",
+            "duracao": "09:00:00.000",
+            "areaResponsavel": "999999-ÁREA DESCONHECIDA",
+            "causa": "",
+            "acao": "",
+            "justificativa": "",
+            "tecnico1": null,
+            "tecnico2": null,
+            "tecnicoResponsavel": null,
+            "perdasParada": "29700.00",
+            "turno": "1",
+            "filtro": {
+                "cdParada": "999999-PARADA NÃO INFORMADA",
+                "horasParadas": "32400",
+                "perdasParada": "29700.00",
+                "horasTodasParadas": "32400",
+                "cdArea": null,
+                "filtroOp": 0,
+                "cdCp": "09020041",
+                "dtReferencia": "15/02/2018",
+                "dtHrReferenciaInicial": "15/02/2018 00:00:00",
+                "dtHrReferenciaFinal": "15/02/2018 10:00:00",
+                "idTurno": 0,
+                "cdPosto": "CAT002",
+                "tpId": 0,
+                "cdProduto": null,
+                "cdGt": null,
+                "tipoPosto": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <!-- <session-factory name="GeraPojos"> -->
+    <session-factory>       
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://170.10.0.109:1433;DatabaseName=mws;SelectMethod=direct</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="hibernate.connection.username">ijadmin</property>
+		<property name="hibernate.connection.password">ijadmin</property>
+		<property name="default_schema">dbo</property>
+		<property name="hibernate.connection.isolation">1</property>
+        
+        <mapping class="idw.model.pojos.mws.Movimento" />
+        <mapping class="idw.model.pojos.mws.CentroTrabalho" />
+       
+    </session-factory>
+</hibernate-configuration>

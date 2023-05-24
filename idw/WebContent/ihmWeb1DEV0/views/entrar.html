@@ -1,0 +1,32 @@
+<div id="div_ihm_conectar" class="container">
+	<link href="css/signin.css" rel="stylesheet">
+
+	<form id="form_conectar" class="form-signin">
+		<img src="images/icon.png" class="img-responsive img-rounded"
+			alt="IHM" style="width: 70%; height: 70%; margin: auto"> <span
+			id="html_dados_servidor"
+			class="vertical-align cor-texto familia-texto"
+			style="font-size: 23px; padding-left: 2%;"></span> <label
+			id="html_endereco" for="inputSrv" class="sr-only familia-texto"
+			style="padding-top: 10%"></label> <input type="text" id="inputSrv"
+			class="form-control" required autofocus ng-model="inputSrv"> <label
+			for="inputPorta" id="html_porta" class="sr-only familia-texto"
+			style="padding-top: 10%"></label> <input type="text" id="inputPorta"
+			class="form-control" ng-model="inputPorta" required>
+		<div id="div_msg_erro_conectar" style="display: none"></div>
+		<button class="btn btn-lg btn-primary btn-block" id="html_conectar"
+			type="button" id="btn_conectar" onclick="conectar()"></button>
+		<div class="input-group">
+			<span class="input-group-addon"> <input type="checkbox" ng-model="salvarDados" name="teste"
+			class="largerCheckbox">
+			</span> <input type="text" class="form-control cor-texto familia-texto" id="lembrar_dados" ng-disabled="true">
+		</div>
+	</form>
+	<div class="progress" style="visibility: hidden" id="div_pb_conectando">
+		<div class="progress-bar progress-bar-striped active"
+			role="progressbar" aria-valuenow="100" aria-valuemin="0"
+			aria-valuemax="100" style="width: 100%" id="pb_conectando">
+			<span class="sr-only">Conectando...</span>
+		</div>
+	</div>
+</div>

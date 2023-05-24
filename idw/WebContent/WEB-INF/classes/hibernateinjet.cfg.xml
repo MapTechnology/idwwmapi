@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+ 
+ 
+ 
+    <!-- 
+    
+
+ESBOÇOS DE PADRÕES: NÃO EFETUE COMMIT DE SUA CONEXÃO LAB POIS PODERÁ OMITIR ESTA LISTAGEM-GUIA
+    
+# ###################################  
+# ### Dados de conexao com o banco###  
+# ################################### 
+
+COLOQUE NA ÁREA ABAIXO OS DADOS DA SUA CONEXÃO COM O BANCO!
+ 		DE ACORDO COM O CABEÇALHO.  
+ 		
+	<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+	<property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:NOMEINSTANCIASERVICOBANCO</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+	<property name="hibernate.connection.username">usuarioSCHEMAbanco</property>
+	<property name="hibernate.connection.password">senhaSCHEMAbanco</property>
+	<property name="default_schema">NOMESCHEMABANCO</property>
+	
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;DatabaseName=NOMEDOBANCO;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">usuariobanco</property>
+	<property name="hibernate.connection.password">senhabanco</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">4096</property>
+	
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;InstanceName=NOMEINSTANCIABANCO;DatabaseName=NOMEDOBANCO;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">usuariobanco</property>
+	<property name="hibernate.connection.password">senhabanco</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">1</property>	
+
+	<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+	<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/idwSony</property>
+	<property name="hibernate.connection.username">postgres</property>
+	<property name="hibernate.connection.password">postgres</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+	
+-->
+
+
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;DatabaseName=NOMEDOBANCO;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">usuariobanco</property>
+	<property name="hibernate.connection.password">senhabanco</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">4096</property>
+
+
+<!-- 
+# ###################################  
+# ### Configuracoes diversas      ###  
+# ###################################
+-->
+  <property name="hibernate.jdbc.use_scrollable_resultset">false</property>
+  <property name="current_session_context_class">thread</property>
+  <property name="show_sql">false</property>
+  <property name="format_sql">false</property>
+  <!-- 
+# #####################################  
+# ### Dados de configuracao de cache###  
+# #####################################
+-->
+  <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+  <property name="cache.use_query_cache">false</property>
+  <property name="cache.use_minimal_puts">false</property>
+  <property name="max_fetch_depth">3</property>
+  <!-- 
+# ###########################  
+# ### C3P0 Connection Pool###  
+# ###########################  
+-->
+  <property name="connection.org.hibernate.connection.C3P0ConnectionProvider">org.hibernate.connection.C3P0ConnectionProvider</property>
+  <property name="hibernate.c3p0.max_size">150</property>
+  <property name="hibernate.c3p0.min_size">3</property>
+  <property name="hibernate.c3p0.timeout">300</property> 
+  <property name="hibernate.c3p0.max_statements">0</property>
+  <property name="hibernate.c3p0.idle_test_period">3000</property>
+  <property name="hibernate.c3p0.acquire_increment">3</property>
+  <property name="hibernate.c3p0.validate">true</property>
+  <!-- 
+# ###################################  
+# ### Apache DBCP Connection Pool ###  
+# ###################################  
+#   
+# ## connection pool  
+#   
+# #hibernate.dbcp.maxActive 100  
+# #hibernate.dbcp.whenExhaustedAction 1  
+# #hibernate.dbcp.maxWait 120000  
+# #hibernate.dbcp.maxIdle 10  
+#   
+# ## prepared statement cache  
+#   
+# #hibernate.dbcp.ps.maxActive 100  
+# #hibernate.dbcp.ps.whenExhaustedAction 1  
+# #hibernate.dbcp.ps.maxWait 120000  
+# #hibernate.dbcp.ps.maxIdle 10  
+#   
+# ## optional query to validate pooled connections:  
+#   
+# #hibernate.dbcp.validationQuery select 1 from dual  
+# #hibernate.dbcp.testOnBorrow true  
+# #hibernate.dbcp.testOnReturn false  
+
+ 
+# ######################################  
+# ### Relacao dos pojos reconhecidos ###  
+# ######################################  
+-->
+    
+    	<mapping class="idw.model.pojos.injet.Ijcfgusu" />
+        <mapping class="idw.model.pojos.injet.Ijopnipponinsumo" />
+        <mapping class="idw.model.pojos.injet.Ijconsenergialog" />
+        <mapping class="idw.model.pojos.injet.Ijpropeso" />
+        <mapping class="idw.model.pojos.injet.Ijtbusumail" />
+        <mapping class="idw.model.pojos.injet.Ijtbmodulos" />
+        <mapping class="idw.model.pojos.injet.Ijcfgandmaqevt" />
+        <mapping class="idw.model.pojos.injet.Ijtbcont" />
+        <mapping class="idw.model.pojos.injet.Ijreapar" />
+        <mapping class="idw.model.pojos.injet.Ijfilakanbanintbet" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdoprefav" />
+        <mapping class="idw.model.pojos.injet.Ijgrpinjref" />
+        <mapping class="idw.model.pojos.injet.Ijprodxfreq" />
+        <mapping class="idw.model.pojos.injet.Ijcfgfilaplann" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrosoeegrp" />
+        <mapping class="idw.model.pojos.injet.Ijtbmotreploteins" />
+        <mapping class="idw.model.pojos.injet.VCnsturanomes" />
+        <mapping class="idw.model.pojos.injet.Ijbroneproseccomp" />
+        <mapping class="idw.model.pojos.injet.Ijdrivercentparam" />
+        <mapping class="idw.model.pojos.injet.Ijgrppar" />
+        <mapping class="idw.model.pojos.injet.Ijopauto" />
+        <mapping class="idw.model.pojos.injet.Ijrelproreflog" />
+        <mapping class="idw.model.pojos.injet.Ijamostragemdetctrl" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdut" />
+        <mapping class="idw.model.pojos.injet.Ijtbconttempo" />
+        <mapping class="idw.model.pojos.injet.Ijtbreflog" />
+        <mapping class="idw.model.pojos.injet.Ijcalhrsdispmes" />
+        <mapping class="idw.model.pojos.injet.Ijtbapresxslides" />
+        <mapping class="idw.model.pojos.injet.Ijtbidcavmol" />
+        <mapping class="idw.model.pojos.injet.Ijcomequipcent" />
+        <mapping class="idw.model.pojos.injet.Ijmaqevtultreg" />
+        <mapping class="idw.model.pojos.injet.Ijtblocalparada" />
+        <mapping class="idw.model.pojos.injet.Ijpromolestpadrao" />
+        <mapping class="idw.model.pojos.injet.Ijtbunidmedida" />
+        <mapping class="idw.model.pojos.injet.Ijtmpsetup" />
+        <mapping class="idw.model.pojos.injet.Ijdiremp" />
+        <mapping class="idw.model.pojos.injet.Ijfilaopmontagem" />
+        <mapping class="idw.model.pojos.injet.Ijtbcoletores" />
+        <mapping class="idw.model.pojos.injet.Ijreaparcnsocorut" />
+        <mapping class="idw.model.pojos.injet.VCnsrefturanomes" />
+        <mapping class="idw.model.pojos.injet.Ijtbmen" />
+        <mapping class="idw.model.pojos.injet.Ijlogsenhatm" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjsincparprog" />
+        <mapping class="idw.model.pojos.injet.Ijtbmes" />
+        <mapping class="idw.model.pojos.injet.Ijgalobjabcmtrz" />
+        <mapping class="idw.model.pojos.injet.Ijgrprecxrec" />
+        <mapping class="idw.model.pojos.injet.Ijgruusu" />
+        <mapping class="idw.model.pojos.injet.Ijroteiroprod" />
+        <mapping class="idw.model.pojos.injet.Ijficteccel" />
+        <mapping class="idw.model.pojos.injet.Ijfictec" />
+        <mapping class="idw.model.pojos.injet.Ijdeparapro" />
+        <mapping class="idw.model.pojos.injet.Ijtbtur" />
+        <mapping class="idw.model.pojos.injet.Ijtbapresentacao" />
+        <mapping class="idw.model.pojos.injet.Ijtbtpeventoandon" />
+        <mapping class="idw.model.pojos.injet.Ijctrliniproctemp" />
+        <mapping class="idw.model.pojos.injet.Ijgalobjmtrz" />
+        <mapping class="idw.model.pojos.injet.Ijmanut" />
+        <mapping class="idw.model.pojos.injet.Ijreaparcnsocortur" />
+        <mapping class="idw.model.pojos.injet.Ijfictectmpsemesp" />
+        <mapping class="idw.model.pojos.injet.Ijopmprima" />
+        <mapping class="idw.model.pojos.injet.Ijamstrmedias" />
+        <mapping class="idw.model.pojos.injet.Ijoplog" />
+        <mapping class="idw.model.pojos.injet.Viewgrafosexectec" />
+        <mapping class="idw.model.pojos.injet.Ijtboperacoes" />
+        <mapping class="idw.model.pojos.injet.Ijreaparintrasa" />
+        <mapping class="idw.model.pojos.injet.Ijoplogicos" />
+        <mapping class="idw.model.pojos.injet.Ijloggalabc" />
+        <mapping class="idw.model.pojos.injet.Ijplanop" />
+        <mapping class="idw.model.pojos.injet.Ijgrpdetpro" />
+        <mapping class="idw.model.pojos.injet.Ijtbsetlog" />
+        <mapping class="idw.model.pojos.injet.Ijtbprodescont" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjlinhamontag" />
+        <mapping class="idw.model.pojos.injet.Ijop" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjultop" />
+        <mapping class="idw.model.pojos.injet.Ijtbusutecespec" />
+        <mapping class="idw.model.pojos.injet.Ijtbtipoinf" />
+        <mapping class="idw.model.pojos.injet.Ijdrivercent" />
+        <mapping class="idw.model.pojos.injet.Ijtbcar" />
+        <mapping class="idw.model.pojos.injet.Ijprodxparamfreq" />
+        <mapping class="idw.model.pojos.injet.Ijtbparam" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjconfig" />
+        <mapping class="idw.model.pojos.injet.Ijlogexcdadosmolde" />
+        <mapping class="idw.model.pojos.injet.Ijtbmolgen" />
+        <mapping class="idw.model.pojos.injet.Ijdeparamol" />
+        <mapping class="idw.model.pojos.injet.Ijmetaplanultops" />
+        <mapping class="idw.model.pojos.injet.Ijoprotoper" />
+        <mapping class="idw.model.pojos.injet.Ijcnsdivergencia" />
+        <mapping class="idw.model.pojos.injet.Ijgrpinjpar" />
+        <mapping class="idw.model.pojos.injet.Ijrearef" />
+        <mapping class="idw.model.pojos.injet.Ijpdcaagndacmp" />
+        <mapping class="idw.model.pojos.injet.Ijprocompmprimacgq" />
+        <mapping class="idw.model.pojos.injet.Ijrearea" />
+        <mapping class="idw.model.pojos.injet.Ijcncop" />
+        <mapping class="idw.model.pojos.injet.Ijkanbanmov" />
+        <mapping class="idw.model.pojos.injet.Ijlogcorrpar" />
+        <mapping class="idw.model.pojos.injet.Ijopversaopro" />
+        <mapping class="idw.model.pojos.injet.Ijproplano" />
+        <mapping class="idw.model.pojos.injet.Ijproxgrcarcrtctrl" />
+        <mapping class="idw.model.pojos.injet.Ijtbconfigplot" />
+        <mapping class="idw.model.pojos.injet.Ijparaminspec" />
+        <mapping class="idw.model.pojos.injet.Ijfictecautorizusu" />
+        <mapping class="idw.model.pojos.injet.Ijcnsutdetref" />
+        <mapping class="idw.model.pojos.injet.Ijtbusu" />
+        <mapping class="idw.model.pojos.injet.Ijcnsopind" />
+        <mapping class="idw.model.pojos.injet.Ijopagrupintbet" />
+        <mapping class="idw.model.pojos.injet.Viewgrafos" />
+        <mapping class="idw.model.pojos.injet.Ijtbtpproc" />
+        <mapping class="idw.model.pojos.injet.Ijespecinspromedia" />
+        <mapping class="idw.model.pojos.injet.Ijcnsutav" />
+        <mapping class="idw.model.pojos.injet.Ijcfgultparmonit" />
+        <mapping class="idw.model.pojos.injet.Ijitensfiltro" />
+        <mapping class="idw.model.pojos.injet.Ijkanbanlocal" />
+        <mapping class="idw.model.pojos.injet.Ijoppmedioprod" />
+        <mapping class="idw.model.pojos.injet.Ijamostragem" />
+        <mapping class="idw.model.pojos.injet.Viewgrafostec" />
+        <mapping class="idw.model.pojos.injet.Ijiniopinj" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjbloq" />
+        <mapping class="idw.model.pojos.injet.Ijtbcau" />
+        <mapping class="idw.model.pojos.injet.Ijreacicopav" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrosoee" />
+        <mapping class="idw.model.pojos.injet.Ijgrpref" />
+        <mapping class="idw.model.pojos.injet.Ijopsagrupprod" />
+        <mapping class="idw.model.pojos.injet.Ijtbpro" />
+        <mapping class="idw.model.pojos.injet.Ijamostragemdet" />
+        <mapping class="idw.model.pojos.injet.Ijgrcarcrtctrl" />
+        <mapping class="idw.model.pojos.injet.Ijselitensarq" />
+        <mapping class="idw.model.pojos.injet.Ijhoragelog" />
+        <mapping class="idw.model.pojos.injet.Ijreaparav" />
+        <mapping class="idw.model.pojos.injet.Ijctrlalertaandon" />
+        <mapping class="idw.model.pojos.injet.Ijtbcelula" />
+        <mapping class="idw.model.pojos.injet.Ijcnsutdetrefav" />
+        <mapping class="idw.model.pojos.injet.Ijcomequipamento" />
+        <mapping class="idw.model.pojos.injet.Ijbronelogcnsmmp" />
+        <mapping class="idw.model.pojos.injet.Ijtbfab" />
+        <mapping class="idw.model.pojos.injet.Ijtbgal" />
+        <mapping class="idw.model.pojos.injet.Ijmanutexectec" />
+        <mapping class="idw.model.pojos.injet.Ijhorage" />
+        <mapping class="idw.model.pojos.injet.Ijtbitemcnc" />
+        <mapping class="idw.model.pojos.injet.Ijloginj" />
+        <mapping class="idw.model.pojos.injet.Ijtbori" />
+        <mapping class="idw.model.pojos.injet.Ijgrpparaminsp" />
+        <mapping class="idw.model.pojos.injet.Ijmovpostos" />
+        <mapping class="idw.model.pojos.injet.Ijctrlsms" />
+        <mapping class="idw.model.pojos.injet.Ijclassrecmanut" />
+        <mapping class="idw.model.pojos.injet.Ijparaminterface" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdop" />
+        <mapping class="idw.model.pojos.injet.Ijcontenvio" />
+        <mapping class="idw.model.pojos.injet.Ijtbaco" />
+        <mapping class="idw.model.pojos.injet.Ijtbmenipe" />
+        <mapping class="idw.model.pojos.injet.Ijcfgcorgv" />
+        <mapping class="idw.model.pojos.injet.Ijreacnc" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjcfgerp" />
+        <mapping class="idw.model.pojos.injet.Ijarereslog" />
+        <mapping class="idw.model.pojos.injet.Ijkanbancartoes" />
+        <mapping class="idw.model.pojos.injet.Ijtbboardtranslate" />
+        <mapping class="idw.model.pojos.injet.Viewtbprousu" />
+        <mapping class="idw.model.pojos.injet.Ijamostragemdetobs" />
+        <mapping class="idw.model.pojos.injet.Ijopagrupada" />
+        <mapping class="idw.model.pojos.injet.Ijmdoalocdet" />
+        <mapping class="idw.model.pojos.injet.Ijcfgmodulomanut" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjandonprcsft" />
+        <mapping class="idw.model.pojos.injet.Ijtrealmestre" />
+        <mapping class="idw.model.pojos.injet.Ijficinj" />
+        <mapping class="idw.model.pojos.injet.Ijrptlabels" />
+        <mapping class="idw.model.pojos.injet.Cavidades" />
+        <mapping class="idw.model.pojos.injet.Ijpdcapadrao" />
+        <mapping class="idw.model.pojos.injet.Ijgrpparaux" />
+        <mapping class="idw.model.pojos.injet.Exp028OpAux" />
+        <mapping class="idw.model.pojos.injet.Ijmanutlog" />
+        <mapping class="idw.model.pojos.injet.Ijtbacolog" />
+        <mapping class="idw.model.pojos.injet.Ijtbemp" />
+        <mapping class="idw.model.pojos.injet.Ijmatrizsetup" />
+        <mapping class="idw.model.pojos.injet.Ijgrpdetprocgq" />
+        <mapping class="idw.model.pojos.injet.Ijtbgrpitemcnc" />
+        <mapping class="idw.model.pojos.injet.Ijtbusulog" />
+        <mapping class="idw.model.pojos.injet.Ijfamiliaxmaq" />
+        <mapping class="idw.model.pojos.injet.Ijtbfablog" />
+        <mapping class="idw.model.pojos.injet.Ijreacicop" />
+        <mapping class="idw.model.pojos.injet.Ijconger" />
+        <mapping class="idw.model.pojos.injet.Ijregultinspqld2" />
+        <mapping class="idw.model.pojos.injet.Ijregultinspqld1" />
+        <mapping class="idw.model.pojos.injet.Ijtbalelog" />
+        <mapping class="idw.model.pojos.injet.Ijreaparcnsut" />
+        <mapping class="idw.model.pojos.injet.Ijultinspapont" />
+        <mapping class="idw.model.pojos.injet.Ijlogcorrreq" />
+        <mapping class="idw.model.pojos.injet.Ijgalobjcel" />
+        <mapping class="idw.model.pojos.injet.Ijparprogos" />
+        <mapping class="idw.model.pojos.injet.Ijtbmol" />
+        <mapping class="idw.model.pojos.injet.Ijcelxestagios" />
+        <mapping class="idw.model.pojos.injet.Ijtbjuplog" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjlog" />
+        <mapping class="idw.model.pojos.injet.Ijmanutchklstdet" />
+        <mapping class="idw.model.pojos.injet.Ijcgfandonsinc" />
+        <mapping class="idw.model.pojos.injet.Ijgalobjcelmtrz" />
+        <mapping class="idw.model.pojos.injet.Ijopopermaq" />
+        <mapping class="idw.model.pojos.injet.Ijcnsturnoav" />
+        <mapping class="idw.model.pojos.injet.Ijtbmodisp" />
+        <mapping class="idw.model.pojos.injet.Ijbroneinjapt" />
+        <mapping class="idw.model.pojos.injet.Ijtbdnc" />
+        <mapping class="idw.model.pojos.injet.Ijtbpardefctrlipro" />
+        <mapping class="idw.model.pojos.injet.Ijtbclilog" />
+        <mapping class="idw.model.pojos.injet.Ijbroneprosecao" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjmodinsp" />
+        <mapping class="idw.model.pojos.injet.Ijcfgsit" />
+        <mapping class="idw.model.pojos.injet.Ijctrlcgqxctts" />
+        <mapping class="idw.model.pojos.injet.Ijrearefoprd" />
+        <mapping class="idw.model.pojos.injet.Ijtreal" />
+        <mapping class="idw.model.pojos.injet.Ijgrpusuemail" />
+        <mapping class="idw.model.pojos.injet.Ijtbaleauto" />
+        <mapping class="idw.model.pojos.injet.Ijpdcaacao" />
+        <mapping class="idw.model.pojos.injet.Ijreacic" />
+        <mapping class="idw.model.pojos.injet.Exportacao030" />
+        <mapping class="idw.model.pojos.injet.Exportacao031" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjplanning" />
+        <mapping class="idw.model.pojos.injet.Ijregistrobarcode" />
+        <mapping class="idw.model.pojos.injet.Ijmolproagrup" />
+        <mapping class="idw.model.pojos.injet.Ijtbmodisplog" />
+        <mapping class="idw.model.pojos.injet.Ijmanutchklst" />
+        <mapping class="idw.model.pojos.injet.Ijqldinsploterep" />
+        <mapping class="idw.model.pojos.injet.Ijtbleader" />
+        <mapping class="idw.model.pojos.injet.Ijreainspprod" />
+        <mapping class="idw.model.pojos.injet.Ijtbequipamentos" />
+        <mapping class="idw.model.pojos.injet.Ijenglogciclos" />
+        <mapping class="idw.model.pojos.injet.Ijmaqevt" />
+        <mapping class="idw.model.pojos.injet.Ijtbmollog" />
+        <mapping class="idw.model.pojos.injet.Ijopstatusapterp" />
+        <mapping class="idw.model.pojos.injet.Ijalertasauto" />
+        <mapping class="idw.model.pojos.injet.Ijmolproautorizmod" />
+        <mapping class="idw.model.pojos.injet.Ijficcnc" />
+        <mapping class="idw.model.pojos.injet.Ijpostogrpestproc" />
+        <mapping class="idw.model.pojos.injet.Ijtbusumailsms" />
+        <mapping class="idw.model.pojos.injet.Ijacumpar" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrosoeeanos" />
+        <mapping class="idw.model.pojos.injet.Ijtbjuscav" />
+        <mapping class="idw.model.pojos.injet.Ijtbsubcoletores" />
+        <mapping class="idw.model.pojos.injet.Ijembapont" />
+        <mapping class="idw.model.pojos.injet.Ijcfgmonitcp" />
+        <mapping class="idw.model.pojos.injet.Ijprodinspfreq" />
+        <mapping class="idw.model.pojos.injet.Ijlogavulsos" />
+        <mapping class="idw.model.pojos.injet.Ijreaparcnstur" />
+        <mapping class="idw.model.pojos.injet.Importacao001" />
+        <mapping class="idw.model.pojos.injet.Ijconplanning" />
+        <mapping class="idw.model.pojos.injet.Importacao002" />
+        <mapping class="idw.model.pojos.injet.Importacao005" />
+        <mapping class="idw.model.pojos.injet.Importacao006" />
+        <mapping class="idw.model.pojos.injet.Importacao003" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjctrliniproc" />
+        <mapping class="idw.model.pojos.injet.Importacao004" />
+        <mapping class="idw.model.pojos.injet.Ijmaqinievt" />
+        <mapping class="idw.model.pojos.injet.Ijcnsturnodetrefav" />
+        <mapping class="idw.model.pojos.injet.Exportacao018" />
+        <mapping class="idw.model.pojos.injet.Ijmanuttarefa" />
+        <mapping class="idw.model.pojos.injet.Ijopbloq" />
+        <mapping class="idw.model.pojos.injet.Ijoplotesdet" />
+        <mapping class="idw.model.pojos.injet.Exportacao017" />
+        <mapping class="idw.model.pojos.injet.Ijgrpparaminspxord" />
+        <mapping class="idw.model.pojos.injet.Ijusudirespec" />
+        <mapping class="idw.model.pojos.injet.Exportacao019" />
+        <mapping class="idw.model.pojos.injet.Ijoplotefab" />
+        <mapping class="idw.model.pojos.injet.Ijtbcoletoreslog" />
+        <mapping class="idw.model.pojos.injet.Exportacao014" />
+        <mapping class="idw.model.pojos.injet.Exportacao013" />
+        <mapping class="idw.model.pojos.injet.Exportacao016" />
+        <mapping class="idw.model.pojos.injet.Exportacao015" />
+        <mapping class="idw.model.pojos.injet.Ijctrlresnegqld2" />
+        <mapping class="idw.model.pojos.injet.Exportacao010" />
+        <mapping class="idw.model.pojos.injet.Ijgrpemail" />
+        <mapping class="idw.model.pojos.injet.Ijctrlresnegqld1" />
+        <mapping class="idw.model.pojos.injet.Exportacao012" />
+        <mapping class="idw.model.pojos.injet.Exportacao011" />
+        <mapping class="idw.model.pojos.injet.Ijmanutmateriais" />
+        <mapping class="idw.model.pojos.injet.Ijcarteira" />
+        <mapping class="idw.model.pojos.injet.Ijgrcarcrtctrlxesp" />
+        <mapping class="idw.model.pojos.injet.Ijtbtecsup" />
+        <mapping class="idw.model.pojos.injet.Ijtbpardefsemcon" />
+        <mapping class="idw.model.pojos.injet.Ijopbloqdet" />
+        <mapping class="idw.model.pojos.injet.Ijrptreports" />
+        <mapping class="idw.model.pojos.injet.Ijlinguas" />
+        <mapping class="idw.model.pojos.injet.Ijtbvarritmo" />
+        <mapping class="idw.model.pojos.injet.Ijaledbqld" />
+        <mapping class="idw.model.pojos.injet.Ijcnsturnodetref" />
+        <mapping class="idw.model.pojos.injet.Exportacao029" />
+        <mapping class="idw.model.pojos.injet.Exportacao028" />
+        <mapping class="idw.model.pojos.injet.Exportacao027" />
+        <mapping class="idw.model.pojos.injet.Ijcentrocustoxmaq" />
+        <mapping class="idw.model.pojos.injet.Exportacao026" />
+        <mapping class="idw.model.pojos.injet.Ijinspecaoctrl" />
+        <mapping class="idw.model.pojos.injet.Imp002Logexcops" />
+        <mapping class="idw.model.pojos.injet.Ijtbcentinsp" />
+        <mapping class="idw.model.pojos.injet.Exportacao025" />
+        <mapping class="idw.model.pojos.injet.Exportacao024" />
+        <mapping class="idw.model.pojos.injet.Ijtbfresh" />
+        <mapping class="idw.model.pojos.injet.Ijctrlresultinsp" />
+        <mapping class="idw.model.pojos.injet.Exportacao023" />
+        <mapping class="idw.model.pojos.injet.Ijtbtipoger" />
+        <mapping class="idw.model.pojos.injet.Exportacao022" />
+        <mapping class="idw.model.pojos.injet.Exportacao021" />
+        <mapping class="idw.model.pojos.injet.Ijdetgrafico" />
+        <mapping class="idw.model.pojos.injet.Exportacao020" />
+        <mapping class="idw.model.pojos.injet.Ijcfgmailcgq" />
+        <mapping class="idw.model.pojos.injet.Ijtbmetodocgq" />
+        <mapping class="idw.model.pojos.injet.Exportacao018Aux" />
+        <mapping class="idw.model.pojos.injet.Ijhorexc" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjtpcoletor" />
+        <mapping class="idw.model.pojos.injet.Ijtbboardmach" />
+        <mapping class="idw.model.pojos.injet.Ijregultinspqld1fr" />
+        <mapping class="idw.model.pojos.injet.Ijalemanutprev" />
+        <mapping class="idw.model.pojos.injet.Ijgrpfiltro" />
+        <mapping class="idw.model.pojos.injet.Ijcfgultpar" />
+        <mapping class="idw.model.pojos.injet.Ijintinf" />
+        <mapping class="idw.model.pojos.injet.Ijtbmestres" />
+        <mapping class="idw.model.pojos.injet.Ijpdcafiltroproj" />
+        <mapping class="idw.model.pojos.injet.Ijdriverparam" />
+        <mapping class="idw.model.pojos.injet.Ijbroneopsecao" />
+        <mapping class="idw.model.pojos.injet.Ijetqfaixa" />
+        <mapping class="idw.model.pojos.injet.Ijmdoaloc" />
+        <mapping class="idw.model.pojos.injet.Ijareres" />
+        <mapping class="idw.model.pojos.injet.Ijroteiroprodhst" />
+        <mapping class="idw.model.pojos.injet.Ijgalobjgalmtrz" />
+        <mapping class="idw.model.pojos.injet.Ijtbcli" />
+        <mapping class="idw.model.pojos.injet.Ijproultop" />
+        <mapping class="idw.model.pojos.injet.Ijctrlcgqalt" />
+        <mapping class="idw.model.pojos.injet.Ijproqtope" />
+        <mapping class="idw.model.pojos.injet.Ijestmol" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdtrn" />
+        <mapping class="idw.model.pojos.injet.Ijpdcaparticipproj" />
+        <mapping class="idw.model.pojos.injet.Ijlogexcfilakanban" />
+        <mapping class="idw.model.pojos.injet.Ijtbclixplantas" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjoper" />
+        <mapping class="idw.model.pojos.injet.Ijmolproautorizpro" />
+        <mapping class="idw.model.pojos.injet.Exportacao005" />
+        <mapping class="idw.model.pojos.injet.Ijclassificcont" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdtrnref" />
+        <mapping class="idw.model.pojos.injet.Exportacao004" />
+        <mapping class="idw.model.pojos.injet.Exportacao003" />
+        <mapping class="idw.model.pojos.injet.Exportacao002" />
+        <mapping class="idw.model.pojos.injet.Exportacao009" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrosoeemaq" />
+        <mapping class="idw.model.pojos.injet.Ijviewrefugo" />
+        <mapping class="idw.model.pojos.injet.Exportacao008" />
+        <mapping class="idw.model.pojos.injet.Viewgrafparmtbf" />
+        <mapping class="idw.model.pojos.injet.Exportacao007" />
+        <mapping class="idw.model.pojos.injet.Exportacao006" />
+        <mapping class="idw.model.pojos.injet.Exportacao001" />
+        <mapping class="idw.model.pojos.injet.Ijlogtrocaestprod" />
+        <mapping class="idw.model.pojos.injet.Ijtbstop" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrocont" />
+        <mapping class="idw.model.pojos.injet.Ijtbparaux" />
+        <mapping class="idw.model.pojos.injet.Ijtbsitmaq" />
+        <mapping class="idw.model.pojos.injet.Ijmdoalocmaq" />
+        <mapping class="idw.model.pojos.injet.Ijkanbanultlnrlote" />
+        <mapping class="idw.model.pojos.injet.Ijtbdirespec" />
+        <mapping class="idw.model.pojos.injet.Ijcelxmaq" />
+        <mapping class="idw.model.pojos.injet.Ijgrpmol" />
+        <mapping class="idw.model.pojos.injet.Ijgrppro" />
+        <mapping class="idw.model.pojos.injet.Ijfiltroitensmen" />
+        <mapping class="idw.model.pojos.injet.Ijselitensmen" />
+        <mapping class="idw.model.pojos.injet.Ijamostragemctrl" />
+        <mapping class="idw.model.pojos.injet.Ijtbcentrocusto" />
+        <mapping class="idw.model.pojos.injet.Ijtbtab" />
+        <mapping class="idw.model.pojos.injet.Ijlogvidautil" />
+        <mapping class="idw.model.pojos.injet.Ijcfgrw" />
+        <mapping class="idw.model.pojos.injet.Ijtbale" />
+        <mapping class="idw.model.pojos.injet.Ijespecinsproatrib" />
+        <mapping class="idw.model.pojos.injet.Ijtbprocgq" />
+        <mapping class="idw.model.pojos.injet.Ijdunumeracao" />
+        <mapping class="idw.model.pojos.injet.Ijtbpad" />
+        <mapping class="idw.model.pojos.injet.Ijtbslidesxmaq" />
+        <mapping class="idw.model.pojos.injet.Ijtbidgraf" />
+        <mapping class="idw.model.pojos.injet.Ijfreqmanutprevop" />
+        <mapping class="idw.model.pojos.injet.Ijrefextra" />
+        <mapping class="idw.model.pojos.injet.Ijtbdse" />
+        <mapping class="idw.model.pojos.injet.Ijctrlcgqxmprima" />
+        <mapping class="idw.model.pojos.injet.Ijkanbanidcartao" />
+        <mapping class="idw.model.pojos.injet.Ijgrpdetestproc" />
+        <mapping class="idw.model.pojos.injet.Ijtbpar" />
+        <mapping class="idw.model.pojos.injet.Ijtbturlog" />
+        <mapping class="idw.model.pojos.injet.Ijcnsmaqop" />
+        <mapping class="idw.model.pojos.injet.Ijparaminf" />
+        <mapping class="idw.model.pojos.injet.Ijgalobjabc" />
+        <mapping class="idw.model.pojos.injet.Ijfictecautorizmod" />
+        <mapping class="idw.model.pojos.injet.Ijclasstarefamanut" />
+        <mapping class="idw.model.pojos.injet.Ijacumref" />
+        <mapping class="idw.model.pojos.injet.Ijreamovsemprog" />
+        <mapping class="idw.model.pojos.injet.Ijtbtpocorea" />
+        
+        <mapping class="idw.model.pojos.injet.Ijdirace" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrosoeemesmaq" />
+        <mapping class="idw.model.pojos.injet.Ijtbmolidcav" />
+        <mapping class="idw.model.pojos.injet.Ijviewproducao" />
+        <mapping class="idw.model.pojos.injet.Ijqldprodnivelinsp" />
+        <mapping class="idw.model.pojos.injet.Ijocorvarritmo" />
+        <mapping class="idw.model.pojos.injet.Ijtbclierp" />
+        <mapping class="idw.model.pojos.injet.Ijgrpdetpar" />
+        <mapping class="idw.model.pojos.injet.Ijkanbanfluxo" />
+        <mapping class="idw.model.pojos.injet.Ijmolproautorizusu" />
+        <mapping class="idw.model.pojos.injet.Ijparprogoslog" />
+        <mapping class="idw.model.pojos.injet.Ijtbboard" />
+        <mapping class="idw.model.pojos.injet.Ijcomppromprima" />
+        <mapping class="idw.model.pojos.injet.Ijamstrdetaltcgq" />
+        <mapping class="idw.model.pojos.injet.Ijmolpro" />
+        <mapping class="idw.model.pojos.injet.Ijtbgrids" />
+        <mapping class="idw.model.pojos.injet.Ijindiceselabels" />
+        <mapping class="idw.model.pojos.injet.Ijpdcafupacao" />
+        <mapping class="idw.model.pojos.injet.Ijtbprousu" />
+        <mapping class="idw.model.pojos.injet.Ijversaomdados" />
+        <mapping class="idw.model.pojos.injet.Ijreapeso" />
+        <mapping class="idw.model.pojos.injet.Ijtbrejeitoimp" />
+        <mapping class="idw.model.pojos.injet.Ijfictecconfig" />
+        <mapping class="idw.model.pojos.injet.Ijtbcarlog" />
+        <mapping class="idw.model.pojos.injet.Ijlogtrocamaqmol" />
+        <mapping class="idw.model.pojos.injet.Ijseqidentificador" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdutref" />
+        <mapping class="idw.model.pojos.injet.Ijmanutregliber" />
+        <mapping class="idw.model.pojos.injet.Ijduimpxplantas" />
+        <mapping class="idw.model.pojos.injet.Ijtbprodeflote" />
+        <mapping class="idw.model.pojos.injet.Importacao002ctrl" />
+        <mapping class="idw.model.pojos.injet.Ijregultinspqld2fr" />
+        <mapping class="idw.model.pojos.injet.Ijbroneopprocomp" />
+        <mapping class="idw.model.pojos.injet.Ijreajuscav" />
+        <mapping class="idw.model.pojos.injet.Ijtbparlog" />
+        <mapping class="idw.model.pojos.injet.Ijcnsturqldcp" />
+        <mapping class="idw.model.pojos.injet.Exportacao026Aux" />
+        <mapping class="idw.model.pojos.injet.Ijrearefintbet" />
+        <mapping class="idw.model.pojos.injet.Ijtbref" />
+        <mapping class="idw.model.pojos.injet.Ijtbmprima" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrosoeemeses" />
+        <mapping class="idw.model.pojos.injet.Viewultmanutexec" />
+        <mapping class="idw.model.pojos.injet.Ijpdcaprojeto" />
+        <mapping class="idw.model.pojos.injet.Ijgrpdetref" />
+        <mapping class="idw.model.pojos.injet.Exp029ParAux" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdutav" />
+        <mapping class="idw.model.pojos.injet.Ijdrvcntexecprtdef" />
+        <mapping class="idw.model.pojos.injet.Ijmolproidcav" />
+        <mapping class="idw.model.pojos.injet.Ijversaoproducao" />
+        <mapping class="idw.model.pojos.injet.Ijreaparaberta" />
+        <mapping class="idw.model.pojos.injet.Ijhortur" />
+        <mapping class="idw.model.pojos.injet.Ijparprog" />
+        <mapping class="idw.model.pojos.injet.Ijrelproref" />
+        <mapping class="idw.model.pojos.injet.Ijopprodutos" />
+        <mapping class="idw.model.pojos.injet.Ijtbcor" />
+        <mapping class="idw.model.pojos.injet.Ijamstrdetaltmedia" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjauxdrvcelc" />
+        <mapping class="idw.model.pojos.injet.Ijtbdrivers" />
+        <mapping class="idw.model.pojos.injet.Ijtbcaulog" />
+        <mapping class="idw.model.pojos.injet.Ijctrliniprocprod" />
+        <mapping class="idw.model.pojos.injet.Ijengparamciclos" />
+        <mapping class="idw.model.pojos.injet.Ijmaqevtexc" />
+        <mapping class="idw.model.pojos.injet.Ijtbusureqtec" />
+        <mapping class="idw.model.pojos.injet.Ijopagrupsulbras" />
+        <mapping class="idw.model.pojos.injet.Ijtmpultst" />
+        <mapping class="idw.model.pojos.injet.Ijtbtipofiltro" />
+        <mapping class="idw.model.pojos.injet.Ijtbopcmenu" />
+        <mapping class="idw.model.pojos.injet.Ijtbmotsemprog" />
+        <mapping class="idw.model.pojos.injet.Ijfictecapterplog" />
+        <mapping class="idw.model.pojos.injet.Ijtbgru" />
+        <mapping class="idw.model.pojos.injet.Ijcnsturno" />
+        <mapping class="idw.model.pojos.injet.Ijlogdiariobordo" />
+        <mapping class="idw.model.pojos.injet.Ijocormenipe" />
+        <mapping class="idw.model.pojos.injet.Ijtbfamiliamaq" />
+        <mapping class="idw.model.pojos.injet.Ijqldsupervisor" />
+        <mapping class="idw.model.pojos.injet.Ijlogopsemvalidcav" />
+        <mapping class="idw.model.pojos.injet.Ijtblicfgenviarcgq" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdopref" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdutrefav" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjalerta" />
+        <mapping class="idw.model.pojos.injet.Ijcfggalabc" />
+        <mapping class="idw.model.pojos.injet.Ijgrafico" />
+        <mapping class="idw.model.pojos.injet.Ijmatrizsetuplog" />
+        <mapping class="idw.model.pojos.injet.Ijdeparamaq" />
+        <mapping class="idw.model.pojos.injet.Ijconsumoenergia" />
+        <mapping class="idw.model.pojos.injet.Ijtbrele" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdopav" />
+        <mapping class="idw.model.pojos.injet.Ijtbset" />
+        <mapping class="idw.model.pojos.injet.Ijtbslides" />
+        <mapping class="idw.model.pojos.injet.Ijkanbanlote" />
+        <mapping class="idw.model.pojos.injet.Ijtabtmplog" />
+        <mapping class="idw.model.pojos.injet.Ijfictecapterp" />
+        <mapping class="idw.model.pojos.injet.Ijlogipesemconexao" />
+        <mapping class="idw.model.pojos.injet.Ijopintrasa" />
+        <mapping class="idw.model.pojos.injet.Viewgrafosexec" />
+        <mapping class="idw.model.pojos.injet.Ijgrpestproc" />
+        <mapping class="idw.model.pojos.injet.Ijplano" />
+        <mapping class="idw.model.pojos.injet.Ijreaparintrasalog" />
+        <mapping class="idw.model.pojos.injet.Ijtbprolog" />
+        <mapping class="idw.model.pojos.injet.Ijtboperacoeslog" />
+        <mapping class="idw.model.pojos.injet.Ijpdcaagndacmpeft" />
+        <mapping class="idw.model.pojos.injet.Ijduimpressaocgq" />
+        <mapping class="idw.model.pojos.injet.Ijaleinj" />
+        <mapping class="idw.model.pojos.injet.Ijctrlultturmaq" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrosoeeanomaq" />
+        <mapping class="idw.model.pojos.injet.Ijprocarteira" />
+        <mapping class="idw.model.pojos.injet.Ijtbintemail" />
+        <mapping class="idw.model.pojos.injet.Ijcfgrwlog" />
+        <mapping class="idw.model.pojos.injet.Ijreprodt" />
+        <mapping class="idw.model.pojos.injet.Ijdadoscnc" />
+        <mapping class="idw.model.pojos.injet.Ijctrliniproctroca" />
+        <mapping class="idw.model.pojos.injet.Ijtbinf" />
+        <mapping class="idw.model.pojos.injet.Ijtbtpdado" />
+        <mapping class="idw.model.pojos.injet.Ijparproglog" />
+        <mapping class="idw.model.pojos.injet.Ijentsaiopmaq" />
+        <mapping class="idw.model.pojos.injet.Ijmdoalocop" />
+        <mapping class="idw.model.pojos.injet.Ijtbpostos" />
+        <mapping class="idw.model.pojos.injet.Ijcnsut" />
+        <mapping class="idw.model.pojos.injet.Ijlogope" />
+        <mapping class="idw.model.pojos.injet.Ijctrliniproc" />
+        <mapping class="idw.model.pojos.injet.Ijinspecao" />
+        <mapping class="idw.model.pojos.injet.Ijoproteiro" />
+        <mapping class="idw.model.pojos.injet.Ijtbparintrasa" />
+        <mapping class="idw.model.pojos.injet.Ijlogopemaq" />
+        <mapping class="idw.model.pojos.injet.Ijrefman" />
+        <mapping class="idw.model.pojos.injet.Ijtbparreqtecespec" />
+        <mapping class="idw.model.pojos.injet.Ijtbjup" />
+        <mapping class="idw.model.pojos.injet.Ijtbinj" />
+        <mapping class="idw.model.pojos.injet.Ijopproqtope" />
+        <mapping class="idw.model.pojos.injet.Exp017Aux" />
+        <mapping class="idw.model.pojos.injet.Ijrearefav" />
+        <mapping class="idw.model.pojos.injet.Ijetqproduto" />
+        <mapping class="idw.model.pojos.injet.Ijtbclixcttcgq" />
+        <mapping class="idw.model.pojos.injet.Ijlotenipponins" />
+        <mapping class="idw.model.pojos.injet.Ijctrlcgq" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdtrnrefav" />
+        <mapping class="idw.model.pojos.injet.Ijalertas" />
+        <mapping class="idw.model.pojos.injet.Ijprotempolimdbqld" />
+        <mapping class="idw.model.pojos.injet.Ijregultocorop" />
+        <mapping class="idw.model.pojos.injet.Ijbroneopsecaoops" />
+        <mapping class="idw.model.pojos.injet.Ijregultocorinj" />
+        <mapping class="idw.model.pojos.injet.Ijqldprodinsplote" />
+        <mapping class="idw.model.pojos.injet.Ijgalobjgal" />
+        <mapping class="idw.model.pojos.injet.Ijopcgq" />
+        <mapping class="idw.model.pojos.injet.Ijselecao" />
+        <mapping class="idw.model.pojos.injet.Ijviewoperadores" />
+        <mapping class="idw.model.pojos.injet.Ijacumprod" />
+        <mapping class="idw.model.pojos.injet.Ijcnsmaqopdetref" />
+        <mapping class="idw.model.pojos.injet.Ijcnsmaqopdetrefav" />
+        <mapping class="idw.model.pojos.injet.Ijopagrup" />
+        <mapping class="idw.model.pojos.injet.Ijprodxgrpparam" />
+        <mapping class="idw.model.pojos.injet.Ijcalmetasoee" />
+        <mapping class="idw.model.pojos.injet.Ijcfgandonarg" />
+        <mapping class="idw.model.pojos.injet.Ijsitipe" />
+        <mapping class="idw.model.pojos.injet.Ijreaparoprd" />
+        <mapping class="idw.model.pojos.injet.Ijcnsmaqopav" />
+        <mapping class="idw.model.pojos.injet.Ijcncturno" />
+        <mapping class="idw.model.pojos.injet.Ijoplotes" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjtpproc" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjclassabc" />
+        <mapping class="idw.model.pojos.injet.Ijreaparintbet" />
+        <mapping class="idw.model.pojos.injet.Ijgrpdetinj" />
+        <mapping class="idw.model.pojos.injet.Ijdrvcolcelcar" />
+        <mapping class="idw.model.pojos.injet.Ijcnsoprdtrnav" />
+        <mapping class="idw.model.pojos.injet.Exp028RefAux" />
+        <mapping class="idw.model.pojos.injet.Ijtbemplog" />
+        <mapping class="idw.model.pojos.injet.Ijgrpinj" />
+        <mapping class="idw.model.pojos.injet.Cavidades2" />
+        <mapping class="idw.model.pojos.injet.Ijocorvarritmoitem" />
+        <mapping class="idw.model.pojos.injet.Ijgalobj" />
+        <mapping class="idw.model.pojos.injet.Ijtborilog" />
+        <mapping class="idw.model.pojos.injet.Ijviewparadas" />
+        <mapping class="idw.model.pojos.injet.Ijcfgdiariobrdqld" />
+        <mapping class="idw.model.pojos.injet.Ijamstraltcgq" />
+        <mapping class="idw.model.pojos.injet.Ijcfgandmaqevtarg" />
+        <mapping class="idw.model.pojos.injet.Ijgrpdetmol" />
+        <mapping class="idw.model.pojos.injet.Ijcaptionlinguas" />
+        <mapping class="idw.model.pojos.injet.Ijengleituraciclos" />
+        <mapping class="idw.model.pojos.injet.Ijtabelastmp" />
+        <mapping class="idw.model.pojos.injet.Ijpdcagrafverific" />
+        <mapping class="idw.model.pojos.injet.Ijctrlturnoint" />
+        <mapping class="idw.model.pojos.injet.Ijmanutrecbloq" />
+        <mapping class="idw.model.pojos.injet.Ijopintbet" />
+        <mapping class="idw.model.pojos.injet.Ijlogdiariooper" />
+        <mapping class="idw.model.pojos.injet.Ijdrivercentprtdef" />
+        <mapping class="idw.model.pojos.injet.Ijfreqmanutprev" />
+        <mapping class="idw.model.pojos.injet.Ijtbidrpt" />
+        <mapping class="idw.model.pojos.injet.Ijbroneaptinjet" />
+        <mapping class="idw.model.pojos.injet.Ijcfgandon" />
+        <mapping class="idw.model.pojos.injet.Ijmanutexec" />
+        <mapping class="idw.model.pojos.injet.Ijtbesttab" />
+        <mapping class="idw.model.pojos.injet.Ijtbgrprecursos" />
+        <mapping class="idw.model.pojos.injet.Ijocorreploteins" />
+        <mapping class="idw.model.pojos.injet.Ijclassificinf" />
+        <mapping class="idw.model.pojos.injet.Ijespecinsppro" />
+        <mapping class="idw.model.pojos.injet.Ijtbtphor" />
+        <mapping class="idw.model.pojos.injet.Ijtbrecmanut" />
+        <mapping class="idw.model.pojos.injet.Ijfiltrosoeedias" />
+        <mapping class="idw.model.pojos.injet.Ijtbcaps" />
+        <mapping class="idw.model.pojos.injet.Ijestruprod" />
+        <mapping class="idw.model.pojos.injet.Ijqldinspecao" />
+        <mapping class="idw.model.pojos.injet.Ijreacicopoprd" />
+        <mapping class="idw.model.pojos.injet.Ijparamitensarq" />
+        <mapping class="idw.model.pojos.injet.Ijctrlcgqxplantas" />
+        <mapping class="idw.model.pojos.injet.Ijcfgandonagrup" />
+        <mapping class="idw.model.pojos.injet.Ijaledbqldanot" />
+        <mapping class="idw.model.pojos.injet.Ijtbprocfgespqld" />
+        <mapping class="idw.model.pojos.injet.Ijqldultinsp" />
+        <mapping class="idw.model.pojos.injet.Ijgalobjresumo" />
+        <mapping class="idw.model.pojos.injet.Ijtbmolusaidcav" />
+        <mapping class="idw.model.pojos.injet.Ijaledbqldinsp" />
+        <mapping class="idw.model.pojos.injet.Ijinjcfgmetamonit" />
+        <mapping class="idw.model.pojos.injet.Ijinjctrlultparmon" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjqldctrl" />
+        <mapping class="idw.model.pojos.injet.Ijtbinjstatus" />
+        <mapping class="idw.model.pojos.injet.Ijreaaptpesomedio" />
+        <mapping class="idw.model.pojos.injet.Ijespecinspproxinj" />
+        <mapping class="idw.model.pojos.injet.Ijtbproembalagem" />
+        <mapping class="idw.model.pojos.injet.IjcfgIntat" />        
+        <mapping class="idw.model.pojos.injet.Ijintipackchemop" />
+        <mapping class="idw.model.pojos.injet.Ijqldcqipackchem" />
+        <mapping class="idw.model.pojos.injet.Ijintipackchemaltd" />
+        <mapping class="idw.model.pojos.injet.Ijfilaopsipackchem" />      	
+        <mapping class="idw.model.pojos.injet.IjIntArthiLogImpOp" />      	
+        <mapping class="idw.model.pojos.injet.IjIntFitesaOplog" />      	
+        <mapping class="idw.model.pojos.injet.IjIntFitesaOp" /> 
+        <mapping class="idw.model.pojos.injet.IjtbproFitAux" />              	
+        <mapping class="idw.model.pojos.injet.IjMsgAppMsg" />              	
+
+ </session-factory>
+</hibernate-configuration>

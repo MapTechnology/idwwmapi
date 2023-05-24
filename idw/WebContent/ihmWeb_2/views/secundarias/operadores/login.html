@@ -1,0 +1,41 @@
+<div id="div_ihm_login">
+	<div class="container-fluid">
+		<h1 id="h1_login" class="page-header"></h1>
+		<div id="panel_login" class="panel panel-default">
+			<div class="panel-heading" style="cursor: pointer;"
+				onclick="document.getElementById('link_login').click();">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" id="link_login" href="#collapse_alertas"></a>
+				</h4>
+			</div>
+			<div id="collapse_login" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<form id="form_login_operador" class="form-signin">
+						<div class="input-group" id="div_login_operador">
+							<h3 id="html_h3_login_oper"></h3>
+							<input type="text" id="login_operador" placeholder=""
+								class="form-control" ng-model="loginOperador">
+							<h3 id="html_h3_senha_oper"></h3>
+							<input type="password" id="senha_operador" placeholder=""
+								class="form-control" ng-model="senhaOperador">
+							<h3 id="html_h3_maquina_oper"></h3>
+							<select ng-model="dsup_sel" id="select_login_operador"
+								class="form-control" ng-options="pts.pt.dsup for pts in sessao | filtroMaquinaOnlineComOP"
+								type="select">
+								<option value="" class="option-default"></option>
+							</select>
+						</div>
+
+					</form>
+					<button type="button" class="btn btn-primary btn-lg"
+						id="btn_login_operador" ng-click="logarOperador(loginOperador, senhaOperador,dsup_sel.pt.dsup )"
+						ng-disabled="!loginOperador || !senhaOperador||!dsup_sel" ></button>
+
+					<button type="button" class="btn btn-primary btn-lg"
+						id="btn_voltar_login_operador" ng-click="voltar()"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

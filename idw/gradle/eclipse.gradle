@@ -1,0 +1,26 @@
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+import org.gradle.plugins.ide.eclipse.model.AccessRule
+
+// Altera a propriedade do projeto para usar o endoding UTF-8 quando usar o eclipse 
+//eclipseJdt << {
+eclipseJdt {
+	doLast {
+		File f = file('.settings/org.eclipse.core.resources.prefs')
+		f.write('eclipse.preferences.version=1\n')
+		f.append('encoding/<project>=utf-8')
+	}
+}
+
+eclipse {
+    classpath {
+        file {
+            whenMerged {
+                def jre = entries.find { it.path.contains 'org.eclipse.jdt.launching.JRE_CONTAINER' }
+                jre.accessRules.add(new AccessRule('accessible', 'com/**'))
+                jre.accessRules.add(new AccessRule('accessible', 'sun/**'))
+            }
+        }
+    }
+}

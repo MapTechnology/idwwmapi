@@ -1,0 +1,80 @@
+<link href="css/producao.css" rel="stylesheet">
+
+<div id="div_ihm_producao" >
+	<div class="container-fluid">
+
+		<fieldset class="cabecalho">
+			<label class="opcoes" style="float: left">Máquina: </label>
+			<label class="opcoes"> {{ sessao[cdSelecionado].pt.dsup }} </label>
+			<!-- <select class="form-control form-control-sm">
+				<option>Small select</option>
+			</select> -->
+			<br>
+			<label class="opcoes" style="float: left">OP: </label>
+			<label class="opcoes" style="padding-left: 95px"> {{ sessao[cdSelecionado].pt.producao.ordem }} </label>
+		</fieldset>
+
+		<br>
+
+		<div class="prods">
+			<div class="div-prod center">
+				<!-- <label >{{prods[0].pt.producao.producaoplanejada.split(".")[0]}} </label><br> -->
+				<label style="font-size: 35px">{{prodPlanejada}} </label><br>
+				<label style="font-size: 35px">Produção Planejada </label>
+			</div>
+			<div class="div-prod center">
+				<!-- <label >{{prods[0].pt.producao.producaorealizada.split(".")[0]}} </label><br> -->
+				<label style="font-size: 35px">{{ prodRealizada }} </label><br>
+				<label style="font-size: 35px">Produção Realizada </label>
+			</div>
+		</div>
+
+		<div class="table-responsive" style="overflow-x: unset">
+			<button ng-if="sessao[cdSelecionado].pt.producao.ordem == '-1'" class="btn btn-lg btn-primary" ng-init="checked=true" id="btn_iniciar_op" ui-sref="ihmWeb.iniciaop"></button>
+			<button ng-if="sessao[cdSelecionado].pt.producao.ordem == '-1'" class="btn btn-lg btn-primary" ng-init="checked=true" id="btn_iniciar_op_injet" ui-sref="ihmWeb.iniciaopinjet"></button>
+			<button ng-if="sessao[cdSelecionado].pt.producao.ordem != '-1'" class="btn btn-lg btn-primary" 
+				type="button"
+				ui-sref="ihmWeb.finalizaop({pt: sessao[cdSelecionado].pt.dsup, ordem: sessao[cdSelecionado].pt.producao.ordem})"
+				ng-disabled="sessao[0].pt.isoffline">{{botaoFinOp}}
+			</button>
+		</div>
+
+
+		<!-- <h1 id="h1_ihm_producao" class="page-header"></h1>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_tabela_producao">
+				</h4>
+			</div>
+			<div id="collapse_tabela_producao" class="panel-body">
+				<div class="table-responsive">
+					<table class="table table-hover" id="tabela_producao">
+						<thead id="tabela_producao_cabecalho">
+						</thead>
+						<tbody id="tabela_producao_corpo">
+							<tr ng-repeat="producao in prods | filter:filtro"
+								ng-class="{'danger' : (producao.isParada == 'true') && (!producao.isoffline), 'offline' : producao.isoffline, 'alertaTr' : (producao.listaAlertas.length > 0) }">
+								<td>{{producao.pt}}</td>
+								<td>{{producao.ordem}}</td>
+								<td>{{producao.produto}}</td>
+								<td>{{producao.producaoplanejada.split(".")[0]}}</td>
+								<td>{{producao.producaorealizada.split(".")[0]}}</td>
+								
+								<td><button class="btn btn-lg btn-primary" type="button"
+										 ui-sref="ihmWeb.finalizaop({pt: producao.pt, ordem: producao.ordem})"
+										 ng-disabled="producao.isoffline">
+										 {{botaoFinOp}}</button></td>
+										 <td><button class="btn btn-lg btn-primary" type="button"
+										 ui-sref="ihmWeb.finalizaop({pt: producao.pt, ordem: producao.ordem})"
+										 ng-disabled="producao.isoffline">
+										 {{botaoFinOp}}</button></td>
+							</tr>
+						</tbody>
+					</table>
+					<button class="btn btn-lg btn-primary" id="btn_iniciar_op" ui-sref="ihmWeb.iniciaop"></button>
+					<button class="btn btn-lg btn-primary" id="btn_iniciar_op_injet" ui-sref="ihmWeb.iniciaopinjet"></button>
+				</div>
+			</div>
+		</div> -->
+	</div>
+</div>

@@ -1,0 +1,77 @@
+{
+    "legendas": [
+        {
+            "dataHoraInicio": "24/10/2017 14:54:21",
+            "dataHoraFim": "24/10/2017 14:54:42",
+            "legendaCor": "#00ff00"
+        },
+        {
+            "dataHoraInicio": "24/10/2017 14:54:42",
+            "dataHoraFim": "24/10/2017 14:55:12",
+            "legendaCor": "#ffff00"
+        },
+        {
+            "dataHoraInicio": "24/10/2017 14:55:12",
+            "dataHoraFim": "24/10/2017 14:55:35",
+            "legendaCor": "#ffc800"
+        },
+        {
+            "dataHoraInicio": "24/10/2017 14:55:12",
+            "dataHoraFim": "24/10/2017 14:55:35",
+            "legendaCor": "#ff0000"
+        }
+    ],
+    "detalhes": [
+        {
+            "cdRefugo": "1",
+            "dsRefugo": "teste",
+            "quantidadeRefugada": "2.00",
+            "indiceRefugo": "10.53",
+            "indiceRefugoCor": "#ffff00",
+            "idTRefugo": 224
+        },
+        {
+            "cdRefugo": "2",
+            "dsRefugo": "TESTE",
+            "quantidadeRefugada": "5.00",
+            "indiceRefugo": "26.32",
+            "indiceRefugoCor": "#00ff00",
+            "idTRefugo": 394
+        },
+        {
+            "cdRefugo": "000008",
+            "dsRefugo": "FURO IRREGULAR",
+            "quantidadeRefugada": "3.00",
+            "indiceRefugo": "15.79",
+            "indiceRefugoCor": "#ff0000",
+            "idTRefugo": 121
+        },
+        {
+            "cdRefugo": "000007",
+            "dsRefugo": "FIO DESPARELHO",
+            "quantidadeRefugada": "6.00",
+            "indiceRefugo": "31.58",
+            "indiceRefugoCor": "#ff0000",
+            "idTRefugo": 120
+        },
+        {
+            "cdRefugo": "000015",
+            "dsRefugo": "TESTES ENGENHARIA",
+            "quantidadeRefugada": "3.00",
+            "indiceRefugo": "15.79",
+            "indiceRefugoCor": "#ff0000",
+            "idTRefugo": 128
+        }
+    ],
+    "metaIndicador": {
+        "cdIndicador": "IR",
+        "dsIndicador": "Índice de refugo",
+        "valorLegendaSuperior": "5.00",
+        "valorLegendaMeta": "3.00",
+        "valorLegendaInferior": "1.00",
+        "corLegendaSuperior": "#33ff33",
+        "corLegendaMeta": "#ffff33",
+        "corLegendaInferior": "#ff3333",
+        "isMelhorAcimaMeta": false
+    }
+}

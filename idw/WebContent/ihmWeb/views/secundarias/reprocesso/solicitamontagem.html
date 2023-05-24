@@ -1,0 +1,35 @@
+<div id="div_ihm_reprocesso_solicita_montagem">
+
+	<div class="container-fluid">
+		<h1 id="h1_ihm_reprocesso_solicita_montagem" class="page-header"></h1>
+		<div id="panel_reprocesso" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_reprocesso_solicita_montagem"></h4>
+			</div>
+			<div class="panel-body">
+			
+			<h2 id="h2_montagem">{{montagemEsperada}}</h2>
+			<div class="input-group">
+						<span class="input-group-addon" >{{montagemString}}</span> <input
+							type="text" class="form-control" placeholder="" ng-model="montagemLida"
+							aria-describedby="basic-addon1" id="input_montagem_reprocesso"
+							ng-keypress="myFunct($event)">
+					</div>
+				<div class="table-responsive">
+					<table class="table table-striped table-hover"
+						id="tabela_defeitos_reprocesso">
+						<thead id="tabela_defeitos_reprocesso_cabecalho">
+						</thead>
+						<tbody id="tabela_defeitos_reprocesso_corpo" style="cursor: pointer">
+							<tr ng-repeat="dto in folhamon" ng-click="montagem(dto)">
+								<td>{{dto.ordem}}</td>
+								<td>{{dto.dsMon}}</td>
+								<td>{{dto.cb}}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

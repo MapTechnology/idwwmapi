@@ -1,0 +1,64 @@
+{
+    "resumo": {
+        "periodo": "21/02/2018 - PRIMEIRO TURNO",
+        "eficienciaCiclo": "120.00",
+        "ganhosTotaisPecas": "309.83",
+        "ganhosTotaisKg": "309.8337",
+        "ganhosTotaisTon": "0.3098",
+        "perdasTotaisPecas": "0.00",
+        "perdasTotaisKg": "0.0000",
+        "perdasTotaisTon": "0.0000",
+        "saldoPecas": "-309.83",
+        "saldoKg": "-309.8337",
+        "saldoTon": "-0.3098"
+    },
+    "metaIndicador": {
+        "cdIndicador": "IP",
+        "dsIndicador": "Indicador Padrão",
+        "valorLegendaSuperior": "50",
+        "valorLegendaMeta": "",
+        "valorLegendaInferior": "10",
+        "corLegendaSuperior": "#33ff33",
+        "corLegendaMeta": "#ffff33",
+        "corLegendaInferior": "#ff3333",
+        "isMelhorAcimaMeta": true
+    },
+    "produtosPerdas": [],
+    "produtosGanhos": [
+        {
+            "codigo": "2003478",
+            "descricao": "FIBRA ECOLOGICA",
+            "pecas": "309.83",
+            "pecasIndice": "100.00",
+            "pecasIndiceCor": "#33ff33",
+            "pesoKg": "309.8337",
+            "pesoKgIndice": "100.00",
+            "pesoKgIndiceCor": "#33ff33",
+            "pesoTon": "0.3098",
+            "pesoTonIndice": "100.00",
+            "pesoTonIndiceCor": "#33ff33",
+            "custo": "3123.681",
+            "custoIndice": "100.00",
+            "custoIndiceCor": "#33ff33"
+        }
+    ],
+    "postosPerdas": [],
+    "postosGanhos": [
+        {
+            "codigo": "CAT002",
+            "descricao": "CAT002",
+            "pecas": "309.83",
+            "pecasIndice": "100.00",
+            "pecasIndiceCor": "#33ff33",
+            "pesoKg": "309.8337",
+            "pesoKgIndice": "100.00",
+            "pesoKgIndiceCor": "#33ff33",
+            "pesoTon": "0.3098",
+            "pesoTonIndice": "100.00",
+            "pesoTonIndiceCor": "#33ff33",
+            "custo": "3123.681",
+            "custoIndice": "100.00",
+            "custoIndiceCor": "#33ff33"
+        }
+    ]
+}

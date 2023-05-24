@@ -1,0 +1,48 @@
+.card{
+    width: 100%;
+    background-color: rgb(96, 206, 96);
+    border: unset;
+}
+
+.card-card-ul-letras1{
+    font-size: 30px;
+    color: #012747;
+}
+
+.card-card{
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding: 20px 20px;
+}
+
+.card-card-ul{
+    text-align: center;
+    width: 33.333333%;
+    float: left;
+    padding: 20px 20px;
+}
+
+.letras-branco-home{
+    color: white;
+    font-size: 30px;
+}
+
+.letras-azul-home{
+    color:  #012747;
+    font-size: 20px;
+}
+
+.cardS{
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.ic{
+    font-size: 80px;
+}
+
+.tes{
+    font-size: 40px;
+}

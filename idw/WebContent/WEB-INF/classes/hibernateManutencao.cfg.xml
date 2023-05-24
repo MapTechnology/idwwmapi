@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<!--  	
+-->
+<hibernate-configuration>
+	<session-factory >
+
+		<property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
+		<property name="hibernate.connection.url">jdbc:sqlite:C:/alessandre/programas/sqllite/db.sqlite3</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLiteDialect</property>
+		<property name="hibernate.connection.username"></property>
+		<property name="hibernate.connection.password"></property>
+		
+<!--
+# ###################################  
+# ### Configuracoes diversas      ###  
+# ###################################
+-->
+  <property name="current_session_context_class">thread</property>
+  <property name="show_sql">false</property>
+  <property name="format_sql">false</property>
+  <!-- 
+# #####################################  
+# ### Dados de configuracao de cache###  
+# #####################################
+-->
+  <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+  <property name="cache.use_query_cache">false</property>
+  <property name="cache.use_minimal_puts">false</property>
+  <property name="max_fetch_depth">3</property>
+  <!-- 
+# ###########################  
+# ### C3P0 Connection Pool###  
+# ###########################  
+-->
+  <property name="connection.org.hibernate.connection.C3P0ConnectionProvider">org.hibernate.connection.C3P0ConnectionProvider</property>
+  <property name="hibernate.c3p0.max_size">3</property>
+  <property name="hibernate.c3p0.min_size">1</property>
+  <property name="hibernate.c3p0.timeout">300</property>
+  <property name="hibernate.c3p0.max_statements">0</property>
+  <property name="hibernate.c3p0.idle_test_period">3000</property>
+  <property name="hibernate.c3p0.acquire_increment">3</property>
+  <property name="hibernate.c3p0.validate">true</property>
+  <!-- 
+# ###################################  
+# ### Apache DBCP Connection Pool ###  
+# ###################################  
+#   
+# ## connection pool  
+#   
+# #hibernate.dbcp.maxActive 100  
+# #hibernate.dbcp.whenExhaustedAction 1  
+# #hibernate.dbcp.maxWait 120000  
+# #hibernate.dbcp.maxIdle 10  
+#   
+# ## prepared statement cache  
+#   
+# #hibernate.dbcp.ps.maxActive 100  
+# #hibernate.dbcp.ps.whenExhaustedAction 1  
+# #hibernate.dbcp.ps.maxWait 120000  
+# #hibernate.dbcp.ps.maxIdle 10  
+#   
+# ## optional query to validate pooled connections:  
+#   
+# #hibernate.dbcp.validationQuery select 1 from dual  
+# #hibernate.dbcp.testOnBorrow true  
+# #hibernate.dbcp.testOnReturn false  
+
+ 
+# ######################################  
+# ### Relacao dos pojos reconhecidos ###  
+# ######################################  
+-->
+
+	<mapping class="idw.model.pojos.manutencao.ServidorOrdemmanutencao"/>
+	<mapping class="idw.model.pojos.manutencao.ServidorAtividadesordem"/>
+	<mapping class="idw.model.pojos.manutencao.ServidorConjuntos"/>
+
+    </session-factory>  
+</hibernate-configuration>

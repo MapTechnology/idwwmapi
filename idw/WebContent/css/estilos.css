@@ -1,0 +1,645 @@
+body {min-width:640px; margin: 0px 0px 0px 0px}
+	
+
+#header,#menu,#content,#sub-section,#footer {
+display:inline-block
+}
+
+/* safari and opera need this */
+
+#footer 
+{
+	width:100%; 
+	/*background:#000000;*/
+	color:black;	
+	margin: 0;
+	text-align:center;
+	vertical-align:bottom;
+}
+
+#header,#menu,#sub-section {float:left}
+
+#content {float:right;}
+
+#opcoes {float:right;height:35px;}
+
+#header {width:7%}
+
+/* leaving room for rounding error (MSIE) */
+
+#menu {width:50.9%;margin: 5px}
+
+#content {width:83%;text-align:left;}
+
+#contentLogin {width:100%;text-align:center;height:400px;background:#DEDEDE;margin:0px 0px 0px 0px;padding-top:100px}
+
+#content2 {width:100%;text-align:left;margin:0px 0px 0px 0px;padding-top:20px}
+
+#sub-section {width:15%; padding-left: 20px}
+
+#footer {clear:both}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	line-height: 1.166;	
+	margin: 0px;
+	padding: 0px;
+}
+
+INPUT{
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid;
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+   FONT: 11px Verdana;
+   VERTICAL-ALIGN: middle;
+}
+
+SELECT{
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid;
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+   FONT: 11px Verdana;
+   VERTICAL-ALIGN: middle;
+}
+
+
+td{
+ font-size: 11px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ height: 30px
+}
+
+/*
+Definicao de classes
+*/
+.colunaSemBordas {
+	margin: 0;
+    padding: 0px;
+    border-width: 0px 0px 0 0;
+	width:100%;
+	height:100%;
+	background-color: #E6E7E8;
+}
+
+.linhaCabecalhoTabela
+{
+	background-color: #E6E7E8;
+}
+
+.colunaComBordas 
+{
+	border-collapse:collapse;
+	border:1px solid ;
+    border-width: 1px 1px 1px 1px;
+	height:100%;
+}
+
+.campoObrigatorio
+{
+	color:Red;
+}
+
+.tabelaSemBordas {
+	border-collapse: collapse;
+	border:0px solid ;
+	border-spacing: 0;
+	border-width: 0px 0px 0px 0px;
+	width:98%;
+	height:100%;
+}
+
+.tabelaRelatorio {
+	border-collapse: collapse;
+	border:1px solid ;
+	border-spacing: 1px;
+	border-width: 1px 1px 1px 1px;
+	margin:2px 2px 2px 2px;
+	width:98%;
+	height:100%;
+}
+
+.error
+{
+	color:Red;
+}
+
+.colunaRodape
+{
+	vertical-align:bottom;
+	height:200px;
+}
+.textit{
+    font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold; color: #ffffff;
+    text-align : center;
+
+}
+
+.textpeq{
+    font-size:10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.textnor{
+    font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align : center;
+
+}
+
+.texterror{
+   font-size: 12px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   text-align : left;
+   color: #FF0000;    
+   font-weight: bold;   
+}
+
+
+.textmensagem{
+   font-size: 12px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   text-align : center;
+   color: #0000FF;
+   font-weight: bold;
+}
+
+.texttitdet{
+   font-size: 10px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   text-align : left;
+   color: #2d69b2; 
+}
+
+.textform{
+    font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:link{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #006699;
+	text-decoration: underline;
+}
+
+h1{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 120%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+h2{
+ font-family: Arial,sans-serif;
+ font-size: 114%;
+ color: #dd2424;
+ margin: 0px;
+ padding: 0px;
+}
+
+h3{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+h4{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: normal;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+}
+
+h5{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 100%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: bold;
+ color: #334d55;
+}
+
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.inputext {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid;
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+    FONT: 11px Verdana;
+    VERTICAL-ALIGN: middle;
+}
+SELECT.selectm{
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; 
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+    FONT: 10px Verdana;
+		
+}
+.button {
+	background-color: #C0c0c0;
+	font: 10px Verdana;
+	border-color: #c0c0c0;
+	border-style: outset;
+}
+TEXTAREA.textaream {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid;
+	WIDTH: 350px; BORDER-BOTTOM: #c0c0c0 1px solid; HEIGHT: 150px;
+	font: 11px Verdana;
+}
+
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#masthead{
+	padding: 35px 0px 0px 0px;
+	border-bottom: 1px solid #cccccc;
+	width: 100%;
+}
+
+
+#navBar{
+	float: left;
+	width: 20%;
+	height:60%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #eeeeee;
+	border-right: 1px solid #cccccc;
+	
+}
+
+#headlines{
+	float:right;
+	width: 20%;
+	height: 60%;
+	border-left: 1px solid #cccccc;
+	padding-right: 10px;
+}
+
+
+#mastersubmenu{
+	width: 100%;
+}
+
+
+/***********************************************/
+/* Components                                  */
+/***********************************************/
+
+#siteName{
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+/************* #submenu styles **************/
+
+#submenu{
+font-size: 10px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+padding: 0px 0px 5px 10px;
+color: #000000;
+width: 50%;
+display: block;
+}
+
+#submenu img{
+ display: block;
+}
+
+#submenu a {
+	font-size: 10px;
+	padding: 0 4px 0 0;
+	color: #000000;
+}
+
+/************* #globalNav styles **************/
+
+#globalNav{
+padding: 0px 0px 5px 10px;
+color: #cccccc;
+}
+
+#globalNav img{
+ display: block;
+}
+
+#globalNav a {
+	font-size: 90%;
+	padding: 0 4px 0 0;
+}
+
+/************** .feature styles ***************/
+
+.feature{
+	padding: 0px 0px 10px 10px;
+	font-size: 80%;
+}
+
+.feature h3{
+	padding: 30px 0px 5px 0px;
+	text-align: center;
+}
+
+.feature img{
+	float: left;
+	padding: 10px 10px 0px 0px;
+}
+
+
+/************** .story styles *****************/
+
+.story{
+	clear: both;
+	padding: 10px 0px 0px 10px;
+	font-size: 80%;
+}
+
+.story p{
+	padding: 0px 0px 10px 0px;
+}
+
+
+/************* #siteInfo styles ***************/
+
+#siteInfo{
+
+	clear: both;
+	border-top: 1px solid #cccccc;
+	font-size: 75%;
+	color: #cccccc;
+	padding: 10px 10px 10px 10px;
+}
+
+#siteInfo img{
+	padding: 4px 4px 4px 10px;
+	vertical-align: middle;
+}
+
+/************* #detalhes styles ***************/
+
+#detalhes{
+
+	clear: both;
+	font-size: 75%;
+	color: #cccccc;
+}
+
+
+/************* #search styles ***************/
+
+#search{
+	padding: 5px 0px 5px 10px;
+	font-size: 90%;
+}
+
+#search form{
+ margin: 0px;
+ padding: 0px;
+}
+
+#search label{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*********** #navBar link styles ***********/
+
+#navBar ul a:link, #navBar ul a:visited {
+	display: block;
+}
+#navBar ul {list-style: none; margin: 0; padding: 0;}
+
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#navBar li {border-bottom: 1px solid #EEE;}
+
+/* fix for browsers that don't need the hack */
+html>body #navBar li {border-bottom: none;}
+
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks{
+
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #cccccc;
+	font-size: 90%;
+}
+
+#sectionLinks h3{
+	padding: 10px 0px 2px 10px;
+}
+
+#sectionLinks a {
+	display: none;
+	border-top: 1px solid #cccccc;
+	padding: 2px 0px 2px 10px;
+}
+
+#sectionLinks a:hover{
+	background-color: #dddddd;
+}
+
+
+/*********** .relatedLinks styles ***********/
+
+.relatedLinks{
+	position: relative;
+	margin: 0px;
+	padding: 0px 0px 10px 10px;
+	font-size: 90%;
+}
+
+.relatedLinks h3{
+	padding: 10px 0px 2px 0px;
+}
+
+.relatedLinks a:link,
+.relatedLinks a:visited {
+	display: block; 
+}
+
+/************** #advert styles **************/
+
+#advert{
+	padding: 30px 0px 10px;
+}
+
+#advert img{
+	display: block;
+}
+
+
+
+table.sortable 
+{
+	width:100%;
+}
+
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+#menu8 {
+	width: 162px;
+	margin-top: 10px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #777;
+	display: block;
+	background: url(../imagem/menu.gif);
+	padding: 8px 0 0 20px;
+	}
+	
+#menu8 li a:hover {
+	color: #257EB7;
+	background: url(../imagem/menu.gif) 0 -32px;
+	padding: 8px 0 0 25px;
+	}
+	
+#menu8 li a:active {
+	color: #fff;
+	background: url(../imagem/menu.gif) 0 -64px;
+	padding: 8px 0 0 25px;
+	}
+
+#menu8 li #current {
+	color: #257EB7;
+	background: url(../imagem/menu.gif) 0 -32px;
+	padding: 8px 0 0 25px;
+	}
+
+.atividadenormal 
+{
+	color: Black;
+}
+
+.atividadeadministrador
+{
+	color: Red;
+}
+p.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;	
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	}
+	
+#menuHorizontal ul {
+	margin: 0px;
+	padding-top: 0px;	
+	padding-right: 0px;	
+	padding-bottom: 4px;	
+	padding-left: 0px;	
+	list-style: none;
+	text-align: right;
+	}
+
+#menuHorizontal ul li {
+	display: inline; 
+	padding: 0px; 
+	height: 25px;
+	}
+
+#menuHorizontal ul li a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+	margin: 0px;
+	height: 19px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+
+#menuHorizontal ul li a:hover {
+	color: #FF0000;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #C6C5D3;
+	border-bottom-color: #545478;
+	border-left-color: #F1F1F5;
+	padding-right: 4px;
+	padding-left: 4px;
+}	

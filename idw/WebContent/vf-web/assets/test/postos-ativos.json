@@ -1,0 +1,34 @@
+{
+    "pts": [
+        {
+            "idPt": 2803,
+            "cdPt": "BAL001",
+            "dsPt": "BAL001teste"
+        },
+        {
+            "idPt": 2805,
+            "cdPt": "BAL002",
+            "dsPt": "BAL002"
+        },
+        {
+            "idPt": 2801,
+            "cdPt": "MAC001",
+            "dsPt": "MAC001"
+        },
+        {
+            "idPt": 2802,
+            "cdPt": "MAC002",
+            "dsPt": "MAC002"
+        },
+        {
+            "idPt": 2780,
+            "cdPt": "SUPORT",
+            "dsPt": "SUPORTE01"
+        },
+        {
+            "idPt": 2822,
+            "cdPt": "teste",
+            "dsPt": "teste"
+        }
+    ]
+}

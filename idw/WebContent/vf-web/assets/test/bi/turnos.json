@@ -1,0 +1,24 @@
+{
+  "turnos": [
+    {
+      "idTurno": 1,
+      "cdTurno": "000001",
+      "dsTurno": "TURNO A"
+    },
+    {
+      "idTurno": 2,
+      "cdTurno": "000002",
+      "dsTurno": "TURNO B"
+    },
+    {
+      "idTurno": 3,
+      "cdTurno": "000003",
+      "dsTurno": "TURNO C"
+    },
+    {
+      "idTurno": 4,
+      "cdTurno": "000004",
+      "dsTurno": "TURNO D"
+    }
+  ]
+}

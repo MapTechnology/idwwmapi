@@ -1,0 +1,105 @@
+<link href="css/parada.css" rel="stylesheet">
+<div id="div_ihm_paradas" style="margin-left: 250px;">
+
+	<div>
+		<fieldset class="card-grafico " style="width: 100%;">
+			<div class="card-card center">
+				<span style="font-size: 20px"><b>OEE</b></span>
+				<div id='oee'></div>
+			</div>
+			<div class="card-card center">
+				<span style="font-size: 20px"><b>DISPONIBILIDADE</b></span>
+				<div id='disponibilidade'></div>
+			</div>
+
+			<div class="card-card center">
+				<span style="font-size: 20px"><b>RITMO</b></span>
+				<div id='ritmo'></div>
+			</div>
+			<div class="card-card center">
+				<span style="font-size: 20px"><b>QUALIDADE</b></span>
+				<div id='qualidade'></div>
+			</div>
+			
+		</fieldset>
+	</div>
+
+	<div class="list-group card center">
+		<div class="list-group-item card-cima" ng-class="{'card-statusparada':sessao[cdSelecionado].pt.isParada == 'false'}">
+			<label class="opcoes" >Máquina: </label>
+			<label class="opcoes"> {{sessao[cdSelecionado].pt.dsup}} </label>
+			<br>
+			<label class="opcoes" >OP: </label>
+			<label class="opcoes"> {{sessao[cdSelecionado].pt.producao.ordem}} </label>
+		</div>
+		<div class="list-group-item card-meio" ng-class="{'card-statusparada':sessao[cdSelecionado].pt.isParada == 'false'}">
+			<label ng-if="sessao[cdSelecionado].pt.isParada == 'false' && sessao[cdSelecionado].pt.parada.cdparada.length == 0" style="font-size: 40px;">
+				<b>SEM PARADA</b>
+			</label><br>
+			<label ng-if="sessao[cdSelecionado].pt.isParada == 'false' && sessao[cdSelecionado].pt.parada.cdparada.length == 0" style="font-size: 100px; line-height: 90px">
+				<b>--:--:--</b>
+			</label>
+
+			<label ng-if="sessao[cdSelecionado].pt.isParada == 'true'" style="font-size: 40px;">
+				<b>EM PARADA</b>
+			</label><br>
+			<label ng-if="sessao[cdSelecionado].pt.isParada == 'true'" style="font-size: 40px;">
+				<b>{{tempoParada(sessao[cdSelecionado].pt.parada.inip)}}</b>
+			</label>
+			
+			<label ng-if="sessao[cdSelecionado].pt.isParada == 'false' && sessao[cdSelecionado].pt.parada.cdparada.length > 0"style="font-size: 40px;">
+				<b>INÍCIO ÚLTIMA PARADA</b>
+			</label><br>			
+			<label ng-if="sessao[cdSelecionado].pt.isParada == 'false' && sessao[cdSelecionado].pt.parada.cdparada.length > 0" style="font-size: 40px;">
+				<b>{{sessao[cdSelecionado].pt.parada.inipFormatado}}</b>
+			</label>
+		</div>
+		<div class="list-group-item card-baixo" ng-class="{'card-statusparada':sessao[cdSelecionado].pt.isParada == 'false'}">
+			<label class="tipoParada" style="padding-top: 95px">{{sessao[cdSelecionado].pt.parada.cdparada +" - " + sessao[cdSelecionado].pt.parada.ultp}}</label>
+		</div>
+	</div>
+
+
+
+		<!-- <div class="container-fluid">
+			<h1 id="h1_ihm_paradas" class="page-header"></h1>
+			<div id="panel_ultima_parada" class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title" id="link_ultima_parada">
+					</h4>
+				</div>
+					<div class="panel-body">
+					<div class="input-group pesquisa-filtro" ng-hide="getNumeroUltimasParadas() < 2">
+				<span class="input-group-addon glyphicon glyphicon-search"></span>
+				<input type="text" class="form-control pesquisa-filtro" ng-model="filtro" />
+				</div>
+						<div class="table-responsive">
+							<table class="table table-striped table-hover"
+								id="tabela_ultima_parada">
+								<thead id="tabela_ultima_parada_cabecalho">
+								</thead>
+								<tbody id="tabela_ultima_parada_corpo">
+								<tr ng-repeat="pts in sessao | filter:filtro" ng-if="pts.pt.parada.ultp != '' && pts.pt.parada.ultp != -1 && pts.pt.parada.inip != 'null'">
+								<td>{{pts.pt.dsup}}</td>
+								<td>{{pts.pt.parada.cdparada +"--" +pts.pt.parada.ultp}}</td> -->
+<!--								<td>{{dataCertaParada(pts.pt.parada.inip.substring(0 , 10)) + " " + pts.pt.parada.inip.substring(10,pts.pt.parada.inip.lenght )}}</td>-->
+								<!-- <td>{{pts.pt.parada.inip}}</td>
+								<td ng-if="pts.pt.isParada == 'false'">--:--:--</td>
+								<td ng-if="pts.pt.isParada == 'true'">{{tempoParada(pts.pt.parada.inip)}}</td>
+								<td ng-show="pts.pt.isParada == 'true'">
+									<button class="btn btn-md btn-primary" ui-sref="ihmWeb.finalizaparada({pt: pts.pt})">{{btnFinPar}}</button>
+								</td>
+								<td ng-show="pts.pt.parada.isPermiteCorrecao">
+									<button class="btn btn-md btn-primary" ui-sref="ihmWeb.corrigeultimaparada({pt: pts.pt})">{{btnCorUltPar}}</button>
+								</td>
+								</tr>
+								</tbody>
+								<tfoot></tfoot>
+							</table> -->
+
+							<!-- Ailton 2019-09-20 Funcionalidade descontinuada-->
+							<!-- <button class="btn btn-lg btn-primary" id="btn_nova_parada" ui-sref="ihmWeb.novaparada"></button>
+							<button class="btn btn-lg btn-primary" id="btn_correcao_de_paradas" ui-sref="ihmWeb.correcaoparadas" ng-show="IsIDWAtivo == 'true'"></button>
+						</div>
+					</div> -->
+</div>

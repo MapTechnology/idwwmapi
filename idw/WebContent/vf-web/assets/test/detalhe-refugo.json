@@ -1,0 +1,122 @@
+[
+    {
+        "posto": "BAL002",
+        "ferramenta": "000350-0001",
+        "produto": "SP3050-ROLO TECIDO NAO TECIDO BR 300X0,30M 40G",
+        "refugo": "2-TESTE",
+        "quantidade": "5.00",
+        "dtHrOcorrencia": "24/10/2017 14:54:21",
+        "causa": "1-CAUSA 1",
+        "acao": "1-teste",
+        "filtro": {
+            "cdRefugo": "2-TESTE",
+            "quantidadeRefugo": "5.00",
+            "totalRefugo": "19.00",
+            "filtroOp": 0,
+            "cdCp": "19102017012",
+            "dtReferencia": "24/10/2017",
+            "dtHrReferenciaInicial": "24/10/2017 09:00:00",
+            "dtHrReferenciaFinal": "24/10/2017 17:00:00",
+            "idTurno": 3,
+            "cdPosto": "BAL002",
+            "tpId": 0,
+            "cdProduto": null
+        }
+    },
+    {
+        "posto": "BAL002",
+        "ferramenta": "000350-0001",
+        "produto": "SP3050-ROLO TECIDO NAO TECIDO BR 300X0,30M 40G",
+        "refugo": "000007-FIO DESPARELHO",
+        "quantidade": "6.00",
+        "dtHrOcorrencia": "24/10/2017 14:55:18",
+        "causa": "",
+        "acao": "",
+        "filtro": {
+            "cdRefugo": "000007-FIO DESPARELHO",
+            "quantidadeRefugo": "6.00",
+            "totalRefugo": "19.00",
+            "filtroOp": 0,
+            "cdCp": "19102017012",
+            "dtReferencia": "24/10/2017",
+            "dtHrReferenciaInicial": "24/10/2017 09:00:00",
+            "dtHrReferenciaFinal": "24/10/2017 17:00:00",
+            "idTurno": 3,
+            "cdPosto": "BAL002",
+            "tpId": 0,
+            "cdProduto": null
+        }
+    },
+    {
+        "posto": "BAL002",
+        "ferramenta": "000350-0001",
+        "produto": "SP3050-ROLO TECIDO NAO TECIDO BR 300X0,30M 40G",
+        "refugo": "000008-FURO IRREGULAR",
+        "quantidade": "3.00",
+        "dtHrOcorrencia": "24/10/2017 14:55:26",
+        "causa": "",
+        "acao": "",
+        "filtro": {
+            "cdRefugo": "000008-FURO IRREGULAR",
+            "quantidadeRefugo": "3.00",
+            "totalRefugo": "19.00",
+            "filtroOp": 0,
+            "cdCp": "19102017012",
+            "dtReferencia": "24/10/2017",
+            "dtHrReferenciaInicial": "24/10/2017 09:00:00",
+            "dtHrReferenciaFinal": "24/10/2017 17:00:00",
+            "idTurno": 3,
+            "cdPosto": "BAL002",
+            "tpId": 0,
+            "cdProduto": null
+        }
+    },
+    {
+        "posto": "BAL002",
+        "ferramenta": "000350-0001",
+        "produto": "SP3050-ROLO TECIDO NAO TECIDO BR 300X0,30M 40G",
+        "refugo": "000015-TESTES ENGENHARIA",
+        "quantidade": "3.00",
+        "dtHrOcorrencia": "24/10/2017 14:55:34",
+        "causa": "",
+        "acao": "",
+        "filtro": {
+            "cdRefugo": "000015-TESTES ENGENHARIA",
+            "quantidadeRefugo": "3.00",
+            "totalRefugo": "19.00",
+            "filtroOp": 0,
+            "cdCp": "19102017012",
+            "dtReferencia": "24/10/2017",
+            "dtHrReferenciaInicial": "24/10/2017 09:00:00",
+            "dtHrReferenciaFinal": "24/10/2017 17:00:00",
+            "idTurno": 3,
+            "cdPosto": "BAL002",
+            "tpId": 0,
+            "cdProduto": null
+        }
+    },
+    {
+        "posto": "BAL002",
+        "ferramenta": "000350-0001",
+        "produto": "SP3050-ROLO TECIDO NAO TECIDO BR 300X0,30M 40G",
+        "refugo": "1-teaste",
+        "quantidade": "2.00",
+        "dtHrOcorrencia": "24/10/2017 14:54:52",
+        "causa": "",
+        "acao": "",
+        "filtro": {
+            "cdRefugo": "1-teaste",
+            "quantidadeRefugo": "2.00",
+            "totalRefugo": "19.00",
+            "filtroOp": 0,
+            "cdCp": "19102017012",
+            "dtReferencia": "24/10/2017",
+            "dtHrReferenciaInicial": "24/10/2017 09:00:00",
+            "dtHrReferenciaFinal": "24/10/2017 17:00:00",
+            "idTurno": 3,
+            "cdPosto": "BAL002",
+            "tpId": 0,
+            "cdProduto": null
+        }
+    }
+]

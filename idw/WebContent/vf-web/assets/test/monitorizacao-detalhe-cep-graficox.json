@@ -1,0 +1,45 @@
+{
+    "valores": [
+        {
+            "label": "11/01/2017 08:00:00",
+            "valor": "6562.00",
+            "valorMonetario": "0.00",
+            "parametro": "ENERGIA CONSUMIDA (KWh)",
+            "meta": "7562.00"
+        },
+        {
+            "label": "11/01/2017 09:00:00",
+            "valor": "22601.00",
+            "valorMonetario": "0.00",
+            "parametro": "ENERGIA CONSUMIDA (KWh)",
+            "meta": "32601.00"
+        },
+        {
+            "label": "11/01/2017 10:00:00",
+            "valor": "23442.00",
+            "valorMonetario": "0.00",
+            "parametro": "ENERGIA CONSUMIDA (KWh)",
+            "meta": "33442.00"
+        },
+        {
+            "label": "11/01/2017 11:00:00",
+            "valor": "21986.00",
+            "valorMonetario": "0.00",
+            "parametro": "ENERGIA CONSUMIDA (KWh)",
+            "meta": "31986.00"
+        }
+    ],
+    "lscx": "1397.4414",
+    "lcx": "493.0414",
+    "licx": "-411.3586",
+    "lscr": "1110.7800",
+    "lcr": "340.2500",
+    "licr": "0.0000",
+    "m": "4",
+    "n": "1",
+    "desvioPadrao": "286.3609",
+    "cp": "-",
+    "cpi": "-",
+    "cps": "-",
+    "cpk": "-"
+}

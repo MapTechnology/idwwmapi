@@ -1,0 +1,2456 @@
+[
+    {
+        "idRap": 14,
+        "cdRap": "|00147",
+        "cdRapView": "100.0001",
+        "dsRap": "COPO QUADRADO P. 260 ML"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00256",
+        "cdRapView": "100.0002",
+        "dsRap": "CREMEIRA FLORA"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00229",
+        "cdRapView": "100.0003",
+        "dsRap": "CORPO DA JARRA OVAL"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00225",
+        "cdRapView": "100.0004",
+        "dsRap": "TAMPA DA JARRA REDONDA"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00232",
+        "cdRapView": "100.0005",
+        "dsRap": "CORPO DA JARRA REDONDA"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00294",
+        "cdRapView": "100.0006",
+        "dsRap": "TAMPA DA JARRA REDONDA"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00158",
+        "cdRapView": "100.0011",
+        "dsRap": "CORPO DA CANECA TERMICA"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00247",
+        "cdRapView": "100.0012",
+        "dsRap": "CORPO INT. DA CANECA TERM/HERM"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00248",
+        "cdRapView": "100.0013",
+        "dsRap": "TAMPA DA CANECA HERMETICA"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00249",
+        "cdRapView": "100.0014",
+        "dsRap": "ANEL DE VEDACAO DA CANECA HERM"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00319",
+        "cdRapView": "100.0015",
+        "dsRap": "MATRIZ CORPO CESTO TRIA 10L"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00024",
+        "cdRapView": "100.0016",
+        "dsRap": "CORPO DA LIXEIRA TRIA 5 L"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00036",
+        "cdRapView": "100.0017",
+        "dsRap": "TAMPA AUTOMAT. DA LIX TRIA 10L"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00037",
+        "cdRapView": "100.0018",
+        "dsRap": "ARO TAMPA AUT. DA LIX TRIA 10L"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00323",
+        "cdRapView": "100.0019",
+        "dsRap": "MATRIZ BASE DA LIX.TRIA 10L"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00112",
+        "cdRapView": "100.0020",
+        "dsRap": "TACA SOBREMESA FLORA"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00338",
+        "cdRapView": "100.0021",
+        "dsRap": "ALETAS DO CESTO TRAMA"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00187",
+        "cdRapView": "100.0022",
+        "dsRap": "TAMPA DO CESTO TRAMA"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00348",
+        "cdRapView": "100.0023",
+        "dsRap": "MATRIZ BASE SUP. / INF. DO CES"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00033",
+        "cdRapView": "100.0024",
+        "dsRap": "COPO QUADRADO G 360 ML"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00259",
+        "cdRapView": "100.0025",
+        "dsRap": "MOLHEIRA WAVE MINI"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00257",
+        "cdRapView": "100.0026",
+        "dsRap": "CREMEIRA WAVE"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00079",
+        "cdRapView": "100.0027",
+        "dsRap": "PRATO LANCHE QUADRADO"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00103",
+        "cdRapView": "100.0028",
+        "dsRap": "PRATO QUADRADO"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00126",
+        "cdRapView": "100.0029",
+        "dsRap": "COPO MILANO G. 350 ML"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00148",
+        "cdRapView": "100.0030",
+        "dsRap": "COPO MILANO P.250 ML"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00270",
+        "cdRapView": "100.0031",
+        "dsRap": "MOLHEIRA WAVE"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00221",
+        "cdRapView": "100.0032",
+        "dsRap": "TAMPA DO PORTA FRIOS CUBO"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00218",
+        "cdRapView": "100.0033",
+        "dsRap": "BASE DO PORTA FRIOS CUBO"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00011",
+        "cdRapView": "100.0034",
+        "dsRap": "TIGELA CONSOME 650 ML"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00093",
+        "cdRapView": "100.0035",
+        "dsRap": "CORPO DO BALDE DE GELO "
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00092",
+        "cdRapView": "100.0036",
+        "dsRap": "SEPARADOR ESCORREDOR DE TALHER"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00250",
+        "cdRapView": "100.0037",
+        "dsRap": "PORTA GUARDANAPOS"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00110",
+        "cdRapView": "100.0038",
+        "dsRap": "TACA SOBREMESA WAVE"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00098",
+        "cdRapView": "100.0039",
+        "dsRap": "PORTA DETERGENTE ESPONJA GLUB"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00269",
+        "cdRapView": "100.0040",
+        "dsRap": "SALADEIRA WAVE 28"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00223",
+        "cdRapView": "100.0041",
+        "dsRap": "TAMPA DO PORTA FRIOS RETANGULA"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00219",
+        "cdRapView": "100.0042",
+        "dsRap": "BASE DO PORTA FRIOS RETANGULAR"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00271",
+        "cdRapView": "100.0043",
+        "dsRap": "MOLHEIRA SHOYO/COLHER SHIRO"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00018",
+        "cdRapView": "100.0044",
+        "dsRap": "TAMPA DO CONJ DE BAN. ESPIRAL"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00060",
+        "cdRapView": "100.0045",
+        "dsRap": "CORPO DO COPO REDONDO"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00083",
+        "cdRapView": "100.0046",
+        "dsRap": "BASE DO DISPENSER P/ SACOLAS"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00082",
+        "cdRapView": "100.0047",
+        "dsRap": "CORPO DO DISPENSER P/ SACOLAS"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00228",
+        "cdRapView": "100.0048",
+        "dsRap": "APOIO PARA COLHER"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00252",
+        "cdRapView": "100.0049",
+        "dsRap": "TAMPA DO CONJ. DE BAN. VITRA"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00310",
+        "cdRapView": "100.0050",
+        "dsRap": "MATRIZ COPO VITRA"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00070",
+        "cdRapView": "100.0051",
+        "dsRap": "PORTA COPOS"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00072",
+        "cdRapView": "100.0052",
+        "dsRap": "PORTA COPOS AGUA 200 ML"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00076",
+        "cdRapView": "100.0053",
+        "dsRap": "PRATO RASO"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00179",
+        "cdRapView": "100.0054",
+        "dsRap": "TAMPA DA MANTEGUEIRA CUBO"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00181",
+        "cdRapView": "100.0055",
+        "dsRap": "BASE DA MANTEGUEIRA CUBO"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00190",
+        "cdRapView": "100.0058",
+        "dsRap": "COLETOR DA SABONETEIRA KEO"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00192",
+        "cdRapView": "100.0059",
+        "dsRap": "BASE DA SABONETEIRA KEO"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00188",
+        "cdRapView": "100.0060",
+        "dsRap": "COLETOR DA SABONETEIRA REDONDA"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00186",
+        "cdRapView": "100.0061",
+        "dsRap": "BASE DA SABONETEIRA REDONDA"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00194",
+        "cdRapView": "100.0065",
+        "dsRap": "TABUA DE CORTE WAY"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00195",
+        "cdRapView": "100.0066",
+        "dsRap": "SOUSPLAT QUADRADO"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00196",
+        "cdRapView": "100.0067",
+        "dsRap": "SOUSPLAT REDONDO"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00200",
+        "cdRapView": "100.0069",
+        "dsRap": "CORPO DO POTE MANTIMENTOS MINI"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00198",
+        "cdRapView": "100.0070",
+        "dsRap": "CORPO DO POTE MANTIMENTOS P"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00199",
+        "cdRapView": "100.0071",
+        "dsRap": "CORPO DO POTE MANTIMENTOS M"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00182",
+        "cdRapView": "100.0072",
+        "dsRap": "CORPO DO POTE MANTIMENTOS G"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00201",
+        "cdRapView": "100.0075",
+        "dsRap": "COLHER PARA FARINHEIRA SOLO"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00203",
+        "cdRapView": "100.0076",
+        "dsRap": "PORTA SORVETE"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00208",
+        "cdRapView": "100.0077",
+        "dsRap": "CORPO INT DA TRAVESSA FUSION M"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00217",
+        "cdRapView": "100.0078",
+        "dsRap": "CORPO EXT. TRA. FUSION/VITRA M"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00210",
+        "cdRapView": "100.0079",
+        "dsRap": "CORPO INT DA TRAVESSA FUSION P"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00214",
+        "cdRapView": "100.0080",
+        "dsRap": "CORPO EXT. TRA. FUSION/VITRA P"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00220",
+        "cdRapView": "100.0081",
+        "dsRap": "CORPO INT DA TRAVESSA FUSION G"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00227",
+        "cdRapView": "100.0082",
+        "dsRap": "CORPO EXT. TRA. FUSION/VITRA G"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00222",
+        "cdRapView": "100.0083",
+        "dsRap": "TRAVESSA P."
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00224",
+        "cdRapView": "100.0084",
+        "dsRap": "TRAVESSA G."
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00230",
+        "cdRapView": "100.0085",
+        "dsRap": "TAMPA PARA POTE MANT. M/P/M/G"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00246",
+        "cdRapView": "100.0086",
+        "dsRap": "CORPO INT. DA CANECA TERMICA"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00010",
+        "cdRapView": "100.0087",
+        "dsRap": "TALHERES SALADA FUSION/VITRA"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00251",
+        "cdRapView": "100.0090",
+        "dsRap": "BASE LIX.TRIA 10 /DIV.POR.GUAR"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00363",
+        "cdRapView": "100.0093",
+        "dsRap": "BASE DA TRAVESSA FLU PEQUENA"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00359",
+        "cdRapView": "100.0094",
+        "dsRap": "MATRIZ TAMPA TRAV. FLU P "
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00255",
+        "cdRapView": "100.0095",
+        "dsRap": "SALADEIRA FLORA"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00364",
+        "cdRapView": "100.0096",
+        "dsRap": "MATRIZ BANDEJA ORIGAMI"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00273",
+        "cdRapView": "100.0097",
+        "dsRap": "CORPO INT. CREM. FUSION/VITRA"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00272",
+        "cdRapView": "100.0098",
+        "dsRap": "CORPO EXT. CREM. FUSION/VITRA"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00050",
+        "cdRapView": "100.0099",
+        "dsRap": "COLHER PARA ACUCAREIROS VITRA"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00260",
+        "cdRapView": "100.0100",
+        "dsRap": "CORPO E TAMPA ACUCAREIRO BUG"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00261",
+        "cdRapView": "100.0101",
+        "dsRap": "ARO DO ACUCAREIRO BUG"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00262",
+        "cdRapView": "100.0102",
+        "dsRap": "CORPO DO ACUCAREIRO BISTRO"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00263",
+        "cdRapView": "100.0103",
+        "dsRap": "TAMPA DO ACUCAREIRO BISTRO"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00264",
+        "cdRapView": "100.0104",
+        "dsRap": "TAMPA DO POTE RET. ORG.3.5L"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00265",
+        "cdRapView": "100.0105",
+        "dsRap": "CORPO DO POTE RET. ORG. 3.5L"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00266",
+        "cdRapView": "100.0106",
+        "dsRap": "TAMPA DO POTE QUAD. ORG. 1L"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00267",
+        "cdRapView": "100.0107",
+        "dsRap": "CORPO DO POTE QUAD. ORG. 1L"
+    },
+    {
+        "idRap": 26,
+        "cdRap": "|00268",
+        "cdRapView": "100.0108",
+        "dsRap": "SALADEIRA WAVE 33"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00274",
+        "cdRapView": "100.0109",
+        "dsRap": "TAMPA P/ MICROONDAS"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00108",
+        "cdRapView": "100.0110",
+        "dsRap": "INTERNO DA XICARA TERMICA CAFE"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00275",
+        "cdRapView": "100.0111",
+        "dsRap": "CORPO EXT. XIC.TERM. CAFEZINHO"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00237",
+        "cdRapView": "100.0112",
+        "dsRap": "CORPO DO SALEIRO LUNA"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00238",
+        "cdRapView": "100.0113",
+        "dsRap": "TAMPA DO SALEIRO LULNA"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00236",
+        "cdRapView": "100.0114",
+        "dsRap": "TAMPA DA MELEIRA ZUM"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00239",
+        "cdRapView": "100.0115",
+        "dsRap": "REFIL DA MELEIRA ZUM/VITRA"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00240",
+        "cdRapView": "100.0116",
+        "dsRap": "CORPO EXT. SAL. FUSION/VITRA M"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00241",
+        "cdRapView": "100.0117",
+        "dsRap": "CORPO INT. DA SALAD. FUSION M"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00243",
+        "cdRapView": "100.0118",
+        "dsRap": "CORPO EXT. SAL. FUSION/VITRA P"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00242",
+        "cdRapView": "100.0119",
+        "dsRap": "CORPO INT. SAL. FUSION/VITRA P"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00244",
+        "cdRapView": "100.0120",
+        "dsRap": "SUPORTE  90° GOTA"
+    },
+    {
+        "idRap": 24,
+        "cdRap": "|00245",
+        "cdRapView": "100.0122",
+        "dsRap": "TAMPA DO POTE CONDIMENTO P/M/G"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00276",
+        "cdRapView": "100.0123",
+        "dsRap": "RESPIRO P/TAMPA POTES ORGANIZE"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00277",
+        "cdRapView": "100.0124",
+        "dsRap": "TAMPA DO POTE QUAD. ORG. 350ML"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00278",
+        "cdRapView": "100.0125",
+        "dsRap": "CORPO DO POTE QUAD. ORG. 350ML"
+    },
+    {
+        "idRap": 27,
+        "cdRap": "|00279",
+        "cdRapView": "100.0126",
+        "dsRap": "TAMPA DO POTE RET. ORG. 2.5L"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00280",
+        "cdRapView": "100.0127",
+        "dsRap": "CORPO DO POTE RET. ORG. 2.5L"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00343",
+        "cdRapView": "100.0130",
+        "dsRap": "MATRIZ CORPO EXT TIGELA CONSUM"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00012",
+        "cdRapView": "100.0131",
+        "dsRap": "CORPO INT DA TIGELA TER CONSOM"
+    },
+    {
+        "idRap": 22,
+        "cdRap": "|00226",
+        "cdRapView": "100.0132",
+        "dsRap": "TAMPA DA JARRA VITRA"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00058",
+        "cdRapView": "100.0133",
+        "dsRap": "COPO REDONDO TRITAN 200 ML"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00059",
+        "cdRapView": "100.0136",
+        "dsRap": "COPO LONG DRINK 300 ML"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00233",
+        "cdRapView": "100.0137",
+        "dsRap": "COPO SUCO VITRA 450 ML"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00062",
+        "cdRapView": "100.0138",
+        "dsRap": "COPO CONICO 500 ML"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00061",
+        "cdRapView": "100.0139",
+        "dsRap": "COPO MINI TRITAN 90 ML"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00063",
+        "cdRapView": "100.0140",
+        "dsRap": "CORPO DO COPO DRINK VITRA"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00064",
+        "cdRapView": "100.0141",
+        "dsRap": "COPO AGUA VITRA 300 ML"
+    },
+    {
+        "idRap": 0,
+        "cdRap": "|00003",
+        "cdRapView": "100.0142",
+        "dsRap": "PRATELEIRA MULTIFUNCIONAL GOTA"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00074",
+        "cdRapView": "100.0144",
+        "dsRap": "PORTA COPOS VITRA"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00077",
+        "cdRapView": "100.0145",
+        "dsRap": "PRATO LANCHE REDONDO"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00078",
+        "cdRapView": "100.0146",
+        "dsRap": "PRATO FUNDO"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00114",
+        "cdRapView": "100.0149",
+        "dsRap": "TAMPA FARINHEIRA"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00113",
+        "cdRapView": "100.0150",
+        "dsRap": "TAMPA DA QUEIJEIRA/FARINHEIRA "
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00115",
+        "cdRapView": "100.0151",
+        "dsRap": "TAMPA DO RESF DA JARRA VITRA"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00117",
+        "cdRapView": "100.0152",
+        "dsRap": "CORPO DO RESF DA JARRA VITRA"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00324",
+        "cdRapView": "100.0153",
+        "dsRap": "MATRIZ TP BALDE GELO COR 2"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00120",
+        "cdRapView": "100.0154",
+        "dsRap": "TAMPA DO BALDE P/GELO VITRA"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00138",
+        "cdRapView": "100.0156",
+        "dsRap": "ANEL INT NATURAL DA LIX KIRK"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00139",
+        "cdRapView": "100.0157",
+        "dsRap": "ANEL INT NATURAL DA LIX KIRK"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00141",
+        "cdRapView": "100.0158",
+        "dsRap": "CORPO DO ORGANIZADOR DUO"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00142",
+        "cdRapView": "100.0159",
+        "dsRap": "TAMPA D ORGANIZADOR DUO"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00150",
+        "cdRapView": "100.0163",
+        "dsRap": "TAMPA DA LIXEIRA KIRK"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00151",
+        "cdRapView": "100.0164",
+        "dsRap": "TAMPA DA LIXEIRA PIA KIRK"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00152",
+        "cdRapView": "100.0165",
+        "dsRap": "ARO DA TAMPA DA LIXEIRA KIRK"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00153",
+        "cdRapView": "100.0166",
+        "dsRap": "ARO DA TAMPA DA LIX PIA KIRK"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00154",
+        "cdRapView": "100.0167",
+        "dsRap": "CORPO EXT. BALDE P/GELO VITRA"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00155",
+        "cdRapView": "100.0168",
+        "dsRap": "CORPO INT. BALDE P/GELO VITRA"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00156",
+        "cdRapView": "100.0170",
+        "dsRap": "TRAVESSA CHILLI M"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00157",
+        "cdRapView": "100.0171",
+        "dsRap": "TRAVESSA CHILLI P"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00105",
+        "cdRapView": "100.0173",
+        "dsRap": "TAMPA DO PORTA BOLO TWIST"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00107",
+        "cdRapView": "100.0174",
+        "dsRap": "TAMPA DO PTA QUE/BOLO TWIST"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00111",
+        "cdRapView": "100.0177",
+        "dsRap": "BASE PORTA QUEIJO MINAS DIA"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00109",
+        "cdRapView": "100.0178",
+        "dsRap": "TAMPA PORTA QUEIJO MINAS DIA"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00075",
+        "cdRapView": "100.0180",
+        "dsRap": "CORPO DO COPO TAMPA"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00133",
+        "cdRapView": "100.0181",
+        "dsRap": "TAMPA DO ESPREMEDOR DE FRUTAS"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00135",
+        "cdRapView": "100.0182",
+        "dsRap": "CORPO DO COPO MULTIUSO"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00086",
+        "cdRapView": "100.0188",
+        "dsRap": "CORPO EXT XICARA TERMICA CHA"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00087",
+        "cdRapView": "100.0189",
+        "dsRap": "CORPO INT XICARA TERMICA CHA"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00084",
+        "cdRapView": "100.0190",
+        "dsRap": "CORPO DO PORTA-SABAO E ESPONJA"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00085",
+        "cdRapView": "100.0191",
+        "dsRap": "TAMPA DO PORTA-SABAO E ESPONJA"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00057",
+        "cdRapView": "100.0194",
+        "dsRap": "COPO AGUA TRITAN 300 ML"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00088",
+        "cdRapView": "100.0195",
+        "dsRap": "TAMPA ROSCA DA GARRAFA ESPORTI"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00089",
+        "cdRapView": "100.0196",
+        "dsRap": "SOBRE TAMPA DA GARRAFA ESPORTI"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00090",
+        "cdRapView": "100.0197",
+        "dsRap": "CORPO DA GARRAFA ESPORTIVA FIT"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00091",
+        "cdRapView": "100.0198",
+        "dsRap": "PIRES DA XICARA CHA"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00094",
+        "cdRapView": "100.0199",
+        "dsRap": "CORPO EXT XICARA TERMICA MAXI"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00095",
+        "cdRapView": "100.0201",
+        "dsRap": "CORPO INT XICARA TERMICA MAXI"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00096",
+        "cdRapView": "100.0202",
+        "dsRap": "CORPO DO PORTA SACHE BISTRO"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00097",
+        "cdRapView": "100.0203",
+        "dsRap": "TAMPA DO PORTA SACHE BISTRO"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00100",
+        "cdRapView": "100.0205",
+        "dsRap": "TAMPA DO DISP. P/ DETERG GLUB"
+    },
+    {
+        "idRap": 9,
+        "cdRap": "|00099",
+        "cdRapView": "100.0206",
+        "dsRap": "CORPO DO DISP P/ DETERG GLUB"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00101",
+        "cdRapView": "100.0207",
+        "dsRap": "BASE DO PORTA BOLO TWIST"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00102",
+        "cdRapView": "100.0208",
+        "dsRap": "BASE DO PORTA QUEIJO/BOLO TWIS"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00104",
+        "cdRapView": "100.0209",
+        "dsRap": "BANDEJA BISTRO"
+    },
+    {
+        "idRap": 10,
+        "cdRap": "|00106",
+        "cdRapView": "100.0210",
+        "dsRap": "BANDEJA MILANO"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00322",
+        "cdRapView": "100.0214",
+        "dsRap": "MATRIZ TAMPAO PE BAND CAMA DIA"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00118",
+        "cdRapView": "100.0215",
+        "dsRap": "PORTA SACHE MINI BISTRO"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00122",
+        "cdRapView": "100.0216",
+        "dsRap": "TAMPA DO SUP ESCOVA SANIT GOTA"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00123",
+        "cdRapView": "100.0218",
+        "dsRap": "TAMPA DA LIXEIRA DE PIA HIDE"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00035",
+        "cdRapView": "100.0219",
+        "dsRap": "CORPO DA LIXEIRA DE PIA HIDE"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00125",
+        "cdRapView": "100.0222",
+        "dsRap": "LAVARROZ"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00346",
+        "cdRapView": "100.0223",
+        "dsRap": "MATRIZ MISTURADOR NATURAL COQU"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00066",
+        "cdRapView": "100.0225",
+        "dsRap": "COPO DRINK P/LINHA ECO"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00129",
+        "cdRapView": "100.0226",
+        "dsRap": "TAMPA DO PORTA FRIOS ELECTROLU"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00130",
+        "cdRapView": "100.0227",
+        "dsRap": "BASE DO PORTA FRIOS ELECTROLUX"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00131",
+        "cdRapView": "100.0228",
+        "dsRap": "BASE PARA GELO PRATICO ELECTRO"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00128",
+        "cdRapView": "100.0229",
+        "dsRap": "BICO TAMPA JARRA PRATICA ELETR"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00132",
+        "cdRapView": "100.0230",
+        "dsRap": "POTE HERMETICO 1500 M ELETROLU"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00140",
+        "cdRapView": "100.0231",
+        "dsRap": "ACION. TAMPA JARRA PRATICA ELX"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00134",
+        "cdRapView": "100.0232",
+        "dsRap": "CORPO DA JARRA PRATICA ELECTRO"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00162",
+        "cdRapView": "100.0233",
+        "dsRap": "SUPORTE PARA GELO PRATICO ELX"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00345",
+        "cdRapView": "100.0235",
+        "dsRap": "MATRIZ TELA CESTO FRUTAS ELECT"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00168",
+        "cdRapView": "100.0237",
+        "dsRap": "BASE SUP TAMPA JARRA PRATICA  "
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00171",
+        "cdRapView": "100.0238",
+        "dsRap": "BASE INF TAMPA DA JARRA PRATIC"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00347",
+        "cdRapView": "100.0239",
+        "dsRap": "MATRIZ ANEL VEDAÇÃO ELECTROLUX"
+    },
+    {
+        "idRap": 0,
+        "cdRap": "|00004",
+        "cdRapView": "100.0240",
+        "dsRap": "TACA QUADRADA 400 ML"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00047",
+        "cdRapView": "100.0241",
+        "dsRap": "CORPO DO SUPORTE PAPEL TOALHA"
+    },
+    {
+        "idRap": 0,
+        "cdRap": "|00006",
+        "cdRapView": "100.0242",
+        "dsRap": "CAIXA ORGANIZE M"
+    },
+    {
+        "idRap": 0,
+        "cdRap": "|00007",
+        "cdRapView": "100.0243",
+        "dsRap": "CAIXA ORGANIZE P"
+    },
+    {
+        "idRap": 0,
+        "cdRap": "|00008",
+        "cdRapView": "100.0244",
+        "dsRap": "BASE DA LIXEIRA DE PEDAL IZY"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00013",
+        "cdRapView": "100.0245",
+        "dsRap": "TAMPA DA CAIXA ORGANIZE P"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00014",
+        "cdRapView": "100.0246",
+        "dsRap": "TAMPA DA CAIXA ORGANIZE M"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00015",
+        "cdRapView": "100.0247",
+        "dsRap": "TAMPA DA CAIXA ORGANIZE G"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00016",
+        "cdRapView": "100.0248",
+        "dsRap": "MEXEDOR DRINK"
+    },
+    {
+        "idRap": 0,
+        "cdRap": "|00005",
+        "cdRapView": "100.0249",
+        "dsRap": "PALHETA DO SUPORTE PAPEL TOALH"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00017",
+        "cdRapView": "100.0250",
+        "dsRap": "PROTETOR DE PIA GLUB"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00023",
+        "cdRapView": "100.0251",
+        "dsRap": "ARRUELA DO PINO P/TAPETE BOX H"
+    },
+    {
+        "idRap": 1,
+        "cdRap": "|00019",
+        "cdRapView": "100.0252",
+        "dsRap": "TAMPA DA LIXEIRA DE PEDAL IZY"
+    },
+    {
+        "idRap": 0,
+        "cdRap": "|00009",
+        "cdRapView": "100.0253",
+        "dsRap": "ARO DA LIXEIRA DE PEDAL IZY"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00020",
+        "cdRapView": "100.0254",
+        "dsRap": "HASTE E PEDAL DA LIXEIRA IZY"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00040",
+        "cdRapView": "100.0256",
+        "dsRap": "ESCORREDOR DE MASSA WAVE"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00027",
+        "cdRapView": "100.0259",
+        "dsRap": "PE DA TACA VITRA BAIXA"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00028",
+        "cdRapView": "100.0260",
+        "dsRap": "PE DA TACA VITRA ALTA"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00029",
+        "cdRapView": "100.0261",
+        "dsRap": "TAMPA DO CONJ DE BANHEIRO KEO"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00030",
+        "cdRapView": "100.0262",
+        "dsRap": "MINI BANDEJA"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00031",
+        "cdRapView": "100.0263",
+        "dsRap": "CORPO DA TACA VITRA ALTA"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00032",
+        "cdRapView": "100.0264",
+        "dsRap": "CORPO DA TACA VITRA BAIXA"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00124",
+        "cdRapView": "100.0267",
+        "dsRap": "PORTA COPOS LOOP CAFE 50 ML"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00021",
+        "cdRapView": "100.0269",
+        "dsRap": "CORPO DA LIXEIRA INFINITY/VITR"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00041",
+        "cdRapView": "100.0270",
+        "dsRap": "TAMPA DA LIXEIRA CROMO VITRA"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00042",
+        "cdRapView": "100.0271",
+        "dsRap": "CORPO DO POTE 500 ML ELETROLUX"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00039",
+        "cdRapView": "100.0272",
+        "dsRap": "CORPO POTE HER. 800 ML ELETROL"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00038",
+        "cdRapView": "100.0273",
+        "dsRap": "TAMPA POTE HERM. ELECTROLUX"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00045",
+        "cdRapView": "100.0274",
+        "dsRap": "TAMPA PARA GELO PRATICO ELX"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00025",
+        "cdRapView": "100.0277",
+        "dsRap": "TAMPA AUTOMAT. DA LIXEIRA TRIA"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00116",
+        "cdRapView": "100.0278",
+        "dsRap": "TAMPAO PRETO PE DA BANDEJA DIA"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00026",
+        "cdRapView": "100.0279",
+        "dsRap": "ARO DA TAMPA AUTOMAT. DA LIXEI"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00312",
+        "cdRapView": "100.0281",
+        "dsRap": "MATRIZ CORPO LIXEIRA DE PEDAL"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00127",
+        "cdRapView": "100.0282",
+        "dsRap": "CORPO DO COPO KEO"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00281",
+        "cdRapView": "100.0283",
+        "dsRap": "REVISTEIRO"
+    },
+    {
+        "idRap": 12,
+        "cdRap": "|00121",
+        "cdRapView": "100.0284",
+        "dsRap": "SUPORTE ESCOVA SANITARIA GOTA"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00305",
+        "cdRapView": "100.0285",
+        "dsRap": "MATRIZ TAPETE PARA BOX HIDRO"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00304",
+        "cdRapView": "100.0286",
+        "dsRap": "MATRIZ ARRUELA DO PINO P/TAPET"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00172",
+        "cdRapView": "100.0287",
+        "dsRap": "TACA CHAMPANHE VITRA"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00328",
+        "cdRapView": "100.0288",
+        "dsRap": "MATRIZ BASE PORTA FRIOS ELETRO"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00370",
+        "cdRapView": "100.0289",
+        "dsRap": "PIRES DA XICARA TERMICA CAFEZI"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00185",
+        "cdRapView": "100.0290",
+        "dsRap": "CORPO DA JARRA VITRA 2 L"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00326",
+        "cdRapView": "100.0291",
+        "dsRap": "MATRIZ CORPO ESCOR PRATOS SECO"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00325",
+        "cdRapView": "100.0292",
+        "dsRap": "MATRIZ BASE ESCOR PRATO SECO"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00054",
+        "cdRapView": "100.0293",
+        "dsRap": "COPO QUADRADO TRITAN 200 ML"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00311",
+        "cdRapView": "100.0294",
+        "dsRap": "MATRIZ CAIXA ORGANIZE G"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00053",
+        "cdRapView": "100.0295",
+        "dsRap": "CORPO DO BALDE P/ CHAMP 3.5 L"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00321",
+        "cdRapView": "100.0296",
+        "dsRap": "MATRIZ BANDEJA DE CAMA DIA"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00044",
+        "cdRapView": "100.0297",
+        "dsRap": "BANDEJA REDONDA VITRA"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00296",
+        "cdRapView": "100.0298",
+        "dsRap": "ESCORREDOR DE PRATOS INFINITY"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00307",
+        "cdRapView": "100.0300",
+        "dsRap": "MATRIZ PRATO LANCHE ABS"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00258",
+        "cdRapView": "100.0301",
+        "dsRap": "CENTRO DE MESA"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00043",
+        "cdRapView": "100.0302",
+        "dsRap": "SUPORTE P/KIT POTES HERM. ELX"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00048",
+        "cdRapView": "100.0304",
+        "dsRap": "TACA VITRA MINI"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00049",
+        "cdRapView": "100.0305",
+        "dsRap": "CREMEIRA ELIPSE"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00174",
+        "cdRapView": "100.0306",
+        "dsRap": "MOLHEIRA ELIPSE"
+    },
+    {
+        "idRap": 4,
+        "cdRap": "|00046",
+        "cdRapView": "100.0307",
+        "dsRap": "SALADEIRA ELIPSE P"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00189",
+        "cdRapView": "100.0308",
+        "dsRap": "SALADEIRA ELIPSE M"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00180",
+        "cdRapView": "100.0309",
+        "dsRap": "TAMPA PORTA QUEIJO MINAS VITRA"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00184",
+        "cdRapView": "100.0311",
+        "dsRap": "PORTA GUARDANAPOS VITRA"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00178",
+        "cdRapView": "100.0312",
+        "dsRap": "BASE DO POTA FRIOS VITRA"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00176",
+        "cdRapView": "100.0313",
+        "dsRap": "TAMPA DO PORTA FRIOS VITRA"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00297",
+        "cdRapView": "100.0314",
+        "dsRap": "COLHER P/ ACUCAREIROS BUG/BIST"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00052",
+        "cdRapView": "100.0315",
+        "dsRap": "SALADEIRA ELIPSE G"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00300",
+        "cdRapView": "100.0316",
+        "dsRap": "TAMPA DO ACUCAREIRO VITRA"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00344",
+        "cdRapView": "100.0317",
+        "dsRap": "MATRIZ PORTA GUARDANAPOS VITRA"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00308",
+        "cdRapView": "100.0318",
+        "dsRap": "MATRIZ BASE DO POTA FRIOS VITR"
+    },
+    {
+        "idRap": 18,
+        "cdRap": "|00183",
+        "cdRapView": "100.0319",
+        "dsRap": "BASE PORTA QUEIJO MINAS VITRA"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00303",
+        "cdRapView": "100.0320",
+        "dsRap": "MATRIZ TAMPA PORTA QUEIJO MINA"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00365",
+        "cdRapView": "100.0321",
+        "dsRap": "MATRIZ SUPORTE OLEO VEGETAL -"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00306",
+        "cdRapView": "100.0322",
+        "dsRap": "MATRIZ BANDEJA REDONDA VITRA"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00166",
+        "cdRapView": "100.0324",
+        "dsRap": "ANEL DE VEDACAO TAMPA POTE ELX"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00309",
+        "cdRapView": "100.0325",
+        "dsRap": "MATRIZ TAMPA DO PORTA FRIOS VI"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00254",
+        "cdRapView": "100.0327",
+        "dsRap": "SEPARA. DO PORTA ESCOVAS VITRA"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00211",
+        "cdRapView": "100.0328",
+        "dsRap": "TAMPA LIXEIRA/ORG DE BANC VITR"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00339",
+        "cdRapView": "100.0329",
+        "dsRap": "MATRIZ COOLER VERTICE - 14 LTS"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00209",
+        "cdRapView": "100.0330",
+        "dsRap": "TAMPA DA MELEIRA VITRA"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00193",
+        "cdRapView": "100.0331",
+        "dsRap": "BASE DA MANTEGUEIRA VITRA"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00191",
+        "cdRapView": "100.0332",
+        "dsRap": "TAMPA DA MANTEGUEIRA VITRA"
+    },
+    {
+        "idRap": 25,
+        "cdRap": "|00253",
+        "cdRapView": "100.0333",
+        "dsRap": "BANDEJA DE BANHEIRO VITRA"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00204",
+        "cdRapView": "100.0334",
+        "dsRap": "CORPO DO COPO MULTIUSO VITRA"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00149",
+        "cdRapView": "100.0335",
+        "dsRap": "TACA DE VINHO VITRA"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00234",
+        "cdRapView": "100.0337",
+        "dsRap": "CORPO DO DENTAL UP"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00235",
+        "cdRapView": "100.0338",
+        "dsRap": "TAMPA DO DENTAL UP"
+    },
+    {
+        "idRap": 23,
+        "cdRap": "|00231",
+        "cdRapView": "100.0339",
+        "dsRap": "CORDAO DO DENTAL UP"
+    },
+    {
+        "idRap": 19,
+        "cdRap": "|00197",
+        "cdRapView": "100.0340",
+        "dsRap": "BASE DO ORG. DE PIA INFINITY"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00202",
+        "cdRapView": "100.0341",
+        "dsRap": "CORPO INT DO ORG PIA INFINITY"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00216",
+        "cdRapView": "100.0342",
+        "dsRap": "TAMPA DA SALADEIRA SFERA 650 M"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00215",
+        "cdRapView": "100.0343",
+        "dsRap": "SALADEIRA SFERA 650 ML"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00212",
+        "cdRapView": "100.0344",
+        "dsRap": "SALADEIRA SFERA 3 L"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00163",
+        "cdRapView": "100.0345",
+        "dsRap": "SALADEIRA SFERA 5 L"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00065",
+        "cdRapView": "100.0346",
+        "dsRap": "TAMPA DO POTE MANTIMENTO 5 L"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00205",
+        "cdRapView": "100.0347",
+        "dsRap": "INT DO SUP ESCOVA SANIT VITRA"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00302",
+        "cdRapView": "100.0348",
+        "dsRap": "MATRIZ COOLER VERTICE 7 L "
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00071",
+        "cdRapView": "100.0349",
+        "dsRap": "TAMPA DA LIXEIRA INFINITY 5 L"
+    },
+    {
+        "idRap": 7,
+        "cdRap": "|00073",
+        "cdRapView": "100.0350",
+        "dsRap": "ARO DA TAMPA DA LIXEIRA INFINI"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00056",
+        "cdRapView": "100.0351",
+        "dsRap": "CORPO DO SALEIRO/PIMENTEIRO VI"
+    },
+    {
+        "idRap": 5,
+        "cdRap": "|00055",
+        "cdRapView": "100.0353",
+        "dsRap": "TAMPA DO SAL E PALITEIRO VITRA"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00282",
+        "cdRapView": "100.0354",
+        "dsRap": "CORPO BAND. VITRA P/PORTA PAO"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00314",
+        "cdRapView": "100.0355",
+        "dsRap": "MATRIZ TAMPA PORTA PAO VITRA"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00207",
+        "cdRapView": "100.0356",
+        "dsRap": "DOBRADICA DA TAMPA DO PORTA PA"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00164",
+        "cdRapView": "100.0357",
+        "dsRap": "TAMPA DA SALADEIRA SFERA 5 L"
+    },
+    {
+        "idRap": 21,
+        "cdRap": "|00213",
+        "cdRapView": "100.0358",
+        "dsRap": "TAMPA DA SALADEIRA SFERA 3 L"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00320",
+        "cdRapView": "100.0359",
+        "dsRap": "MATRIZ TAMPA SALAD SFERA 650 M"
+    },
+    {
+        "idRap": 20,
+        "cdRap": "|00206",
+        "cdRapView": "100.0360",
+        "dsRap": "ALCA DA BANDEJA VITRA P"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00390",
+        "cdRapView": "100.0362",
+        "dsRap": "CORPO E TAMPA PTA ABSORVENTE"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00068",
+        "cdRapView": "100.0363",
+        "dsRap": "CORPO DO COPO LUNA P"
+    },
+    {
+        "idRap": 2,
+        "cdRap": "|00022",
+        "cdRapView": "100.0364",
+        "dsRap": "CORPO DO COPO LUNA G"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00080",
+        "cdRapView": "100.0365",
+        "dsRap": "PRATO LANCHE LUNA"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00137",
+        "cdRapView": "100.0366",
+        "dsRap": "PRATO LUNA"
+    },
+    {
+        "idRap": 13,
+        "cdRap": "|00136",
+        "cdRapView": "100.0367",
+        "dsRap": "CORPO DA JARRA LUNA 2 L"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00067",
+        "cdRapView": "100.0368",
+        "dsRap": "TAMPA DA JARRA LUNA"
+    },
+    {
+        "idRap": 6,
+        "cdRap": "|00069",
+        "cdRapView": "100.0369",
+        "dsRap": "BANDEJA LEA VITRA G"
+    },
+    {
+        "idRap": 8,
+        "cdRap": "|00081",
+        "cdRapView": "100.0370",
+        "dsRap": "BANDEJA LEA VITRA P"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00298",
+        "cdRapView": "100.0372",
+        "dsRap": "MATRIZ CORPO DO COPO PETALA P"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00299",
+        "cdRapView": "100.0373",
+        "dsRap": "MATRIZ CORPO DO COPO PETALA G"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00145",
+        "cdRapView": "100.0374",
+        "dsRap": "SEP. DO PORTA ESCOVA PETALA"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00144",
+        "cdRapView": "100.0375",
+        "dsRap": "TAMPA DO PORTA ALGODAO PETALA"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00146",
+        "cdRapView": "100.0376",
+        "dsRap": "TAMPA DO PORTA SAB LIQ PETALA"
+    },
+    {
+        "idRap": 14,
+        "cdRap": "|00143",
+        "cdRapView": "100.0377",
+        "dsRap": "BASE E COLETOR SABON. PETALA"
+    },
+    {
+        "idRap": 15,
+        "cdRap": "|00159",
+        "cdRapView": "100.0378",
+        "dsRap": "BANDEJA DE BANHEIRO PETALA"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00292",
+        "cdRapView": "100.0379",
+        "dsRap": "COPO TULIPA 200 ML"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00177",
+        "cdRapView": "100.0380",
+        "dsRap": "COPO TULIPA PC 300 ML G"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00327",
+        "cdRapView": "100.0381",
+        "dsRap": "MATRIZ SUPORTE DO DENTAL UP - "
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00165",
+        "cdRapView": "100.0383",
+        "dsRap": "CORPO ESC. DE TALHER DISCOVERY"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00167",
+        "cdRapView": "100.0384",
+        "dsRap": "SEP. DO ESC. TALHER DISCOVERY"
+    },
+    {
+        "idRap": 30,
+        "cdRap": "|00301",
+        "cdRapView": "100.0385",
+        "dsRap": "MATRIZ CORPO DO ORG. DE PIA DI"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00160",
+        "cdRapView": "100.0386",
+        "dsRap": "TAMPA DO SALEIRO DISCOVERY"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00161",
+        "cdRapView": "100.0387",
+        "dsRap": "CORPO DO SALEIRO DISCOVERY"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00283",
+        "cdRapView": "100.0388",
+        "dsRap": "APOIO PARA COLHER DISCOVERY"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00175",
+        "cdRapView": "100.0389",
+        "dsRap": "COLHER BAILARINA VITRA"
+    },
+    {
+        "idRap": 11,
+        "cdRap": "|00119",
+        "cdRapView": "100.0390",
+        "dsRap": "PORTA GUARDANAPOS BISTRO"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00285",
+        "cdRapView": "100.0391",
+        "dsRap": "CORPO DO COPO LUNA MINI"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00295",
+        "cdRapView": "100.0392",
+        "dsRap": "TAMPA P.  ESC/SAB.LIQ/ALG.TULE"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00290",
+        "cdRapView": "100.0393",
+        "dsRap": "ARO E TAMPA LIX. PIA DISCOVERY"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00291",
+        "cdRapView": "100.0394",
+        "dsRap": "CORPO DA LIXEIRA PIA DISCOVERY"
+    },
+    {
+        "idRap": 29,
+        "cdRap": "|00293",
+        "cdRapView": "100.0395",
+        "dsRap": "CORPO BAND VITRA G/BAND BUFFET"
+    },
+    {
+        "idRap": 3,
+        "cdRap": "|00034",
+        "cdRapView": "100.0396",
+        "dsRap": "PETISQUEIRA LUNA"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00287",
+        "cdRapView": "100.0397",
+        "dsRap": "BOWL LUNA"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00288",
+        "cdRapView": "100.0398",
+        "dsRap": "PETISQUEIRA LUNA MINI"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00289",
+        "cdRapView": "100.0399",
+        "dsRap": "ESPATULAS PARA PETISCOS"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00286",
+        "cdRapView": "100.0400",
+        "dsRap": "GARFINHOS PARA PETISCOS"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00170",
+        "cdRapView": "100.0401",
+        "dsRap": "TRAVESSA LUNA P"
+    },
+    {
+        "idRap": 28,
+        "cdRap": "|00284",
+        "cdRapView": "100.0402",
+        "dsRap": "TRAVESSA LUNA MEDIA"
+    },
+    {
+        "idRap": 17,
+        "cdRap": "|00173",
+        "cdRapView": "100.0403",
+        "dsRap": "TRAVESSA LUNA G"
+    },
+    {
+        "idRap": 16,
+        "cdRap": "|00169",
+        "cdRapView": "100.0404",
+        "dsRap": "TRAVESSA LUNA TORTA FRIA TRITA"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00315",
+        "cdRapView": "100.0405",
+        "dsRap": "MATRIZ CORPO BELLE BOX MAXI"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00316",
+        "cdRapView": "100.0406",
+        "dsRap": "MATRIZ TAMPA BELLEBOX G"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00330",
+        "cdRapView": "100.0407",
+        "dsRap": "MATRIZ CORPO BELLE BOX ACES. -"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00317",
+        "cdRapView": "100.0408",
+        "dsRap": "MATRIZ CORPO BELLE BOX MEDIA"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00318",
+        "cdRapView": "100.0409",
+        "dsRap": "MATRIZ CORPO BELLE BOX MINI"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00341",
+        "cdRapView": "100.0411",
+        "dsRap": "MATRIZ TRAVESSA LUNA ALTA G"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00340",
+        "cdRapView": "100.0412",
+        "dsRap": "MATRIZ TRAVESSA LUNA ALTA M"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00342",
+        "cdRapView": "100.0413",
+        "dsRap": "MATRIZ TRAVESSA LUNA ALTA QUAD"
+    },
+    {
+        "idRap": 31,
+        "cdRap": "|00313",
+        "cdRapView": "100.0414",
+        "dsRap": "MATRIZ ESCOR DE PRATOS PRATICO"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00367",
+        "cdRapView": "100.0415",
+        "dsRap": "MATRIZ CORPO DO COPO BELLY"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00387",
+        "cdRapView": "100.0416",
+        "dsRap": "TAMPA PORTA SAB LIQ/ESC BELLY"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00388",
+        "cdRapView": "100.0417",
+        "dsRap": "TAMPA DO PORTA ALGODAO BELLY"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00371",
+        "cdRapView": "100.0418",
+        "dsRap": "SABONETEIRA BELLY"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00335",
+        "cdRapView": "100.0419",
+        "dsRap": "CORPO CESTO LIXO IZZY 5 LITROS"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00336",
+        "cdRapView": "100.0420",
+        "dsRap": "CORPO  CESTO DE LIXO IZZY 10L"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00332",
+        "cdRapView": "100.0423",
+        "dsRap": "ARO DO CESTO DE LIXO IZZY 5L"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00366",
+        "cdRapView": "100.0424",
+        "dsRap": "ARO CESTO DE LIXO IZZY 10/15L"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00333",
+        "cdRapView": "100.0425",
+        "dsRap": "TAMPA LIXEIRA IZY 5 LTS"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00337",
+        "cdRapView": "100.0426",
+        "dsRap": "TAMPA CESTO LIXO IZZY 10 E 15L"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00331",
+        "cdRapView": "100.0427",
+        "dsRap": "MATRIZ TRAVESSA LUNA MINI"
+    },
+    {
+        "idRap": 33,
+        "cdRap": "|00334",
+        "cdRapView": "100.0428",
+        "dsRap": "PRATO LUNA MINI "
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00350",
+        "cdRapView": "100.0430",
+        "dsRap": "MATRIZ CAIXA ORGANIZADORA P"
+    },
+    {
+        "idRap": 34,
+        "cdRap": "|00349",
+        "cdRapView": "100.0431",
+        "dsRap": "MATRIZ CAIXA ORGANIZADORA M"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00358",
+        "cdRapView": "100.0432",
+        "dsRap": "MATRIZ CX ORGANIZADORA G BAIXA"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00353",
+        "cdRapView": "100.0433",
+        "dsRap": "MATRIZ CAIXA ORGANIZADORA G"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00357",
+        "cdRapView": "100.0434",
+        "dsRap": "MATRIZ TAMPA CX ORGANIZADORA M"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00356",
+        "cdRapView": "100.0435",
+        "dsRap": "MATRIZ TAMPA CX ORGANIZADORA G"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00354",
+        "cdRapView": "100.0436",
+        "dsRap": "MATRIZ TACA DE SOBREMESA LUNA"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00351",
+        "cdRapView": "100.0437",
+        "dsRap": "MATRIZ CREMEIRA LUNA"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00352",
+        "cdRapView": "100.0438",
+        "dsRap": "MATRIZ SALADEIRA LUNA M"
+    },
+    {
+        "idRap": 35,
+        "cdRap": "|00355",
+        "cdRapView": "100.0439",
+        "dsRap": "MATRIZ SALADEIRA LUNA G"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00361",
+        "cdRapView": "100.0440",
+        "dsRap": "MATRIZ ORGANIZ.DE PIA COMPACTO"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00360",
+        "cdRapView": "100.0441",
+        "dsRap": "MATRIZ ORGANIZ. DE PIA DUPLO"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00362",
+        "cdRapView": "100.0442",
+        "dsRap": "MATRIZ TAMPA DO COPO CONICO - "
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00368",
+        "cdRapView": "100.0443",
+        "dsRap": "MATRIZ BOWL ORIENTAL MEXCLA"
+    },
+    {
+        "idRap": 36,
+        "cdRap": "|00369",
+        "cdRapView": "100.0444",
+        "dsRap": "MATRIZ TAMPA SAB E SEP BELLY"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00373",
+        "cdRapView": "100.0445",
+        "dsRap": "SALADEIRA LUNA 5 L"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00374",
+        "cdRapView": "100.0446",
+        "dsRap": "TAMPA DA CUMBUCA LUNA 500 ML"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00375",
+        "cdRapView": "100.0447",
+        "dsRap": "TAMPA DA SALADEIRA LUNA 1,8 L"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00376",
+        "cdRapView": "100.0448",
+        "dsRap": "TAMPA DA SALADEIRA LUNA 3,5 L"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00377",
+        "cdRapView": "100.0449",
+        "dsRap": "TAMPA DA SALADEIRA LUNA 5L"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00372",
+        "cdRapView": "100.0450",
+        "dsRap": "ESCORREDOR MULTIUSO GUSTO G"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00378",
+        "cdRapView": "100.0451",
+        "dsRap": "ESCORREDOR MULTIUSO GUSTO P"
+    },
+    {
+        "idRap": 37,
+        "cdRap": "|00379",
+        "cdRapView": "100.0452",
+        "dsRap": "ESCUMADEIRA GUSTO"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00380",
+        "cdRapView": "100.0453",
+        "dsRap": "PEGADOR MULTIUSO GUSTO"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00381",
+        "cdRapView": "100.0454",
+        "dsRap": "CORPO DO DISPENSER PARA DETERG"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00382",
+        "cdRapView": "100.0455",
+        "dsRap": "TAMPA DO DISPENSER PARA DETERG"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00383",
+        "cdRapView": "100.0456",
+        "dsRap": "CESTO PARA ROUPAS"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00384",
+        "cdRapView": "100.0457",
+        "dsRap": "CAIXA ORGANIZADORA GG"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00385",
+        "cdRapView": "100.0458",
+        "dsRap": "ANEL DO COPO COM CANUDO"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00386",
+        "cdRapView": "100.0459",
+        "dsRap": "TAMPA DA MOLHEIRA ELIPSE"
+    },
+    {
+        "idRap": 38,
+        "cdRap": "|00389",
+        "cdRapView": "100.0460",
+        "dsRap": "TAMPA CAIXA ORG M BAIXA"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00391",
+        "cdRapView": "100.0461",
+        "dsRap": "MATRIZ CORPO DO PRATO FESTA"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00392",
+        "cdRapView": "100.0462",
+        "dsRap": "MATRIZ CORPO DO PRATO FESTA 25"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00393",
+        "cdRapView": "100.0463",
+        "dsRap": "MATRIZ CORPO DO PRATO FESTA 30"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00394",
+        "cdRapView": "100.0464",
+        "dsRap": "MATRIZ CORPO DO PRATO FESTA 25"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00395",
+        "cdRapView": "100.0465",
+        "dsRap": "MATRIZ CORPO DO PRATO FESTA 30"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00396",
+        "cdRapView": "100.0466",
+        "dsRap": "MATRIZ CORPO DA CUPULA FESTA 2"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00397",
+        "cdRapView": "100.0467",
+        "dsRap": "MATRIZ CORPO DA CUPULA FESTA 3"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00398",
+        "cdRapView": "100.0468",
+        "dsRap": "MATRIZ HASTE FESTA G"
+    },
+    {
+        "idRap": 39,
+        "cdRap": "|00399",
+        "cdRapView": "100.0469",
+        "dsRap": "MATRIZ HASTE FESTA P"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00400",
+        "cdRapView": "100.0470",
+        "dsRap": "MATRIZ CORPO EXTERNO VASO P"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00401",
+        "cdRapView": "100.0471",
+        "dsRap": "MATRIZ ARO VASO P"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00402",
+        "cdRapView": "100.0472",
+        "dsRap": "MATRIZ CORPO EXTERNO VASO M"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00403",
+        "cdRapView": "100.0473",
+        "dsRap": "MATRIZ CORPO INTERNO VASO M"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00404",
+        "cdRapView": "100.0474",
+        "dsRap": "MATRIZ ARO VASO M"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00405",
+        "cdRapView": "100.0475",
+        "dsRap": "MATRIZ CORPO EXTERNO VASO G"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00406",
+        "cdRapView": "100.0476",
+        "dsRap": "MATRIZ CORPO INTERNO VASO G"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00407",
+        "cdRapView": "100.0477",
+        "dsRap": "MATRIZ ARO VASO G"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00408",
+        "cdRapView": "100.0478",
+        "dsRap": "MATRIZ CORPO EXTERNO VASO HORT"
+    },
+    {
+        "idRap": 40,
+        "cdRap": "|00409",
+        "cdRapView": "100.0479",
+        "dsRap": "MATRIZ CORPO INTERNO VASO HORT"
+    },
+    {
+        "idRap": 41,
+        "cdRap": "|00410",
+        "cdRapView": "100.0480",
+        "dsRap": "TAMPA VASO AUTOIRRIGAVE E BAND"
+    },
+    {
+        "idRap": 41,
+        "cdRap": "|00411",
+        "cdRapView": "100.0481",
+        "dsRap": "MATRIZ SABONETEIRA BANHO"
+    },
+    {
+        "idRap": 41,
+        "cdRap": "|00412",
+        "cdRapView": "100.0482",
+        "dsRap": "MATRIZ CORPO INTERNO VASO P"
+    },
+    {
+        "idRap": 32,
+        "cdRap": "|00329",
+        "cdRapView": "1000410",
+        "dsRap": "MATRIZ TAMPA BELLEBOX P"
+    }
+]

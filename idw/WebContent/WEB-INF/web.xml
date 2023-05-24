@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<description>idwws</description>
+	<display-name>idwws</display-name>
+
+	<listener>
+		<listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>
+	</listener>
+
+	<!-- Altera arquivo de Launcher -->
+	<listener>
+		<listener-class>idw.util.AlterarLaunchListener</listener-class>
+	</listener>
+
+	<!-- Listener para pegar os dados do MsEvt e consolidar no idw <listener> 
+		<listener-class>idw.servlets.ConsolidacaoMsEvtListener</listener-class> </listener> -->
+
+
+	<!-- Listener para gerenciamento dos dados vindos dos ICs independentes 
+		aos IHMs <listener> <listener-class>ms.coleta.MSListener</listener-class> 
+		</listener> -->
+
+
+	<!--Listener para exportação Carregamento de TFTP <listener> <listener-class>tftp.TFTPServerListener</listener-class> 
+		</listener> -->
+
+	<!-- Listener para gerar as sessões do inova standalone <listener> <listener-class>idw.servlets.GerarSessoesInovaStandaloneListener</listener-class> 
+		</listener> -->
+
+	<!-- Listener para importação dos cadastros básicos do Injet <listener> 
+		<listener-class>idw.servlets.ImportacaoInjetListener</listener-class> </listener> -->
+
+	<!-- Importar indicadores da base Injet <listener> <listener-class>idw.servlets.ImportarIndicadoresInjetListener</listener-class> 
+		</listener> -->
+
+	<!-- Listener para importação de programas de maquinas IAC <listener> <listener-class>idw.servlets.ImportaProgramaListener</listener-class> 
+		</listener> -->
+
+
+	<!-- Listener para driver de coleta do ICs <listener> <listener-class>ms.coleta.ic.drivercoleta.DriverColetaListener</listener-class> 
+		</listener> -->
+
+	<!-- Listener para manutenção de banco de dados <listener> <listener-class>ms.model.rn.manutencao.ManutencaoBancoListener</listener-class> 
+		</listener> -->
+
+	<!--Listener para exportação dos dados do MS para o pdba <listener> <listener-class>ms.model.rn.importacao.pdba.ImportacaoParaPdbaListener</listener-class> 
+		</listener> -->
+
+	<!-- Listener para exportação dos dados mws para o Tdba <listener> <listener-class> 
+		ms.model.rn.importacao.mws.ImportacaoParaTdbaListener</listener-class> </listener> -->
+
+	<!-- ConsolidaÃ§Ã£o Local Estoque <listener> <listener-class>idw.servlets.ConsolidacaoLocalEstoqueListener</listener-class> 
+		</listener> -->
+
+	<!-- Listener para ativação do gerenciado de JOBs do idw <listener> <listener-class>idw.servlets.GerenciadorDeJobsListener</listener-class> 
+		</listener> -->
+
+	<!-- Listener para refresh de materialized views do BI -->
+	<listener> <listener-class>idw.servlets.RefreshMaterializedViewBIListener</listener-class>	</listener> 
+	
+
+	<context-param>
+		<param-name>consolidacao.qtThreadsPt</param-name>
+		<param-value>10</param-value>
+	</context-param>
+
+	<!-- Configuração de threads para a consolidação <context-param> <param-name>consolidacao.qtEventosPt</param-name> 
+		<param-value>20</param-value> </context-param> -->
+
+	<!-- Versão do programa android qua acompanha essa distribuição -->
+	<context-param>
+		<param-name>versaomobile</param-name>
+		<param-value>1.15</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>portatftp</param-name>
+		<param-value>10069</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>IDWAtivo</param-name>
+		<param-value>true</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>RefreshMaterializedViewBI</param-name>
+		<param-value>3600</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>isCdParadaPadraoInjet</param-name>
+		<param-value>false</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>diretorio</param-name>
+		<param-value>c:/idwtemp/</param-value>
+	</context-param>
+
+	<servlet>
+		<description>JAX-WS endpoint - annotations</description>
+		<display-name>idwws</display-name>
+		<servlet-name>idwws</servlet-name>
+		<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>idwws</servlet-name>
+		<url-pattern>/idwws</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>controller</servlet-name>
+		<servlet-class>idw.servlets.CfwsServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>JAX-WS endpoint - annotations</description>
+		<display-name>Cfws</display-name>
+		<servlet-name>Cfws</servlet-name>
+		<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Cfws</servlet-name>
+		<url-pattern>/services/CfWS</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>JAX-WS endpoint - annotations</description>
+		<display-name>loginws</display-name>
+		<servlet-name>loginws</servlet-name>
+		<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginws</servlet-name>
+		<url-pattern>/services/Loginws</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>JAX-WS endpoint - annotations</description>
+		<display-name>Clws</display-name>
+		<servlet-name>Clws</servlet-name>
+		<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Clws</servlet-name>
+		<url-pattern>/services/ClWS</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>JAX-WS endpoint - annotations</description>
+		<display-name>msws</display-name>
+		<servlet-name>msws</servlet-name>
+		<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>msws</servlet-name>
+		<url-pattern>/msws</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>JAX-WS endpoint - annotations</description>
+		<display-name>IntIpackChemWS</display-name>
+		<servlet-name>IntIpackChemWS</servlet-name>
+		<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>IntIpackChemWS</servlet-name>
+		<url-pattern>/services/IntIpackChemWS</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DisplayChart</servlet-name>
+		<servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DisplayChart</servlet-name>
+		<url-pattern>/servlet/DisplayChart</url-pattern>
+	</servlet-mapping>
+
+	<mime-mapping>
+		<extension>jnlp</extension>
+		<mime-type>application/x-java-jnlp-file</mime-type>
+	</mime-mapping>
+
+	<servlet-mapping>
+		<servlet-name>controller</servlet-name>
+		<url-pattern>/control</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>control</welcome-file>
+	</welcome-file-list>
+
+	<session-config>
+		<session-timeout>-1</session-timeout>
+	</session-config>
+
+	<!-- Rest Server  -->
+	<servlet>
+		<servlet-name>Jersey REST Service</servlet-name>
+		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>com.sun.jersey.config.property.packages</param-name>
+			<param-value>idw.webservices.rest</param-value>
+		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.spi.container.ContainerResponseFilters</param-name>
+			<param-value>idw.webservices.rest.CORSFilter</param-value>
+		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.config.feature.DisableWADL</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Jersey REST Service</servlet-name>
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<description></description>
+		<display-name>MudaIdioma</display-name>
+		<servlet-name>MudaIdioma</servlet-name>
+		<servlet-class>traducao.MudaIdioma</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MudaIdioma</servlet-name>
+		<url-pattern>/mudaidioma</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+		<param-value>traducao.traducao</param-value>
+	</context-param>
+
+	<filter>
+		<filter-name>macFiltro</filter-name>
+		<filter-class>idw.servlets.MacFiltro</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>macFiltro</filter-name>
+		<url-pattern>/mac/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>vfWebFiltro</filter-name>
+		<filter-class>idw.servlets.VfWebFiltro</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>vfWebFiltro</filter-name>
+		<url-pattern>/vf-web/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>dashboardFlexFiltro</filter-name>
+		<filter-class>idw.servlets.DashboardFlexFiltro</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>dashboardFlexFiltro</filter-name>
+		<url-pattern>/dashboard-flex/*</url-pattern>
+	</filter-mapping>
+
+	<!-- <error-page> <error-code>404</error-code> <location>/mac.jsp</location> 
+		</error-page> -->
+
+</web-app>

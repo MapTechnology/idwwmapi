@@ -1,0 +1,53 @@
+<div class="container-fluid espaco-apos-navbar">
+	<div id="panel_correcao_de_paradas" class="panel panel-default">
+		<div class="panel-heading"">
+			<h4 class="panel-title" id="link_correcao_de_paradas"></h4>
+		</div>
+		<div class="panel-body">
+			<div>
+				<span id="span_correcao_de_paradas" style="font-size: xx-large">{{maq}}
+<!--					<select	ng-model="dsup_sel" id="select_nova_parada" class="form-control"-->
+<!--					ng-options="pts.pt.dsup for pts in sessao | filtroMaquina" type="select"></select>-->
+					<select	ng-model="dsup_sel" id="select_nova_parada" class="form-control"
+					ng-options="pts.pt.dsup for pts in sessao" type="select"></select>
+					<button class="btn btn-md btn-primary btn-block" type="button"
+					id="btn_pesquisar_correcao_de_paradas" ng-click="pesquisarParadas()" ng-disabled="dsup_sel == null">{{pesq}}</button>
+			</div>
+			<div class="input-group pesquisa-filtro">
+				<span class="input-group-addon glyphicon glyphicon-search"></span>
+				<input type="text" class="form-control pesquisa-filtro" ng-model="filtro" />
+				</div>
+			<div class="table-responsive">
+				<table class="table table-scroll table-striped"
+					id="tabela_correcao_de_paradas">
+
+					<thead id="cabecalho_tabela_correcao_de_paradas">
+
+					</thead>
+		
+					<tbody id="tabela_correcao_de_paradas_corpo">
+					
+					<tr ng-repeat="paradas in detParDTO.listaparadas  | filter:filtro">
+					<td><input type="checkbox" class="largerCheckbox checkParada" value="{{$index}}"></td>
+					<td>{{paradas.parada.substring(0,paradas.parada.indexOf("-") -1)}}</td>
+					<td>{{paradas.parada.substring(paradas.parada.indexOf("-") + 1 , paradas.parada.length)}}</td>
+					<td>{{dataCerta(paradas.inicio.substring(0 , paradas.inicio.indexOf("T"))) + " " 
+					+ paradas.inicio.substring(paradas.inicio.indexOf("T") + 1 , paradas.inicio.indexOf("T") + 9)}}</td>
+					<td>{{dataCerta(paradas.fim.substring(0 , paradas.fim.indexOf("T"))) + " " 
+					+ paradas.fim.substring(paradas.fim.indexOf("T") + 1 , paradas.fim.indexOf("T") + 9)}}</td>
+					<td>{{paradas.duracao}}</td>
+					<td>{{paradas.turno}}</td>
+					</tr>
+					
+					</tbody>
+
+				</table>
+
+			</div>
+			<button class="btn btn-lg btn-primary" id="btn_correcao_de_paradas"
+				ng-click="corrigir()" ng-disabled="dsup_sel == null">Corrigir</button>
+				<button type="button" class="btn btn-primary btn-lg"
+						id="btn_voltar_correcao_de_paradas" ng-click="voltar()"></button>
+		</div>
+	</div>
+</div>

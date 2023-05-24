@@ -1,0 +1,193 @@
+.card{
+  width: 90%;
+  margin-left: 5%;
+  /* background-color: rgb(224, 64, 5); */
+  height: 700px;
+  border-radius: 10px;
+  margin-top: -16%;
+}
+
+.opcoes{
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.card-cima{
+  width: 100%;
+  height: 210px;
+  background-color: rgb(245, 65, 0);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.card-meio{
+  width: 100%;
+  height: 270px;
+  background-color: rgb(245, 65, 0);
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.card-baixo{
+  width: 100%;
+  height: 210px;
+  background-color: rgb(245, 65, 0);
+  text-align: center;
+  font-size: 30px; 
+  color:white;
+}
+
+.card-statusparada{
+  background-color: rgb(72, 185, 72) !important;
+}
+
+/* GRAFICOS  */
+
+.card-card{
+  text-align: center;
+  width: 25%;
+  float: left;
+  padding: 20px 20px;
+}
+
+#oee-svg {
+  margin-top: -80px;
+}
+
+#oee-license-text{
+  display: none !important;
+}
+
+#disponibilidade-svg {
+  margin-top: -80px;
+}
+
+#disponibilidade-license-text{
+  display: none !important;
+}
+
+#ritmo-svg {
+  margin-top: -80px;
+}
+
+#ritmo-license-text{
+  display: none !important;
+}
+
+#qualidade-svg {
+  margin-top: -80px;
+}
+
+#qualidade-license-text{
+  display: none !important;
+}
+/* FIM GRAFICO  */
+
+@media (min-width:1300px) {
+#oee-top{
+  transform:scale(0.6);
+  margin-top: -50px;
+}
+
+#disponibilidade-top {
+  margin-top: -50px;
+  transform:scale(0.6);
+}
+
+#ritmo-top {
+  margin-top: -50px;
+  transform:scale(0.6);
+}
+
+#qualidade-top {
+  margin-top: -50px;
+  transform:scale(0.6);
+}
+
+.card{
+  margin-top: -15% !important;
+  height: 390px;
+}
+
+.card-card {
+  margin-top: -20px;
+}
+
+.card-cima{
+  height: 100px;
+  background-color: rgb(245, 65, 0);
+}
+
+.tipoParada{
+  padding-top: 15px !important;
+}
+
+.card-meio{
+  width: 100%;
+  height: 200px;
+  padding-top: 10px;
+  background-color: rgb(245, 65, 0);
+  text-align: center;
+  color: white;
+}
+
+.card-baixo{
+  height: 100px;
+  text-align: center;
+  background-color: rgb(245, 65, 0);
+}
+}
+
+@media (min-width:1400px) {
+  #oee-top{
+    transform:scale(1);
+    margin-top: 10px;
+  }
+
+  #disponibilidade-top {
+    transform:scale(1);
+    margin-top: 10px;
+  }
+
+  #ritmo-top {
+    transform:scale(1);
+    margin-top: 10px;
+  }
+
+  #qualidade-top {
+    transform:scale(1);
+    margin-top: 10px;
+  }
+
+  .card{
+    margin-top: -3% !important;
+    height: 600px;
+  }
+
+  .tipoParada{
+    padding-top: 30px !important;
+  }
+
+  .card-cima{
+    height: 200px;
+  background-color: rgb(245, 65, 0);
+  }
+
+  .card-meio{
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    background-color: rgb(245, 65, 0);
+    text-align: center;
+    color: white;
+  }
+
+  .card-baixo{
+    height: 200px;
+    text-align: center;
+    background-color: rgb(245, 65, 0);
+  }
+}

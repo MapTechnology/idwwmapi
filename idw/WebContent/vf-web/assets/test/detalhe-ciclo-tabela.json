@@ -1,0 +1,69 @@
+{
+    "resumo": {
+        "periodo": "21/02/2018 - PRIMEIRO TURNO",
+        "eficienciaCiclo": "120.00",
+        "ganhosTotaisPecas": "309.83",
+        "ganhosTotaisKg": "309.8337",
+        "ganhosTotaisTon": "0.3098",
+        "perdasTotaisPecas": "0.00",
+        "perdasTotaisKg": "0.0000",
+        "perdasTotaisTon": "0.0000",
+        "saldoPecas": "-309.83",
+        "saldoKg": "-309.8337",
+        "saldoTon": "-0.3098"
+    },
+    "detalheCiclos": [
+        {
+            "posto": "CAT002(CAT002)",
+            "folha": "90",
+            "cicloPadrao": "12.000",
+            "cicloLido": "10.069",
+            "produto": "2003478 - FIBRA ECOLOGICA",
+            "ciclosProdutivos": "00:29:22",
+            "perdaGanho": "-309.83",
+            "perdaGanhoKg": "-309.834",
+            "perdaGanhoTon": "-0.310",
+            "custo": "-3123.68"
+        },
+        {
+            "posto": null,
+            "folha": null,
+            "cicloPadrao": null,
+            "cicloLido": null,
+            "produto": "SALDO DA FERRAMENTA",
+            "ciclosProdutivos": "00:29:22",
+            "perdaGanho": "-309.83",
+            "perdaGanhoKg": "-309.834",
+            "perdaGanhoTon": "-0.310",
+            "custo": "-3123.68"
+        },
+        {
+            "posto": null,
+            "folha": null,
+            "cicloPadrao": null,
+            "cicloLido": null,
+            "produto": "SALDO DA MÁQUINA",
+            "ciclosProdutivos": "00:29:22",
+            "perdaGanho": "-309.83",
+            "perdaGanhoKg": "-309.834",
+            "perdaGanhoTon": "-0.310",
+            "custo": "-3123.68"
+        }
+    ],
+    "detalheTodos": [
+        {
+            "produto": "R453 - ROLO COLADO DE 453",
+            "perdaGanho": "20817.34",
+            "perdaGanhoKg": "-6.320",
+            "perdaGanhoTon": "0.111",
+            "custo": "20817.34",
+            "previstas": "204324",
+            "previstasKg": "204.324",
+            "previstasTon": "0.204",
+            "boas": "196623",
+            "boasKg": "196.623",
+            "boasTon": "0.197",
+            "eficienciaRealizacao": "96.23"
+        }
+    ]
+}

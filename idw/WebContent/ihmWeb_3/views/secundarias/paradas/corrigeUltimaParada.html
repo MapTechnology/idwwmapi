@@ -1,0 +1,81 @@
+<link href="css/style.css" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+<div id="div_ihm_corrigir_ultima_parada" style="margin-left: 250px">
+	<div class="container-fluid">
+		<div class="panel-body">
+			<h3 id="h3_cd_corrigir_ultima_parada"></h3>
+			<div class="input-group">
+				<input type="text" id="cd_corrigir_ultima_parada" ng-model="cdParada" 
+				class="form-control"> 
+				
+				<span class="input-group-addon" style="padding:1px 12px; border:0px; background-color:white;">
+					<button type="button" class="btn btn-primary" 
+					id="btn_cd_parada" ng-click="pesquisaParada()">			
+						<i ng-if="loading" class="fa fa-circle-o-notch fa-spin" style="font-size:20px"></i>					
+						<span aria-hidden="true" ng-class="{'glyphicon glyphicon-ok': respcdParada}"></span>
+					</button>
+				</span>
+				
+			</div>
+			
+			</br></br>
+			<div ng-show="acao == true">
+				<h3 id="h3_acao_corrigir_ultima_parada"></h3>
+				<div class="input-group">
+					<input type="text" id="acao_corrigir_ultima_parada"
+					ng-model="cdAcao" class="form-control"> 
+				</div>
+			</div>
+			<div ng-show="causa == true">
+				<h3 id="h3_causa_corrigir_ultima_parada"></h3>
+				<div class="input-group">
+					<input type="text" id="causa_corrigir_ultima_parada"
+						ng-model="cdCausa" class="form-control"> 
+				</div>
+			</div>
+			<div ng-show="just == true">
+				<h3 id="h3_justificativa_corrigir_ultima_parada"></h3>
+				<div class="input-group">
+					<input type="text" id="just_corrigir_ultima_parada"
+						ng-model="cdJust" class="form-control" >
+				</div>
+			</div>
+			<div ng-show="tecresp">
+				<h3 id="h3_tecresp_corrigir_ultima_parada"></h3>
+				<input type="text" id="tecresp_corrigir_ultima_parada"
+					ng-model="LTecresp" class="form-control">
+				<h3 id="h3_stecresp_corrigir_ultima_parada"></h3>
+				<input type="password" id="stecresp_corrigir_ultima_parada"
+					ng-model="sTecresp" class="form-control">
+			</div>
+			<div ng-show="tec">
+				<h3 id="h3_tec_corrigir_ultima_parada"></h3>
+				<input type="text" id="tec_corrigir_ultima_parada"
+					ng-model="LTec" class="form-control">
+				<h3 id="h3_stec_corrigir_ultima_parada"></h3>
+				<input type="password" id="stec_corrigir_ultima_parada"
+					ng-model="sTec" class="form-control">
+			</div>
+			<div ng-show="tec2">
+				<h3 id="h3_tec2_corrigir_ultima_parada"></h3>
+				<input type="text" id="tec2_corrigir_ultima_parada"
+					ng-model="LTec2" class="form-control">
+				<h3 id="h3_stec2_corrigir_ultima_parada"></h3>
+				<input type="password" id="stec2_corrigir_ultima_parada"
+					ng-model="sTec2" class="form-control">
+			</div>
+			
+			</br></br>
+			<div class="form-group">
+				<button type="button" class="btn btn-primary btn-lg"
+					id="btn_corrigir_ultima_parada_2" ng-click="corrigirUltimaParada()" 
+					ng-disabled="!respcdParada"></button>
+
+				<button type="button" class="btn btn-primary btn-lg"
+					id="btn_voltar_corrigir_ultima_parada" ng-click="voltar()"></button>
+					
+			</div>
+		</div>
+	</div>
+</div>

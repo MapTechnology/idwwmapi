@@ -1,0 +1,58 @@
+{
+    "legenda": [
+        {
+            "cor": "#33ff33",
+            "label": "100.00"
+        },
+        {
+            "cor": "#ffff33",
+            "label": "75.00"
+        },
+        {
+            "cor": "#ff3333",
+            "label": "50.00"
+        }
+    ],
+    "componentes": [
+        {
+            "cdComponente": "C1",
+            "dsPosicaoMecanica": "POS01",
+            "cdComponenteView": "C1-POS01",
+            "quantidade": "2.0",
+            "indice": "8.00",
+            "cor": "#ff3333"
+        },
+        {
+            "cdComponente": "C2",
+            "dsPosicaoMecanica": "POS02",
+            "cdComponenteView": "C2-POS02",
+            "quantidade": "1.0",
+            "indice": "4.00",
+            "cor": "#ff3333"
+        },
+        {
+            "cdComponente": "C1",
+            "dsPosicaoMecanica": "POS02",
+            "cdComponenteView": "C1-POS02",
+            "quantidade": "1.0",
+            "indice": "4.00",
+            "cor": "#ff3333"
+        },
+        {
+            "cdComponente": "C3",
+            "dsPosicaoMecanica": "POS03",
+            "cdComponenteView": "C3-POS03",
+            "quantidade": "1.0",
+            "indice": "4.00",
+            "cor": "#ff3333"
+        },
+        {
+            "cdComponente": "Não Informado",
+            "dsPosicaoMecanica": "Não Informado",
+            "cdComponenteView": "Não Informado-Não Informado",
+            "quantidade": "20.0",
+            "indice": "80.00",
+            "cor": "#ffff33"
+        }
+    ]
+ }

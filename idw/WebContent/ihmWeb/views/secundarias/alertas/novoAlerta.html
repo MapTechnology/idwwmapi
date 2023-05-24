@@ -1,0 +1,38 @@
+<div id="div_ihm_novo_alerta">
+	<div class="container-fluid">
+		<h1 id="h1_novo_alerta" class="page-header"></h1>
+		<div id="panel_novo_alerta" class="panel panel-default">
+			<div class="panel-heading" style="cursor: pointer;"
+				onclick="document.getElementById('link_novo_alerta').click();">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" id="link_novo_alerta"
+						href="#collapse_alertas"></a>
+				</h4>
+			</div>
+			<div id="collapse_novo_alerta" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<form id="form_novo_alerta" class="form-signin" name="formNovoAlerta">
+						<div class="input-group" id="div_form_novo_alerta">
+							<div id="div_cd_form_novo_alerta">
+								<h3 id="html_h3_cod_alerta"></h3>
+								<input type="text" id="cd_form_novo_alerta" placeholder=""
+									class="form-control" data-placement="right"
+									 ng-required="true" ng-model="cdAlertaT">
+								<h3 id="html_h3_maq_alerta"></h3>
+								 <select ng-model="dsup_sel" id="select_login_operador" class="form-control"
+							 ng-options="pts.pt.dsup for pts in sessao | filtroMaquina" type="select">
+							 <option value="" class="option-default"></option>
+							 </select>
+							</div>
+					</form>
+					<button type="button" class="btn btn-primary btn-lg"
+						id="btn_novo_alerta_2" ng-click="novoAlerta(dsup_sel.pt.dsup ,cdAlertaT)"></button>
+					<button type="button" class="btn btn-primary btn-lg"
+						id="btn_voltar_novo_alerta" ng-click="voltar()"></button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

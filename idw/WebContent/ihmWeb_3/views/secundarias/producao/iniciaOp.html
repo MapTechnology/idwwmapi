@@ -1,0 +1,43 @@
+<div id="div_ihm_inicia_op" style="margin-left: 250px;">
+	<div class="container-fluid">
+		<h1 id="h1_inicia_op" class="page-header"></h1>
+		<div id="panel_inicia_op" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_inicia_op">
+				</h4>
+			</div>
+			<div id="collapse_inicia_op" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<form class="form-inline">
+					<div id="div_pesquisa_inicia_op">
+						<h3 id="html_h3_inicia_op"></h3>
+						<select ng-model="dsup_sel" id="select_inicia_op" class="form-control"
+							 ng-options="pts.pt.dsup for pts in sessao | filtroMaquinaIniciaOp" type="select">
+							 </select>
+						<button class="btn btn-primary btn-lg" id="btn_pesquisa_inicia_op" ng-click="pesquisaPpcp()" ng-disabled="dsup_sel == null"></button>
+						<!-- <button type="button" class="btn btn-primary btn-lg" -->
+						<!-- id="btn_voltar_inicia_op" ng-click="voltar()"></button> -->
+					</div>
+				</form>
+				<div>
+					<span id="span_inicia_op" style="font-size: xx-large"></span>
+				</div>
+				<div id="div_tabela_inicia_op" class="table-responsive">
+					<table class="table table-hover" id="tabela_modal_inicia_op"
+						style="cursor: pointer">
+						<thead id="tabela_inicia_op_cabecalho">
+						</thead>
+						<tbody id="tabela_inicia_op_corpo">
+						<tr ng-repeat="cps in listaCps">
+						<td>{{cps.cp.ppCpprodutos[0].nrDoc}}</td>
+						<td>{{cps.cp.idCp}}</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

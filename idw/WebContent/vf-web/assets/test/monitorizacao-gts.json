@@ -1,0 +1,52 @@
+{
+    "gts": [
+        {
+            "idGt": "683",
+            "cdGt": "Atlas",
+            "dsGt": "Atlas",
+            "dsView": "Atlas"
+        },
+        {
+            "idGt": "684",
+            "cdGt": "Bettanin",
+            "dsGt": "Bettanin",
+            "dsView": "Bettanin"
+        },
+        {
+            "idGt": "105",
+            "cdGt": "Fábrica",
+            "dsGt": "Fábrica",
+            "dsView": "Fábrica"
+        },
+        {
+            "idGt": "107",
+            "cdGt": "Galpão01",
+            "dsGt": "Galpão",
+            "dsView": "Galpão"
+        },
+        {
+            "idGt": "682",
+            "cdGt": "GrupoEmpresarial",
+            "dsGt": "Grupo empresarial",
+            "dsView": "Grupo empresarial"
+        },
+        {
+            "idGt": "688",
+            "cdGt": "TESTE",
+            "dsGt": "CLASSIFICAÇÃO ABC",
+            "dsView": "CLASSIFICAÇÃO ABC"
+        },
+        {
+            "idGt": "106",
+            "cdGt": "teste",
+            "dsGt": "teste",
+            "dsView": "teste"
+        },
+        {
+            "idGt": "100",
+            "cdGt": "001",
+            "dsGt": "VIQUA",
+            "dsView": "VIQUA"
+        }
+    ]
+}

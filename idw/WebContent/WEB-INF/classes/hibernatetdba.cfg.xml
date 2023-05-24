@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+   <!-- 
+# ###################################  
+# ### Dados de conexao com o banco###  
+# ################################### 
+
+COLOQUE NA ÁREA ABAIXO OS DADOS DA SUA CONEXÃO COM O BANCO!
+ 		DE ACORDO COM O CABEÇALHO.  
+-->
+
+  
+  <!-- 
+			4096 = snapshot do sql server 2005
+			1 = read uncommited = dirty read
+		
+ 
+		<property name="current_session_context_class">thread</property>
+		<property name="c3p0.min_size">10</property>
+		<property name="c3p0.max_size">100</property>
+		<property name="c3p0.timeout">1800</property>
+		<property name="show_sql">true</property>
+		<property name="format_sql">false</property>
+
+ -->
+  <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+  <property name="cache.use_query_cache">false</property>
+  <property name="cache.use_minimal_puts">false</property>
+  <property name="max_fetch_depth">5</property>
+  
+  
+  
+       
+        <mapping class="idw.model.pojos.tdba.ApontPesagens" />
+        <mapping class="idw.model.pojos.tdba.ApontPesagensCbMp" />
+        <mapping class="idw.model.pojos.tdba.SbOps" />
+        <mapping class="idw.model.pojos.tdba.SbOpsMp" />
+        <mapping class="idw.model.pojos.tdba.SbOpsMaquinas" />
+        
+    	
+  
+  
+ </session-factory>
+</hibernate-configuration>

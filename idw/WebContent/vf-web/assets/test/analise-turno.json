@@ -1,0 +1,410 @@
+{
+    "eficienciaRealizacao": "164.71",
+    "producaoPlanejada": "253750",
+    "producaoPrevista": "9147",
+    "producaoTotal": "15066",
+    "perdasTotais": "-5919",
+    "indicePerda": "-64.70",
+    "produtividadeOee": "100.00",
+    "indiceParadas": "0.00",
+    "perdasPorParadas": "0",
+    "tempoTotalParadas": "00:00:00",
+    "indiceCavidadesAtivas": "100.00",
+    "indiceRefugos": "0.00",
+    "refugos": "0",
+    "eficienciaCiclo": "147.61",
+    "perdasIneficienciaCiclo": "-5919",
+    "eficienciaInstantanea": "150.00",
+    "metaIndicadores": [
+        {
+            "cdIndicador": "ER",
+            "dsIndicador": "Eficiência de realização",
+            "valorLegendaSuperior": "85",
+            "valorLegendaMeta": "",
+            "valorLegendaInferior": "50",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        },
+        {
+            "cdIndicador": "EC",
+            "dsIndicador": "Eficiência de ciclo",
+            "valorLegendaSuperior": "85",
+            "valorLegendaMeta": "",
+            "valorLegendaInferior": "50",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        },
+        {
+            "cdIndicador": "IR",
+            "dsIndicador": "Índice de refugo",
+            "valorLegendaSuperior": "85",
+            "valorLegendaMeta": "",
+            "valorLegendaInferior": "50",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": false
+        },
+        {
+            "cdIndicador": "IP",
+            "dsIndicador": "Índice de parada",
+            "valorLegendaSuperior": "85",
+            "valorLegendaMeta": "",
+            "valorLegendaInferior": "50",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": false
+        },
+        {
+            "cdIndicador": "IPD",
+            "dsIndicador": "Índice de Perda",
+            "valorLegendaSuperior": "85",
+            "valorLegendaMeta": "",
+            "valorLegendaInferior": "50",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": false
+        },
+        {
+            "cdIndicador": "CI",
+            "dsIndicador": "Índice cavidades ativas",
+            "valorLegendaSuperior": "85",
+            "valorLegendaMeta": "",
+            "valorLegendaInferior": "50",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        },
+        {
+            "cdIndicador": "OEE",
+            "dsIndicador": "Produtividade (OEE)",
+            "valorLegendaSuperior": "85",
+            "valorLegendaMeta": "",
+            "valorLegendaInferior": "50",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        },
+        {
+            "cdIndicador": "EI",
+            "dsIndicador": "Eficiência Instantânea",
+            "valorLegendaSuperior": "85",
+            "valorLegendaMeta": "",
+            "valorLegendaInferior": "50",
+            "corLegendaSuperior": "#33ff33",
+            "corLegendaMeta": "#ffff33",
+            "corLegendaInferior": "#ff3333",
+            "isMelhorAcimaMeta": true
+        }
+    ],
+    "postos": [
+        {
+            "posto": "CAT003",
+            "indicadores": {
+                "eficienciaRealizacao": "184.68",
+                "eficienciaCiclo": "184.68",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "indicePerdaOuNR": "-84.72",
+                "indicePerdaOuNRCor": "#33ff33",
+                "eficienciaInstantanea": "187.50",
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "100.00",
+                "eficienciaRealizacaoCor": "#33ff33",
+                "eficienciaCicloCor": "#33ff33",
+                "eficienciaInstantaneaCor": "#33ff33",
+                "indiceRefugoCor": "#33ff33",
+                "indiceParadaCor": "#33ff33",
+                "indicePerdaCor": "#33ff33",
+                "indiceCavidadesAtivasCor": "#33ff33",
+                "indiceProdutividadeOEECor": "#33ff33"
+            },
+            "filtro": {
+                "filtroOp": 0,
+                "cdCp": "28020013",
+                "dtReferencia": "05/03/2018",
+                "idTurno": 4,
+                "cdPosto": "CAT003",
+                "tpId": 1,
+                "tipoPosto": 1
+            }
+        },
+        {
+            "posto": "CAT002",
+            "indicadores": {
+                "eficienciaRealizacao": "184.62",
+                "eficienciaCiclo": "184.62",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "indicePerdaOuNR": "-84.59",
+                "indicePerdaOuNRCor": "#33ff33",
+                "eficienciaInstantanea": "187.50",
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "100.00",
+                "eficienciaRealizacaoCor": "#33ff33",
+                "eficienciaCicloCor": "#33ff33",
+                "eficienciaInstantaneaCor": "#33ff33",
+                "indiceRefugoCor": "#33ff33",
+                "indiceParadaCor": "#33ff33",
+                "indicePerdaCor": "#33ff33",
+                "indiceCavidadesAtivasCor": "#33ff33",
+                "indiceProdutividadeOEECor": "#33ff33"
+            },
+            "filtro": {
+                "filtroOp": 0,
+                "cdCp": "28020031",
+                "dtReferencia": "05/03/2018",
+                "idTurno": 4,
+                "cdPosto": "CAT002",
+                "tpId": 1,
+                "tipoPosto": 1
+            }
+        },
+        {
+            "posto": "CAT001",
+            "indicadores": {
+                "eficienciaRealizacao": "147.30",
+                "eficienciaCiclo": "147.30",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "indicePerdaOuNR": "-47.30",
+                "indicePerdaOuNRCor": "#33ff33",
+                "eficienciaInstantanea": "150.00",
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "100.00",
+                "eficienciaRealizacaoCor": "#33ff33",
+                "eficienciaCicloCor": "#33ff33",
+                "eficienciaInstantaneaCor": "#33ff33",
+                "indiceRefugoCor": "#33ff33",
+                "indiceParadaCor": "#33ff33",
+                "indicePerdaCor": "#33ff33",
+                "indiceCavidadesAtivasCor": "#33ff33",
+                "indiceProdutividadeOEECor": "#33ff33"
+            },
+            "filtro": {
+                "filtroOp": 0,
+                "cdCp": "28020041",
+                "dtReferencia": "05/03/2018",
+                "idTurno": 4,
+                "cdPosto": "CAT001",
+                "tpId": 1,
+                "tipoPosto": 1
+            }
+        },
+        {
+            "posto": "CAT004",
+            "indicadores": {
+                "eficienciaRealizacao": "184.65",
+                "eficienciaCiclo": "184.65",
+                "indiceRefugo": "0.00",
+                "indiceParada": "0.00",
+                "indicePerdaOuNR": "-84.59",
+                "indicePerdaOuNRCor": "#33ff33",
+                "eficienciaInstantanea": "187.50",
+                "indiceCavidadesAtivas": "100.00",
+                "indiceProdutividadeOEE": "100.00",
+                "eficienciaRealizacaoCor": "#33ff33",
+                "eficienciaCicloCor": "#33ff33",
+                "eficienciaInstantaneaCor": "#33ff33",
+                "indiceRefugoCor": "#33ff33",
+                "indiceParadaCor": "#33ff33",
+                "indicePerdaCor": "#33ff33",
+                "indiceCavidadesAtivasCor": "#33ff33",
+                "indiceProdutividadeOEECor": "#33ff33"
+            },
+            "filtro": {
+                "filtroOp": 0,
+                "cdCp": "28020014",
+                "dtReferencia": "05/03/2018",
+                "idTurno": 4,
+                "cdPosto": "CAT004",
+                "tpId": 1,
+                "tipoPosto": 1
+            }
+        }
+    ],
+    "listaEficienciaRealizacao": [
+        {
+            "chave": "CAT003",
+            "valor": "184.68",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT002",
+            "valor": "184.62",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT001",
+            "valor": "147.30",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT004",
+            "valor": "184.65",
+            "valorCor": "#33ff33"
+        }
+    ],
+    "listaEficienciaCiclo": [
+        {
+            "chave": "CAT003",
+            "valor": "184.68",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT002",
+            "valor": "184.62",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT001",
+            "valor": "147.30",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT004",
+            "valor": "184.65",
+            "valorCor": "#33ff33"
+        }
+    ],
+    "listaIndiceRefugos": [
+        {
+            "chave": "CAT003",
+            "valor": "0.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT002",
+            "valor": "0.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT001",
+            "valor": "0.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT004",
+            "valor": "0.00",
+            "valorCor": "#33ff33"
+        }
+    ],
+    "listaIndiceParadas": [
+        {
+            "chave": "CAT003",
+            "valor": "0.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT002",
+            "valor": "0.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT001",
+            "valor": "0.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT004",
+            "valor": "0.00",
+            "valorCor": "#33ff33"
+        }
+    ],
+    "listaIndicePerdas": [
+        {
+            "chave": "CAT003",
+            "valor": "-84.72",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT002",
+            "valor": "-84.59",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT001",
+            "valor": "-47.30",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT004",
+            "valor": "-84.59",
+            "valorCor": "#33ff33"
+        }
+    ],
+    "listaIndiceCavidadesAtivas": [
+        {
+            "chave": "CAT003",
+            "valor": "100.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT002",
+            "valor": "100.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT001",
+            "valor": "100.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT004",
+            "valor": "100.00",
+            "valorCor": "#33ff33"
+        }
+    ],
+    "listaProdutividadeOee": [
+        {
+            "chave": "CAT003",
+            "valor": "100.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT002",
+            "valor": "100.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT001",
+            "valor": "100.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT004",
+            "valor": "100.00",
+            "valorCor": "#33ff33"
+        }
+    ],
+    "listaEficienciaInstantanea": [
+        {
+            "chave": "CAT003",
+            "valor": "187.50",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT002",
+            "valor": "187.50",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT001",
+            "valor": "150.00",
+            "valorCor": "#33ff33"
+        },
+        {
+            "chave": "CAT004",
+            "valor": "187.50",
+            "valorCor": "#33ff33"
+        }
+    ]
+}

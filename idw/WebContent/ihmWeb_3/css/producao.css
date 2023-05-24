@@ -1,0 +1,82 @@
+
+/*html {background-color: #ffffff;}*/
+/*body {*/
+/*    background-color: #ffffff;*/
+/*}	*/
+/*#div_ihm_producao {*/
+/*    background-color: #ffffff;*/
+/*}*/
+
+/*#h1_ihm_producao{*/
+/*    margin: 0px;*/
+/*    display:block;*/
+/*}*/
+
+#div_ihm_producao{
+    margin-left: 250px;
+}
+
+.table-responsive{
+    text-align: center;
+    margin-top: 40%;
+}
+
+.btn{
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 30%;
+    background-color: #186bb4;
+    color: white;
+}
+
+.form-control{
+    width: 30%;
+    border: none;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-left: 127px;
+}
+
+.div-prod{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #012747;
+    font-size: 25px;
+}
+
+.opcoes{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white
+}
+
+.prods{
+    margin-top: 30%;
+}
+
+.cabecalho{
+    /* background-color: rgb(96, 206, 96); */
+    background-color: rgb(72, 185, 72); 
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.alertaTr{
+    border-color: orange;
+    border: 3px solid orange;
+}
+
+@media (min-width:1300px) {
+    .prods{
+        margin-top: 5%;
+    }
+    
+    .btn{
+        margin-top: -20%;
+    }
+}

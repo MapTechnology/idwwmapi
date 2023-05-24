@@ -1,0 +1,40 @@
+<div id="div_ihm_alertas">
+		<div class="container-fluid">
+			<h1 id="h1_ihm_alertas" class="page-header"></h1>
+			<div id="panel_corrigir_alertas" class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title" id="link_alertas">
+					</h4>
+				</div>
+				<div class="panel-body">
+					<div class="input-group pesquisa-filtro">
+						<span class="input-group-addon glyphicon glyphicon-search"></span>
+						<input type="text" class="form-control pesquisa-filtro" ng-model="filtro" />
+					</div>
+					<div class="table-responsive">
+						<table class="table table-striped table-hover"	id="tabela_ult_alertas">
+							<thead id="cabecalho_tabela_alertas"></thead>
+
+							<tbody id="tabela_alertas_corpo">
+								<tr ng-repeat="alerta in alertas | filter:filtro">
+									<td>{{alerta.pt}}</td>
+									<td>{{alerta.cdalerta}}</td>
+									<td>{{alerta.dsalerta}}</td>
+									<td>{{alerta.dthralerta}}</td>
+									<td><button type= "button" class="btn btn-md btn-primary"
+											ui-sref="ihmWeb.removealerta({cdAlerta: alerta.cdalerta , pt: alerta.pt})">
+												{{btnRemAlerta}}
+											</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<hr>
+						<button class="btn btn-lg btn-primary" id="btn_novo_alerta" ui-sref="ihmWeb.novoalerta"></button>
+					</div>					
+				</div>
+			</div>
+		</div>
+
+
+	</div>

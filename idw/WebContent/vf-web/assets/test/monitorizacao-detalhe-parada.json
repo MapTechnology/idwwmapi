@@ -1,0 +1,63 @@
+{
+    "legendas": [
+        {
+            "dataHoraInicio": "19/03/2018 09:45:02",
+            "dataHoraFim": "19/03/2018 11:19:21",
+            "legendaCor": "#00ff00"
+        },
+        {
+            "dataHoraInicio": "19/03/2018 11:19:21",
+            "dataHoraFim": "19/03/2018 13:25:08",
+            "legendaCor": "#ffff00"
+        },
+        {
+            "dataHoraInicio": "19/03/2018 13:25:08",
+            "dataHoraFim": "19/03/2018 14:59:29",
+            "legendaCor": "#ffc800"
+        },
+        {
+            "dataHoraInicio": "19/03/2018 13:25:08",
+            "dataHoraFim": "19/03/2018 14:59:29",
+            "legendaCor": "#ff0000"
+        }
+    ],
+    "detalhes": [
+        {
+            "cdParada": "0100",
+            "dsParada": "MTBF/MTTR",
+            "tempoParada": "00:37:25",
+            "indiceParada": "43.27",
+            "indiceParadaCor": "#ffff00"
+        },
+        {
+            "cdParada": "000193",
+            "dsParada": "PARADA DE REGULAGEM",
+            "tempoParada": "00:26:05",
+            "indiceParada": "30.16",
+            "indiceParadaCor": "#00ff00"
+        },
+        {
+            "cdParada": "TESTE",
+            "dsParada": "TESTE",
+            "tempoParada": "00:16:35",
+            "indiceParada": "19.18",
+            "indiceParadaCor": "#00ff00"
+        },
+        {
+            "cdParada": "2",
+            "dsParada": "PARADA 2",
+            "tempoParada": "00:03:50",
+            "indiceParada": "4.43",
+            "indiceParadaCor": "#ff0000"
+        },
+        {
+            "cdParada": "000006",
+            "dsParada": "sem expediente",
+            "tempoParada": "00:02:34",
+            "indiceParada": "2.97",
+            "indiceParadaCor": "#00ff00"
+        }
+    ],
+    "limiteParadas": 5,
+    "quantidadeTotalParadas": 7
+}

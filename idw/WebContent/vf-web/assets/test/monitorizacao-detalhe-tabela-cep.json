@@ -1,0 +1,36 @@
+{
+    "tabela": [
+        {
+            "tabelaCepDTO": {
+                "referencia": "Tempo total",
+                "grupoVariavel": "TEMPERATURA - Temperatura",
+                "variacaoMedicao": "18 - TEMPERATURA °C ZONAS TOP",
+                "valorMinimoMedido": "30.900",
+                "valorMedioMedido": "30.129",
+                "valorMaximoMedido": "31.900",
+                "valorTotalMedido": "-",
+                "quantidadeMedicao": "89",
+                "valorMonetario": "0",
+                "valorUltimoMedido": "30.900",
+                "idFtParam": 18
+            },
+            "filtro": {
+                "periodo": 0,
+                "filtroDetalhePosto": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "SOLD_TEST1",
+                    "dtReferencia": "04/10/2018",
+                    "idTurno": 1,
+                    "cdPosto": "SOLD_TEST",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 0,
+                    "idRap": 0
+                },
+                "parametro": 0,
+                "referencia": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+<div id="div_ihm_navbar_topo">
+    <link href="css/navbar.css" rel="stylesheet">
+    
+	<nav class="navbar navbar-default" 
+	style="background-color: #0b4f87;border-color: #0b4f87;border-radius: 0px;margin-bottom: 0px; min-height: 60px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+				<a class="navbar-brand" title='MÁQUINA: {{sessao[cdSelecionado].pt.dsup}}'>
+					<img alt="Brand" src="images/icon.png">
+				</a>
+            </div>
+			
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-4">
+				<p ng-if="inicioss == true" class="navbar-text">MÁQUINA: {{sessao[cdSelecionado].pt.dsup}}</p>
+				
+				<p ng-if="fnlpross == true" class="navbar-text">MÁQUINA: {{sessao[cdSelecionado].pt.dsup}} - FINALIZAR PRODUÇÃO</p>
+				
+				<p ng-if="aptRss == true" class="navbar-text">MÁQUINA: {{sessao[cdSelecionado].pt.dsup}} - APONTAR REFUGO</p>
+				
+				<p ng-if="novoRefugoss == true" class="navbar-text">NOVO REFUGO</p>
+				
+				<p ng-if="apgRefugoss == true" class="navbar-text">APAGAR ÚLTIMO REFUGO</p>
+				
+				<p ng-if="aptparss == true" class="navbar-text">MÁQUINA: {{sessao[cdSelecionado].pt.dsup}} - APONTAR PARADA</p>
+				
+				<p ng-if="consPrss == true" class="navbar-text">CONSULTAS PRODUÇÃO</p>
+				
+                <p ng-if="operador == true" class="navbar-text">MÁQUINA: {{sessao[cdSelecionado].pt.dsup}} - OPERADOR</p>
+                
+                <p ng-if="alerta == true" class="navbar-text">MÁQUINA: {{sessao[cdSelecionado].pt.dsup}} - ALERTA</p>
+				
+				<p ng-if="sessao[cdSelecionado].pt.producao.ordem == '-1'" class="navbar-text">MÁQUINA: {{sessao[cdSelecionado].pt.dsup}} - INICIAR OP</p>
+				
+				
+				<p ng-if="sessao[cdSelecionado].pt.isoffline == false && sessao[cdSelecionado].pt.isParada == 'false' && inicioss == true" class="navbar-text navbar-right">
+                    <span class="circle"></span> EM PRODUÇÃO
+                </p>
+				
+				<p ng-if="sessao[cdSelecionado].pt.isoffline == false && sessao[cdSelecionado].pt.isParada == 'true' && inicioss == true" class="navbar-text navbar-right">
+                    <span class="circle" style="background-color: red;"></span> PARADA
+                </p>
+
+                <p ng-if="sessao[cdSelecionado].pt.isoffline == true && inicioss == true" class="navbar-text navbar-right">
+                    <span class="circle" style="background-color: black;"></span> OFF-LINE
+                </p>
+				
+				<button ng-if="aptRss == true" type="button" class="btn btn-default navbar-btn navbar-right"
+				ui-sref="ihmWeb.novorefugo">NOVO REFUGO</button>
+				
+				<button ng-if="aptparss == true" ng-show="sessao[cdSelecionado].pt.isParada == 'true'"
+				type="button" class="btn btn-danger navbar-btn navbar-right" style="margin-left: 5px;"
+                ui-sref="ihmWeb.finalizaparada({pt: sessao[cdSelecionado].pt})">Finalizar Parada</button>
+                
+				<button ng-if="aptparss == true" ng-show="sessao[cdSelecionado].pt.parada.isPermiteCorrecao" 
+				type="button" class="btn btn-danger navbar-btn navbar-right" style="margin-left: 5px;"
+                ui-sref="ihmWeb.corrigeultimaparada({pt: sessao[cdSelecionado].pt})">Justificar Parada</button>
+
+                <button ng-if="inicioss == true" type="button" class="btn btn-danger navbar-btn navbar-right" 
+                style="margin-left: 5px;" ng-click="updateGraphic()" title="Atualizar máquina: {{sessao[cdSelecionado].pt.dsup}}">
+                    <span ng-show="loading == true"><i class="glyphicon glyphicon-refresh spinning" style="font-size: 20px;"></i></span>
+                    <span ng-show="loading == false"><i class="glyphicon glyphicon-refresh" style="font-size: 20px;"></i> </span>
+                </button>
+        
+			</div>
+        </div>
+    </nav>
+	
+    <div id="wrapper">
+
+        <!-- Sidebar 
+        Codigo - Desabilita opção do menu -> ng-class="{'disabled': sessao[cdSelecionado].pt.listaOperadores.length == 0}"
+        -->
+        <div ng-if="sessao[cdSelecionado].pt.producao.ordem != '-1'" id="sidebar-wrapper" style="text-align: center">
+            <nav id="spy">
+                <ul class="nav nav-pills nav-stacked" style="line-height: 35px;">
+					<li ng-if="sessao[cdSelecionado].pt.isoffline == false" ui-sref="ihmWeb.maquinaEspecifica" ng-click="inicio()">
+						<a>
+							<i class="glyphicon glyphicon-home"></i><br>
+							<span class="fa fa-anchor solo">INÍCIO</span>
+						</a>
+					</li>
+					<li ng-if="sessao[cdSelecionado].pt.isoffline == false" ui-sref="ihmWeb.operadores">
+						<a>
+							<i class="glyphicon glyphicon-user"></i><br>
+							<span class="fa fa-anchor solo">OPERADOR</span>
+						</a>
+                    </li>
+					<li ng-if="sessao[cdSelecionado].pt.isoffline == false" ui-sref="ihmWeb.producao" ng-click="fnlpro()"> 
+						<a>
+							<i class="glyphicon glyphicon-check"></i><br>
+							<span class="fa fa-anchor solo">FINALIZAR PRODUÇÃO</span>
+						</a>
+					</li>
+					<li ng-if="sessao[cdSelecionado].pt.isoffline == false" ui-sref="ihmWeb.refugo" ng-click="aptR()">
+                        <a>
+                            <i class="glyphicon glyphicon-trash"></i><br>
+                            <span class="fa fa-anchor solo">APONTAR REFUGO</span>
+                        </a>
+                    </li>
+                    <li ng-if="sessao[cdSelecionado].pt.isoffline == false" ui-sref="ihmWeb.paradas" ng-click="aptpar()">
+                        <a>
+                            <i class="glyphicon glyphicon-edit"></i><br>
+                            <span class="fa fa-anchor solo">APONTAR PARADA</span>
+                        </a>
+                    </li>
+					<li ng-if="sessao[cdSelecionado].pt.isoffline == false" ui-sref="ihmWeb.alertas">
+                        <a>
+                            <i class="glyphicon glyphicon-alert"></i><br>
+                            <span class="fa fa-anchor solo">ALERTA</span>
+                        </a>
+                    </li>
+                    <li ng-if="sessao[cdSelecionado].pt.isoffline == false" ui-sref="ihmWeb.consulta" ng-click="cons()">
+                        <a>
+                            <i class="glyphicon glyphicon-search"></i><br>
+                            <span class="fa fa-anchor solo">CONSULTAS PRODUÇÃO</span>
+                        </a>
+                    </li>
+                    <li ui-sref="ihmWeb.selecaoMaquina" >
+                        <a>
+                            <i class="glyphicon glyphicon-arrow-left"></i><br>
+                            <span class="fa fa-anchor solo">SELECIONAR MÁQUINA</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i></i><br>
+                            <span class="fa fa-anchor solo"></span>
+                        </a>
+                    </li>
+				</ul>
+            </nav>
+        </div>
+
+        <!-- Sidebar -->
+        <div ng-if="sessao[cdSelecionado].pt.producao.ordem == '-1'" id="sidebar-wrapper" style="text-align: center">
+            <nav id="spy">
+                <ul class="nav nav-pills nav-stacked" style="line-height: 35px;">
+					<li ng-if="sessao[cdSelecionado].pt.semop == 'false'" ui-sref="ihmWeb.maquinaEspecifica" ng-click="inicio()">
+						<a>
+							<i class="glyphicon glyphicon-home"></i><br>
+							<span class="fa fa-anchor solo">INÍCIO</span>
+						</a>
+					</li>
+					<li ng-if="sessao[cdSelecionado].pt.semop == 'false'" ui-sref="ihmWeb.operadores">
+						<a>
+							<i class="glyphicon glyphicon-user"></i><br>
+							<span class="fa fa-anchor solo">OPERADOR</span>
+						</a>
+					</li>
+					<li ng-if="sessao[cdSelecionado].pt.semop == 'false'" ui-sref="ihmWeb.producao" ng-click="fnlpro()"> 
+						<a>
+							<i class="glyphicon glyphicon-check"></i><br>
+							<span class="fa fa-anchor solo">FINALIZAR PRODUÇÃO</span>
+						</a>
+					</li>
+					<li ng-if="sessao[cdSelecionado].pt.semop == 'false'" ui-sref="ihmWeb.refugo" ng-click="aptR()">
+                        <a>
+                            <i class="glyphicon glyphicon-trash"></i><br>
+                            <span class="fa fa-anchor solo">APONTAR REFUGO</span>
+                        </a>
+                    </li>
+                    <li ng-if="sessao[cdSelecionado].pt.semop == 'false'" ui-sref="ihmWeb.paradas" ng-click="aptpar()">
+                        <a>
+                            <i class="glyphicon glyphicon-edit"></i><br>
+                            <span class="fa fa-anchor solo">APONTAR PARADA</span>
+                        </a>
+                    </li>
+					<li ng-if="sessao[cdSelecionado].pt.semop == 'false'" ui-sref="ihmWeb.alertas">
+                        <a>
+                            <i class="glyphicon glyphicon-alert"></i><br>
+                            <span class="fa fa-anchor solo">ALERTA</span>
+                        </a>
+                    </li>
+                    <li ng-if="sessao[cdSelecionado].pt.semop == 'false'" ui-sref="ihmWeb.consulta" ng-click="cons()">
+                        <a>
+                            <i class="glyphicon glyphicon-search"></i><br>
+                            <span class="fa fa-anchor solo">CONSULTAS PRODUÇÃO</span>
+                        </a>
+                    </li>
+                    <li ui-sref="ihmWeb.selecaoMaquina" >
+                        <a>
+                            <i class="glyphicon glyphicon-arrow-left"></i><br>
+                            <span class="fa fa-anchor solo">SELECIONAR MÁQUINA</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i></i><br>
+                            <span class="fa fa-anchor solo"></span>
+                        </a>
+                    </li>
+				</ul>
+            </nav>
+        </div>
+
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+            <div class="content-header">
+                <h1 id="home">
+                    <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify btn-menu toggle">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div style="font-size: 2vw;text-align: center; display:none; align: center; overflow: visible;" role="alert" id="resposta_generica" ></div>

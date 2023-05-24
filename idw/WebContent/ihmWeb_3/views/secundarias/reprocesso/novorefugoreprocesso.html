@@ -1,0 +1,48 @@
+<div id="div_ihm_novo_refugo_reprocesso">
+	<div class="container-fluid">
+		<h1 id="h1_novo_refugo_reprocesso" class="page-header"></h1>
+		<div id="panel_novo_refugo_reprocesso" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_novo_refugo_reprocesso">
+				</h4>
+			</div>
+			<div id="collapse_novo_refugo_reprocesso" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<div id="div_cd_novo_refugo_reprocesso">
+						<h3 id="h3_cd_novo_refugo_reprocesso"></h3>
+						<div class="input-group">
+							<input type="text" id="cd_novo_refugo_reprocesso" placeholder=""
+								class="form-control" ng-model="cdRefugo" ng-disabled="respostaNovoRef">
+						</div>
+					</div>
+					<div id="div_qtd_novo_refugo_reprocesso"
+						style="display: inline-block; padding-right: 15%;">
+						<h3 id="h3_qtd_novo_refugo_reprocesso"></h3>
+						<div class="input-group">
+							<input type="text" id="qtd_novo_refugo_reprocesso" ng-model="qtdRef"
+								class="form-control">
+							</span>
+						</div>
+					</div>
+					<div id="div_idprod_novo_refugo_reprocesso">
+						<h3 id="h3_idprod_novo_refugo_reprocesso"></h3>
+						<select ng-model="ref_prod_sel" id="select_novo_refugo_reprocesso"
+						class="form-control" ng-options="prod.produto for prod in dto.pt.listaProducao"
+						type="select">
+						<option value="" class="option-default"></option>
+					</select>
+					</div>
+					<div style="padding-top: 3%">
+						<button type="button" class="btn btn-primary btn-lg"
+						ng-disabled="sim"
+							id="btn_novo_refugo_reprocesso" ng-click="novoRefugo()"></button>
+
+						<button type="button" class="btn btn-primary btn-lg"
+							id="btn_voltar_novo_refugo_reprocesso" ng-click="voltar()"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

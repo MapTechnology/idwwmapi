@@ -1,0 +1,111 @@
+{
+    "dtHrInicio": "24/10/2017 09:00:00",
+    "dtHrFim": "24/10/2017 17:00:00",
+    "posto": null,
+    "ferramenta": null,
+    "produto": null,
+    "total": "6.00",
+    "indice": "31.58",
+    "indicador": {
+        "cdIndicador": "IR",
+        "dsIndicador": "Índice de refugo",
+        "valorLegendaSuperior": "3",
+        "valorLegendaMeta": "2",
+        "valorLegendaInferior": "2",
+        "corLegendaSuperior": "#33ff33",
+        "corLegendaMeta": "#ffff33",
+        "corLegendaInferior": "#ff3333",
+        "isMelhorAcimaMeta": false
+    },
+    "itens": [
+        {
+            "dtHrInicio": "24/10/2017 09:00:00",
+            "dtHrFim": "24/10/2017 10:00:00",
+            "indice": "0",
+            "indiceCor": null,
+            "pecas": "0",
+            "pecasKg": "0",
+            "pecasTon": "0",
+            "refugos": null
+        },
+        {
+            "dtHrInicio": "24/10/2017 10:00:00",
+            "dtHrFim": "24/10/2017 11:00:00",
+            "indice": "0",
+            "indiceCor": null,
+            "pecas": "0",
+            "pecasKg": "0",
+            "pecasTon": "0",
+            "refugos": null
+        },
+        {
+            "dtHrInicio": "24/10/2017 11:00:00",
+            "dtHrFim": "24/10/2017 12:00:00",
+            "indice": "0",
+            "indiceCor": null,
+            "pecas": "0",
+            "pecasKg": "0",
+            "pecasTon": "0",
+            "refugos": null
+        },
+        {
+            "dtHrInicio": "24/10/2017 12:00:00",
+            "dtHrFim": "24/10/2017 13:00:00",
+            "indice": "0",
+            "indiceCor": null,
+            "pecas": "0",
+            "pecasKg": "0",
+            "pecasTon": "0",
+            "refugos": null
+        },
+        {
+            "dtHrInicio": "24/10/2017 13:00:00",
+            "dtHrFim": "24/10/2017 14:00:00",
+            "indice": "0",
+            "indiceCor": null,
+            "pecas": "0",
+            "pecasKg": "0",
+            "pecasTon": "0",
+            "refugos": null
+        },
+        {
+            "dtHrInicio": "24/10/2017 14:00:00",
+            "dtHrFim": "24/10/2017 15:00:00",
+            "indice": "31.58",
+            "indiceCor": "#ff3333",
+            "pecas": "6.00",
+            "pecasKg": "0.0000",
+            "pecasTon": "0.0000",
+            "refugos": [
+                {
+                    "dtHrRefugo": "24/10/2017 14:55:18",
+                    "quantidadeRefugada": "6",
+                    "turno": "2 - SEGUNDO TURNO",
+                    "posto": "BAL002",
+                    "folha": "000350-0001",
+                    "produto": "SP3050 - ROLO TECIDO NAO TECIDO BR 300X0,30M 40G"
+                }
+            ]
+        },
+        {
+            "dtHrInicio": "24/10/2017 15:00:00",
+            "dtHrFim": "24/10/2017 16:00:00",
+            "indice": "0",
+            "indiceCor": null,
+            "pecas": "0",
+            "pecasKg": "0",
+            "pecasTon": "0",
+            "refugos": null
+        },
+        {
+            "dtHrInicio": "24/10/2017 16:00:00",
+            "dtHrFim": "24/10/2017 17:00:00",
+            "indice": "0",
+            "indiceCor": null,
+            "pecas": "0",
+            "pecasKg": "0",
+            "pecasTon": "0",
+            "refugos": null
+        }
+    ]
+}

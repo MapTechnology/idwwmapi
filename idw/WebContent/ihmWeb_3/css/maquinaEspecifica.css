@@ -1,0 +1,150 @@
+/* gráfico  */
+#oee-svg {
+  margin-top: -50px;
+}
+
+#oee-license-text{
+  display: none !important;
+}
+
+#disponibilidade-svg {
+  margin-top: -50px;
+}
+
+#disponibilidade-license-text{
+  display: none !important;
+}
+
+#ritmo-svg {
+  margin-top: -50px;
+}
+
+#ritmo-license-text{
+  display: none !important;
+}
+
+#qualidade-svg {
+  margin-top: -50px;
+}
+
+#qualidade-license-text{
+  display: none !important;
+}
+/* FIM GRAFICO  */
+  
+.card{
+    width: 100%;
+    background-color: rgb(72, 185, 72);
+    border: unset;
+    border-radius: 10px;
+}
+
+.card-card-ul-letras1{
+    font-size: 30px;
+    color: #012747;
+}
+
+.card-card{
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding: 20px 20px;
+}
+
+.card-card-ul{
+    text-align: center;
+    width: 33.333333%;
+    float: left;
+    padding: 20px 20px;
+}
+
+.letras-branco-home{
+    color: white;
+    font-size: 30px;
+}
+
+.letras-azul-home{
+    color:  #012747;
+    font-size: 20px;
+}
+
+.nomeGrafico{
+  font-size: 25px;
+}
+
+
+@media (min-width:1300px) {
+
+  .card-card{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .card-card-ul{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .nomeGrafico{
+    font-size: 18px;
+  }
+
+  .card{
+    margin-top: -90px;
+  }
+
+  .letras-branco-home{
+    color: white;
+    font-size: 20px;
+  }
+
+  .letras-azul-home{
+    color:  #012747;
+    font-size: 15px;
+  }
+
+  .card-card-ul-letras1{
+    font-size: 18px;
+    color: #012747;
+  }
+
+}
+
+@media (min-width:1400px) {
+
+  .card-card{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 2%;
+  }
+
+  .card-card-ul{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .nomeGrafico{
+    font-size: 18px;
+  }
+
+  .card-card-ul-letras1{
+    font-size: 30px;
+    color: #012747;
+  }
+
+  .letras-branco-home{
+    color: white;
+    font-size: 30px;
+  }
+
+  .letras-azul-home{
+    color:  #012747;
+    font-size: 20px;
+  }
+}

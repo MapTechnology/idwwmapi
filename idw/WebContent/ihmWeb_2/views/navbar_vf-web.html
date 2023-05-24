@@ -1,0 +1,59 @@
+<div id="div_ihm_navbar_topo">
+    <link href="css/navbar.css" rel="stylesheet">
+    <!-- <nav class="navbar navbar-ihm navbar-fixed-top "> -->
+    <nav class="navbar navbar-default navbar-ihm ">
+        <div class="navbar-header">
+            <a id="navbar_topo_pt" class="navbar-brand" href="#/producao">
+                <img src="images/icon.png" class="img-responsive img-round" alt="IHM">
+            </a>
+            <div class="container">
+                <span class="navbar-title mb-0 h1 vertical-center">PRODUÇÃO</span>
+            </div>
+            <button class="navbar-toggle collapsed navbar-parent" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-parent" id=navbarToggler>
+            <ul class=" nav navbar-nav navbar-leftt">
+                <li>
+                    <a id="html_producao" ui-sref="ihmWeb.producao" onclick="" class="link-navbar"></a>
+                </li>
+                <li>
+                    <a id="html_paradas" ui-sref="ihmWeb.paradas" onclick="" class="link-navbar"></a>
+                </li>
+                 <li>
+                    <a id="html_refugo" ui-sref="ihmWeb.refugo" onclick="" class="link-navbar"></a>
+                </li>
+                <li>
+                    <a id="html_operadores" ui-sref="ihmWeb.operadores" onclick="" class="link-navbar"></a>
+                </li>
+                <li>
+                    <a id="html_alertas" ui-sref="ihmWeb.alertas" onclick="" class="link-navbar"></a>
+                </li>
+                <li>
+                    <a id="html_consulta" ui-sref="ihmWeb.consulta" onclick="" class="link-navbar" ng-show="IsIDWAtivo == 'false'"></a>
+                </li>
+                <li>
+                    <a id="html_postoreprocesso" ui-sref="ihmWeb.postoreprocesso" onclick="" class="link-navbar" ng-show="IsIDWAtivo == 'true'"></a>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right ">
+                <button class="btn btn-default" type="button" id="btn_tela" ng-click="resize()">
+          <span class="glyphicon glyphicon-resize-small" aria-hidden="true">
+          </span>
+                </button>
+                <button class="btn btn-default" type="button" id="btn_sair" ui-sref="ihmWeb.sair">
+          <span class="glyphicon glyphicon-off" aria-hidden="true">
+          </span>
+                </button>
+            </form>
+        </div>
+    </nav>
+</div>
+<<div style="font-size: 2vw;text-align: center; display:none; align: center; overflow: visible;" role="alert" id="resposta_generica" >
+</div>

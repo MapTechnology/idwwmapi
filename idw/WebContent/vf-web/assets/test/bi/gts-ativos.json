@@ -1,0 +1,40 @@
+{
+    "gts": [
+        {
+            "idGt": "1",
+            "cdGt": "000001",
+            "dsGt": "MARTPLAST",
+            "dsView": "MARTPLAST"
+        },
+        {
+            "idGt": "2",
+            "cdGt": "000002",
+            "dsGt": "OEE",
+            "dsView": "OEE"
+        },
+        {
+            "idGt": "3",
+            "cdGt": "000003",
+            "dsGt": "MAQUINAS GRANDES",
+            "dsView": "MAQUINAS GRANDES"
+        },
+        {
+            "idGt": "4",
+            "cdGt": "000004",
+            "dsGt": "MAQUINAS MÉDIAS",
+            "dsView": "MAQUINAS MÉDIAS"
+        },
+        {
+            "idGt": "5",
+            "cdGt": "000005",
+            "dsGt": "MAQUINAS PEQUENAS",
+            "dsView": "MAQUINAS PEQUENAS"
+        },
+        {
+            "idGt": "6",
+            "cdGt": "000006",
+            "dsGt": "MADS",
+            "dsView": "MADS"
+        }
+    ]
+}

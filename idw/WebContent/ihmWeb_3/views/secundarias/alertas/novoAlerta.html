@@ -1,0 +1,57 @@
+<div id="div_ihm_novo_alerta" style="margin-left: 250px;">
+	<div class="container-fluid">
+		<h1 id="h1_novo_alerta" class="page-header"></h1>
+		<div id="panel_novo_alerta" class="panel panel-default">
+			<div class="panel-heading" style="cursor: pointer;"
+				onclick="document.getElementById('link_novo_alerta').click();">
+				<h4 class="panel-title" id="link_novo_alerta">
+					<!-- <a data-toggle="collapse" id="link_novo_alerta" href="#collapse_alertas"></a> -->
+				</h4>
+			</div>
+			<div id="collapse_novo_alerta" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<form id="form_novo_alerta" name="formNovoAlerta">
+						
+						<label for="cd_form_novo_alerta" style="font-size:17px">Código</label>
+						<div class="input-group">
+						  						  
+							<input type="number" id="cd_form_novo_alerta" class="form-control" 
+							data-placement="right" ng-required="true" ng-model="cdAlertaT">	
+							
+							<span class="input-group-addon" style="padding:1px 12px; border:0px; background-color:white;">
+								<button type="button" class="btn btn-primary consulta" id="btn_consulta_alerta" 
+								ng-click="pesquisaAlerta()" ng-disabled="cdAlertaT == null" 
+								ng-hide = "IsIDWAtivo == 'true'">
+									<span aria-hidden="true" ng-class="{'glyphicon glyphicon-ok': respostaConsultaAlerta}"></span>
+								</button>
+						  	</span>
+						  
+						</div>
+						<p><label style="color: forestgreen;">{{cdAlertaTText}}</label></p>
+												
+						<br>
+						<div class="form-group">
+							<label for="select_login_operador" style="font-size:17px">Máquina</label>
+							<select type="select" ng-model="dsup_sel" id="select_login_operador" class="form-control" 
+							ng-options="pts.pt.dsup for pts in sessao | filtroMaquina" ng-disabled="true">
+							 	<option value="" class="option-default"></option>
+							</select>
+						</div>
+
+						<br><br>
+						<div class="form-group">
+							<button type="button" class="btn btn-primary btn-lg" 
+							id="btn_novo_alerta_2" ng-click="novoAlerta(dsup_sel.pt.dsup ,cdAlertaT)"
+							ng-disabled="(IsIDWAtivo == 'false' && cdAlertaValidado==null)||!dsup_sel">
+							</button>
+							
+							<button type="button" class="btn btn-primary btn-lg" 
+							id="btn_voltar_novo_alerta" ng-click="voltar()"></button>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

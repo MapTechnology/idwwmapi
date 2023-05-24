@@ -1,0 +1,159 @@
+/**
+ * DwRapDTO.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package idw.idwws;
+
+public class DwRapDTO  extends idw.idwws.DwRap  implements java.io.Serializable {
+    private idw.idwws.ResultadoDTO resultadoDTO;
+
+    public DwRapDTO() {
+    }
+
+    public DwRapDTO(
+           java.lang.Long id,
+           java.lang.String cdRap,
+           java.lang.String depara,
+           java.lang.String dsRap,
+           java.util.Calendar dtRevisao,
+           java.util.Calendar dtStativo,
+           idw.idwws.DwFolharap[] dwFolharaps,
+           idw.idwws.DwRap dwRap,
+           idw.idwws.DwRap[] dwRaps,
+           java.lang.Long idRap,
+           idw.idwws.OmUsr omUsrByIdUsrrevisao,
+           idw.idwws.OmUsr omUsrByIdUsrstativo,
+           idw.idwws.PpIndispRappt[] ppIndispRappts,
+           java.math.BigDecimal qtAlocada,
+           java.math.BigDecimal qtTotal,
+           java.lang.Long revisao,
+           java.math.BigDecimal segTempoliberacao,
+           java.lang.Byte stAtivo,
+           java.math.BigDecimal tpRap,
+           idw.idwws.ResultadoDTO resultadoDTO) {
+        super(
+            id,
+            cdRap,
+            depara,
+            dsRap,
+            dtRevisao,
+            dtStativo,
+            dwFolharaps,
+            dwRap,
+            dwRaps,
+            idRap,
+            omUsrByIdUsrrevisao,
+            omUsrByIdUsrstativo,
+            ppIndispRappts,
+            qtAlocada,
+            qtTotal,
+            revisao,
+            segTempoliberacao,
+            stAtivo,
+            tpRap);
+        this.resultadoDTO = resultadoDTO;
+    }
+
+
+    /**
+     * Gets the resultadoDTO value for this DwRapDTO.
+     * 
+     * @return resultadoDTO
+     */
+    public idw.idwws.ResultadoDTO getResultadoDTO() {
+        return resultadoDTO;
+    }
+
+
+    /**
+     * Sets the resultadoDTO value for this DwRapDTO.
+     * 
+     * @param resultadoDTO
+     */
+    public void setResultadoDTO(idw.idwws.ResultadoDTO resultadoDTO) {
+        this.resultadoDTO = resultadoDTO;
+    }
+
+    private java.lang.Object __equalsCalc = null;
+    public synchronized boolean equals(java.lang.Object obj) {
+        if (!(obj instanceof DwRapDTO)) return false;
+        DwRapDTO other = (DwRapDTO) obj;
+        if (obj == null) return false;
+        if (this == obj) return true;
+        if (__equalsCalc != null) {
+            return (__equalsCalc == obj);
+        }
+        __equalsCalc = obj;
+        boolean _equals;
+        _equals = super.equals(obj) && 
+            ((this.resultadoDTO==null && other.getResultadoDTO()==null) || 
+             (this.resultadoDTO!=null &&
+              this.resultadoDTO.equals(other.getResultadoDTO())));
+        __equalsCalc = null;
+        return _equals;
+    }
+
+    private boolean __hashCodeCalc = false;
+    public synchronized int hashCode() {
+        if (__hashCodeCalc) {
+            return 0;
+        }
+        __hashCodeCalc = true;
+        int _hashCode = super.hashCode();
+        if (getResultadoDTO() != null) {
+            _hashCode += getResultadoDTO().hashCode();
+        }
+        __hashCodeCalc = false;
+        return _hashCode;
+    }
+
+    // Type metadata
+    private static org.apache.axis.description.TypeDesc typeDesc =
+        new org.apache.axis.description.TypeDesc(DwRapDTO.class, true);
+
+    static {
+        typeDesc.setXmlType(new javax.xml.namespace.QName("http://idw/idwws", "dwRapDTO"));
+        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("resultadoDTO");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "resultadoDTO"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://idw/idwws", "resultadoDTO"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+    }
+
+    /**
+     * Return type metadata object
+     */
+    public static org.apache.axis.description.TypeDesc getTypeDesc() {
+        return typeDesc;
+    }
+
+    /**
+     * Get Custom Serializer
+     */
+    public static org.apache.axis.encoding.Serializer getSerializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanSerializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+    /**
+     * Get Custom Deserializer
+     */
+    public static org.apache.axis.encoding.Deserializer getDeserializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanDeserializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+}

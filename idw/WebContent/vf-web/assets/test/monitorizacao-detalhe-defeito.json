@@ -1,0 +1,122 @@
+{
+    "legenda": [
+        {
+            "cor": "#33ff33",
+            "label": "100.00"
+        },
+        {
+            "cor": "#ffff33",
+            "label": "70.00"
+        },
+        {
+            "cor": "#ff3333",
+            "label": "50.00"
+        }
+    ],
+    "defeitos": [
+        {
+            "cdDefeito": "3",
+            "areaResponsavel": "",
+            "defeito": "3-Estetico",
+            "quantidade": "2.0",
+            "indice": "11.11",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "2",
+            "areaResponsavel": "",
+            "defeito": "2-Fora de serie",
+            "quantidade": "2.0",
+            "indice": "11.11",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "1",
+            "areaResponsavel": "",
+            "defeito": "1-Etiqueta errada",
+            "quantidade": "3.0",
+            "indice": "16.67",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "10",
+            "areaResponsavel": "",
+            "defeito": "10-numero 10",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "7",
+            "areaResponsavel": "",
+            "defeito": "7-Acabamento",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "6",
+            "areaResponsavel": "",
+            "defeito": "6-Trocado",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "5",
+            "areaResponsavel": "",
+            "defeito": "5-Cabo fora",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "4",
+            "areaResponsavel": "",
+            "defeito": "4-Montagem errada",
+            "quantidade": "2.0",
+            "indice": "11.11",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "9",
+            "areaResponsavel": "",
+            "defeito": "9-Arranhado",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "8",
+            "areaResponsavel": "",
+            "defeito": "8-Repetido",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "13",
+            "areaResponsavel": "",
+            "defeito": "13-numero 13",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "11",
+            "areaResponsavel": "",
+            "defeito": "11-Falta pintura",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        },
+        {
+            "cdDefeito": "12",
+            "areaResponsavel": "",
+            "defeito": "12-Pintura errada",
+            "quantidade": "1.0",
+            "indice": "5.56",
+            "cor": "#ff3333"
+        }
+    ]
+}

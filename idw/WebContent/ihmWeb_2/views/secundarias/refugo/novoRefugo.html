@@ -1,0 +1,87 @@
+<div id="div_ihm_novo_refugo">
+	<div class="container-fluid">
+		<h1 id="h1_novo_refugo" class="page-header"></h1>
+		<div id="panel_novo_refugo" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_novo_refugo">
+				</h4>
+			</div>
+			<div id="collapse_novo_refugo" class="panel-collapse collapse in">
+				<div class="panel-body">
+				<div>
+					<h3 id="h3_maquina_novo_refugo"></h3>
+					<select ng-model="dsup_sel" id="select_novo_refugo"
+						class="form-control" ng-options="pts.pt.dsup for pts in sessao | filtroMaquina"
+						type="select">
+						<option value="" class="option-default"></option>
+					</select>
+					</div>
+					<div id="div_cd_novo_refugo">
+						<h3 id="h3_cd_novo_refugo"></h3>
+						<div class="input-group">
+							<input type="text" id="cd_novo_refugo" placeholder=""
+								class="form-control" ng-model="cdRefugo" ng-disabled="respostaNovoRef">
+								 <span class="input-group-btn">
+								<button type="button" class="btn btn-primary consulta"
+									id="btn_cd_novo_refugo" ng-click="pesquisaRefugo()"
+									ng-disabled="respostaNovoRef || dsup_sel == null" ><span aria-hidden="true" 
+									ng-class="{'glyphicon glyphicon-ok': respostaNovoRef}"></span></button>
+							</span>
+						</div>
+					</div>
+					<div id="div_qtd_novo_refugo"
+						style="display: inline-block; padding-right: 15%;">
+						<h3 id="h3_qtd_novo_refugo"></h3>
+						<div class="input-group">
+							<input type="text" id="qtd_novo_refugo" ng-model="qtdRef"
+								class="form-control"> <span class="input-group-btn">
+							</span>
+						</div>
+					</div>
+					<div id="div_idprod_novo_refugo">
+						<h3 id="h3_idprod_novo_refugo"></h3>
+						<select ng-model="ref_prod_sel" id="select_produto" ng-hide = "(IsIDWAtivo == 'false')"
+						class="form-control" ng-options="prod.produto for prod in dsup_sel.pt.listaProducao"
+						type="select">
+						 <option value="" class="option-default" ng-hide = "(IsIDWAtivo == 'false')"></option>
+						 <input type="text" ng-hide = "(IsIDWAtivo == 'true')" class="form-control ng-pristine ng-valid ng-empty ng-touched" id="input_produto" ng-model="ref_prod_input">
+					    </select>
+					</div>
+					<div id="div_causa_novo_refugo" ng-show="respostaNovoRef.isRequerCausa == 'true'">
+						<h3 id="h3_causa_novo_refugo"></h3>
+						<div class="input-group">
+							<input type="text" id="causa_novo_refugo"
+								class="form-control" ng-model="causaRef"> <span class="input-group-btn">
+								<button type="button" class="btn btn-primary"
+									id="btn_causa_novo_refugo" ng-click="consultaCausaRef()"
+									ng-disabled="respostaNovoRef.dwTCausa" ng-hide = "IsIDWAtivo == 'false'"><span aria-hidden="true"
+									ng-class="{'glyphicon glyphicon-ok': respostaNovoRef.dwTCausa}"></span></button>
+							</span>
+						</div>
+					</div>
+					<div id="div_acao_novo_refugo" ng-show="respostaNovoRef.isRequerAcao == 'true'">
+						<h3 id="h3_acao_novo_refugo"></h3>
+						<div class="input-group">
+							<input type="text" id="acao_novo_refugo" ng-model="acaoRef"
+								class="form-control"> <span class="input-group-btn">
+								<button type="button" class="btn btn-primary"
+									id="btn_acao_novo_refugo" ng-click="consultaAcaoRef()"
+									ng-disabled="respostaNovoRef.dwTAcao" ng-hide = "IsIDWAtivo == 'false'"><span aria-hidden="true"
+									ng-class="{'glyphicon glyphicon-ok': respostaNovoRef.dwTAcao}"></span></button>
+							</span>
+						</div>
+					</div>
+
+					<div style="padding-top: 3%">
+						<button type="button" class="btn btn-primary btn-lg"
+						  ng-disabled="(IsIDWAtivo == 'false' && respostaNovoRef == null)||(!ref_prod_input && !ref_prod_sel ) || !qtdRef"
+							id="btn_novo_refugo_2" ng-click="novoRefugo()"></button>
+						<button type="button" class="btn btn-primary btn-lg"
+							id="btn_voltar_novo_refugo" ng-click="voltar()"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

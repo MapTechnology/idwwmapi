@@ -1,0 +1,15 @@
+{
+    "tabela": [
+        {
+            "referencia": "Tempo total",
+            "grupoVariavel": "ENERGIA - Energia elétrica",
+            "variacaoMedicao": "16 - TENSÃO FASE 2 e 3 (V)",
+            "valorMinimoMedido": "196.000",
+            "valorMedioMedido": "486.543",
+            "valorMaximoMedido": "995.000",
+            "valorTotalMedido": "-",
+            "quantidadeMedicao": "148",
+            "valorMonetario": "0"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "gts": [
+        {
+            "cdGt":"000001",
+            "dsGt":"Grupo de trabalho 1"
+        },
+        {
+            "cdGt":"LINHA 01",
+            "dsGt":"IAC-L01"
+        },
+        {
+            "cdGt":"LINHA 02",
+            "dsGt":"IAC-02"
+        },
+        {
+            "cdGt":"LINHA 03",
+            "dsGt":"IAC-L03"
+        },
+        {
+            "cdGt":"LINHA 04",
+            "dsGt":"IAC-L04"
+        },
+        {
+            "cdGt":"LINHA 05",
+            "dsGt":"IAC-L05"
+        },
+        {
+            "cdGt":"SOLDA",
+            "dsGt":"SOLDA"
+        }       
+        
+    ]
+}

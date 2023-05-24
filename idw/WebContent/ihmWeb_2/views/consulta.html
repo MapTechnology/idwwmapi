@@ -1,0 +1,77 @@
+<div id="div_ihm_consulta">
+	<div class="container-fluid">
+		<h1 id="h1_consulta" class="page-header"></h1>
+		<div id="panel_consulta" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_consulta"></h4>
+			</div>
+			<div class="panel-body">
+			<form id="form_consulta" class="form-signin" name="formConsulta">
+				<div class="input-group" id="div_form_consulta">
+					<h3 id="maquina_consulta"></h3>
+					<select	ng-model="dsup_sel" id="select_consulta" class="form-control"
+					ng-options="pts.pt.dsup for pts in sessao" type="select"></select>
+							<div id="div_cd_form_novo_consulta">
+								<h3 id="html_h3_cod_consulta"></h3>
+								<input type="text" id="cd_form_novo_consulta" placeholder="Código da Consulta"
+									class="form-control" data-placement="right"
+									 ng-required="true" ng-model="consultaSelecionada">
+							</div>
+					</form>
+<!--				<div ng-show="!respConsulta">-->
+<!--				<span id="maquina_consulta"></span>-->
+<!--				<select	ng-model="dsup_sel" id="select_consulta" class="form-control"-->
+<!--					ng-options="pts.pt.dsup for pts in sessao | filtroMaquina" type="select"></select>-->
+
+<!--					Removida-->
+<!--					<div id="span_consulta" style="font-size: xx-large"></div>-->
+<!--					<table class="table table-hover" id="tabela_lista_consulta">-->
+<!--						<thead id="tabela_lista_consulta_cabecalho">-->
+<!--						</thead>-->
+<!--						<tbody id="tabela_lista_consulta_corpo" style="cursor: pointer"-->
+<!--							ng-model="consulta_selecionada">-->
+<!--							<tr ng-repeat="consulta in listaConsultas" ng-click="consultar(consulta)">-->
+<!--							<td>{{consulta.numero}}</td>-->
+<!--							<td>{{consulta.consulta}}</td>-->
+<!--							<tr>-->
+<!--						</tbody>-->
+<!--					</table>-->
+				</div>
+
+			<!-- Modal -->
+		  <div class="modal fade" id="consultaModal" role="dialog">
+			<div class="modal-dialog">
+
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">Consulta: {{consultaSelecionada}}</h4>
+				</div>
+				<div class="modal-body">
+				  <p>{{resultadoConsulta}}</p>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-default" data-dismiss="modal" id="modal_closeButton">Close</button>
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+
+
+
+
+				<div id="resultado_consulta" ng-show="respConsulta" ng-bind-html="resultadoConsulta">
+					<button type="button" class="btn btn-primary btn-lg"
+					id="btn_voltar_consulta" ng-click="voltar()"></button>
+				</div>
+
+			<button type="button" class="btn btn-primary btn-lg"
+					ng-disabled="!dsup_sel || !consultaSelecionada"
+					id="btn_pesquisar_consulta" ng-click="consultar()"></button>
+			</div>
+		</div>
+	</div>
+
+</div>

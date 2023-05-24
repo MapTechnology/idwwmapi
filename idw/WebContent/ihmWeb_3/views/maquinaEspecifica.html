@@ -1,0 +1,66 @@
+<link href="css/maquinaEspecifica.css" rel="stylesheet">
+
+<div id="div_ihm_maquinaEspecifica" style="margin-left: 250px;">
+
+	<div>
+		<fieldset class="card-grafico " style="width: 100%;">
+			<div class="card-card center">
+				<span class="nomeGrafico"><b>OEE</b></span>
+				<div id='oee'></div>
+			</div>
+			<div class="card-card center">
+				<span class="nomeGrafico"><b>DISPONIBILIDADE</b></span>
+				<div id='disponibilidade'></div>
+			</div>
+
+			<div class="card-card center">
+				<span class="nomeGrafico"><b>RITMO</b></span>
+				<div id='ritmo'></div>
+			</div>
+			<div class="card-card center">
+				<span class="nomeGrafico"><b>QUALIDADE</b></span>
+				<div id='qualidade'></div>
+			</div>
+			
+		</fieldset>
+	</div>
+	<br>
+	<div class="container-fluid">
+		<section class="center">
+			<fieldset class="card center">
+				<div class="card-card center">
+					<label id="inicioPlanejado" for="" class="letras-branco-home">{{inicioPlanejado}}</label><br>
+					<label class="letras-azul-home">INCIO PLANEJADO</label>
+				</div>
+				<div class="card-card center">
+					<label id="inicioReal" for="" class="letras-branco-home">{{inicioReal}}</label><br>
+					<label class="letras-azul-home">INICIO REAL</label>
+				</div>
+				<div class="card-card center">
+					<label id="finalPlanejado" for="" class="letras-branco-home">{{finalPlanejado}}</label><br>
+					<label class="letras-azul-home">FINAL PLANEJADO</label>
+				</div>
+				<div class="card-card center">
+					<label id="finalPrevisto" for="" class="letras-branco-home">{{finalPrevisto}}</label><br>
+					<label class="letras-azul-home">FINAL PREVISTO</label>
+				</div>
+				
+				
+				<div class="card-card-ul center">
+					<label for=""  class="card-card-ul-letras1">{{prodPlanejada | number:0}}</label><br>
+					<label class="letras-azul-home">PLANEJADO</label>
+				</div>
+				<div class="card-card-ul center">
+					<label for="" class="card-card-ul-letras1">{{prodRealizada | number:0}}</label><br>
+					<label class="letras-azul-home">REALIZADO</label>
+				</div>
+				<div class="card-card-ul center">
+					<label for=""class="card-card-ul-letras1">{{prodFaltante | number:0}}</label><br>
+					<label class="letras-azul-home">FALTANTE</label>
+				</div>
+			</fieldset>
+		</section>
+
+		</div>
+	</div>
+</div>

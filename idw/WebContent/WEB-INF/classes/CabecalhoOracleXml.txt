@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+<session-factory>
+
+<!-- 
+# ###################################  
+# ### Dados de conexao com o banco###  
+# ################################### 
+
+SUBSTITUA OS DADOS ABAIXO 
+SERVIDOR Substitua pelo Nome do Servidor
+PORTA Substitua pela porta do servidor (Normalmente 1521)
+BASE Substitua pela base do banco
+USUARIO Substitua pelos dados de usuário
+SENHA Substitua pela senha 
+SCHEMA Substitua pelo Schema que irá se conectar
+-->
+
+<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+<property name="hibernate.connection.url">jdbc:oracle:thin:@SERVIDOR:PORTA:BASE</property>
+<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+<property name="hibernate.connection.username">USUARIO</property>
+<property name="hibernate.connection.password">SENHA</property>
+<property name="default_schema">SCHEMA</property>

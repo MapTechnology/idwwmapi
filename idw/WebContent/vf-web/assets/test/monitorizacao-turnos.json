@@ -1,0 +1,29 @@
+{
+    "turnos": [
+        {
+            "idTurno": 1,
+            "cdTurno": "0",
+            "dsTurno": "Turno indefinido (não excluir)"
+        },
+        {
+            "idTurno": 2,
+            "cdTurno": "1",
+            "dsTurno": "PRIMEIRO TURNO"
+        },
+        {
+            "idTurno": 3,
+            "cdTurno": "2",
+            "dsTurno": "SEGUNDO TURNO"
+        },
+        {
+            "idTurno": 4,
+            "cdTurno": "3",
+            "dsTurno": "TERCEIRO TURNO"
+        },
+        {
+            "idTurno": 5,
+            "cdTurno": "4",
+            "dsTurno": "QUARTO TURNO"
+        }
+    ]
+}

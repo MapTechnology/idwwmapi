@@ -1,0 +1,38 @@
+<div id="div_ihm_consulta">
+	<div class="container-fluid">
+		<h1 id="h1_consulta" class="page-header"></h1>
+		<div id="panel_consulta" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_consulta"></h4>
+			</div>
+			<div class="panel-body">
+
+				<div ng-show="!respConsulta">
+				<span id="maquina_consulta"></span>
+				<select	ng-model="dsup_sel" id="select_consulta" class="form-control"
+					ng-options="pts.pt.dsup for pts in sessao | filtroMaquina" type="select"></select>
+					<div id="span_consulta" style="font-size: xx-large"></div>
+					<table class="table table-hover" id="tabela_lista_consulta">
+						<thead id="tabela_lista_consulta_cabecalho">
+						</thead>
+						<tbody id="tabela_lista_consulta_corpo" style="cursor: pointer"
+							ng-model="consulta_selecionada">
+							<tr ng-repeat="consulta in listaConsultas" ng-click="consultar(consulta)">
+							<td>{{consulta.numero}}</td>
+							<td>{{consulta.consulta}}</td>
+							<tr>
+						</tbody>
+					</table>
+				</div>
+				<div id="resultado_consulta" ng-show="respConsulta" ng-bind-html="resultadoConsulta">
+				
+				</div>
+
+				<button type="button" class="btn btn-primary btn-lg"
+					id="btn_voltar_consulta" ng-click="voltar()"></button>
+
+			</div>
+		</div>
+	</div>
+
+</div>

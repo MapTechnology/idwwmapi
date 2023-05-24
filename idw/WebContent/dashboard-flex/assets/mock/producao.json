@@ -1,0 +1,99 @@
+{
+    "cdGt": "LINHA 01",
+    "data": "01/11/2017",
+    "hora": "09:00:00",
+    "opsProdutos": [ 
+        {
+            "cliente": "DLN",
+            "modelo": "MODULADOR/DEMODULADOR ADSL CKD MODEM KIT COMPLETO",
+            "indiceDefeito": 1.0,
+            "indiceDefeitoReal": 5.0,
+            "metaDia": 40000,
+            "statusProducao": 1,
+            "statusProducaoDescricao": "Produziu 5 peças acima da meta até a hora 8h",
+            "produzidos": 35000,
+            "defeitos": 250,
+            "scraps": 10,
+            "horas": [
+                {"hora":"1h", "produzidos": 50, "defeitos": 10, "scraps": 3},
+                {"hora":"2h", "produzidos": 15, "defeitos": 10, "scraps": 3},
+                {"hora":"3h", "produzidos": 9886, "defeitos": 10, "scraps": 3},
+                {"hora":"4h", "produzidos": 400, "defeitos": 10, "scraps": 3},
+                {"hora":"5h", "produzidos": 8000, "defeitos": 10, "scraps": 3},
+                {"hora":"6h", "produzidos": 10000, "defeitos": 10, "scraps": 3},
+                {"hora":"7h", "produzidos": 990, "defeitos": 10, "scraps": 3},
+                {"hora":"8h", "produzidos": 5000, "defeitos": 10, "scraps": 3},
+                {"hora":"9h", "produzidos": 600, "defeitos": 10, "scraps": 3},
+                {"hora":"10h", "produzidos": 50, "defeitos": 10, "scraps": 3}        
+            ]
+        }, 
+        {
+            "cliente": "CLIENTE 1",
+            "modelo": "PRODUTO 1",
+            "indiceDefeito": 2.0,
+            "indiceDefeitoReal": 4.0,
+            "metaDia": 30000,
+            "statusProducao": 0,
+            "statusProducaoDescricao": "Deveria ter produzido 361 até a hora hora 3h",
+            "produzidos": 25000,
+            "defeitos": 250,
+            "scraps": 10,
+            "horas": [
+                {"hora":"1h", "produzidos": 50, "defeitos": 10, "scraps": 3},
+                {"hora":"2h", "produzidos": 15, "defeitos": 10, "scraps": 3},
+                {"hora":"3h", "produzidos": 9886, "defeitos": 10, "scraps": 3},
+                {"hora":"4h", "produzidos": 400, "defeitos": 10, "scraps": 3},
+                {"hora":"5h", "produzidos": 3000, "defeitos": 10, "scraps": 3}       
+            ]
+        }, 
+        {
+            "cliente": "CLIENTE 2",
+            "modelo": "PRODUTO 2",
+            "indiceDefeito": 4.0,
+            "indiceDefeitoReal": 5.0,
+            "metaDia": 51000,
+            "statusProducao": 0,
+            "statusProducaoDescricao": "Deveria ter produzido 361 até a hora hora 3h",
+            "produzidos": 46000,
+            "defeitos": 250,
+            "scraps": 10,
+            "horas": [
+                {"hora":"1h", "produzidos": 5, "defeitos": 10, "scraps": 3},
+                {"hora":"2h", "produzidos": 15, "defeitos": 10, "scraps": 3},
+                {"hora":"3h", "produzidos": 43, "defeitos": 10, "scraps": 3},
+                {"hora":"4h", "produzidos": 403240, "defeitos": 10, "scraps": 3},
+                {"hora":"5h", "produzidos": 43, "defeitos": 10, "scraps": 3},
+                {"hora":"6h", "produzidos": 9875, "defeitos": 10, "scraps": 3},
+                {"hora":"7h", "produzidos": 990, "defeitos": 10, "scraps": 3},
+                {"hora":"8h", "produzidos": 232, "defeitos": 10, "scraps": 3},
+                {"hora":"9h", "produzidos": 600, "defeitos": 10, "scraps": 3},
+                {"hora":"10h", "produzidos": 878, "defeitos": 10, "scraps": 3}
+            ]
+        },         
+        {
+            "cliente": "CLIENTE 3",
+            "modelo": "PRODUTO 3",
+            "indiceDefeito": 1.0,
+            "indiceDefeitoReal": 5.0,
+            "metaDia": 21566,
+            "statusProducao": 1,
+            "statusProducaoDescricao": "Produziu 100 peças acima da meta até a hora 5h",
+            "produzidos": 45684,
+            "defeitos": 250,
+            "scraps": 10,
+            "horas": [
+                {"hora":"1h", "produzidos": 50, "defeitos": 10, "scraps": 3},
+                {"hora":"2h", "produzidos": 43, "defeitos": 10, "scraps": 3},
+                {"hora":"3h", "produzidos": 4563, "defeitos": 10, "scraps": 3},
+                {"hora":"4h", "produzidos": 4030, "defeitos": 10, "scraps": 3},
+                {"hora":"5h", "produzidos": 5, "defeitos": 10, "scraps": 3},
+                {"hora":"6h", "produzidos": 54, "defeitos": 10, "scraps": 3},
+                {"hora":"7h", "produzidos": 6546, "defeitos": 10, "scraps": 3},
+                {"hora":"8h", "produzidos": 7654, "defeitos": 10, "scraps": 3},
+                {"hora":"9h", "produzidos": 5667, "defeitos": 10, "scraps": 3},
+                {"hora":"10h", "produzidos": 50, "defeitos": 10, "scraps": 3}        
+            ]
+        }
+    ]  
+}
+  

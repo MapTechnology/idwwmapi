@@ -1,0 +1,26 @@
+/* .btn.btn-primary{
+    border: unset;
+    border-radius: unset;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #186bb4;
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+.opcoes-consulta{
+    padding: 20px 20px;;
+}
+
+.alert{
+    margin-left: 250px !important;
+}
+
+.buttonload {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 24px; /* Some padding */
+    font-size: 16px; /* Set a font-size */
+}

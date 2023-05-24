@@ -1,0 +1,34 @@
+<div id="div_ihm_reprocesso">
+
+	<div class="container-fluid">
+		<h1 id="h1_ihm_reprocesso" class="page-header"></h1>
+		<div id="panel_reprocesso" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_reprocesso"></h4>
+			</div>
+			<div class="panel-body">
+
+				<div id="div_sem_maquina_reptocesso" ng-show="pt == null">
+					<h2 id="selecione_maquina_reprocesso"></h2>
+					<select ng-model="dsup_sel" id="select_nova_parada"
+						class="form-control"
+						ng-options="pts.pt.dsup for pts in sessao | filtroMaquina"
+						type="select"></select>
+
+					<button class="btn btn-lg btn-primary"
+						id="btn_selecionar_pt_reprocesso" ng-click="selecionaPt()"></button>
+				</div>
+
+				<div id="div_com_maquina_reptocesso" ng-show="pt != null">
+					<div class="input-group">
+						<span class="input-group-addon" >CB</span> <input
+							type="text" class="form-control" placeholder="" ng-model="cbLido"
+							aria-describedby="basic-addon1" id="input_cb_reprocesso"
+							ng-keypress="myFunct($event)">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,123 @@
+/* 
+Autor: Alessandre Barros (MAP Cardoso)
+Elementos basicos para o estilo de tela celula-ctgargalo-completo
+*/
+html {
+	margin: 0;
+	padding: 0;
+	 }
+
+body {
+	font: bold 13px Arial;
+	color: black; 
+	margin: 0; 
+	padding: 0;
+	background-color:#F8F8F8;
+	}
+
+p
+{ 
+	margin-top: 0; 
+	font: bold 13px Arial;
+	text-align: justify;
+}
+
+h3 { 
+	font: italic normal 1.4px georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+acronym {
+	border-bottom: none;
+	}
+
+input{
+	BORDER-RIGHT: #c0c0c0 1px solid; 
+	BORDER-TOP: #c0c0c0 1px solid; 
+	BORDER-LEFT: #c0c0c0 1px solid;
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+	FONT: 11px Verdana;
+	VERTICAL-ALIGN: middle;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+body {min-width:640px}
+
+table {
+		font: normal 13px Arial;
+}
+
+#header,#menu,#content,#sub-section,#footer {
+
+}
+
+/* safari and opera need this */
+
+#content,#sub-section,#footer {width:100%}
+
+#header,#menu {float:left}
+
+#header {width:30%;}
+
+/* IE5 Mac won't take 60% */
+#menu {width:70%;}
+
+#content {clear:left;}
+
+#sub-section{
+	text-align:center;
+}
+#footer 
+{
+	width:100%;
+	/*background:#000000;*/
+	color:black;	
+	margin: 0;
+	text-align:center;
+	vertical-align:bottom;
+}
+
+#filtro1,#filtro2 {float:left}
+
+#filtro1{
+	width:50%;
+}
+
+#filtro2{
+	width:50%;
+}
+
+/*
+Definicao de classes
+*/
+div#container{background-color: black; font-size: 25px;margin: 0px 0px 0px 0px;color: white;}
+	div#esquerdo{position:relative;border: 3px rgb(255,215,0) solid;border-width: thin;width:49%;height:690px}
+		div#esquerdo-titulo{position:relative;margin: 0px 0px 0px 0px;text-align: left;border: 3px black solid;border-width: thin; color: white; background-color: rgb(255,215,0); height:25px; font-size:16px; font-weight: bold; color: black}
+
+	#producaoHora{font-size:16px;}
+	
+	div#direito{position:relative;top:-696px;margin: 5px 5px 5px 5px;width:49%;left:50%}
+	
+		div#time{position:relative;border: 3px rgb(255,215,0) solid;border-width: thin;background-color: black;margin:0px 0px 0px 0px;}
+			div#time-titulo{position:relative;margin: 0px 0px 0px 0px;text-align: left;border: 3px rgb(255,215,0) solid;border-width: thin; color: white; background-color: rgb(255,215,0); height:25px; font-size:16px; font-weight: bold; color:black}
+

@@ -1,0 +1,124 @@
+{
+    "pts": [
+        {
+            "idPt": 0,
+            "cdPt": "INJ01",
+            "dsPt": "INJ01/180T"
+        },
+        {
+            "idPt": 0,
+            "cdPt": "INJ02",
+            "dsPt": "INJ02/150T"
+        },
+        {
+            "idPt": 0,
+            "cdPt": "INJ03",
+            "dsPt": "INJ03/150T"
+        },
+        {
+            "idPt": 0,
+            "cdPt": "INJ04",
+            "dsPt": "INJ04/150T"
+        },
+        {
+            "idPt": 0,
+            "cdPt": "INJ05",
+            "dsPt": "INJ05/160T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ06",
+            "dsPt": "INJ06/160T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ07",
+            "dsPt": "INJ07/150T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ08",
+            "dsPt": "INJ08/160T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ09",
+            "dsPt": "INJ09/120T"
+        },
+        {
+            "idPt": 2,
+            "cdPt": "INJ10",
+            "dsPt": "INJ10/120T"
+        },
+        {
+            "idPt": 2,
+            "cdPt": "INJ11",
+            "dsPt": "INJ11/120T"
+        },
+        {
+            "idPt": 2,
+            "cdPt": "INJ12",
+            "dsPt": "INJ12/300T"
+        },
+        {
+            "idPt": 2,
+            "cdPt": "INJ13",
+            "dsPt": "INJ13/170T"
+        },
+        {
+            "idPt": 2,
+            "cdPt": "INJ14",
+            "dsPt": "INJ14/170T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ15",
+            "dsPt": "INJ15/170T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ16",
+            "dsPt": "INJ16/170T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ17",
+            "dsPt": "INJ17/170T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ18",
+            "dsPt": "INJ18/150T"
+        },
+        {
+            "idPt": 1,
+            "cdPt": "INJ19",
+            "dsPt": "INJ19/160T"
+        },
+        {
+            "idPt": 0,
+            "cdPt": "INJ20",
+            "dsPt": "INJ20/220T"
+        },
+        {
+            "idPt": 0,
+            "cdPt": "INJ21",
+            "dsPt": "INJ21/220T"
+        },
+        {
+            "idPt": 0,
+            "cdPt": "INJ22",
+            "dsPt": "INJ22/160T"
+        },
+        {
+            "idPt": 0,
+            "cdPt": "INJ23",
+            "dsPt": "INJ23/200T"
+        },
+        {
+            "idPt": 2,
+            "cdPt": "INJ24",
+            "dsPt": "INJ24"
+        }
+    ]
+}

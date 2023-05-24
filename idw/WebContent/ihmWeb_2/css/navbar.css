@@ -1,0 +1,45 @@
+#div_ihm_navbar_topo{
+  margin-bottom: -30px;
+}
+
+.nav {
+    box-sizing: inherit;
+    position: relative;
+    display: inline;
+    padding-bottom: 15px;
+  }
+.navbar {
+  background-color:#0b3954;
+  margin-bottom: 10px;
+  border-radius: 0px;
+}
+.navbar-header{
+  box-sizing: inherit;
+  width: 100%;
+}
+
+.navbar-parent{
+  /*width: 100%;*/
+  margin-top: 60px;
+}
+
+.navbar-right{
+  margin-right: 0px;
+}
+
+.navbar-title{
+  color: #ffffff;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  display: block;
+}
+.form-inline{
+  float: right;
+  display: inline;
+}
+
+.center{
+  text-align: center;
+}

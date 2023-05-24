@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory name="">
+
+
+
+<!-- 
+
+ESBOÇOS DE PADRÕES: NÃO EFETUE COMMIT DE SUA CONEXÃO LAB POIS PODERÁ OMITIR ESTA LISTAGEM-GUIA
+
+# ###################################  
+# ### Dados de conexao com o banco###  
+# ################################### 
+COLOQUE NA ÁREA ABAIXO OS DADOS DA SUA CONEXÃO COM O BANCO DE ACORDO COM O CABEÇALHO.
+
+	<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+	<property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:NOMEINSTANCIASERVICOBANCO</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+	<property name="hibernate.connection.username">usuarioSCHEMAbanco</property>
+	<property name="hibernate.connection.password">senhaSCHEMAbanco</property>
+	<property name="default_schema">NOMESCHEMABANCO</property>
+	
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;DatabaseName=NOMEDOBANCO;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">usuariobanco</property>
+	<property name="hibernate.connection.password">senhabanco</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">4096</property>
+	
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;InstanceName=NOMEINSTANCIABANCO;DatabaseName=NOMEDOBANCO;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">usuariobanco</property>
+	<property name="hibernate.connection.password">senhabanco</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">1</property>	
+
+	<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+	<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/idw</property>
+	<property name="hibernate.connection.username">postgres</property>
+	<property name="hibernate.connection.password">postgres</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+	
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://192.168.2.20:1433;DatabaseName=IDW;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">map</property>
+	<property name="hibernate.connection.password">map@2018</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">1</property>
+
+
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://170.10.0.12:1433;DatabaseName=INVENTUS;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">sa</property>
+	<property name="hibernate.connection.password">sa123</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">1</property>
+	
+	
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://170.10.0.211:1433;DatabaseName=GBR;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">sa</property>
+	<property name="hibernate.connection.password">sa123</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">1</property>
+
+
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://srvmap:1433;DatabaseName=idw;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">sa</property>
+	<property name="hibernate.connection.password">sa123</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">1</property>
+	
+-->
+
+
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;DatabaseName=GBR;SelectMethod=direct;sendStringParametersAsUnicode=false</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+	<property name="hibernate.connection.username">sa</property>
+	<property name="hibernate.connection.password">salocal</property>
+	<property name="default_schema">dbo</property>
+	<property name="hibernate.connection.isolation">1</property>
+
+	
+	
+<!--
+# ###################################  
+# ### Configuracoes diversas      ###  
+# ###################################
+-->
+	<property name="hibernate.jdbc.use_scrollable_resultset">false</property>
+	<property name="current_session_context_class">thread</property>
+	<property name="show_sql">false</property>
+	<property name="format_sql">false</property>
+<!-- 
+# #####################################  
+# ### Dados de configuracao de cache###  
+# #####################################
+-->
+	<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+	<property name="cache.use_query_cache">false</property>
+	<property name="cache.use_minimal_puts">false</property>
+	<property name="max_fetch_depth">3</property>
+<!-- 
+# ###########################  
+# ### C3P0 Connection Pool###  
+# ###########################  
+-->
+	<property name="connection.org.hibernate.connection.C3P0ConnectionProvider">org.hibernate.connection.C3P0ConnectionProvider</property>
+	<property name="hibernate.c3p0.max_size">250</property>
+	<property name="hibernate.c3p0.min_size">3</property>
+	<property name="hibernate.c3p0.timeout">300</property>
+	<property name="hibernate.c3p0.max_statements">0</property>
+	<property name="hibernate.c3p0.idle_test_period">3000</property>
+	<property name="hibernate.c3p0.acquire_increment">3</property>
+	<property name="hibernate.c3p0.validate">true</property>
+<!-- 
+# ###################################  
+# ### Apache DBCP Connection Pool ###  
+# ###################################  
+
+	<property name="hibernate.connection.provider_class">idw.model.dao.provider.DBCPConnectionProvider2</property>
+	<property name="hibernate.dbcp.initialSize">8</property>
+	<property name="hibernate.dbcp.maxActive">20</property>
+	<property name="hibernate.dbcp.maxIdle">20</property>
+	<property name="hibernate.dbcp.minIdle">0</property>
+
+#   
+# ## connection pool  
+#   
+# #hibernate.dbcp.maxActive 100  
+# #hibernate.dbcp.whenExhaustedAction 1  
+# #hibernate.dbcp.maxWait 120000  
+# #hibernate.dbcp.maxIdle 10  
+#   
+# ## prepared statement cache  
+#   
+# #hibernate.dbcp.ps.maxActive 100  
+# #hibernate.dbcp.ps.whenExhaustedAction 1  
+# #hibernate.dbcp.ps.maxWait 120000  
+# #hibernate.dbcp.ps.maxIdle 10  
+#   
+# ## optional query to validate pooled connections:  
+#   
+# #hibernate.dbcp.validationQuery select 1 from dual  
+# #hibernate.dbcp.testOnBorrow true  
+# #hibernate.dbcp.testOnReturn false  
+ 
+# ######################################  
+# ### Relacao dos pojos reconhecidos ###  
+# ######################################  
+-->
+	<mapping class="idw.model.pojos.DwCal"/>
+	<mapping class="idw.model.pojos.DwCalavu"/>
+	<mapping class="idw.model.pojos.DwCalpt"/>
+	<mapping class="idw.model.pojos.DwCalsem"/>
+	<mapping class="idw.model.pojos.DwConsol"/>
+	<mapping class="idw.model.pojos.DwConsoldef"/>
+	<mapping class="idw.model.pojos.DwConsolal"/>
+	<mapping class="idw.model.pojos.DwConsolalmo"/>
+	<mapping class="idw.model.pojos.DwConsolaloco"/>
+	<mapping class="idw.model.pojos.DwConsolallog"/>
+	<mapping class="idw.model.pojos.DwConsolatlog"/>
+	<mapping class="idw.model.pojos.DwConsolciplog"/>
+	<mapping class="idw.model.pojos.DwConsolcipoco"/>
+	<mapping class="idw.model.pojos.DwConsolestlocalpro"/>
+	<mapping class="idw.model.pojos.DwConsolestlocalprotemp"/>
+	<mapping class="idw.model.pojos.DwConsolid"/>
+	<mapping class="idw.model.pojos.DwConsollog"/>
+	<mapping class="idw.model.pojos.DwConsolmo"/>
+	<mapping class="idw.model.pojos.DwConsolmolog"/>
+	<mapping class="idw.model.pojos.DwConsolmooco"/>
+	<mapping class="idw.model.pojos.DwConsolpa"/>
+	<mapping class="idw.model.pojos.DwConsolpalog"/>
+	<mapping class="idw.model.pojos.DwConsolsplog"/>
+	<mapping class="idw.model.pojos.DwConsolpalogtec"/>
+	<mapping class="idw.model.pojos.DwConsolpamo"/>
+	<mapping class="idw.model.pojos.DwConsolpaoco"/>
+	<mapping class="idw.model.pojos.DwConsolpr"/>
+	<mapping class="idw.model.pojos.DwConsolprmo"/>
+	<mapping class="idw.model.pojos.DwConsolre"/>
+	<mapping class="idw.model.pojos.DwConsolreoco"/>
+	<mapping class="idw.model.pojos.DwConsolrelog"/>
+	<mapping class="idw.model.pojos.DwConsolremo"/>
+	<mapping class="idw.model.pojos.DwEst"/>
+	<mapping class="idw.model.pojos.DwDesalimpendcontag"/>
+	<mapping class="idw.model.pojos.DwFolha"/>
+	<mapping class="idw.model.pojos.DwFolhaoperacao"/>
+	<mapping class="idw.model.pojos.DwFolhaemb"/>
+	<mapping class="idw.model.pojos.DwFolhaiac"/>
+	<mapping class="idw.model.pojos.DwFolhamon"/>
+	<mapping class="idw.model.pojos.DwFolhasetup"/>
+	<mapping class="idw.model.pojos.DwFolhamoncomp"/>
+	<mapping class="idw.model.pojos.DwFolhamedtemhor"/>
+	<mapping class="idw.model.pojos.DwFolhamedtemp"/>
+	<mapping class="idw.model.pojos.DwFolhamedtemphorcfg"/>
+	<mapping class="idw.model.pojos.DwFolhateste"/>
+	<mapping class="idw.model.pojos.DwFtEtapa"/>
+	<mapping class="idw.model.pojos.DwFtParam"/>
+	<mapping class="idw.model.pojos.DwFtGrupo"/>
+	<mapping class="idw.model.pojos.DwFtSub"/>
+	<mapping class="idw.model.pojos.DwFtSubparam"/>
+	<mapping class="idw.model.pojos.OmEmpresa"/>
+	<mapping class="idw.model.pojos.OmLicenca"/>
+	<mapping class="idw.model.pojos.OmTplicenca"/>
+	<mapping class="idw.model.pojos.OmModuloRecurso"/>
+	<mapping class="idw.model.pojos.OmLicencaPt"/>
+	<mapping class="idw.model.pojos.OmLicmodrec"/>
+	<mapping class="idw.model.pojos.DwGrpativ"/>
+	<mapping class="idw.model.pojos.DwNserie"/>
+	<mapping class="idw.model.pojos.DwNsMp"/>
+	<mapping class="idw.model.pojos.DwNserieobs"/>
+	<mapping class="idw.model.pojos.DwPassagem"/>
+	<mapping class="idw.model.pojos.DwPassdef"/>
+	<mapping class="idw.model.pojos.DwPassmon"/>
+	<mapping class="idw.model.pojos.DwPepro"/>
+	<mapping class="idw.model.pojos.DwRota"/>
+	<mapping class="idw.model.pojos.DwRotapasso"/>
+	<mapping class="idw.model.pojos.DwRotapassoPt"/>
+	<mapping class="idw.model.pojos.DwRpPredecessora"/>
+	<mapping class="idw.model.pojos.DwRt"/>
+	<mapping class="idw.model.pojos.DwRtcic"/>
+	<mapping class="idw.model.pojos.DwTAcao"/>
+	<mapping class="idw.model.pojos.DwTAlerta"/>
+	<mapping class="idw.model.pojos.DwTDefeito"/>
+	<mapping class="idw.model.pojos.DwTestesub"/>
+	<mapping class="idw.model.pojos.DwTestesubetapa"/>
+	<mapping class="idw.model.pojos.DwTParada"/>
+	<mapping class="idw.model.pojos.DwTRitmo"/>
+	<mapping class="idw.model.pojos.DwTRefugo"/>
+	<mapping class="idw.model.pojos.DwTurno"/>
+	<mapping class="idw.model.pojos.DwMacrange"/>
+	<mapping class="idw.model.pojos.DwMacuso"/>
+  
+	<mapping class="idw.model.pojos.OmAlgocor"/>
+	<mapping class="idw.model.pojos.OmAlim"/>
+	<mapping class="idw.model.pojos.OmAlimrea"/>
+	<mapping class="idw.model.pojos.OmReel"/>
+	<mapping class="idw.model.pojos.OmCc"/>
+	<mapping class="idw.model.pojos.OmCfg"/>
+	<mapping class="idw.model.pojos.OmCfgurl"/>
+	<mapping class="idw.model.pojos.OmCfgptdetcoleta"/>
+	<mapping class="idw.model.pojos.OmCfgind"/>
+	<mapping class="idw.model.pojos.OmCfgscrpimp"/>
+	<mapping class="idw.model.pojos.OmCfgabc"/>
+	<mapping class="idw.model.pojos.OmCfgabclim"/>
+	<mapping class="idw.model.pojos.OmClp"/>
+	<mapping class="idw.model.pojos.OmFor"/>
+	<mapping class="idw.model.pojos.OmGrnts"/>
+	<mapping class="idw.model.pojos.OmGt"/>
+	<mapping class="idw.model.pojos.OmHomogt"/>
+	<mapping class="idw.model.pojos.OmHomopt"/>
+	<mapping class="idw.model.pojos.OmIm"/>
+	<mapping class="idw.model.pojos.OmImg"/>
+	<mapping class="idw.model.pojos.OmInd"/>
+	<mapping class="idw.model.pojos.OmIndgt"/>
+	<mapping class="idw.model.pojos.OmIndpt"/>
+	<mapping class="idw.model.pojos.OmIndtppt"/>
+	<mapping class="idw.model.pojos.OmMapa"/>
+	<mapping class="idw.model.pojos.OmMapapa"/>
+	<mapping class="idw.model.pojos.OmMapapaproalt"/>
+	<mapping class="idw.model.pojos.OmMapaAnexo"/>
+	<mapping class="idw.model.pojos.OmObj"/>
+	<mapping class="idw.model.pojos.OmPa"/>
+	<mapping class="idw.model.pojos.OmPrg"/>
+	<mapping class="idw.model.pojos.OmPrgpos"/>
+	<mapping class="idw.model.pojos.OmPrgposproalt"/>
+	<mapping class="idw.model.pojos.OmProaltglo"/>
+	<mapping class="idw.model.pojos.OmProduto"/>
+	<mapping class="idw.model.pojos.OmPromidia"/>
+	<mapping class="idw.model.pojos.OmProgrp"/>
+	<mapping class="idw.model.pojos.OmProrange"/>
+	<mapping class="idw.model.pojos.OmPt"/>
+	<mapping class="idw.model.pojos.OmPtcp"/>
+	<mapping class="idw.model.pojos.OmResgui"/>
+	<mapping class="idw.model.pojos.OmTexto"/>
+	<mapping class="idw.model.pojos.OmTpgt"/>
+	<mapping class="idw.model.pojos.OmTppt"/>
+	<mapping class="idw.model.pojos.OmUsr"/>
+	<mapping class="idw.model.pojos.OmUsrgrp"/>
+	<mapping class="idw.model.pojos.OmJob"/>
+	<mapping class="idw.model.pojos.OmJoblog"/>
+	<mapping class="idw.model.pojos.OmJobRecurso"/>
+	<mapping class="idw.model.pojos.OmJobdet"/>
+	<mapping class="idw.model.pojos.OmJobdetlog"/>
+	<mapping class="idw.model.pojos.OmWebcam"/>
+	<mapping class="idw.model.pojos.DwExpcvs"/>
+	<mapping class="idw.model.pojos.DwExpcvspf"/>
+	<mapping class="idw.model.pojos.DwPasstf"/>
+	<mapping class="idw.model.pojos.DwPasstfse"/>
+	<mapping class="idw.model.pojos.DwPasstfsepm"/>
+	<mapping class="idw.model.pojos.DwPasscau"/>
+	<mapping class="idw.model.pojos.DwPasstfsepmView"/>
+	<mapping class="idw.model.pojos.OmProcomest"/>
+	<mapping class="idw.model.pojos.DwEstpro"/>
+	<mapping class="idw.model.pojos.OmRegrasNscb"/>
+	<mapping class="idw.model.pojos.OmRegrasTags"/>
+	<mapping class="idw.model.pojos.OmTags"/>
+	<mapping class="idw.model.pojos.DwConsolParam"/>
+	<mapping class="idw.model.pojos.DwConsolpaParam"/>
+	<mapping class="idw.model.pojos.DwFolharap"/>
+	<mapping class="idw.model.pojos.DwFolharapcom"/>
+	<mapping class="idw.model.pojos.DwRap"/>
+	<mapping class="idw.model.pojos.IpBalanceamento"/>
+	<mapping class="idw.model.pojos.OmContato"/>
+	<mapping class="idw.model.pojos.OmGarantia"/>
+	<mapping class="idw.model.pojos.OmGarpro"/>
+	<mapping class="idw.model.pojos.PpCliente"/>
+	<mapping class="idw.model.pojos.PpCp"/>
+	<mapping class="idw.model.pojos.PpCpentsai"/>
+	<mapping class="idw.model.pojos.PpCpnserie"/>
+	<mapping class="idw.model.pojos.PpCpneccron"/>
+	<mapping class="idw.model.pojos.PpCpPre"/>
+	<mapping class="idw.model.pojos.PpCpproduto"/>
+	<mapping class="idw.model.pojos.PpNec"/>
+	<mapping class="idw.model.pojos.PpNeccron"/>
+	<mapping class="idw.model.pojos.PpNecimp"/>
+	<mapping class="idw.model.pojos.PpNecimplog"/>
+	<mapping class="idw.model.pojos.PpNecimpurl"/>
+	<mapping class="idw.model.pojos.PpNecimpurllog"/>
+	<mapping class="idw.model.pojos.PpPlanec"/>
+	<mapping class="idw.model.pojos.PpPlano"/>
+	<mapping class="idw.model.pojos.PpTpplano"/>
+	<mapping class="idw.model.pojos.PpIndispRappt"/>
+	<mapping class="idw.model.pojos.PpIndisp"/>
+	<mapping class="idw.model.pojos.DwEstmov"/>
+	<mapping class="idw.model.pojos.PpPlancol"/>
+	<mapping class="idw.model.pojos.PpPlanptgt"/>
+	<mapping class="idw.model.pojos.TtSapEstmppa"/>
+	<mapping class="idw.model.pojos.TtSapCon"/>
+	<mapping class="idw.model.pojos.TtTmgCon"/>
+	<mapping class="idw.model.pojos.OmProturno"/>
+	<mapping class="idw.model.pojos.PpCm"/>
+	<mapping class="idw.model.pojos.PpCmcom"/>
+	<mapping class="idw.model.pojos.PpPlaneccron"/>
+	<mapping class="idw.model.pojos.DwFolhacic"/>
+	<mapping class="idw.model.pojos.PpCpData"/>
+	<mapping class="idw.model.pojos.PpCpTurno"/>
+	<mapping class="idw.model.pojos.DwTJust"/>
+	<mapping class="idw.model.pojos.OmCargo"/>
+	<mapping class="idw.model.pojos.DwTCausa"/>
+	<mapping class="idw.model.pojos.DwTOrigem"/>
+	<mapping class="idw.model.pojos.PpCpHora"/>
+	<mapping class="idw.model.pojos.DwTArea"/>
+	<mapping class="idw.model.pojos.OmPropaihomo"/>
+	<mapping class="idw.model.pojos.DwEstsalma"/>
+	<mapping class="idw.model.pojos.PpCpfaltamp"/>
+	<mapping class="idw.model.pojos.OmUnidmedida"/>
+	<mapping class="idw.model.pojos.DwConsolpt"/>
+	<mapping class="idw.model.pojos.DwConsolpemp"/>
+	<mapping class="idw.model.pojos.DwConsolpempoco"/>
+	<mapping class="idw.model.pojos.DwConsolperdamplog"/>
+	<mapping class="idw.model.pojos.DwTPerdamp"/>
+	<mapping class="idw.model.pojos.DwConsolmedparamlog"/>
+	<mapping class="idw.model.pojos.DwTOperacao"/>
+	<mapping class="idw.model.pojos.DwOperacao"/>
+	<mapping class="idw.model.pojos.DwMacrange"/>
+	<mapping class="idw.model.pojos.DwOperacaocomp"/>
+	<mapping class="idw.model.pojos.DwOperacaomidia"/>
+	<mapping class="idw.model.pojos.DwOperacaopredecessora"/>
+	<mapping class="idw.model.pojos.DwOperacaorap"/>
+  
+	<mapping class="idw.model.pojos.DwProcativ"/>
+	<mapping class="idw.model.pojos.DwProcedimento"/>
+	<mapping class="idw.model.pojos.DwProrea"/>
+	<mapping class="idw.model.pojos.DwProreaativ"/>
+	<mapping class="idw.model.pojos.DwProreaativobs"/>
+	<mapping class="idw.model.pojos.DwProreausr"/>
+	<mapping class="idw.model.pojos.DwDetativ"/>
+	<mapping class="idw.model.pojos.DwProcarhom"/>
+	<mapping class="idw.model.pojos.DwProdutoconjugado"/>
+	<mapping class="idw.model.pojos.OmPapro"/>
+	<mapping class="idw.model.pojos.DwEstlocal"/>
+	<mapping class="idw.model.pojos.DwEstlocalpro"/>
+	<mapping class="idw.model.pojos.DwConsolParammed"/>
+	<mapping class="idw.model.pojos.MsTrigger"/>
+	<mapping class="idw.model.pojos.MsInd"/>
+	<mapping class="idw.model.pojos.MsDetector"/>
+	<mapping class="idw.model.pojos.MsDetectorusr"/>
+	<mapping class="idw.model.pojos.MsDthr"/>
+	<mapping class="idw.model.pojos.MsCfg"/>
+	<mapping class="idw.model.pojos.MsEvt"/>
+	<mapping class="idw.model.pojos.MsEvtcep"/>
+	<mapping class="idw.model.pojos.MsEvtdefeito"/>
+	<mapping class="idw.model.pojos.MsEvtmontagem"/>
+	<mapping class="idw.model.pojos.MsUsr"/>
+	<mapping class="idw.model.pojos.MsIc"/>
+	<mapping class="idw.model.pojos.MsIhm"/>
+	<mapping class="idw.model.pojos.MsMs"/>
+	<mapping class="idw.model.pojos.MsMsicup"/>
+	<mapping class="idw.model.pojos.MsMsicupProduto"/>
+	<mapping class="idw.model.pojos.MsMsihm"/>
+	<mapping class="idw.model.pojos.MsUp"/>
+	<mapping class="idw.model.pojos.MsUpihm"/>
+	<mapping class="idw.model.pojos.MsTpevt"/>
+	<mapping class="idw.model.pojos.MsMonitor"/>
+	<mapping class="idw.model.pojos.MsCck"/>
+	<mapping class="idw.model.pojos.MsPerfilandon"/>
+	<mapping class="idw.model.pojos.MsPerfilregras"/>
+	<mapping class="idw.model.pojos.MsPtColeta"/>
+	<mapping class="idw.model.pojos.MsPtColetaLogin"/>
+	<mapping class="idw.model.pojos.MsUpOp"/>
+	<mapping class="idw.model.pojos.MsUpopLeituras"/>
+  
+	<mapping class="idw.model.pojos.TeConcessionaria"/>
+	<mapping class="idw.model.pojos.TeLei"/>
+	<mapping class="idw.model.pojos.TeTarifas"/>
+	<mapping class="idw.model.pojos.TeTarifasemanal"/>
+	<mapping class="idw.model.pojos.TeTipoConsumidor"/>
+	<mapping class="idw.model.pojos.DwGrupoFerramenta"/>
+	<mapping class="idw.model.pojos.DwRapGrupo"/>
+	<mapping class="idw.model.pojos.OmPtcnc"/>
+	
+	<mapping class="idw.model.pojos.DwConsolvaritmo"/>
+	<mapping class="idw.model.pojos.DwConsolvaritmolog"/>
+	<mapping class="idw.model.pojos.DwConsolvaritmologcau"/>
+	<mapping class="idw.model.pojos.DwConsolvaritmooco"/>
+	
+	<mapping class="injetws.model.pojos.PrBridgeCollectorDatabase"/>
+	<mapping class="injetws.model.pojos.PrConexoesInjet"/>
+	<mapping class="injetws.model.pojos.PrColetor"/>
+	<mapping class="injetws.model.pojos.PrSubColetor"/>
+	<mapping class="injetws.model.pojos.PrColetorDriver"/>
+	<mapping class="injetws.model.pojos.PrColetorDriverParam"/>
+	<mapping class="injetws.model.pojos.PrColetorEventos"/>
+	<mapping class="injetws.model.pojos.PrCtrlIdentificador"/>
+	<mapping class="injetws.model.pojos.PrEventosBridgeCollecDb"/>
+	<mapping class="injetws.model.pojos.PrParadaDefSemConexao"/>
+	<mapping class="injetws.model.pojos.PrParadaDefCtrlIniProc"/>
+	<mapping class="injetws.model.pojos.PrUp"/>
+	<mapping class="injetws.model.pojos.PrUpCtrlExecinspecao"/>
+	<mapping class="injetws.model.pojos.PrUpConfiguracoes"/>
+	<mapping class="injetws.model.pojos.PrUpAlertasEmAberto"/>
+	<mapping class="injetws.model.pojos.PrUpCtrlEventosLoginout"/>
+	<mapping class="injetws.model.pojos.PrUpCtrlInicioProcesso"/>
+	<mapping class="injetws.model.pojos.PrUpDadosBc"/>
+	<mapping class="injetws.model.pojos.PrUpUltimaParada"/>
+	<mapping class="injetws.model.pojos.PrOperacaoColetaDiscreta"/>
+	<mapping class="injetws.model.pojos.PrUpOpsEmAberto"/>
+	<mapping class="injetws.model.pojos.PrUpOpsEmAbertoProd"/>
+	<mapping class="injetws.model.pojos.PrDthr"/>
+	<mapping class="injetws.model.pojos.PrUpAndonConfig"/>
+	<mapping class="injetws.model.pojos.PrUpAndonConfigArg"/>
+	<mapping class="injetws.model.pojos.PrUpAndonConfigArgId"/>
+	<mapping class="injetws.model.pojos.PrUpVariacaoRitmoPend"/>
+	<mapping class="injetws.model.pojos.PrUpAndonIndicadores"/>
+	<mapping class="injetws.model.pojos.PrUpAndonIndicadoresId"/>
+	<mapping class="injetws.model.pojos.PrUpAndonPrcsft"/>
+	<mapping class="injetws.model.pojos.PrUpAndonPrcsftConfig"/>
+	<mapping class="injetws.model.pojos.PrUpAndon"/>
+	<mapping class="injetws.model.pojos.PrUpAndonAlertaInspecao"/>
+	<mapping class="injetws.model.pojos.PrUpAndonArg"/>
+	<mapping class="injetws.model.pojos.PrUpAndonArgId"/>
+	<mapping class="injetws.model.pojos.PrUpAndonId"/>
+	<mapping class="injetws.model.pojos.PrUpAndonResultUltimaInsp"/>
+	<mapping class="injetws.model.pojos.PrUpCtrlAndon"/>
+	<mapping class="injetws.model.pojos.PrUpCtrlAndonId"/>
+	<mapping class="injetws.model.pojos.PrUpDnc"/>
+	<mapping class="injetws.model.pojos.PrUpDncConfiguracoes"/>
+	<mapping class="injetws.model.pojos.PrUpExecinspecao"/>
+	<mapping class="injetws.model.pojos.PrUpLoginsEmAberto"/>
+	<mapping class="injetws.model.pojos.PrUpLoginsEmAbertoBc"/>
+	<mapping class="injetws.model.pojos.PrUpParadasEmAberto"/>
+	<mapping class="injetws.model.pojos.PrUpParadasEmAbertoId"/>
+	<mapping class="injetws.model.pojos.PrUpProduto"/>
+	<mapping class="injetws.model.pojos.PrUpProdutoMatPrima"/>
+	<mapping class="injetws.model.pojos.PrUpProdutoMatPrimaUsada"/>
+	<mapping class="injetws.model.pojos.PrUpProdutoValidacao"/>
+	<mapping class="injetws.model.pojos.PrUpUltimaVariacaoRitmo"/>
+	<mapping class="injetws.model.pojos.PrProUsu"/>
+	
+	<mapping class="idw.model.pojos.SpCatcausa" />
+	<mapping class="idw.model.pojos.SpCatcausads" />
+	<mapping class="idw.model.pojos.SpCausa" />
+	<mapping class="idw.model.pojos.SpCausads" />
+	<mapping class="idw.model.pojos.SpCausaefeito" />
+	<mapping class="idw.model.pojos.SpLingua" />
+	<mapping class="idw.model.pojos.SpMain" />
+	<mapping class="idw.model.pojos.SpMfv" />
+	<mapping class="idw.model.pojos.SpObj" />
+	<mapping class="idw.model.pojos.SpPlano" />
+	<mapping class="idw.model.pojos.SpPlanoresp" />
+	<mapping class="idw.model.pojos.SpProblema" />
+	<mapping class="idw.model.pojos.SpProblemads" />
+	<mapping class="idw.model.pojos.SpSetor" />
+	
+	<mapping class="idw.model.pojos.OmPtPa"/>
+	<mapping class="idw.model.pojos.OmPtPaEspelho"/>
+	<mapping class="idw.model.pojos.OmPtPaMapa"/>
+	
+	<mapping class="idw.model.pojos.DwLogvalroteiro"/>
+	
+	
+	
+	<mapping class="idw.model.pojos.QqFolhaInsRap"/>
+	<mapping class="idw.model.pojos.QqFolhaInsAtiv"/>
+	<mapping class="idw.model.pojos.QqFolhaInsMed"/>
+	<mapping class="idw.model.pojos.QqFolhainsft"/>
+	<mapping class="idw.model.pojos.DwTprap"/>
+	<mapping class="idw.model.pojos.MmOs"/>
+	<mapping class="idw.model.pojos.MmTpos"/>
+	<mapping class="idw.model.pojos.MmOsInsRap"/>
+	<mapping class="idw.model.pojos.QqInsRap"/>
+	<mapping class="idw.model.pojos.QqInsrapFt"/>
+	<mapping class="idw.model.pojos.DwEstmovRap"/>
+	
+	<mapping class="idw.model.pojos.DwGfTpos"/>
+	<mapping class="idw.model.pojos.DwGfEmail"/>
+	<mapping class="idw.model.pojos.DwRappro"/>
+	
+	<mapping class="idw.model.pojos.QqRoteiro"/>
+	<mapping class="idw.model.pojos.QqRoteiroMov"/>
+	<mapping class="idw.model.pojos.QqRoteiroPre"/>
+	<mapping class="idw.model.pojos.QqRoteiroUsr"/>
+	<mapping class="idw.model.pojos.DwTpest"/>
+	
+<!-- 
+-->
+</session-factory>
+</hibernate-configuration>

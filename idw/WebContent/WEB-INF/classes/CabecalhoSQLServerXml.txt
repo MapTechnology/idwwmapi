@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+<session-factory>
+
+<!-- 
+# ###################################  
+# ### Dados de conexao com o banco###  
+# ################################### 
+
+SUBSTITUA OS DADOS ABAIXO 
+SERVIDOR Substitua pelo Nome do Servidor
+PORTA Substitua pela porta do servidor (normalmente 1433)
+BASE Substitua pela base do banco
+USUARIO Substitua pelos dados de usuário
+SENHA Substitua pela senha 
+NOMEINSTANCIA No caso de SQLEXPRESS ou algum banco om Instancia definida
+Caso não haja instancia definida utilizar a segunda opção
+-->
+<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+<property name="hibernate.connection.url">jdbc:sqlserver://SERVIDOR:PORTA;InstanceName=NOMEINSTANCIA;DatabaseName=BASE;SelectMethod=direct</property>
+<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+<property name="hibernate.connection.username">USUARIO</property>
+<property name="hibernate.connection.password">SENHA</property>
+<property name="default_schema">dbo</property>
+<property name="hibernate.connection.isolation">4096</property>
+
+
+
+
+<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+<property name="hibernate.connection.url">jdbc:sqlserver://SERVIDOR:PORTA;DatabaseName=BASE;SelectMethod=direct</property>
+<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+<property name="hibernate.connection.username">USUARIO</property>
+<property name="hibernate.connection.password">SENHA</property>
+<property name="default_schema">dbo</property>
+<property name="hibernate.connection.isolation">4096</property>

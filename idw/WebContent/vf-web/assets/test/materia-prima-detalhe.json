@@ -1,0 +1,2154 @@
+{
+    "perdasMateriaPrima": [
+        {
+            "idProduto": 19851,
+            "cdProduto": "204010404550",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "787.0",
+            "porcentagemPerda": "70.58",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19851,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21108,
+            "cdProduto": "201099000824",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "38.0",
+            "porcentagemPerda": "3.41",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21108,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20787,
+            "cdProduto": "206014701010",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "36.0",
+            "porcentagemPerda": "3.23",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20787,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19848,
+            "cdProduto": "202010025650",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "26.0",
+            "porcentagemPerda": "2.33",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19848,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19866,
+            "cdProduto": "201002000311",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "20.0",
+            "porcentagemPerda": "1.79",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19866,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20036,
+            "cdProduto": "206000270003",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "16.0",
+            "porcentagemPerda": "1.43",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20036,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19855,
+            "cdProduto": "202047015650",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "14.0",
+            "porcentagemPerda": "1.26",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19855,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20262,
+            "cdProduto": "204010008451",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "11.0",
+            "porcentagemPerda": "0.99",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20262,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19876,
+            "cdProduto": "204022008450",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "11.0",
+            "porcentagemPerda": "0.99",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19876,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19862,
+            "cdProduto": "206001200006",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "9.0",
+            "porcentagemPerda": "0.81",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19862,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21207,
+            "cdProduto": "204010306550",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "8.0",
+            "porcentagemPerda": "0.72",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21207,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19870,
+            "cdProduto": "202022005650",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "8.0",
+            "porcentagemPerda": "0.72",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19870,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20010,
+            "cdProduto": "204010406550",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "8.0",
+            "porcentagemPerda": "0.72",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20010,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19868,
+            "cdProduto": "202000005650",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "7.0",
+            "porcentagemPerda": "0.63",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19868,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19861,
+            "cdProduto": "204010503551",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "7.0",
+            "porcentagemPerda": "0.63",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19861,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20035,
+            "cdProduto": "204043900003",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "7.0",
+            "porcentagemPerda": "0.63",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20035,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20034,
+            "cdProduto": "202003305650",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "7.0",
+            "porcentagemPerda": "0.63",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20034,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19859,
+            "cdProduto": "202010035650",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "porcentagemPerda": "0.54",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19859,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21077,
+            "cdProduto": "202062021650",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "porcentagemPerda": "0.54",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21077,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19849,
+            "cdProduto": "204022602620",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "porcentagemPerda": "0.54",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19849,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 22011,
+            "cdProduto": "204000808151",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "6.0",
+            "porcentagemPerda": "0.54",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 22011,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21131,
+            "cdProduto": "206031520002",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "porcentagemPerda": "0.54",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21131,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21082,
+            "cdProduto": "206034720015",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "porcentagemPerda": "0.54",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21082,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21116,
+            "cdProduto": "202082000004",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "porcentagemPerda": "0.54",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21116,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19864,
+            "cdProduto": "204003900002",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "porcentagemPerda": "0.54",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19864,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21107,
+            "cdProduto": "202000005320",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "4.0",
+            "porcentagemPerda": "0.36",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21107,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21120,
+            "cdProduto": "202030011150",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "4.0",
+            "porcentagemPerda": "0.36",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21120,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20016,
+            "cdProduto": "204001208252",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "4.0",
+            "porcentagemPerda": "0.36",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20016,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21130,
+            "cdProduto": "206021000011",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "4.0",
+            "porcentagemPerda": "0.36",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21130,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21122,
+            "cdProduto": "204082100001",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "3.0",
+            "porcentagemPerda": "0.27",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21122,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19872,
+            "cdProduto": "204006900001",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "3.0",
+            "porcentagemPerda": "0.27",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19872,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21286,
+            "cdProduto": "202002200005",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21286,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20046,
+            "cdProduto": "202033020001",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20046,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19874,
+            "cdProduto": "204010600019",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19874,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19867,
+            "cdProduto": "201099000822",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19867,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21117,
+            "cdProduto": "206016801023",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21117,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19869,
+            "cdProduto": "202000005240",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19869,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20052,
+            "cdProduto": "202075021650",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20052,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21111,
+            "cdProduto": "202000005150",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21111,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 21218,
+            "cdProduto": "206010829016",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 21218,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20037,
+            "cdProduto": "204010108450",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "2.0",
+            "porcentagemPerda": "0.18",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20037,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19858,
+            "cdProduto": "204010208550",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "porcentagemPerda": "0.09",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19858,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19871,
+            "cdProduto": "202024021650",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "porcentagemPerda": "0.09",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19871,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20300,
+            "cdProduto": "204018900004",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "porcentagemPerda": "0.09",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20300,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 20019,
+            "cdProduto": "202020001650",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "porcentagemPerda": "0.09",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 20019,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "idProduto": 19865,
+            "cdProduto": "207070000039",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "porcentagemPerda": "0.09",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 19865,
+                    "tipoPosto": 13,
+                    "idRap": 0
+                },
+                "listaMpBruta": []
+            }
+        }
+    ],
+    "perdasFerramenta": [
+        {
+            "cdFerramenta": "Z3018",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "8.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 446
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2009",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "7.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 304
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z80927",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "6.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 646
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2015",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 262
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2014",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 215
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z4009",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 361
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2016",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "6.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 188
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z4011",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "5.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 316
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z6017",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "5.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 399
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z80908",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "4.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 449
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2017",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "4.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 214
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z5014",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "4.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 323
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z5005",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "4.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 358
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z4014",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "3.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 337
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z4015",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "3.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 387
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2006",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "3.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 301
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3011",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "3.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 318
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z6012",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "3.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 367
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z6016",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "3.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 393
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z6011",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "3.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 357
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3015",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 381
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z1008",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 158
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3009",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 334
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3003",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 745
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z5007",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 308
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3012",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 312
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z6013",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 366
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z7020",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 517
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2010",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "2.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 259
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z80931",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 648
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z5012",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 332
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3014",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 383
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3016",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 384
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3010",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 330
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z1009",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 199
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3008",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 309
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3017",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 378
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z6015",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 374
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z80903",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 442
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z80907",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 448
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2012",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 211
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z1007",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 138
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3004",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 319
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z4010",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 313
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z5006",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 311
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z7029",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 458
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z80936",
+            "corOcorrencia": "#ff0000",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 657
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z6018",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 395
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z5009",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 394
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z80932",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 651
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2011",
+            "corOcorrencia": "#ffff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 189
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z3006",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 320
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z5013",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 321
+                },
+                "listaMpBruta": []
+            }
+        },
+        {
+            "cdFerramenta": "Z2013",
+            "corOcorrencia": "#00ff00",
+            "quantidadePerdida": "1.0",
+            "filtro": {
+                "filtro": {
+                    "idConsolid": 0,
+                    "filtroOp": 0,
+                    "cdCp": "ADSL_ZTE_TOP_L01_T00",
+                    "dtReferencia": "09/10/2017",
+                    "idTurno": 2,
+                    "cdPosto": "NXTL01",
+                    "tpId": 1,
+                    "idProduto": 0,
+                    "tipoPosto": 13,
+                    "idRap": 297
+                },
+                "listaMpBruta": []
+            }
+        }
+    ],
+    "legendasMateriaPrima": [
+        {
+            "dataHoraInicio": "09/10/2017 07:12:43",
+            "dataHoraFim": "09/10/2017 09:57:51",
+            "legendaCor": "#00ff00"
+        },
+        {
+            "dataHoraInicio": "09/10/2017 09:57:51",
+            "dataHoraFim": "09/10/2017 13:38:01",
+            "legendaCor": "#ffff00"
+        },
+        {
+            "dataHoraInicio": "09/10/2017 13:38:01",
+            "dataHoraFim": "09/10/2017 16:23:11",
+            "legendaCor": "#ffc800"
+        },
+        {
+            "dataHoraInicio": "09/10/2017 13:38:01",
+            "dataHoraFim": "09/10/2017 16:23:11",
+            "legendaCor": "#ff0000"
+        }
+    ],
+    "legendasFerramenta": [
+        {
+            "dataHoraInicio": "09/10/2017 07:33:46",
+            "dataHoraFim": "09/10/2017 10:04:28",
+            "legendaCor": "#00ff00"
+        },
+        {
+            "dataHoraInicio": "09/10/2017 10:04:28",
+            "dataHoraFim": "09/10/2017 13:25:26",
+            "legendaCor": "#ffff00"
+        },
+        {
+            "dataHoraInicio": "09/10/2017 13:25:26",
+            "dataHoraFim": "09/10/2017 15:56:11",
+            "legendaCor": "#ffc800"
+        },
+        {
+            "dataHoraInicio": "09/10/2017 13:25:26",
+            "dataHoraFim": "09/10/2017 15:56:11",
+            "legendaCor": "#ff0000"
+        }
+    ],
+    "graficoDropRate": [
+        {
+            "chave": "NXTL01",
+            "valor": "99.974"
+        }
+    ],
+    "graficoCustoPorPerda": [
+        {
+            "chave": "NXTL01",
+            "valor": "99.974"
+        }
+    ]
+}

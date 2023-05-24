@@ -1,0 +1,168 @@
+/*grafico*/
+.oeeLicenseText{
+    display: none !important;
+  }
+  
+  div[id$="license"] {
+    display: none !important;
+  }
+
+  #oeesl0-license-text{
+    display: none !important;
+  }
+  #oeesl1-license-text{
+    display: none !important;
+  }
+  #oeesl2-license-text{
+    display: none !important;
+  }
+  #oeesl3-license-text{
+    display: none !important;
+  }
+  #oeesl4-license-text{
+    display: none !important;
+  }
+  #oeesl5-license-text{
+    display: none !important;
+  }
+  #oeesl6-license-text{
+    display: none !important;
+  }
+  #oeesl7-license-text{
+    display: none !important;
+  }
+  #oeesl8-license-text{
+    display: none !important;
+  }
+  #oeesl9-license-text{
+    display: none !important;
+  }
+  #oeesl10-license-text{
+    display: none !important;
+  }
+  #oeesl11-license-text{
+    display: none !important;
+  }
+  #oeesl12-license-text{
+    display: none !important;
+  }
+  #oeesl13-license-text{
+    display: none !important;
+  }
+  #oeesl14-license-text{
+    display: none !important;
+  }
+  #oeesl15-license-text{
+    display: none !important;
+  }
+  /* fim grafico */
+  
+  body{
+      background-color: rgb(236, 236, 236);
+  }
+
+  fieldset {
+    cursor: pointer;
+  }
+  
+  .icon{
+      font-size: 80px !important;
+      margin-top: 20px;
+  }
+  
+  .iconVerme{
+      color: red;
+      font-size: 80px !important;
+      /*margin-top: 20px;*/
+  }
+  
+  .iconV{
+      color:  rgb(96, 206, 96);;
+      font-size: 80px !important;
+      /*margin-top: 20px;*/
+  }
+  
+  .maquina{
+      width: 37%;
+      height: 400px;
+      float: left;
+      padding: 20px;
+      /*line-height: 60px;*/
+      border: 1px black;
+      background-color: white;
+      border-radius: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 20px;
+      margin-top: 5%;
+  }
+  
+  .cont{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .nomeGrafico{
+      font-size: 15px;
+  }
+  
+  .card-card{
+      text-align: center;
+      width: 100%;
+      float: left;
+      height: 150px;
+      /*padding: 0% 60px;
+      margin-top: -13px;*/
+  }
+
+  .glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+  }
+
+  @keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @media (min-width:1300px) {
+  
+      .maq{
+          padding-top: 20px !important;
+      }
+  
+      .maquina{
+          width: 20%;
+          height: 370px;
+          float: left;
+          padding: 20px;
+          /*line-height: 40px;*/
+          border: 1px black;
+          background-color: white;
+          border-radius: 10px;
+          margin-left: 20px;
+          margin-right: 20px;
+          font-size: 18px;
+          margin-top: 5%;
+      }
+  
+      .icon{
+          font-size: 70px !important;
+          /*margin-top: 20px;*/
+      }
+  }

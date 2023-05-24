@@ -1,0 +1,69 @@
+<div id="div_ihm_correcao_de_paradas_corrige">
+	<div class="container-fluid">
+		<h1 id="h1_correcao_de_paradas_corrige" class="page-header"></h1>
+		<div id="panel_correcao_de_paradas_corrige" class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title" id="link_correcao_de_paradas_corrige" >
+				</h4>
+			</div>
+				<div class="panel-body">
+					
+					
+					<div id="div_cd_parada_correcao_de_paradas_corrige">
+						<h3 id="h3_cd_correcao_de_paradas_corrige"></h3>
+						<div class="input-group">
+							<input type="text" id="cd_correcao_de_paradas_corrige" placeholder=""
+								class="form-control" ng-disabled="parada" ng-model="cdParada"/> <span class="input-group-btn"
+								 ng-class="{'glyphicon glyphicon-ok': respcdParada}">
+								<button type="button" class="btn btn-primary"
+									id="btn_consulta_cd_parada_correcao_de_paradas_corrige" ng-disabled="parada" ng-click="pesquisaParada()"></button>
+							</span>
+						</div>
+					</div>
+					<div id="div_causa_correcao_de_paradas_corrige" ng-show="causa">
+						<h3 id="h3_causa_correcao_de_paradas_corrige"></h3>
+						<div class="input-group">
+							<input type="text" id="causa_correcao_de_paradas_corrige" placeholder=""
+								class="form-control" ng-disabled="respCdCausa" ng-model="cdCausa"> <span class="input-group-btn"
+								 ng-class="{'glyphicon glyphicon-ok': respCdCausa}">
+<!--								<button type="button" class="btn btn-primary"-->
+<!--									id="btn_causa_correcao_de_paradas_corrige" ng-disabled="respCdCausa"></button>-->
+							</span>
+						</div>
+					</div>
+					<div id="div_acao_correcao_de_paradas_corrige" ng-show="acao">
+						<h3 id="h3_acao_correcao_de_paradas_corrige"></h3>
+						<div class="input-group">
+							<input type="text" id="acao_correcao_de_paradas_corrige" placeholder=""
+								class="form-control" ng-disabled="respCdAcao" ng-model="cdAcao"> <span class="input-group-btn" 
+								ng-class="{'glyphicon glyphicon-ok': respCdAcao}">
+<!--								<button type="button" class="btn btn-primary"-->
+<!--									id="btn_acao_correcao_de_paradas_corrige" ng-disabled="respCdAcao"></button>-->
+							</span>
+						</div>
+					</div>
+					<div id="div_just_correcao_de_paradas_corrige" ng-show="just">
+						<h3 id="h3_just_correcao_de_paradas_corrige"></h3>
+						<div class="input-group">
+							<input type="text" id="just_correcao_de_paradas_corrige" placeholder=""
+								class="form-control" ng-disabled="respCdJust" ng-model="cdJust"> <span class="input-group-btn"
+								 ng-class="{'glyphicon glyphicon-ok': respCdJust}">
+<!--								<button type="button" class="btn btn-primary"-->
+<!--									id="btn_just_correcao_de_paradas_corrige" ng-disabled="respCdJust"></button>-->
+							</span>
+						</div>
+						
+					</div>
+					<!--<button type="button" class="btn btn-primary btn-lg"
+						id="btn_correcao_de_paradas_corrige" ng-click="corrigirParadasSelecionadas()"
+						ng-disabled="!corrigir"></button>-->
+					<button type="button" class="btn btn-primary btn-lg"
+						id="btn_correcao_de_paradas_corrige" ng-click="corrigirParadasSelecionadas()"></button>
+
+					<button type="button" class="btn btn-primary btn-lg"
+						id="btn_voltar_correcao_de_paradas_corrige" ng-click="voltar()"></button>
+				</div>
+		</div>
+	</div>
+
+</div>

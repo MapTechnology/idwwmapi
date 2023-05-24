@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <!-- <session-factory name="GeraPojos"> -->
+    <session-factory>       
+		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@SRV_MAP03:1521:ORA11INL</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+		<property name="hibernate.connection.username">FDADMIN</property>
+		<property name="hibernate.connection.password">FDADMIN</property>
+		<property name="default_schema">FDADMIN</property>
+
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaProductMovementList" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaOperatorDescription" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaMaterialDescription" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaPlanningLine" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaPlanningVlnp" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaCommonParameters" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaMachineDescription" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.InterfaceTmt" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaLogJob" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaPlanningHeader" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaNoteRequest" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaCentralDescription" />
+        <mapping class="idw.model.pojos.erp.whirlpool.mi.TdbaMoldDescription" />
+                
+    </session-factory>
+</hibernate-configuration>

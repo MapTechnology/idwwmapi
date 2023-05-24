@@ -1,0 +1,496 @@
+/* graficos */
+#myChart {
+  height:100%;
+  width:100%;
+  min-height:150px;
+}
+
+#oee-wrapper{
+  height: 130px !important;
+}
+
+#oee-svg {
+  margin-top: -70px;
+}
+
+#oee-license-text{
+  display: none !important;
+}
+
+#disponibilidade-wrapper{
+  height: 130px !important;
+}
+
+#disponibilidade-svg {
+  margin-top: -70px;
+}
+
+#disponibilidade-license-text{
+  display: none !important;
+}
+
+#ritmo-wrapper{
+  height: 130px !important;
+}
+
+#ritmo-svg {
+  margin-top: -70px;
+}
+
+#ritmo-license-text{
+  display: none !important;
+}
+
+#qualidade-wrapper{
+  height: 130px !important;
+}
+
+#qualidade-svg {
+  margin-top: -70px;
+}
+
+#qualidade-license-text{
+  display: none !important;
+}
+/* FIM GRAFICO  */
+
+.navbar{
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    background-color: #186bb4;
+    height: 120px;
+    border-radius: unset;
+}
+
+.well{
+  box-shadow: none;
+  border: none;
+  background-color: unset;
+}
+
+/* CARD HOME  */
+.card-grafico{
+  width: 100%;
+  border: none;
+}
+
+.card-card{
+  text-align: center;
+  width: 50%;
+  float: left;
+  padding: 20px 20px;
+}
+
+.card-card-ul{
+  text-align: center;
+  width: 33.333333%;
+  float: left;
+  padding: 20px 20px;
+}
+
+.card-card-ul-letras1{
+  font-size: 35px;
+  color: #012747;
+}
+
+.letras-azul-home{
+  color:  #012747;;
+}
+
+.letras-branco-home{
+  color: white;
+  font-size: 35px;
+}
+
+.card-home{
+  width: 100%;
+  border: none;
+  background-color: rgb(96, 206, 96);
+}
+
+/* FIM CARD 
+
+
+*/
+
+.navbar-brand{
+  width: 95%;
+  color: white;
+  padding: unset;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.emproducao{
+  margin-left: 280px;
+}
+
+#wrapper {
+    padding-left: 170px;
+    transition: all 0.4s ease 0s;
+  }
+  
+  #sidebar-wrapper {
+    margin-left: -250px;
+    left: 250px;
+    width: 170px;
+    background: #012747;
+    position: fixed;
+    height: 100%;
+    margin-top: 110px;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+  }
+  
+  #wrapper.active {
+    padding-left: 0;
+  }
+  
+  #wrapper.active #sidebar-wrapper {
+    left: 0;
+  }
+  
+  #page-content-wrapper {
+    width: 100%;
+   
+  }
+  
+  i.glyphicon {
+    font-size: 35px;
+    display: initial;
+    }
+  
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 170px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-nav li {
+    line-height: 31px;
+    text-indent: 15px;
+  }
+  
+  .sidebar-nav li a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 16px 2px;
+    padding-top: 0px;
+  }
+  
+  .sidebar-nav li a span:before {
+    position: absolute;
+    left: 0;
+    color: #41484c;
+    text-align: center;
+    width: 20px;
+    line-height: 18px;
+  }
+  
+  .sidebar-nav li a:hover,
+  .sidebar-nav li.active {
+    color: #fff;
+    background: #00447c;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav li a:active,
+  .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+  
+  .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+  }
+  
+  .sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+  
+  #menu-toggle {
+    text-decoration: none;
+    display: none;
+  }
+  
+  .btn-menu {
+    color: #000;
+  } 
+  
+  .inset {
+    padding: 20px;
+  }
+
+  @media (min-width:1200px) and (max-width: 1400px){
+  
+    .card-card{
+      text-align: center;
+      width: 25%;
+      float: left;
+      padding: 20px 20px;
+    }
+  
+    .card-home{
+      width: 100%;
+      border: none;
+      margin-top: 5%;
+      background-color: rgb(96, 206, 96);
+    }
+  
+    .card-grafico{
+      width: 100%;
+      border: none;
+      margin-top: 3%;
+    }
+  
+    .navbar{
+      position: fixed;
+      z-index: 10000;
+      width: 100%;
+      background-color: #186bb4;
+      height: 70px;
+      border-radius: unset;
+    } 
+
+    .emproducao{
+      margin-left: 800px;
+    }
+
+    .content-header h1 {
+      margin: 0;
+      margin-left: 30px;
+      line-height: 65px;
+      display: inline-block;
+      margin-top: -40px;
+    }
+  
+    i.glyphicon {
+      font-size: 25px;
+      display: initial;
+    }
+  
+    .sidebar-nav li {
+      line-height: 20px;
+      text-indent: 15px;
+    }
+
+    .inset {
+      padding: 15px;
+      margin-top: -50px;
+    }
+
+    #sidebar-wrapper {
+      margin-left: -250px;
+      background: #012747;
+      height: 100%;
+      margin-top: 69px;
+      /* overflow-y: auto; */
+      z-index: 1000;
+      transition: all 0.4s ease 0s;
+    }
+  }
+  
+  
+@media (min-width:850px) and (max-width: 1200px){
+  i.glyphicon {
+    font-size: 40px;
+    display: initial;
+    }
+
+  .sidebar-nav li {
+    line-height: 52px;
+    text-indent: 15px;
+  }
+}
+
+@media (max-width:480px) {
+
+  .navbar{
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    background-color: #186bb4;
+    height: 80px;
+    border-radius: unset;
+  }
+
+  .emproducao{
+    
+    margin-top: 20px;
+  }
+
+  i.glyphicon {
+    font-size: 25px;
+    display: initial;
+  }
+
+  .sidebar-nav li a {
+    font-size: 10px;
+  }
+    
+  .navbar-brand{
+    color: white;
+    margin-left: 50px;
+    margin-top: -70px;
+    text-align: center;
+    width: 280px;
+    font-size: 12px;
+  }
+
+  .navbar-brand-PROD{
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
+  }
+  
+  #wrapper {
+    padding-left: 0;
+  }
+  
+  #sidebar-wrapper {
+    left: 0;
+  }
+  
+  #wrapper.active {
+    position: relative;
+    z-index: 1000;
+  }
+
+  #wrapper.active #wrapper {
+    background-color: #186bb4;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+  }
+
+  #menu-toggle {
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .content-header {
+    width: 50px;
+  }
+  
+  .content-header h1 {
+    margin: 0;
+    margin-left: 20px;
+    line-height: 65px;
+    display: inline-block;
+  }
+
+  #sidebar-wrapper {
+    margin-left: -250px;
+  
+    width: 130px;
+    background: #012747;
+    height: 100%;
+    margin-top: 80px;
+    /* overflow-y: auto; */
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+  }
+
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 130px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar-nav li {
+    line-height: 114.5%;
+    text-indent: 15px;
+  }
+  
+  #wrapper.active #sidebar-wrapper {
+    left: 250px;
+    width: 130px;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .inset {
+    padding: 15px;
+    margin-top: -50px;
+  }
+    
+  /* graficos */
+  #myChart {
+    height:100%;
+    width:100%;
+    min-height:150px;
+  }
+
+  #oee-wrapper{
+    height: 90px !important;
+  }
+
+  #oee-svg {
+    margin-top: -120px;
+  }
+
+  #oee-license-text{
+    display: none !important;
+  }
+
+  #disponibilidade-wrapper{
+    height: 90px !important;
+  }
+
+  #disponibilidade-svg {
+    margin-top: -120px;
+  }
+
+  #disponibilidade-license-text{
+    display: none !important;
+  }
+
+  #ritmo-wrapper{
+    height: 90px !important;
+  }
+
+  #ritmo-svg {
+    margin-top: -120px;
+  }
+
+  #ritmo-license-text{
+    display: none !important;
+  }
+
+  #qualidade-wrapper{
+    height: 90px !important;
+  }
+
+  #qualidade-svg {
+    margin-top: -120px;
+  }
+
+  #qualidade-license-text{
+    display: none !important;
+  }
+  /* FIM GRAFICO  */
+
+/* CARD HOME  */
+.card-card-ul{
+  text-align: center;
+  width:50%;
+  float: left;
+  padding: 20px 20px;
+
+  
+}
+
+
+/* FIM CARD HOME */
+}  
