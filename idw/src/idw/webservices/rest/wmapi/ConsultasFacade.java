@@ -91,10 +91,21 @@ public class ConsultasFacade {
 		
 		resposta.setMelhordesempenhoCdGt("NAOLOCALIZADO");
 		resposta.setMelhordesempenhoDsGt("NAOLOCALIZADO");
+		resposta.setMelhordesempenhoCdPt("NAOLOCALIZADO");
+		resposta.setMelhordesempenhoDsPt("NAOLOCALIZADO");	
+		resposta.setMelhordesempenhoIdTurno("0");
+		resposta.setMelhordesempenhoCdTurno("0");
+		resposta.setMelhordesempenhoDsTurno("0");
 		resposta.setMelhordesempenhoOEE(new Double(0L));
 		resposta.setPiordesempenhoCdGt("NAOLOCALIZADO");
 		resposta.setPiordesempenhoDsGt("NAOLOCALIZADO");
+		resposta.setPiordesempenhoCdPt("NAOLOCALIZADO");
+		resposta.setPiordesempenhoDsPt("NAOLOCALIZADO");	
+		resposta.setPiordesempenhoIdTurno("0");
+		resposta.setPiordesempenhoCdTurno("0");
+		resposta.setPiordesempenhoDsTurno("0");
 		resposta.setPiordesempenhoOEE(new Double(0L));
+		resposta.setListaMaquinasParadas(maquinasParadas);
 		
 		
 		
@@ -120,6 +131,16 @@ public class ConsultasFacade {
 				if (turnoAtualDTO == null) {
 					continue;//parte para o proximo
 				}
+				
+				
+				
+				
+				//202305005 teste
+				turnoAtualDTO.setIdTurno(129);
+				turnoAtualDTO.setDtReferencia("28/04/2023");//"2023-05-02"
+				
+				
+				
 
 				filtromonitoracao = new FiltroMonitorizacaoDTO();
 
@@ -128,6 +149,10 @@ public class ConsultasFacade {
 				filtromonitoracao.setDtReferencia(turnoAtualDTO.getDtReferencia());
 				filtromonitoracao.setTurnoAtual(true);
 				filtromonitoracao.setFiltroOp(0);
+				
+				
+				//202305005 teste
+				filtromonitoracao.setTurnoAtual(false);
 				
 				MonitorizacaoDTO monitorizacaoDTO = rn.getMonitorizacao(filtromonitoracao);
 				
@@ -159,6 +184,7 @@ public class ConsultasFacade {
 							resposta.setMelhordesempenhoDsTurno(turnoAtualDTO.getDsTurno());
 							resposta.setMelhordesempenhoCdPt(itempt.getCdPt());
 							resposta.setMelhordesempenhoDsPt(itempt.getDsPt());
+							resposta.setMelhordesempenhoOEE(itempt.getIndOEE().doubleValue());
 						}
 					
 						//pior desempenho
@@ -170,6 +196,7 @@ public class ConsultasFacade {
 							resposta.setPiordesempenhoDsTurno(turnoAtualDTO.getDsTurno());
 							resposta.setPiordesempenhoCdPt(itempt.getCdPt());
 							resposta.setPiordesempenhoDsPt(itempt.getDsPt());
+							resposta.setPiordesempenhoOEE(itempt.getIndOEE().doubleValue());
 						}
 					}
 					
@@ -177,13 +204,15 @@ public class ConsultasFacade {
 				}
 			}
 			
-			if(maquinasParadas!=null && maquinasParadas.size()>0) {
+			resposta.setListaMaquinasParadas(maquinasParadas);
+			/*if(maquinasParadas!=null && maquinasParadas.size()>0) {
 				resposta.setListaMaquinasParadas(maquinasParadas);	
-			}
+			}*/
 			
 			
 			///dao.commitaTransacao();			
-			dao.commitaTransacao(dao.getSession());
+			////dao.commitaTransacao(dao.getSession());
+			dao.rollBackTransacaoSemException();
 			
 			
 			json = gson.toJson(resposta);
