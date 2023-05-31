@@ -134,11 +134,11 @@ public class ConsultasFacade {
 				
 				
 				
-				
-				//202305005 teste
+				/*
+				//202305005 teste RETIRAR
 				turnoAtualDTO.setIdTurno(129);
 				turnoAtualDTO.setDtReferencia("28/04/2023");//"2023-05-02"
-				
+				*/
 				
 				
 
@@ -150,9 +150,10 @@ public class ConsultasFacade {
 				filtromonitoracao.setTurnoAtual(true);
 				filtromonitoracao.setFiltroOp(0);
 				
-				
-				//202305005 teste
+				/*
+				//202305005 teste RETIRAR
 				filtromonitoracao.setTurnoAtual(false);
+				*/
 				
 				MonitorizacaoDTO monitorizacaoDTO = rn.getMonitorizacao(filtromonitoracao);
 				
